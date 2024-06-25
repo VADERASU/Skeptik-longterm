@@ -1,0 +1,63 @@
+{
+    "logical_fallacies": ["CP", "RH"],
+    "sentences": {
+        "CP": [4, 5, 10],
+        "RH": [17, 18]
+    },
+    "annotations": {
+        "CP": {
+            "L1": [
+                {
+                    "explanation": "{Insert explanations}",
+                    "sentence": [4,5]
+                },
+                {
+                    "explanation": "{Insert explanations}",
+                    "sentence": [10]
+                }
+            ],
+            "L2": [
+                {
+                    "explanation": "{Insert explanations}",
+                    "sentence": [4,5]
+                },
+                {
+                    "explanation": "{Insert explanations}",
+                    "sentence": [10]
+                }
+            ],
+            "L3": [
+                {
+                    "explanation": "{Insert explanations}",
+                    "sentence": [4,5]
+                },
+                {
+                    "explanation": "{Insert explanations}",
+                    "sentence": [10]
+                }
+            ]
+        },
+        "RH": {
+            "CP": {
+                "L1": [
+                    {
+                        "explanation": "{Insert explanations}",
+                        "sentence": [17,18]
+                    }
+                ],
+                "L2": [
+                    {
+                        "explanation": "{Insert explanations}",
+                        "sentence": [17,18]
+                    }
+                ],
+                "L3": [
+                    {
+                        "explanation": "{Insert explanations}",
+                        "sentence": [17,18]
+                    }
+                ]
+            } 
+        } 
+    }
+}
