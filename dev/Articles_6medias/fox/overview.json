@@ -1,0 +1,92 @@
+[
+  {
+    "title": "President Biden appears to freeze at White House Juneteenth event",
+    "bias": 13.33,
+    "Reliability": 23.67,
+    "content": "1.txt"
+  },
+  {
+    "title": "Biden's 'perpetual state of confusion' on display in Normandy amid rising cognitive questions",
+    "bias": 12,
+    "Reliability": 25.67,
+    "content": "2.txt"
+  },
+  {
+    "title": "Shania Twain laughs off on-stage blunder",
+    "bias": 0,
+    "Reliability": 41,
+    "content": "3.txt"
+  },
+  {
+    "title": "Man who went viral for driving during virtual court hearing for suspended license reportedly vindicated",
+    "bias": 0,
+    "Reliability": 41.67,
+    "content": "4.txt"
+  },
+  {
+    "title": "Trump says guilty verdict is a 'scar' on New York justice system, vows to 'keep fighting'",
+    "bias": 13.33,
+    "Reliability": 35.33,
+    "content": "5.txt"
+  },
+  {
+    "title": "Jewish Yale student stabbed in eye with Palestinian flag during rowdy protest: 'Mob behavior'",
+    "bias": 18,
+    "Reliability": 16.33,
+    "content": "6.txt"
+  },
+  {
+    "title": "Conservatives blast Biden admin authorizing 'deadly use of force' for Trump Mar-a-Lago raid",
+    "bias": 19.33,
+    "Reliability": 21,
+    "content": "7.txt"
+  },
+  {
+    "title": "House GOP eyes election safeguards to block 'dangerously high number' of illegal immigrants from voting",
+    "bias": 14.67,
+    "Reliability": 32.67,
+    "content": "8.txt"
+  },
+  {
+    "title": "Mayorkas impeachment trial poised to pressure these vulnerable Senate Dems",
+    "bias": 14.33,
+    "Reliability": 35.67,
+    "content": "9.txt"
+  },
+  {
+    "title": "Biden slammed on social media after announcing Transgender Day of Visibility on Easter Sunday",
+    "bias": 13.67,
+    "Reliability": 22,
+    "content": "10.txt"
+  },
+  {
+    "title": "NBC's Ronna McDaniel meltdown: Falsehoods and debunked narratives MSNBC promoted on its 'sacred airwaves'",
+    "bias": 22.33,
+    "Reliability": 22.67,
+    "content": "11.txt"
+  },
+  {
+    "title": "Georgia election charges should be tossed, acts are protected by 1st amendment: Trump attorney",
+    "bias": 9.33,
+    "Reliability": 41.33,
+    "content": "12.txt"
+  },
+  {
+    "title": "California votes to spend $6.4B on homeless crisis despite spiraling debt",
+    "bias": 7.33,
+    "Reliability": 39,
+    "content": "13.txt"
+  },
+  {
+    "title": "Alabama governor signs bill protecting IVF into law: 'Proud we are a pro-life, pro-family state'",
+    "bias": 4.33,
+    "Reliability": 44,
+    "content": "14.txt"
+  },
+  {
+    "title": "Hillary Clinton says to move on from Biden's age: 'Let's go ahead and accept the reality' that he's old",
+    "bias": 11,
+    "Reliability": 31.33,
+    "content": "15.txt"
+  }
+]
