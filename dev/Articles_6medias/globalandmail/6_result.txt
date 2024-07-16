@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liSqKZfmLJFrf3oauoUYD5GDZZoZ",
-  "object": "chat.completion",
-  "created": 1721159364,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"False dilemma/dichotomy\",\n      \"example\": \"Claiming you must either support or oppose a policy without considering middle ground.\",\n      \"text\": \"The White House on Thursday said it was concerned by the ceasefire violations, adding that the situation could worsen at any moment and urging U.S. citizens to leave within 24 to 48 hours.\"\n    },\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n      \"text\": \"The Sudan Doctors' Union said 60 of 86 hospitals in conflict zones had stopped operating.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n      \"text\": \"The conflict has limited food distribution in the vast nation, Africa's third largest, where a third of the 46 million people were already reliant on humanitarian aid.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n      \"text\": \"Frictions had been building for months between Sudan's army and the RSF, whose 2021 coup came two years after a popular uprising toppled long-ruling Islamist autocrat Omar al-Bashir.\"\n    }\n  ]\n}"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 1976,
-    "completion_tokens": 306,
-    "total_tokens": 2282
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56951, Requested 4096. Please try again in 1.047s. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

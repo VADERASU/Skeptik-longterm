@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-9liV0xBmZdRxr3bPnBvuWcvwDTbpx",
+  "id": "chatcmpl-9lj1fg4YWU1BYGi1FwImpylsc3JWm",
   "object": "chat.completion",
-  "created": 1721159498,
+  "created": 1721161523,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Appeal to emotion\",\n            \"example\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\",\n            \"explanation\": \"President Trump is evoking emotions by accusing Rep. Adam Schiff of treason without addressing the legal or factual aspects of the situation.\"\n        },\n        {\n            \"fallacy\": \"Ad hominem\",\n            \"example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n            \"explanation\": \"President Trump is attacking Rep. Adam Schiff's character by calling for his arrest for treason instead of addressing the allegations or arguments made by Schiff.\"\n        }\n    ]\n}\n```"
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Personal attack\",\n            \"example\": \"A politician discredits an opponent by criticizing their character instead of addressing the policy.\",\n            \"explanation\": \"President Trump suggests Rep. Adam Schiff should face 'arrest for treason' and accuses him of 'illegally made up a FAKE & terrible statement' without addressing the specifics of the policy issue.\"\n        },\n        {\n            \"fallacy\": \"Ad hominem\",\n            \"example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n            \"explanation\": \"President Trump attacks Rep. Adam Schiff personally by accusing him of treason and making up fake statements, instead of addressing the issue at hand regarding the impeachment inquiry.\"\n        },\n        {\n            \"fallacy\": \"Strawman (Caricature)\",\n            \"example\": \"Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.\",\n            \"explanation\": \"President Trump misrepresents Schiff's analysis of his call with the Ukrainian President as a gangster-like shakedown, creating a distorted version of what was actually said.\"\n        }\n    ]\n}\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
@@ -16,8 +16,8 @@
   ],
   "usage": {
     "prompt_tokens": 1502,
-    "completion_tokens": 153,
-    "total_tokens": 1655
+    "completion_tokens": 248,
+    "total_tokens": 1750
   },
   "system_fingerprint": null
 }

@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liTgeV7Xvc5xYEx9z63BLDxI7v3D",
-  "object": "chat.completion",
-  "created": 1721159416,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "{\n  \"Logical_Fallacies\": [\n    {\n      \"Fallacy\": \"Cherry Picking\",\n      \"Example\": \"Highlighting favorable cases while ignoring contradictory data.\",\n      \"Explanation\": \"The article focuses on the rising cases of Candida auris and the associated deaths in specific locations and timeframes, highlighting the negative impact of the fungus without providing a balanced view of potential containment or success stories in managing the infection.\"\n    },\n    {\n      \"Fallacy\": \"Red Herring (sidetracking)\",\n      \"Example\": \"Sidetracking by raising an irrelevant issue.\",\n      \"Explanation\": \"The article mentions the changing climate as a factor contributing to the rising cases of fungal infections, which diverts attention from more immediate and relevant concerns such as infection control practices, healthcare system strains, and prevention strategies.\"\n    },\n    {\n      \"Fallacy\": \"Hasty generalization\",\n      \"Example\": \"Drawing a conclusion from a biased or small sample.\",\n      \"Explanation\": \"The article presents statistics on the rising cases of Candida auris without providing a comprehensive analysis of the factors contributing to the increase, potential variations in reporting practices across different regions, or the effectiveness of containment measures in certain areas.\"\n    },\n    {\n      \"Fallacy\": \"False Cause (FC)\",\n      \"Example\": \"Mistaking correlation for causation.\",\n      \"Explanation\": \"The article suggests a link between the rising cases of fungal infections and the changing climate without providing conclusive evidence or a detailed analysis of the direct causal relationship between environmental factors and the spread of Candida auris.\"\n    },\n    {\n      \"Fallacy\": \"Improper criteria\",\n      \"Example\": \"Invoking irrelevant aspects or ignoring relevant ones.\",\n      \"Explanation\": \"The article mentions the antifungal drug echinocandin as the first line of therapy for treating Candida auris, but fails to provide a comprehensive discussion on other treatment options, potential challenges in drug resistance, or the effectiveness of different medical interventions for combating the infection.\"\n    }\n  ]\n}"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 1633,
-    "completion_tokens": 413,
-    "total_tokens": 2046
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56142, Requested 4096. Please try again in 238ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

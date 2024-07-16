@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-9liTFH7UJYqq7TuQIoUq0ZncYjTmt",
+  "id": "chatcmpl-9lj11a9rZ53SaoV3PBDlE7zWV3Eca",
   "object": "chat.completion",
-  "created": 1721159389,
+  "created": 1721161483,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Bandwagon\",\n            \"example\": \"Claiming something is true because many people believe it.\",\n            \"location\": \"The federal Liberals made many promises during the recent election campaign to improve housing affordability, including measures to promote construction of affordable housing, curb flipping and discourage buying by foreign investors. At least four additional promises will make it easier to afford the purchase of a house, which is to say they will stimulate demand and prices.\"\n        },\n        {\n            \"fallacy\": \"Improper criteria\",\n            \"example\": \"Invoking irrelevant aspects or ignoring relevant ones.\",\n            \"location\": \"A standout affordability promise is to make mortgage default insurance available for homes valued at $1.25-million, up from the current $1-million, and then index this price to inflation. As a result, buyers in Toronto and Vancouver will be able to put a minimum of 5 per cent down on a home instead of the current 20 per cent minimum applying to homes valued at $1-million or more.\"\n        },\n        {\n            \"fallacy\": \"False cause (FC)\",\n            \"example\": \"Mistaking correlation for causation.\",\n            \"location\": \"An HR consulting firm called LifeWorks has reported that employers are projecting average annual pay increases next year of around 2.5 per cent. The gap between income and house prices keeps widening.\"\n        }\n    ]\n}\n```"
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n            \"location\": \"The statement 'Could this be British Columbia's rising price trend spreading north?' implies a causal relationship between rising prices in British Columbia and the increase in home prices in the Yukon, which may not be accurate.\"\n        },\n        {\n            \"fallacy\": \"Post Hoc (PH)\",\n            \"example\": \"Believing a lucky charm caused winning a game.\",\n            \"location\": \"The statement 'Why you should care: Five-year government bond yields set the trend for fixed mortgage rates.' suggests a cause-and-effect relationship between government bond yields and fixed mortgage rates without providing evidence for this connection.\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n            \"location\": \"The statement 'An odd partnership has emerged between these two provinces' generalizes the relationship between Ontario and New Brunswick based on the observed price growth in housing markets in these provinces.\"\n        },\n        {\n            \"fallacy\": \"Appeal to tradition\",\n            \"example\": \"Insisting on a traditional remedy despite lack of scientific evidence.\",\n            \"location\": \"The statement 'The federal Liberals made many promises during the recent election campaign to improve housing affordability, including measures to promote construction of affordable housing, curb flipping and discourage buying by foreign investors.' could be seen as appealing to traditional political promises without evaluating their effectiveness.\"\n        }\n    ]\n}\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
@@ -16,8 +16,8 @@
   ],
   "usage": {
     "prompt_tokens": 1921,
-    "completion_tokens": 298,
-    "total_tokens": 2219
+    "completion_tokens": 336,
+    "total_tokens": 2257
   },
   "system_fingerprint": null
 }

@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liTsoANGNkLBhsqGiiLcZLKru0cK",
-  "object": "chat.completion",
-  "created": 1721159428,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Appeal to authority (dubious authority)\",\n            \"example\": \"A celebrity endorses a drug for heart health without medical expertise.\",\n            \"line\": \"Jordan James, CEO of Unlockd PR said: 'It certainly wouldn't come as a major surprise if they were snubbed given their current status within the Royal Family and the ensuing drama.'\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n            \"line\": \"'The Duke and Duchess of Sussex were also no-shows at this year's Oscars, with Jordan saying there seems to have been a 'shift' in how they're presenting themselves.'\"\n        }\n    ]\n}\n```"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 1513,
-    "completion_tokens": 175,
-    "total_tokens": 1688
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 58093, Requested 4096. Please try again in 2.189s. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

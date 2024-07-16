@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liUXzVIb8paAc6vEX2tobTmVCgAJ",
-  "object": "chat.completion",
-  "created": 1721159469,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Appeal to authority (dubious authority)\",\n            \"example\": \"A celebrity endorses a drug for heart health without medical expertise.\",\n            \"explanation\": \"Elon Musk, a tech billionaire and CEO of Tesla, is not an expert in international relations or conflict resolution. Therefore, his warning about World War Three lacks the necessary authority in this context.\"\n        },\n        {\n            \"fallacy\": \"Appeal to emotion\",\n            \"example\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\",\n            \"explanation\": \"Elon Musk's emphasis on the threat posed to the West if Iran, China, and Russia were to join forces militarily appeals to the emotions of fear and insecurity, without providing a sound argument based on geopolitical analysis or evidence.\"\n        },\n        {\n            \"fallacy\": \"Begging the question\",\n            \"example\": \"Claiming we must trust the government because it knows what is best for us.\",\n            \"explanation\": \"Elon Musk's statement implies that the world is on the brink of World War Three due to 'foolish decisions,' without providing concrete evidence or reasoning to support this claim. This assumes the truth of the premise ('foolish decisions') to prove the conclusion ('sleepwalking into World War Three'), which is circular reasoning.\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n            \"explanation\": \"Elon Musk's sweeping statement that the world is 'sleepwalking into World War Three with one foolish decision after another' generalizes the actions of a few world leaders to all global decision-making processes without considering the complexities and nuances involved in international relations.\"\n        },\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"explanation\": \"The mention of Joe Biden and other establishment politicians making 'foolish decisions' in the context of discussing the risk of World War Three diverts attention from the main argument about the potential for global conflict and the need for peaceful resolutions.\"\n        }\n    ]\n}\n```"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 1320,
-    "completion_tokens": 477,
-    "total_tokens": 1797
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56013, Requested 4096. Please try again in 109ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

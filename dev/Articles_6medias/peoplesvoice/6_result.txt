@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liUQxJAYFCXJOYWtpe8BoVirLntL",
-  "object": "chat.completion",
-  "created": 1721159462,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Appeal to authority\",\n      \"example\": \"A celebrity endorses a drug for heart health without medical expertise.\",\n      \"line\": \"Former Lord Justice of Appeal, Sir Patrick Elias, said: 'The paper raises very serious concerns about the impartiality and independence of the CPS when dealing with the highly sensitive issue of the treatment of transgender persons. It appears to have adopted uncritically the controversial views of Stonewall.'\"\n    },\n    {\n      \"fallacy\": \"False dilemma/dichotomy\",\n      \"example\": \"Presenting two options as the only possibilities.\",\n      \"line\": \"The report was released just as a new Director of Public Prosecutions - Stephen Parkinson - took up his post and last night, the CPS made clear that parts of the domestic abuse advice were now being reviewed.\"\n    },\n    {\n      \"fallacy\": \"Ad hominem\",\n      \"example\": \"Attacking the person or group rather than their argument.\",\n      \"line\": \"Earlier this year, feminist campaigner Maya Forstater branded the prosecution service 'ideologically captured'.\"\n    }\n  ]\n}\n```"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 1396,
-    "completion_tokens": 245,
-    "total_tokens": 1641
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56425, Requested 4096. Please try again in 521ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liSvjfNffyaDXp4MYlBLkRtnjfEN",
-  "object": "chat.completion",
-  "created": 1721159369,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Questionable conclusion\",\n            \"example\": \"Concluding a policy is effective based on a single study without considering other evidence.\",\n            \"explanation\": \"Dr. Hickey's research on spikes in suicide deaths attributed to the consumption of sodium nitrite and sodium nitrate over 2019 and 2020 is used to draw conclusions and call for a formal government review. However, relying solely on this study without considering other factors or evidence may lead to unwarranted conclusions.\"\n        },\n        {\n            \"fallacy\": \"False dilemma/dichotomy\",\n            \"example\": \"Presenting two options as the only possibilities.\",\n            \"explanation\": \"The discussion around the accessibility and regulation of sodium nitrite and sodium nitrate presents a false either/or scenario. The argument seems to suggest that the only options are to keep the salts easily accessible or to conduct a formal government review, without considering potential alternative solutions or nuanced approaches.\"\n        },\n        {\n            \"fallacy\": \"Post Hoc (PH)\",\n            \"example\": \"Assuming that because one event followed another, the first caused the second.\",\n            \"explanation\": \"The article mentions that after Dr. Hickey's team ran the study on deaths from sodium nitrite and sodium nitrate, Amazon and Ebay stopped allowing the sale of the salts. However, this does not necessarily mean that the study directly caused these companies to stop the sale. This correlation does not imply causation, thus falling into the Post Hoc fallacy.\"\n        },\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"Sidetracking by raising an irrelevant issue.\",\n            \"explanation\": \"The mention of Canada's Criminal Code provision on counseling or aiding a person to die by suicide, which could lead to a 14-year prison term, is somewhat irrelevant to the main discussion around the regulation of sodium nitrite and sodium nitrate. This information diverts attention from the core issue at hand.\"\n        }\n    ]\n}\n```"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 1953,
-    "completion_tokens": 427,
-    "total_tokens": 2380
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56727, Requested 4096. Please try again in 823ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

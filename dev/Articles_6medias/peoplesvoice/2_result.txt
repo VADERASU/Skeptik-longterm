@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liU8FzAxOamS2ZXWuTcP30muB1YC",
-  "object": "chat.completion",
-  "created": 1721159444,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "```json\n[\n    {\n        \"logical_fallacy\": \"Hasty generalization\",\n        \"fallacy_occurs\": \"Throughout the text\",\n        \"explanation\": \"The text makes sweeping generalizations about a wide range of individuals, linking them all to criminal activities without providing substantial evidence for each case. For example, connecting Bill Gates, politicians, celebrities, business leaders, and others to child sex crimes without specific evidence for each individual falls under hasty generalization.\"\n    },\n    {\n        \"logical_fallacy\": \"Ad hominem\",\n        \"fallacy_occurs\": \"Examples involving Mike Flynn, Kamala Harris, and others\",\n        \"explanation\": \"The text attacks individuals personally, such as Mike Flynn, Kamala Harris, and others, rather than addressing their arguments or actions directly. By focusing on alleged personal connections to criminal activities, the text attempts to discredit these individuals based on character instead of addressing substantive issues.\"\n    },\n    {\n        \"logical_fallacy\": \"Post Hoc (PH)\",\n        \"fallacy_occurs\": \"Linking events without evidence\",\n        \"explanation\": \"The text implies causation between various individuals' relationships with Jeffrey Epstein and their subsequent actions or positions, suggesting that one event (association with Epstein) caused another (engaging in criminal activities). However, this causal link is assumed without providing concrete evidence, falling into the post hoc fallacy.\"\n    },\n    {\n        \"logical_fallacy\": \"Appeal to emotion\",\n        \"fallacy_occurs\": \"Emotional manipulation to support arguments\",\n        \"explanation\": \"The text evokes strong emotional responses by discussing heinous crimes like child sex trafficking and linking prominent figures to these acts, aiming to sway readers' opinions based on emotional reactions rather than factual evidence. This appeal to emotion distracts from logical reasoning.\"\n    },\n    {\n        \"logical_fallacy\": \"False Cause (FC)\",\n        \"fallacy_occurs\": \"Assuming correlation equals causation\",\n        \"explanation\": \"Attributing causation between the settlement of a case involving JP Morgan and Jeffrey Epstein's alleged crimes without establishing a direct causal link falls under the false cause fallacy. The text implies that the settlement itself indicates direct involvement or facilitation of criminal activities.\"\n    }\n]\n```"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 2729,
-    "completion_tokens": 467,
-    "total_tokens": 3196
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 57290, Requested 4096. Please try again in 1.386s. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

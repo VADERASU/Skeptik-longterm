@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+import time
 
 def load_api_key(file_path='../../cred.json'):
     """
@@ -10,7 +11,8 @@ def load_api_key(file_path='../../cred.json'):
         creds = json.load(file)
         return creds.get('api_key')
 
-def send_content_to_openai(content, model="gpt-3.5-turbo-0125", debug=False):
+
+def send_content_to_openai(content, model="gpt-4o", debug=False):
     """
     Send content to the OpenAI API and return the response.
     """
@@ -32,7 +34,7 @@ def send_content_to_openai(content, model="gpt-3.5-turbo-0125", debug=False):
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": f"""
 Logical Fallacies List:
-Personal attack: Attacking a person or group to avoid the issue.
+Personal attack: Attaching a person or group to avoid the issue.
 Example: A politician discredits an opponent by criticizing their character instead of addressing the policy.
 Who are you to talk?: Rejecting an argument because the person fails to practice what they preach.
 Example: Ignoring climate change advice from a scientist with a high carbon footprint.
@@ -107,14 +109,18 @@ Task: Identify logical fallacies in the given text using this list. Explain wher
         response = requests.post(url, headers=headers, json=payload)
         return response.json()
 
+
 def send_content_to_backend(content, debug=False):
     if debug:
         # Placeholder for debugging, print the content instead of sending it
         print(f"Debug: Would send content to backend: {content[:100]}...")  # Print the first 100 characters
         return {"debug": "This is a debug response"}
     else:
+        print("Sleeping 60 seconds.")
+        time.sleep(60)
         response = send_content_to_openai(content, debug=debug)
         return response
+
 
 def process_folder(folder_path, debug=False):
     json_file = os.path.join(folder_path, 'overview.json')
@@ -146,91 +152,6 @@ def process_folder(folder_path, debug=False):
         with open(result_file, 'w') as file:
             json.dump(response, file, indent=2)
 
-def process_files(base_dir):
-    for root, dirs, files in os.walk(base_dir):
-        for dir_name in dirs:
-            overview_path = os.path.join(root, dir_name, 'overview.json')
-            if os.path.isfile(overview_path):
-                try:
-                    with open(overview_path, 'r') as overview_file:
-                        overview_data = json.load(overview_file)
-                except json.JSONDecodeError as e:
-                    print(f"Error reading {overview_path}: {e}")
-                    continue
-
-                for item in overview_data:
-                    txt_file_name = item.get('content', '')
-                    if txt_file_name:
-                        txt_file_path = os.path.join(root, dir_name, txt_file_name.replace('.txt', '_result.txt'))
-                        if os.path.isfile(txt_file_path):
-                            process_file(txt_file_path, item)
-
-def process_file(file_path, overview_item):
-    try:
-        with open(file_path, 'r') as file:
-            try:
-                data = json.load(file)
-            except json.JSONDecodeError as e:
-                print(f"Error reading {file_path}: {e}")
-                return
-
-            choices = data.get('choices')
-            if not choices:
-                print(f"Missing 'choices' in {file_path}")
-                return
-
-            message_content = choices[0].get('message', {}).get('content', '').strip('```json\n```')
-            try:
-                content_json = json.loads(message_content)
-            except json.JSONDecodeError as e:
-                print(f"Error parsing content in {file_path}: {e}")
-                return
-
-            # Count the number of fallacies
-            fallacy_count = len(content_json.get('logical_fallacies', []))
-            content_json['fallacy_count'] = fallacy_count
-
-            # Add bias and reliability
-            content_json['bias'] = overview_item.get('bias')
-            content_json['reliability'] = overview_item.get('Reliability')
-
-            # Extracting the number from the filename
-            base_name = os.path.basename(file_path)
-            number = base_name.split('_')[0]
-            output_file_path = os.path.join(os.path.dirname(file_path), f'{number}_result.json')
-
-            with open(output_file_path, 'w') as output_file:
-                json.dump(content_json, output_file, indent=4)
-
-            print(f"Processed and saved: {output_file_path}")
-    except Exception as e:
-        print(f"Error processing {file_path}: {e}")
-
-def collect_result_files(base_dir):
-    result_files = []
-    for root, dirs, files in os.walk(base_dir):
-        for file in files:
-            if file.endswith('_result.json'):
-                result_files.append(os.path.join(root, file))
-    return result_files
-
-def combine_json_files(file_paths, output_file):
-    combined_data = []
-
-    for file_path in file_paths:
-        try:
-            with open(file_path, 'r') as file:
-                data = json.load(file)
-                combined_data.append(data)
-        except Exception as e:
-            print(f"Error reading {file_path}: {e}")
-
-    try:
-        with open(output_file, 'w') as output_file:
-            json.dump(combined_data, output_file, indent=4)
-        print(f"Combined JSON saved to {output_file.name}")
-    except Exception as e:
-        print(f"Error writing combined JSON: {e}")
 
 def main():
     base_directory = './'
@@ -242,10 +163,6 @@ def main():
         if os.path.isdir(folder_path):
             process_folder(folder_path, debug=debug_mode)
 
-    process_files(base_directory)
-
-    result_files = collect_result_files(base_directory)
-    combine_json_files(result_files, 'combined_results.json')
 
 if __name__ == "__main__":
     main()

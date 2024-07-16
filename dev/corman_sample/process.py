@@ -1,6 +1,6 @@
 import json
 import requests
-
+import time
 
 def load_api_key(file_path='../../cred.json'):
     with open(file_path, 'r') as file:
@@ -9,7 +9,7 @@ def load_api_key(file_path='../../cred.json'):
 
 
 # Function to send content to the OpenAI API and return the response
-def send_content_to_openai(content, model="gpt-3.5-turbo-0125", debug=False):
+def send_content_to_openai(content, model="gpt-4o", debug=False):
     api_key = load_api_key()
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
@@ -100,6 +100,8 @@ Task: Identify logical fallacies in the given text using this list. Explain wher
         print(f"Debug: Would send payload to OpenAI API: {json.dumps(payload)[:500]}...")  # Print the first 500 characters
         return {"debug": "This is a debug response"}
     else:
+        print("Sleeping 60 seconds.")
+        time.sleep(60)
         response = requests.post(url, headers=headers, json=payload)
         return response.json()
 

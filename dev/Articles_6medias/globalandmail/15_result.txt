@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liTMquZrW1xq1rnDwpmtg92RAtmE",
-  "object": "chat.completion",
-  "created": 1721159396,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"explanation\": \"The text shifts the focus away from the issue of Buy American provisions and tax incentives for electric vehicles to discussions on climate change, immigration, and trade irritants, which are not directly related to the original topic.\"\n        },\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n            \"explanation\": \"There is an implied causal link between the proposed incentives for U.S.-made electric vehicles and the potential outcome of moving future production away from Canada. However, this link is not supported by evidence in the text.\"\n        },\n        {\n            \"fallacy\": \"Appeal to authority (dubious authority)\",\n            \"example\": \"A celebrity endorses a drug for heart health without medical expertise.\",\n            \"explanation\": \"White House Press Secretary Jen Psaki's endorsement of the electric vehicle tax credits as beneficial is presented as an appeal to authority, where the authority may not have the relevant expertise on the economic impacts of the proposed incentives.\"\n        }\n    ]\n}\n```"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 2474,
-    "completion_tokens": 270,
-    "total_tokens": 2744
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 57485, Requested 4096. Please try again in 1.581s. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-9liQtNEfNIeVStBd6mj1TzKa9fBPM",
+  "id": "chatcmpl-9lizMV6B8ivBaI2NarF6uUocyy4i1",
   "object": "chat.completion",
-  "created": 1721159243,
+  "created": 1721161380,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Ad hominem\",\n            \"example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n            \"text\": \"Trump, who incited a mob of supporters that broke into the Capitol and House chamber on Jan. 6, 2021, then accused Biden of being 'very disrespectful to our country' because his address in that same chamber didn't begin promptly at 9 p.m.\"\n        },\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n            \"text\": \"Beginning shortly before 9 p.m. EST Thursday, outages numbered in the thousands, according to Downdetector. The outages peaked an hour later and then began to slowly resume back to normal, according to the monitor.\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n            \"text\": \"Those who were able to see what Trump had to say were likely not surprised, as his posts were largely negative reactions to people he saw on the broadcast.\"\n        }\n    ]\n}\n```"
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Ad hominem\",\n            \"example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n            \"text\": \"Trump, who incited a mob of supporters that broke into the Capitol and House chamber on Jan. 6, 2021, then accused Biden of being 'very disrespectful to our country' because his address in that same chamber didn't begin promptly at 9 p.m.\"\n        },\n        {\n            \"fallacy\": \"Red Herring\",\n            \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"text\": \"Trump, who incited a mob of supporters that broke into the Capitol and House chamber on Jan. 6, 2021, then accused Biden of being 'very disrespectful to our country' because his address in that same chamber didn't begin promptly at 9 p.m.\"\n        }\n    ]\n}\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
@@ -16,8 +16,8 @@
   ],
   "usage": {
     "prompt_tokens": 1419,
-    "completion_tokens": 268,
-    "total_tokens": 1687
+    "completion_tokens": 208,
+    "total_tokens": 1627
   },
   "system_fingerprint": null
 }

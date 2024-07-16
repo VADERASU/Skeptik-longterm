@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 55928, Requested 4096. Please try again in 24ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lj1BdLaWl07k83WGy7K5etSu7aCp",
+  "object": "chat.completion",
+  "created": 1721161493,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n      \"explanation\": \"The text shifts focus from the main issue of Prince Harry and Meghan Markle's attendance at King Charles' Coronation to discussing safety concerns and security issues.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n      \"explanation\": \"Linking Prince Harry's decision to write about the number of Taliban he killed to the increased concerns over safety, implying a causal relationship without sufficient evidence.\"\n    },\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n      \"explanation\": \"Implying that the concerns over security and safety for Prince Harry and his family are solely due to his revelations about killing Taliban insurgents, without considering other factors.\"\n    },\n    {\n      \"fallacy\": \"Begging the question\",\n      \"example\": \"Claiming we must trust the government because it knows what is best for us.\",\n      \"explanation\": \"Assuming that the government's decisions regarding Prince Harry's security arrangements are unquestionably correct and in the best interest of everyone involved.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2709,
+    "completion_tokens": 300,
+    "total_tokens": 3009
+  },
+  "system_fingerprint": null
 }

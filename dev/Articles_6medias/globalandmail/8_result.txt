@@ -1,23 +1,8 @@
 {
-  "id": "chatcmpl-9liT0ZjAENG2rqUNs8LU1KnV5yig5",
-  "object": "chat.completion",
-  "created": 1721159374,
-  "model": "gpt-3.5-turbo-0125",
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Strawman (Caricature)\",\n            \"example\": \"Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.\",\n            \"explanation\": \"Teck rejected Glencore's proposals as non-starters with flawed structure and material risk identified by their board. Glencore is thought to be preparing an improved offer, but the text does not provide evidence that Teck is opposed to a takeover in general or against engaging in negotiations.\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n            \"explanation\": \"The article states that hedge funds are buying into Teck, suggesting a bidding war may occur. However, it is a hasty generalization to imply that all hedge funds are buying in with the intent to influence a takeover or merger attempt. The motivations of individual investors may vary.\"\n        },\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n            \"explanation\": \"The text mentions heavy trading volumes and hedge funds buying into Teck, implying that these actions are directly related to Glencore's bid. However, the increase in trading volumes and hedge fund activity does not necessarily prove causation or a direct link to Glencore's bid. Other market factors could also be at play.\"\n        }\n    ]\n}\n```"
-      },
-      "logprobs": null,
-      "finish_reason": "stop"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": 2063,
-    "completion_tokens": 319,
-    "total_tokens": 2382
-  },
-  "system_fingerprint": null
+  "error": {
+    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56534, Requested 4096. Please try again in 630ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
+    "type": "tokens",
+    "param": null,
+    "code": "rate_limit_exceeded"
+  }
 }

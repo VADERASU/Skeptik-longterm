@@ -1,14 +1,14 @@
 {
-  "id": "chatcmpl-9liUwrDthBLCd7xaAat7O3EY2beTO",
+  "id": "chatcmpl-9lj1e5Efl7PWKdDVZ5eQ3MNrR4yEj",
   "object": "chat.completion",
-  "created": 1721159494,
+  "created": 1721161522,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Personal attack\",\n            \"example\": \"A politician discredits an opponent by criticizing their character instead of addressing the policy.\",\n            \"explanation\": \"President Trump urges Americans to boycott Goodyear Tires after their un-American ban on MAGA hats, using strong language like 'Don't buy GOODYEAR TIRES' and implying Goodyear's action is un-American.\"\n        },\n        {\n            \"fallacy\": \"Appeal to emotion\",\n            \"example\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\",\n            \"explanation\": \"President Trump evokes emotions by portraying the ban on MAGA hats as un-American and calling for a boycott, appealing to the emotions of his supporters and the right-wing audience.\"\n        },\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n            \"explanation\": \"President Trump correlates Goodyear's ban on MAGA hats with un-American action, implying a causal relationship between the ban and being un-American, which is a false cause fallacy.\"\n        }\n    ]\n}\n```"
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"explanation\": \"President Trump is diverting attention from the issue of Goodyear's ban on MAGA hats by framing it as a political battle between left and right.\"\n        }\n    ]\n}\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
@@ -16,8 +16,8 @@
   ],
   "usage": {
     "prompt_tokens": 1325,
-    "completion_tokens": 255,
-    "total_tokens": 1580
+    "completion_tokens": 91,
+    "total_tokens": 1416
   },
   "system_fingerprint": null
 }
