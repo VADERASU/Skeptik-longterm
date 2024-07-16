@@ -107,7 +107,7 @@ Task: Identify logical fallacies in the given text using this list. Explain wher
 
 
 # Function to process the JSON file and send content to the OpenAI API
-def process_json_file(file_path, model="gpt-3.5-turbo-0125", debug=False):
+def process_json_file(file_path, model="gpt-4o", debug=False):
     with open(file_path, 'r') as file:
         data = json.load(file)
 
@@ -142,7 +142,7 @@ file_path = './vaccine-sample.json'
 debug_mode = False
 
 # Process the JSON file and get the results
-results = process_json_file(file_path, model="gpt-3.5-turbo-0125", debug=debug_mode)
+results = process_json_file(file_path, model="gpt-4o", debug=debug_mode)
 
 # Print the results
 for result in results:
