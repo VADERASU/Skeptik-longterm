@@ -1,0 +1,15 @@
+{
+    "Logical Fallacies Identified": [
+        {
+            "Fallacy": "Personal attack",
+            "Explanation": "Rep. Marjorie Taylor Greene's behavior of refusing to call Dr. Anthony Fauci 'doctor' and demanding he be imprisoned instead of addressing the issues raised during the House subcommittee hearing."
+        },
+        {
+            "Fallacy": "Ad hominem",
+            "Explanation": "Dr. Fauci implicating Marjorie Taylor Greene for the increase in death threats he receives due to her actions and statements, rather than focusing on the substantive issues discussed during the hearing."
+        }
+    ],
+    "fallacy_count": 0,
+    "bias": -14.67,
+    "reliability": 29.33
+}

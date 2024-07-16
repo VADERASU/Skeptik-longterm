@@ -1,0 +1,27 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "example": "A royal expert claiming Meghan Markle's exclusion from the Buckingham Palace balcony appearance was 'more than she could bear.'",
+            "explanation": "The royal expert's statement is based on their position as an authority figure in the royal field, but it does not necessarily make their opinion on Meghan Markle's feelings and actions accurate or valid."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Discussing Meghan Markle's decision to stay at home for Archie's birthday instead of attending the ceremony.",
+            "explanation": "The focus on Meghan's choice to stay home for Archie's birthday is irrelevant to the main issue of her exclusion from the Buckingham Palace balcony appearance."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "example": "Highlighting how exciting it would have been for Archie to see his grandfather's armies at the ceremony.",
+            "explanation": "Appealing to the emotional response of excitement for a child does not address the main point of Meghan's exclusion from the event."
+        },
+        {
+            "fallacy": "Begging the question",
+            "example": "Stating that Harry's attendance was necessary to avoid a 'terrible snub.'",
+            "explanation": "The argument assumes that it would indeed be a 'terrible snub' if Harry did not attend without providing concrete evidence or reasoning to support this claim."
+        }
+    ],
+    "fallacy_count": 4,
+    "bias": 1.67,
+    "reliability": 28.67
+}

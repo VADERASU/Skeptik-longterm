@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liTUDiKcmSHx5kyr8lzpza5u7mZu",
+  "object": "chat.completion",
+  "created": 1721159404,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Personal attack\",\n            \"example\": \"A significant proportion of the content of these reports is untrue, manipulated, or both.\",\n            \"explanation\": \"The Ministry of Defence dismisses the leaked reports by attacking their credibility rather than addressing the content.\"\n        },\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"The Ministry of Defence has firmly denied the account of the incident revealed in the documents.\",\n            \"explanation\": \"The Ministry of Defence shifts focus from the content of the leaked documents to denying their accuracy, diverting attention from the actual claims made.\"\n        },\n        {\n            \"fallacy\": \"Questionable conclusion\",\n            \"example\": \"An MoD official told The Sun: 'A significant proportion of the content of these reports is untrue, manipulated, or both.'\",\n            \"explanation\": \"The Ministry of Defence draws a conclusion about the leaked reports being untrue without providing evidence to support their claim.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1573,
+    "completion_tokens": 222,
+    "total_tokens": 1795
+  },
+  "system_fingerprint": null
 }

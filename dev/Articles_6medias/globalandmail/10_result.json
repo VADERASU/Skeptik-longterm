@@ -1,0 +1,31 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "False Dilemma/Dichotomy",
+            "example": "Presenting two options as the only possibilities.",
+            "location": "The article presents the split of Teck Resources Ltd. as the only option, failing to consider other alternatives such as selling off large stakes in the coal business or a full-blown sale of the division.",
+            "explanation": "The article frames the split as the only solution, ignoring other viable alternatives available to Teck Resources Ltd."
+        },
+        {
+            "fallacy": "Hasty Generalization",
+            "example": "Drawing a conclusion from a biased or small sample.",
+            "location": "The article generalizes that investors were more ESG conscious and is the reason for the low share prices of resource companies.",
+            "explanation": "The article jumps to a conclusion that investors were primarily ESG conscious without providing substantial evidence or considering other factors that could have influenced share prices."
+        },
+        {
+            "fallacy": "Red Herring (Sidetracking)",
+            "example": "Sidetracking by raising an irrelevant issue.",
+            "location": "The article mentions the historical context of Teck's share prices before the split proposal.",
+            "explanation": "The historical context of share prices is not directly relevant to the logical fallacies related to the split proposal discussed in the article."
+        },
+        {
+            "fallacy": "Divide & Conquer",
+            "example": "Drawing irrelevant distinctions or obscuring meaningful ones.",
+            "location": "The article creates distinctions between Teck's coal division and other strategic alternatives without evaluating the meaningfulness of these distinctions.",
+            "explanation": "The article focuses on distinctions between strategic alternatives without clarifying the significance of these distinctions in evaluating the proposed split."
+        }
+    ],
+    "fallacy_count": 4,
+    "bias": 0,
+    "reliability": 40.67
+}

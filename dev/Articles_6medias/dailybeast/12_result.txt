@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liQx9aZzmkvra6QEmKCgNmkAthvU",
+  "object": "chat.completion",
+  "created": 1721159247,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"False Dilemma/Dichotomy\",\n      \"explanation\": \"Presenting two options as the only possibilities\",\n      \"example\": \"The text implies that the only choices are either using smartphones with all their features or using kosher phones with limited features, ignoring potential middle grounds where modified smartphones could be used with controlled access.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"explanation\": \"Mistaking correlation for causation\",\n      \"example\": \"The text suggests that the success in keeping ultra-orthodox Jews off social media is solely due to using kosher phones, overlooking other factors that may contribute to this behavior.\"\n    },\n    {\n      \"fallacy\": \"Hasty Generalization\",\n      \"explanation\": \"Drawing a conclusion from a biased or small sample\",\n      \"example\": \"The text generalizes the success of kosher phones in the ultra-orthodox community without considering the diversity of reasons and outcomes within the community.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2444,
+    "completion_tokens": 223,
+    "total_tokens": 2667
+  },
+  "system_fingerprint": null
 }

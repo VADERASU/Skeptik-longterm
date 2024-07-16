@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liTadZNP1Y9WaQDgp8f5cjc2AD0h",
+  "object": "chat.completion",
+  "created": 1721159410,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Appeal to authority (dubious authority)\",\n      \"example\": \"A royal expert claiming Meghan Markle's exclusion from the Buckingham Palace balcony appearance was 'more than she could bear.'\",\n      \"explanation\": \"The royal expert's statement is based on their position as an authority figure in the royal field, but it does not necessarily make their opinion on Meghan Markle's feelings and actions accurate or valid.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"Discussing Meghan Markle's decision to stay at home for Archie's birthday instead of attending the ceremony.\",\n      \"explanation\": \"The focus on Meghan's choice to stay home for Archie's birthday is irrelevant to the main issue of her exclusion from the Buckingham Palace balcony appearance.\"\n    },\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"example\": \"Highlighting how exciting it would have been for Archie to see his grandfather's armies at the ceremony.\",\n      \"explanation\": \"Appealing to the emotional response of excitement for a child does not address the main point of Meghan's exclusion from the event.\"\n    },\n    {\n      \"fallacy\": \"Begging the question\",\n      \"example\": \"Stating that Harry's attendance was necessary to avoid a 'terrible snub.'\",\n      \"explanation\": \"The argument assumes that it would indeed be a 'terrible snub' if Harry did not attend without providing concrete evidence or reasoning to support this claim.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1771,
+    "completion_tokens": 336,
+    "total_tokens": 2107
+  },
+  "system_fingerprint": null
 }

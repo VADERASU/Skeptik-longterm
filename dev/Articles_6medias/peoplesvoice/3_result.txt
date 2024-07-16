@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liUE5sEeY1pF4qq61EfS8yScQA4R",
+  "object": "chat.completion",
+  "created": 1721159450,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n            \"text\": \"Elon Musk claiming that the majority of deaths during the pandemic were caused by ventilators and not COVID itself.\"\n        },\n        {\n            \"fallacy\": \"Post Hoc (PH)\",\n            \"example\": \"Believing a lucky charm caused winning a game.\",\n            \"text\": \"The argument that putting COVID-19 patients on ventilators caused their deaths because they were placed on ventilators before dying.\"\n        },\n        {\n            \"fallacy\": \"Hasty Generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n            \"text\": \"The statement that most COVID-19 patients placed on ventilators died, without considering other factors.\"\n        },\n        {\n            \"fallacy\": \"Faulty Analogy\",\n            \"example\": \"Comparing internet content regulation to book censorship without acknowledging differences.\",\n            \"text\": \"Comparing the use of ventilators for COVID-19 patients with a death sentence without considering the medical context.\"\n        },\n        {\n            \"fallacy\": \"Red Herring\",\n            \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"text\": \"Distracting from the main issue of COVID-19 deaths by focusing on the use of ventilators as the cause.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1944,
+    "completion_tokens": 316,
+    "total_tokens": 2260
+  },
+  "system_fingerprint": null
 }

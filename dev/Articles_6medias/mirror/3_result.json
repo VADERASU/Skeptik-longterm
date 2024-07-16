@@ -1,0 +1,27 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Personal attack",
+            "example": "A politician discredits an opponent by criticizing their character instead of addressing the policy.",
+            "explanation": "The article refers to Putin as a 'war-mongering leader' and 'Russian dictator' to discredit him personally instead of focusing on the veracity of the claims made by the Telegram channel."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "example": "Concluding a policy is effective based on a single study without considering other evidence.",
+            "explanation": "The article relies heavily on claims made by the General SVR Telegram channel without providing concrete evidence or verification, leading to a questionable conclusion about Putin's health condition and activities."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "explanation": "The article makes sweeping generalizations about Putin's health and actions based on unverified claims from a single source (General SVR Telegram channel) without considering other possible explanations or sources."
+        },
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "example": "A celebrity endorses a drug for heart health without medical expertise.",
+            "explanation": "The article mentions Lt-Gen Kyrylo Budanov's claim about Putin not being seen since June 2022 without providing substantial evidence or verification of his statement, appealing to his authority without concrete proof."
+        }
+    ],
+    "fallacy_count": 4,
+    "bias": 0,
+    "reliability": 8.67
+}

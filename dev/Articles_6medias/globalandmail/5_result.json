@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
+            "explanation": "The article is focused on the alleged cheque-kiting scheme and financial troubles of StateView Homes, but it may distract readers by mentioning completed projects and ongoing construction without directly addressing the main issue."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
+            "explanation": "Drawing a connection between StateView Homes' financial difficulties and completed construction projects without establishing a causal link between the two."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "explanation": "Drawing conclusions about the entire StateView Homes organization based on the alleged actions of a few individuals involved in the cheque-kiting scheme."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 0,
+    "reliability": 44
+}

@@ -1,0 +1,19 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to ignorance",
+            "example": "Claiming something is true because it hasn\u2019t been proven false.",
+            "location": "Harjit Sajjan's statement: \"During the time of the evacuation, I really didn't have the time to be able to check my emails.\"",
+            "explanation": "Sajjan is implying that because he didn't check his emails, he was unaware of the situation, thereby using lack of proof (unread emails) as justification for not knowing about the senator's actions."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Mistaking correlation for causation.",
+            "location": "Conservative MP Michelle Remple Garner's comparison of Sajjan's explanation to the excuse that the 'dog ate my homework.'",
+            "explanation": "By comparing Sajjan's excuse to a common phrase about a dog eating homework, Remple Garner is implying a false causation between the two unrelated events, suggesting that both are equally implausible."
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 0,
+    "reliability": 41.67
+}

@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Bandwagon",
+            "example": "Claiming something is true because many people believe it.",
+            "location": "The federal Liberals made many promises during the recent election campaign to improve housing affordability, including measures to promote construction of affordable housing, curb flipping and discourage buying by foreign investors. At least four additional promises will make it easier to afford the purchase of a house, which is to say they will stimulate demand and prices."
+        },
+        {
+            "fallacy": "Improper criteria",
+            "example": "Invoking irrelevant aspects or ignoring relevant ones.",
+            "location": "A standout affordability promise is to make mortgage default insurance available for homes valued at $1.25-million, up from the current $1-million, and then index this price to inflation. As a result, buyers in Toronto and Vancouver will be able to put a minimum of 5 per cent down on a home instead of the current 20 per cent minimum applying to homes valued at $1-million or more."
+        },
+        {
+            "fallacy": "False cause (FC)",
+            "example": "Mistaking correlation for causation.",
+            "location": "An HR consulting firm called LifeWorks has reported that employers are projecting average annual pay increases next year of around 2.5 per cent. The gap between income and house prices keeps widening."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 1.33,
+    "reliability": 39.33
+}

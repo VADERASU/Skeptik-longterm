@@ -1,0 +1,32 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Ad hominem",
+            "example": "Attacking the person or group rather than their argument.",
+            "explanation": "Dismissing someone's opinion on economic policy because they belong to a different political party."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Sidetracking by raising an irrelevant issue.",
+            "explanation": "Shifting the debate on climate change to economic costs without addressing environmental impacts."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Drawing a conclusion from a biased or small sample.",
+            "explanation": "Concluding all dogs are aggressive based on encountering a few aggressive dogs."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Mistaking correlation for causation.",
+            "explanation": "Asserting ice cream consumption causes drowning because both increase in summer."
+        },
+        {
+            "fallacy": "Divide & Conquer",
+            "example": "Drawing irrelevant distinctions or obscuring meaningful ones.",
+            "explanation": "Focusing on minor differences between policies to create division."
+        }
+    ],
+    "fallacy_count": 5,
+    "bias": -18,
+    "reliability": 30
+}

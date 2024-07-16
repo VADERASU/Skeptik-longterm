@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Personal attack",
+            "example": "A politician discredits an opponent by criticizing their character instead of addressing the policy.",
+            "explanation": "President Trump urges Americans to boycott Goodyear Tires after their un-American ban on MAGA hats, using strong language like 'Don't buy GOODYEAR TIRES' and implying Goodyear's action is un-American."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
+            "explanation": "President Trump evokes emotions by portraying the ban on MAGA hats as un-American and calling for a boycott, appealing to the emotions of his supporters and the right-wing audience."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
+            "explanation": "President Trump correlates Goodyear's ban on MAGA hats with un-American action, implying a causal relationship between the ban and being un-American, which is a false cause fallacy."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 12.33,
+    "reliability": 39
+}

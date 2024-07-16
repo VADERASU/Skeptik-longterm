@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liTFH7UJYqq7TuQIoUq0ZncYjTmt",
+  "object": "chat.completion",
+  "created": 1721159389,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Bandwagon\",\n            \"example\": \"Claiming something is true because many people believe it.\",\n            \"location\": \"The federal Liberals made many promises during the recent election campaign to improve housing affordability, including measures to promote construction of affordable housing, curb flipping and discourage buying by foreign investors. At least four additional promises will make it easier to afford the purchase of a house, which is to say they will stimulate demand and prices.\"\n        },\n        {\n            \"fallacy\": \"Improper criteria\",\n            \"example\": \"Invoking irrelevant aspects or ignoring relevant ones.\",\n            \"location\": \"A standout affordability promise is to make mortgage default insurance available for homes valued at $1.25-million, up from the current $1-million, and then index this price to inflation. As a result, buyers in Toronto and Vancouver will be able to put a minimum of 5 per cent down on a home instead of the current 20 per cent minimum applying to homes valued at $1-million or more.\"\n        },\n        {\n            \"fallacy\": \"False cause (FC)\",\n            \"example\": \"Mistaking correlation for causation.\",\n            \"location\": \"An HR consulting firm called LifeWorks has reported that employers are projecting average annual pay increases next year of around 2.5 per cent. The gap between income and house prices keeps widening.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1921,
+    "completion_tokens": 298,
+    "total_tokens": 2219
+  },
+  "system_fingerprint": null
 }

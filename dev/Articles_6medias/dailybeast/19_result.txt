@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liRP7FbzFdfVERONEuqUQAt2NR5s",
+  "object": "chat.completion",
+  "created": 1721159275,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n      \"explanation\": \"Kari Lake's statement about elections being run poorly without providing specific evidence or data is a hasty generalization. She makes a broad conclusion without sufficient support.\"\n    },\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"example\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\",\n      \"explanation\": \"Kari Lake's mention of elections being run poorly evokes negative emotions without presenting factual evidence, appealing to emotions rather than logic.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n      \"explanation\": \"Lake's focus on elections being run poorly diverts attention from the specific question about who stole the election and how, sidetracking the discussion.\"\n    },\n    {\n      \"fallacy\": \"Improper criteria\",\n      \"example\": \"Using an arbitrary date to claim that all innovations after it are irrelevant.\",\n      \"explanation\": \"Lake's argument about elections being run poorly lacks specific criteria or relevant aspects to support her claim, invoking improper criteria.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1349,
+    "completion_tokens": 291,
+    "total_tokens": 1640
+  },
+  "system_fingerprint": null
 }

@@ -1,0 +1,17 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to tradition",
+            "example": "Insisting on a traditional remedy despite lack of scientific evidence.",
+            "evidence": "The letter to Biden references how the Department of Justice declined to pursue charges against Mr. Assange in 2013 during his vice presidency, suggesting that because this approach was taken before, it should be followed now."
+        },
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "example": "A celebrity endorses a drug for heart health without medical expertise.",
+            "evidence": "The letter to Biden mentions that the Department of Justice acted correctly in 2013, during Biden's vice presidency, when it declined to pursue charges against Mr. Assange. By referencing this action during Biden's tenure, the letter implies authority and correctness without addressing the current circumstances."
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 2,
+    "reliability": 41
+}

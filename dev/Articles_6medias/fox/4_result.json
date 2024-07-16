@@ -1,0 +1,22 @@
+{
+    "Logical_Fallacies": [
+        {
+            "Fallacy": "Red Herring (sidetracking)",
+            "Explanation": "The article shifts the focus from the clerical error that led to the suspension of the driver's license to the process of getting a license reinstated, a tangential issue.",
+            "Text": "However, the Michigan Secretary of State's Office never received a clearance from the Saginaw Friend of the Court, reported WXYZ, which tracked down the clerical error. That means that the lifting of the suspension never went into effect."
+        },
+        {
+            "Fallacy": "Appeal to Emotion",
+            "Explanation": "The article emphasizes the embarrassment and personal feelings of Corey Harris to evoke sympathy from the readers, rather than focusing solely on the legal and administrative aspects of the case.",
+            "Text": "\"With the type of ties that I have with the church and the community, it's very embarrassing,\" Harris told WXYZ-TV about the widely viewed incident."
+        },
+        {
+            "Fallacy": "Hasty Generalization",
+            "Explanation": "The article presents Corey Harris' experience with the suspended license as a singular example, potentially leading readers to draw generalized conclusions about the complexity of the license reinstatement process based on this one case.",
+            "Text": "Khyla Craine, deputy legal director for the Michigan secretary of state, told the station that the process to get a driver's license reinstated can be a complicated process."
+        }
+    ],
+    "fallacy_count": 0,
+    "bias": 0,
+    "reliability": 41.67
+}

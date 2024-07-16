@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Personal attack",
+            "example": "A politician discredits an opponent by criticizing their character instead of addressing the policy.",
+            "occurrence": "Rep. Matt Gaetz questioning Hunter Biden about being on drugs while on the Burisma board instead of focusing on the relevant topic of the impeachment inquiry into Biden's father."
+        },
+        {
+            "fallacy": "Ad hominem",
+            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
+            "occurrence": "Rep. Matt Gaetz questioning Hunter Biden's drug use while serving on the Burisma board, which is unrelated to the impeachment inquiry or oversight of ethics legislation."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
+            "occurrence": "Rep. Matt Gaetz focusing on questioning Hunter Biden's drug use instead of addressing the core issues related to the impeachment inquiry concerning Biden's father."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": -1,
+    "reliability": 38
+}

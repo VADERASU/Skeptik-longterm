@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liRHn9LncC4YigTctRVUxvmDv38R",
+  "object": "chat.completion",
+  "created": 1721159267,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Personal attack\",\n      \"example\": \"A politician discredits an opponent by criticizing their character instead of addressing the policy.\",\n      \"occurrence\": \"Rep. Matt Gaetz questioning Hunter Biden about being on drugs while on the Burisma board instead of focusing on the relevant topic of the impeachment inquiry into Biden's father.\"\n    },\n    {\n      \"fallacy\": \"Ad hominem\",\n      \"example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n      \"occurrence\": \"Rep. Matt Gaetz questioning Hunter Biden's drug use while serving on the Burisma board, which is unrelated to the impeachment inquiry or oversight of ethics legislation.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n      \"occurrence\": \"Rep. Matt Gaetz focusing on questioning Hunter Biden's drug use instead of addressing the core issues related to the impeachment inquiry concerning Biden's father.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1731,
+    "completion_tokens": 237,
+    "total_tokens": 1968
+  },
+  "system_fingerprint": null
 }

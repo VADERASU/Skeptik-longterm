@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liSBQoCo3iQklz1ylYLg4TL7xmGG",
+  "object": "chat.completion",
+  "created": 1721159323,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Appeal to tradition\",\n            \"example\": \"Insisting on a traditional remedy despite lack of scientific evidence.\",\n            \"explanation\": \"Critics of President Biden's proclamation criticize it as an assault on Christianity due to the timing of the Transgender Day of Visibility coinciding with Easter Sunday, which is a significant traditional Christian holiday.\"\n        },\n        {\n            \"fallacy\": \"Questionable conclusion\",\n            \"example\": \"Concluding a policy is effective based on a single study without considering other evidence.\",\n            \"explanation\": \"Critics question the intention behind President Biden's proclamation, assuming it is a deliberate assault on Christianity based on the timing without considering other possible reasons or motivations.\"\n        },\n        {\n            \"fallacy\": \"Personal attack\",\n            \"example\": \"Attaching a person or group to avoid the issue.\",\n            \"explanation\": \"Critics of President Biden personally attack him by accusing him of assaulting Christianity and undermining traditions with the proclamation, diverting attention from the actual content and purpose of the announcement.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1615,
+    "completion_tokens": 234,
+    "total_tokens": 1849
+  },
+  "system_fingerprint": null
 }

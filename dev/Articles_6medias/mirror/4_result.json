@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Personal attack",
+            "example": "A significant proportion of the content of these reports is untrue, manipulated, or both.",
+            "explanation": "The Ministry of Defence dismisses the leaked reports by attacking their credibility rather than addressing the content."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "The Ministry of Defence has firmly denied the account of the incident revealed in the documents.",
+            "explanation": "The Ministry of Defence shifts focus from the content of the leaked documents to denying their accuracy, diverting attention from the actual claims made."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "example": "An MoD official told The Sun: 'A significant proportion of the content of these reports is untrue, manipulated, or both.'",
+            "explanation": "The Ministry of Defence draws a conclusion about the leaked reports being untrue without providing evidence to support their claim."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 0,
+    "reliability": 35
+}

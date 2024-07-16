@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liUi3GnFcyEPzFI7a1zf4Vt73TNM",
+  "object": "chat.completion",
+  "created": 1721159480,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Personal attack\",\n      \"example\": \"Liberals mocked Donald Trump's 2020 prediction that gas prices under President Biden would reach $7.00 per gallon.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"But liberals were wrong, Trump was spot on, and now we are all feeling the pain thanks to Biden's inept leadership.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"It took just over a year after Biden assumed office for Trump's prediction to come true.\"\n    },\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"example\": \"While it is not difficult to predict that prices, including fuel, will rise under a Democratic president, few of us thought we would see over $7 a gallon, even in California.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"They [wind farms] ruin the environment, they kill the birds and they cost a fortune.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"It's time to re-open America's pipelines and stop being held to ransom by foreign countries intent on swindling the United States.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"Since Russia invaded Ukraine, oil prices have continued to surge and gas prices have increased to over $4.00 per gallon.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"Instead of supporting American energy independence, Biden is likely seeking a substitute for Russian oil, which finances the Russian invasion of Ukraine, though Biden has not sanctioned relevant Russian energy suppliers.\"\n    },\n    {\n      \"fallacy\": \"Post Hoc (PH)\",\n      \"example\": \"Over the weekend, the Biden administration secretly met with Venezuelan President Nicol\u00c3\u00a1s Maduro about producing more oil.\"\n    },\n    {\n      \"fallacy\": \"Questionable conclusion\",\n      \"example\": \"Yet renewable energy is not a long- or short-term solution.\"\n    },\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"example\": \"In 2020, Biden promised he would 'transition' away from the oil industry.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1500,
+    "completion_tokens": 506,
+    "total_tokens": 2006
+  },
+  "system_fingerprint": null
 }

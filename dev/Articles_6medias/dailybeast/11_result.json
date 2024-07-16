@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Ad hominem",
+            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
+            "text": "Trump, who incited a mob of supporters that broke into the Capitol and House chamber on Jan. 6, 2021, then accused Biden of being 'very disrespectful to our country' because his address in that same chamber didn't begin promptly at 9 p.m."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
+            "text": "Beginning shortly before 9 p.m. EST Thursday, outages numbered in the thousands, according to Downdetector. The outages peaked an hour later and then began to slowly resume back to normal, according to the monitor."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "text": "Those who were able to see what Trump had to say were likely not surprised, as his posts were largely negative reactions to people he saw on the broadcast."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": -12.67,
+    "reliability": 32.33
+}

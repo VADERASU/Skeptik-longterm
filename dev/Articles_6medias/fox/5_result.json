@@ -1,0 +1,27 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Ad hominem",
+            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
+            "explanation": "Former President Trump criticizes the judge and district attorney involved in his trial, suggesting bias and conflict of interest, instead of addressing the legal aspects of the case."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
+            "explanation": "Trump focuses on the judge, venue, and district attorney's alleged biases and conflicts instead of discussing the specifics of his guilty verdict or the legal charges against him."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
+            "explanation": "Trump implies that his increased media coverage, rallies, and fundraising success during the trial are a direct result of the trial itself, suggesting a causal relationship between legal proceedings and his campaign achievements."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "explanation": "Trump's statement that the guilty verdict is a 'scar' on the New York justice system and a 'sad day for the country' generalizes his personal legal situation to reflect negatively on the entire justice system and country without providing specific evidence or reasoning."
+        }
+    ],
+    "fallacy_count": 4,
+    "bias": 13.33,
+    "reliability": 35.33
+}

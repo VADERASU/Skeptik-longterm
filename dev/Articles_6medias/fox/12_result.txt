@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liSKCvZVnK5mIv5jvbcHjwAWTKyM",
+  "object": "chat.completion",
+  "created": 1721159332,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"Logical_Fallacies\": [\n    {\n      \"fallacy\": \"Appeal to authority (dubious authority)\",\n      \"example\": \"A lawyer for the state pushed back, saying 'what we have heard here today is an attempt to rewrite the indictment, to take out the parts that are inconvenient and only say, 'Well, it's all speech, it's all talking.'\",\n      \"explanation\": \"The lawyer for the state is attempting to dismiss the arguments made by the defense by implying that the defense is trying to manipulate the information presented, without addressing the core arguments directly.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"Trump was indicted in August on charges that include the Georgia RICO Act - the Racketeer Influenced And Corrupt Organizations Act; solicitation of violation of oath by a public officer; conspiracy to commit impersonating a public officer; conspiracy to commit forgery in the first degree; conspiracy to commit false statements and writings; conspiracy to commit filing false documents; conspiracy to commit forgery in the first degree; and filing false documents.\",\n      \"explanation\": \"The charges against Trump are presented as if the mere fact of being indicted implies guilt, without establishing a direct causation between the accusations and the actual criminal activities.\"\n    }\n  ]\n}\n```  "
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1695,
+    "completion_tokens": 278,
+    "total_tokens": 1973
+  },
+  "system_fingerprint": null
 }

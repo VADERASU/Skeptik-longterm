@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liRwEIVGYpuwIc7MC7r358u2TI8T",
+  "object": "chat.completion",
+  "created": 1721159308,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Personal attack\",\n      \"example\": \"Conservatives blast Biden admin authorizing 'deadly use of force' for Trump Mar-a-Lago raid\",\n      \"explanation\": \"The conservatives are criticizing the Biden administration's decision to authorize the use of deadly force in the raid on Trump's estate without addressing the actual issue of the raid itself.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"Special Counsel Robert Hur's investigation into Biden's handling of classified documents after his departure as vice president during the Obama administration\",\n      \"explanation\": \"The mention of Biden's handling of classified documents is irrelevant to the discussion about the authorization of deadly force during the raid on Trump's Mar-a-Lago estate.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"Believing a lucky charm caused winning a game\",\n      \"explanation\": \"Implying that the authorization of deadly force in the raid caused Trump's charges and legal proceedings without establishing a causal relationship between the two.\"\n    },\n    {\n      \"fallacy\": \"False dilemma/dichotomy\",\n      \"example\": \"Claiming you must either support or oppose a policy without considering middle ground\",\n      \"explanation\": \"The narrative presents a binary view of either supporting or opposing the authorization of deadly force during the raid without considering alternative perspectives or nuanced discussions.\"\n    }\n  ]\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2213,
+    "completion_tokens": 308,
+    "total_tokens": 2521
+  },
+  "system_fingerprint": null
 }

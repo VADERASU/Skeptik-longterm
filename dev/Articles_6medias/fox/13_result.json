@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Strawman (Caricature)",
+            "example": "Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.",
+            "occurrence": "Opponents claiming that the change in spending will threaten programs aimed at preventing homelessness, which is not the main focus of the Proposition 1, which aims to address the existing homeless crisis through housing and drug treatment programs."
+        },
+        {
+            "fallacy": "Appeal to tradition",
+            "example": "Insisting on a traditional remedy despite lack of scientific evidence.",
+            "occurrence": "Critics arguing against the new spending measure to address homelessness based on the belief that programs not solely focused on housing or drug treatment are better at preventing homelessness, without considering the effectiveness of the proposed approach."
+        },
+        {
+            "fallacy": "False dilemma/dichotomy",
+            "example": "Claiming you must either support or oppose a policy without considering middle ground.",
+            "occurrence": "Opponents suggesting that rural counties with fewer homeless people per capita will be forced to divert a larger percentage of funds to housing, creating a false dichotomy between solely focusing on housing programs or preventing homelessness through other means."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 7.33,
+    "reliability": 39
+}

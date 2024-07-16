@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liRb48InK1nsG5GvC3wbU42g0yYv",
+  "object": "chat.completion",
+  "created": 1721159287,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Ad hominem\",\n            \"example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n            \"location\": \"Criticism of Biden's mental acuity based on his age and skepticism from voters and Republican lawmakers.\"\n        },\n        {\n            \"fallacy\": \"Red Herring (Sidetracking)\",\n            \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"location\": \"Focus on Biden's age and skepticism instead of addressing his policy decisions or actions.\"\n        },\n        {\n            \"fallacy\": \"Hasty Generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n            \"location\": \"Generalizing Biden's mental acuity based on limited interactions and biased opinions.\"\n        },\n        {\n            \"fallacy\": \"Appeal to Emotion\",\n            \"example\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\",\n            \"location\": \"Using emotional language and anecdotes to suggest Biden is unfit for office.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1717,
+    "completion_tokens": 245,
+    "total_tokens": 1962
+  },
+  "system_fingerprint": null
 }

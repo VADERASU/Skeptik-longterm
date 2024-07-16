@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liScx6UHU9SgPwjzW13PS06b0LyX",
+  "object": "chat.completion",
+  "created": 1721159350,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"fallacy_location\": \"Public Safety Minister Marco Mendicino sidetracked from addressing the specific concerns about the delay in launching the foreign-interference office by emphasizing the ongoing work and the need for Parliament to pass the budget bill.\"\n        },\n        {\n            \"fallacy\": \"Appeal to tradition\",\n            \"example\": \"Insisting on a traditional remedy despite lack of scientific evidence.\",\n            \"fallacy_location\": \"Bloc Qu\u00e9b\u00e9cois MP Marie-H\u00e9l\u00e8ne Gaudreau's argument that policy changes should have already been made based on the allegations of Chinese interference in Canadian federal elections due to the passage of time.\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n            \"fallacy_location\": \"Marie-H\u00e9l\u00e8ne Gaudreau's assertion that laws should have been strengthened to avoid interference based on expert testimony six months ago, without considering the complexity and time required for policy changes.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1849,
+    "completion_tokens": 261,
+    "total_tokens": 2110
+  },
+  "system_fingerprint": null
 }

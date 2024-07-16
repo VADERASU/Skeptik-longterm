@@ -1,0 +1,17 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "example": "A celebrity endorses a drug for heart health without medical expertise.",
+            "line": "Jordan James, CEO of Unlockd PR said: 'It certainly wouldn't come as a major surprise if they were snubbed given their current status within the Royal Family and the ensuing drama.'"
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "line": "'The Duke and Duchess of Sussex were also no-shows at this year's Oscars, with Jordan saying there seems to have been a 'shift' in how they're presenting themselves.'"
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 0,
+    "reliability": 27.33
+}

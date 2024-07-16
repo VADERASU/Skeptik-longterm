@@ -1,0 +1,17 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
+            "explanation": "The article discusses the storyline of Coronation Street's Carla Connor and the plot involving Stephen Reid poisoning her, but then includes unrelated details about another potential victim, Rufus Donahue, which distracts from the main focus on Carla's situation."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "explanation": "The article suggests that Carla is experiencing similar symptoms to her previous mental breakdown without providing sufficient evidence or context to support this generalization, potentially misleading readers about the character's current situation."
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 0,
+    "reliability": 32.33
+}

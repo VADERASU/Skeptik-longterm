@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to tradition",
+            "example": "Insisting on a traditional remedy despite lack of scientific evidence.",
+            "explanation": "Critics of President Biden's proclamation criticize it as an assault on Christianity due to the timing of the Transgender Day of Visibility coinciding with Easter Sunday, which is a significant traditional Christian holiday."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "example": "Concluding a policy is effective based on a single study without considering other evidence.",
+            "explanation": "Critics question the intention behind President Biden's proclamation, assuming it is a deliberate assault on Christianity based on the timing without considering other possible reasons or motivations."
+        },
+        {
+            "fallacy": "Personal attack",
+            "example": "Attaching a person or group to avoid the issue.",
+            "explanation": "Critics of President Biden personally attack him by accusing him of assaulting Christianity and undermining traditions with the proclamation, diverting attention from the actual content and purpose of the announcement."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 13.67,
+    "reliability": 22
+}

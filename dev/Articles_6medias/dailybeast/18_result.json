@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "explanation": "In the text, there is a hasty generalization when it implies that all of Trump's donors' funds are being consumed by legal troubles, based on the specific incidents mentioned in the article. This generalization overlooks other potential sources of fundraising and financial matters."
+        },
+        {
+            "fallacy": "Post hoc (PH)",
+            "example": "Assuming that because one event followed another, the first caused the second.",
+            "explanation": "The text suggests a post hoc fallacy by implying that Trump's legal troubles are directly causing his financial strain without considering other factors that could contribute to his cash crunch, such as mismanagement or other expenses."
+        },
+        {
+            "fallacy": "False dilemma/dichotomy",
+            "example": "Presenting two options as the only possibilities.",
+            "explanation": "There is a false dilemma presented when the text portrays Trump's financial situation as solely dependent on legal troubles and implies that his donors' funds are primarily directed towards legal bills, neglecting the possibility of other financial strategies or fundraising efforts."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": -5,
+    "reliability": 44.33
+}

@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "example": "A celebrity endorses a drug for heart health without medical expertise.",
+            "text": "Brits should be proud of Gary Lineker, says the refugee who the star took in."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
+            "text": "Gary has come forward to defend humanity. It should be a point of pride for the British public."
+        },
+        {
+            "fallacy": "Cherry Picking",
+            "example": "Highlighting positive testimonials about a product while ignoring negative reviews.",
+            "text": "He is friendly and open-minded. He loved to listen to me when I shared my story about the situation in my country and the plight of my people."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": -2,
+    "reliability": 36.67
+}

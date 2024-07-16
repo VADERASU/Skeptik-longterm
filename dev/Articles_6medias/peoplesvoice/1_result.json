@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "example": "A celebrity endorses a drug for heart health without medical expertise.",
+            "explanation": "The article presents Infowars.com as the source of the report, which is known for spreading conspiracy theories and misinformation. Infowars is considered a dubious authority, and relying on it for factual claims can be fallacious."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
+            "explanation": "The article implies a causal link between Obama's advisory role on AI development and the claim that he is secretly operating as a 'shadow President,' serving a third term. The increase in ice cream consumption in summer does not cause drowning, just as Obama advising on AI development does not automatically make him the 'shadow President.'"
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "explanation": "The article jumps to the conclusion that Biden's presidency essentially serves as Obama's third term based on the reported advisory role Obama had in shaping AI policy. This conclusion is a hasty generalization as it oversimplifies the situation by drawing a broad conclusion from a specific, limited set of circumstances."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 30,
+    "reliability": 6
+}

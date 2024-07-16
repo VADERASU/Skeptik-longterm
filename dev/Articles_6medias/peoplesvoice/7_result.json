@@ -1,0 +1,27 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Hasty generalization",
+            "statement": "Nearly a quarter of Americans believe they know someone who died from side effects of the COVID-19 vaccine.",
+            "explanation": "The statement generalizes the belief of a quarter of Americans based on a small sample size without considering the diversity and size of the American population."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "statement": "A notable 42% of respondents expressed that they would 'likely' join a major class-action lawsuit against big pharma if one were to file a lawsuit concerning vaccine side effects.",
+            "explanation": "This statement generalizes the willingness of respondents to join a lawsuit without providing a detailed analysis of the reasons behind their willingness or considering the complexity of legal matters."
+        },
+        {
+            "fallacy": "False Cause",
+            "statement": "Adults under 40 are less likely to know someone who died from the virus but are more inclined to join a lawsuit against pharmaceutical companies for vaccine side effects.",
+            "explanation": "The statement implies a causal relationship between knowing someone who died from the virus and the inclination to join a lawsuit without providing evidence of a direct connection."
+        },
+        {
+            "fallacy": "Faulty analogy",
+            "statement": "Racial differences were also evident in the survey results. While 43% of white respondents said they know someone who died from the COVID-19 virus, this number rises to 52% for black respondents and 57% for other minorities.",
+            "explanation": "The comparison of racial differences in knowing someone who died from the virus without considering underlying factors or historical context can be seen as a faulty analogy."
+        }
+    ],
+    "fallacy_count": 4,
+    "bias": 15,
+    "reliability": 22.67
+}

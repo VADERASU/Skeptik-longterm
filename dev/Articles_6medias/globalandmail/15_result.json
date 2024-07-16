@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
+            "explanation": "The text shifts the focus away from the issue of Buy American provisions and tax incentives for electric vehicles to discussions on climate change, immigration, and trade irritants, which are not directly related to the original topic."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
+            "explanation": "There is an implied causal link between the proposed incentives for U.S.-made electric vehicles and the potential outcome of moving future production away from Canada. However, this link is not supported by evidence in the text."
+        },
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "example": "A celebrity endorses a drug for heart health without medical expertise.",
+            "explanation": "White House Press Secretary Jen Psaki's endorsement of the electric vehicle tax credits as beneficial is presented as an appeal to authority, where the authority may not have the relevant expertise on the economic impacts of the proposed incentives."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 1,
+    "reliability": 45.33
+}

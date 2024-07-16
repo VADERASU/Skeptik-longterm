@@ -1,0 +1,27 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "explanation": "Kari Lake's statement about elections being run poorly without providing specific evidence or data is a hasty generalization. She makes a broad conclusion without sufficient support."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
+            "explanation": "Kari Lake's mention of elections being run poorly evokes negative emotions without presenting factual evidence, appealing to emotions rather than logic."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
+            "explanation": "Lake's focus on elections being run poorly diverts attention from the specific question about who stole the election and how, sidetracking the discussion."
+        },
+        {
+            "fallacy": "Improper criteria",
+            "example": "Using an arbitrary date to claim that all innovations after it are irrelevant.",
+            "explanation": "Lake's argument about elections being run poorly lacks specific criteria or relevant aspects to support her claim, invoking improper criteria."
+        }
+    ],
+    "fallacy_count": 4,
+    "bias": -7.33,
+    "reliability": 33.67
+}

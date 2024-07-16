@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Ad hominem",
+            "example": "The self-described 'dirty trickster' of right-wing politics unknowingly divulged the plan to liberal reporters Lauren Windsor and Ally Sammarco...",
+            "explanation": "Roger Stone's character as a 'dirty trickster' is used to discredit his statements instead of addressing the content of his conversation."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "The Trump campaign launched 62 lawsuits contesting the results of the election across the country in 2020. However, most were quickly dismissed or dropped due to a lack of standing or evidence...",
+            "explanation": "The implication that the lawsuits were dismissed solely due to a lack of standing or evidence assumes causation without considering other factors that could have led to their dismissal."
+        },
+        {
+            "fallacy": "False dilemma/dichotomy",
+            "example": "Stone, who was a key figure in Trump's 'Stop the Steal' efforts following the 2020 election, characterized his plan to challenge election results in 2024 with three pillars: 'Lawyers, judges, technology.'",
+            "explanation": "Presenting the plan as only relying on 'Lawyers, judges, technology' creates a false dichotomy, ignoring other potential strategies or factors involved."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": -11,
+    "reliability": 33.67
+}

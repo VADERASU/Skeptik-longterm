@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liRTINqIMKeZy7ZvYPrhiWdgHnRf",
+  "object": "chat.completion",
+  "created": 1721159279,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"Logical_Fallacies\": [\n        {\n            \"Fallacy\": \"Ad hominem\",\n            \"Explanation\": \"Attacking the person or group rather than their argument.\",\n            \"Example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n            \"Text\": \"George Santos\u00e2\u20ac\u201da man Republicans kicked out of congress for being a fraud\u00e2\u20ac\u201dis suing me for fraud!\"\n        },\n        {\n            \"Fallacy\": \"Red Herring (sidetracking)\",\n            \"Explanation\": \"Sidetracking by raising an irrelevant issue.\",\n            \"Example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"Text\": \"He says we deceived him under the guise of fandom soliciting personalized videos, only to then broadcast these on national television.\"\n        }\n    ]\n}\n```\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1479,
+    "completion_tokens": 181,
+    "total_tokens": 1660
+  },
+  "system_fingerprint": null
 }

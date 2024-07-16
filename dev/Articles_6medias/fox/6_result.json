@@ -1,0 +1,27 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to emotion",
+            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
+            "text": "Sahar Tartak told Fox News Digital that violence was bound to happen, as the university has refused to intervene for fear of escalation - which in turn, enables violence to escalate. She said no administrators were at the protest, nor were campus police given instructions to disband it when things turned violent. \"If students continue pushing the envelope, I knew this was going to happen, I just didn't expect it to be me,\" Tartak said. \"I think it's important to understand the violence is at the core of this movement. It's about violence against Jewish people. It's about violence against the West.\""
+        },
+        {
+            "fallacy": "Strawman (Caricature)",
+            "example": "Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.",
+            "text": "Sahar decried the protests as \"mob violence.\" \"So what's going to happen, God forbid, more students get beat up, more of nothing happens, and then in a couple of years, these gangsters take over the universities,\" she said. \"Allowing them to push the envelope is so dangerous. I am lucky that guy's flag wasn't pointy at the end.\""
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "text": "Sahar Tartak mentioned that the protesters formed a circle around her, chanting incendiary slogans and taunting her. \"One of the students, whose face was covered in a keffiyeh, took a Palestinian flag that he was holding, waved it in my face and hit my left eye,\" Tartak said."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
+            "text": "Sahar Tartak stated that the violence was bound to happen because the university refused to intervene for fear of escalation, enabling violence to escalate."
+        }
+    ],
+    "fallacy_count": 4,
+    "bias": 18,
+    "reliability": 16.33
+}

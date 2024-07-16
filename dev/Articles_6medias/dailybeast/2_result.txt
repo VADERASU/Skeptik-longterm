@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liQFG63yPB4qst2dHrm9I1b8PwM3",
+  "object": "chat.completion",
+  "created": 1721159203,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Questionable conclusion\",\n            \"example\": \"Concluding a policy is effective based on a single study without considering other evidence.\",\n            \"explanation\": \"The article concludes that Justin Timberlake was intoxicated based on one incident of him allegedly drinking a Vesper martini. The conclusion of his intoxication is drawn without considering other potential factors or evidence.\"\n        },\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n            \"explanation\": \"The article implies a causal relationship between Justin Timberlake's drinking of a Vesper martini and his alleged drunk driving incident. It suggests that because he drank the martini, he was intoxicated and arrested for driving while intoxicated, without establishing a direct causal link.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1721,
+    "completion_tokens": 187,
+    "total_tokens": 1908
+  },
+  "system_fingerprint": null
 }

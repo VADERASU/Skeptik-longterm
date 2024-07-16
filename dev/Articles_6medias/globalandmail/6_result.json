@@ -1,0 +1,27 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "False dilemma/dichotomy",
+            "example": "Claiming you must either support or oppose a policy without considering middle ground.",
+            "text": "The White House on Thursday said it was concerned by the ceasefire violations, adding that the situation could worsen at any moment and urging U.S. citizens to leave within 24 to 48 hours."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
+            "text": "The Sudan Doctors' Union said 60 of 86 hospitals in conflict zones had stopped operating."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
+            "text": "The conflict has limited food distribution in the vast nation, Africa's third largest, where a third of the 46 million people were already reliant on humanitarian aid."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
+            "text": "Frictions had been building for months between Sudan's army and the RSF, whose 2021 coup came two years after a popular uprising toppled long-ruling Islamist autocrat Omar al-Bashir."
+        }
+    ],
+    "fallacy_count": 4,
+    "bias": 0,
+    "reliability": 44
+}

@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liQbhdTMRjV6pRCeEK9p1eQhyY8X",
+  "object": "chat.completion",
+  "created": 1721159225,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Ad hominem\",\n            \"example\": \"Attacking the person or group rather than their argument.\",\n            \"explanation\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\"\n        },\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"Sidetracking by raising an irrelevant issue.\",\n            \"explanation\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"Drawing a conclusion from a biased or small sample.\",\n            \"explanation\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\"\n        },\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Mistaking correlation for causation.\",\n            \"explanation\": \"Asserting ice cream consumption causes drowning because both increase in summer.\"\n        },\n        {\n            \"fallacy\": \"Divide & Conquer\",\n            \"example\": \"Drawing irrelevant distinctions or obscuring meaningful ones.\",\n            \"explanation\": \"Focusing on minor differences between policies to create division.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3310,
+    "completion_tokens": 266,
+    "total_tokens": 3576
+  },
+  "system_fingerprint": null
 }

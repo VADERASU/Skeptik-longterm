@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liUd55IqrTpbDAUmB1qJNTwoEVBb",
+  "object": "chat.completion",
+  "created": 1721159475,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Appeal to tradition\",\n            \"example\": \"Insisting on a traditional remedy despite lack of scientific evidence.\",\n            \"evidence\": \"The letter to Biden references how the Department of Justice declined to pursue charges against Mr. Assange in 2013 during his vice presidency, suggesting that because this approach was taken before, it should be followed now.\"\n        },\n        {\n            \"fallacy\": \"Appeal to authority (dubious authority)\",\n            \"example\": \"A celebrity endorses a drug for heart health without medical expertise.\",\n            \"evidence\": \"The letter to Biden mentions that the Department of Justice acted correctly in 2013, during Biden's vice presidency, when it declined to pursue charges against Mr. Assange. By referencing this action during Biden's tenure, the letter implies authority and correctness without addressing the current circumstances.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1798,
+    "completion_tokens": 195,
+    "total_tokens": 1993
+  },
+  "system_fingerprint": null
 }

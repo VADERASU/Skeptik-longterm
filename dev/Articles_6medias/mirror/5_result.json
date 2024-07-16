@@ -1,0 +1,17 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Personal attack",
+            "example": "A politician discredits an opponent by criticizing their character instead of addressing the policy.",
+            "explanation": "Clive Owen reveals personal details about his ex-wife Amanda Owen's behavior and relationship dynamics, which can be seen as a personal attack rather than addressing the broader issue of their living arrangement."
+        },
+        {
+            "fallacy": "Ad hominem",
+            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
+            "explanation": "Clive Owen mentions his own failures and shortcomings in the relationship, attributing the breakup to his behavior and actions rather than focusing on the mutual dynamics and circumstances leading to the separation."
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 0,
+    "reliability": 35
+}

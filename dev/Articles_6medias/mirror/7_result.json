@@ -1,0 +1,17 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Ad hominem",
+            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
+            "text": "Despite this, it has been claimed that Hall was given just 30 days to move out of the couple's mansion in Bel Air, California."
+        },
+        {
+            "fallacy": "Faulty analogy",
+            "example": "Comparing things that are not similar in relevant respects.",
+            "text": "Murdoch, who is worth \u00c2\u00a314.5 billion, has six children - but none with Hall."
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 0,
+    "reliability": 23.33
+}

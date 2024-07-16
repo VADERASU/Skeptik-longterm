@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liReefvxKDDWmtZgHpZq6daKXoVJ",
+  "object": "chat.completion",
+  "created": 1721159290,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"Shania Twain laughed off a simple mistake made on-stage during her Las Vegas residency.\",\n            \"explanation\": \"The article starts by discussing Shania Twain's on-stage mistake as the main focus, diverting attention from potential issues or criticisms to a less significant event.\"\n        },\n        {\n            \"fallacy\": \"Cherry Picking\",\n            \"example\": \"\\\"Oh my God, that was hilarious,\\\" she said into the mic following the blunder.\",\n            \"explanation\": \"The article highlights the positive reaction Shania Twain had to her mistake while ignoring any potential negative aspects or criticisms that could have been discussed.\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"\\\"People in the comments were impressed, as the moment was proof the 'You're Still The One' singer wasn't lip-syncing.\\\"\",\n            \"explanation\": \"Drawing a generalized conclusion that Shania Twain wasn't lip-syncing based solely on a positive comment from one user, which does not provide sufficient evidence to support the claim.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 256,
+    "total_tokens": 1627
+  },
+  "system_fingerprint": null
 }

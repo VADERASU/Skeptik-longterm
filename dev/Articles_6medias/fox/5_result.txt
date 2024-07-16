@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liRmU92Nb5Lj6uJI1oMuawnF82so",
+  "object": "chat.completion",
+  "created": 1721159298,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Ad hominem\",\n      \"example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n      \"explanation\": \"Former President Trump criticizes the judge and district attorney involved in his trial, suggesting bias and conflict of interest, instead of addressing the legal aspects of the case.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n      \"explanation\": \"Trump focuses on the judge, venue, and district attorney's alleged biases and conflicts instead of discussing the specifics of his guilty verdict or the legal charges against him.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n      \"explanation\": \"Trump implies that his increased media coverage, rallies, and fundraising success during the trial are a direct result of the trial itself, suggesting a causal relationship between legal proceedings and his campaign achievements.\"\n    },\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n      \"explanation\": \"Trump's statement that the guilty verdict is a 'scar' on the New York justice system and a 'sad day for the country' generalizes his personal legal situation to reflect negatively on the entire justice system and country without providing specific evidence or reasoning.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1775,
+    "completion_tokens": 332,
+    "total_tokens": 2107
+  },
+  "system_fingerprint": null
 }

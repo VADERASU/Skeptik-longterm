@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liQCQyffBD49Rxpjyd8ZLHP0oK3T",
+  "object": "chat.completion",
+  "created": 1721159200,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Ad hominem\",\n            \"example\": \"The self-described 'dirty trickster' of right-wing politics unknowingly divulged the plan to liberal reporters Lauren Windsor and Ally Sammarco...\",\n            \"explanation\": \"Roger Stone's character as a 'dirty trickster' is used to discredit his statements instead of addressing the content of his conversation.\"\n        },\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"The Trump campaign launched 62 lawsuits contesting the results of the election across the country in 2020. However, most were quickly dismissed or dropped due to a lack of standing or evidence...\",\n            \"explanation\": \"The implication that the lawsuits were dismissed solely due to a lack of standing or evidence assumes causation without considering other factors that could have led to their dismissal.\"\n        },\n        {\n            \"fallacy\": \"False dilemma/dichotomy\",\n            \"example\": \"Stone, who was a key figure in Trump's 'Stop the Steal' efforts following the 2020 election, characterized his plan to challenge election results in 2024 with three pillars: 'Lawyers, judges, technology.'\",\n            \"explanation\": \"Presenting the plan as only relying on 'Lawyers, judges, technology' creates a false dichotomy, ignoring other potential strategies or factors involved.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1607,
+    "completion_tokens": 297,
+    "total_tokens": 1904
+  },
+  "system_fingerprint": null
 }

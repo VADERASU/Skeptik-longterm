@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liRWiYeuXBH3L6VOfTFuj0UpbxkS",
+  "object": "chat.completion",
+  "created": 1721159282,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"Logical_Fallacies\": [\n        {\n            \"Fallacy\": \"Ad hominem\",\n            \"Explanation\": \"Attacking the person (President Biden) rather than his argument or actions.\",\n            \"Example\": \"Republicans deriding President Biden based on his age and physical movements instead of addressing his policies or decisions.\"\n        },\n        {\n            \"Fallacy\": \"Appeal to tradition\",\n            \"Explanation\": \"Arguing that President Biden's age impacts his ability to govern based on historical norms of younger presidents.\",\n            \"Example\": \"Critics suggesting Biden is declining in old age and cannot handle the responsibilities of the presidency due to his age.\"\n        },\n        {\n            \"Fallacy\": \"Hasty generalization\",\n            \"Explanation\": \"Drawing a conclusion about President Biden's mental acuity based on a few isolated incidents.\",\n            \"Example\": \"Criticizing President Biden's mental acuity based on a limited number of verbal missteps or moments of freezing.\"\n        },\n        {\n            \"Fallacy\": \"Post Hoc (PH)\",\n            \"Explanation\": \"Assuming that President Biden's age causes his alleged lack of clarity or memory issues.\",\n            \"Example\": \"Implying that President Biden's age is directly responsible for his verbal missteps or confusion without considering other factors.\"\n        },\n        {\n            \"Fallacy\": \"False cause (FC)\",\n            \"Explanation\": \"Mistaking correlation (President Biden's age) for causation (alleged decline in mental acuity).\",\n            \"Example\": \"Asserting that President Biden's advanced age is the cause of his supposed decline in cognitive abilities without concrete evidence linking the two.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1905,
+    "completion_tokens": 346,
+    "total_tokens": 2251
+  },
+  "system_fingerprint": null
 }

@@ -1,0 +1,31 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Ad hominem",
+            "example": "In the various diatribes against McDaniel, she was characterized as dishonest and labeled an 'election denier' over her actions on behalf of former President Trump over his claims of a rigged 2020 race, as well as her own remarks that it was unfair."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Below are some of MSNBC's most memorable falsehoods that have appeared on its 'sacred airwaves.' The Russia collusion hoax"
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Like the vast majority of legacy news organizations, MSNBC was quick to dismiss the bombshell revelations of Hunter Biden's laptop during the 2020 election as 'Russian disinformation.'"
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "During the 2020 unrest in Kenosha, Wis., following the police-involved shooting of Jacob Blake, 17-year-old Kyle Rittenhouse fatally shot two people and injured a third person while acting in self-defense. He was later found not guilty following a dramatic trial that received national attention."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "One of the biggest controversies of 2021 was the false narrative that Border Patrol agents were 'whipping' Haitian migrants at the southern border."
+        },
+        {
+            "fallacy": "Equivocation",
+            "example": "In 2017, it was unearthed that Joy Reid had written a series of homophobic blog posts from 2007-2009, years before she became an MSNBC darling."
+        }
+    ],
+    "fallacy_count": 6,
+    "bias": 22.33,
+    "reliability": 22.67
+}

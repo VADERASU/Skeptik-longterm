@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liRqh6AvGxYQ3jtI2XtocN5pFluR",
+  "object": "chat.completion",
+  "created": 1721159302,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"example\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\",\n      \"text\": \"Sahar Tartak told Fox News Digital that violence was bound to happen, as the university has refused to intervene for fear of escalation - which in turn, enables violence to escalate. She said no administrators were at the protest, nor were campus police given instructions to disband it when things turned violent. \\\"If students continue pushing the envelope, I knew this was going to happen, I just didn't expect it to be me,\\\" Tartak said. \\\"I think it's important to understand the violence is at the core of this movement. It's about violence against Jewish people. It's about violence against the West.\\\"\"\n    },\n    {\n      \"fallacy\": \"Strawman (Caricature)\",\n      \"example\": \"Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.\",\n      \"text\": \"Sahar decried the protests as \\\"mob violence.\\\" \\\"So what's going to happen, God forbid, more students get beat up, more of nothing happens, and then in a couple of years, these gangsters take over the universities,\\\" she said. \\\"Allowing them to push the envelope is so dangerous. I am lucky that guy's flag wasn't pointy at the end.\\\"\"\n    },\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"example\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\",\n      \"text\": \"Sahar Tartak mentioned that the protesters formed a circle around her, chanting incendiary slogans and taunting her. \\\"One of the students, whose face was covered in a keffiyeh, took a Palestinian flag that he was holding, waved it in my face and hit my left eye,\\\" Tartak said.\"\n    },\n    {\n      \"fallacy\": \"False Cause (FC)\",\n      \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer.\",\n      \"text\": \"Sahar Tartak stated that the violence was bound to happen because the university refused to intervene for fear of escalation, enabling violence to escalate.\"\n    }\n  ]\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2058,
+    "completion_tokens": 477,
+    "total_tokens": 2535
+  },
+  "system_fingerprint": null
 }

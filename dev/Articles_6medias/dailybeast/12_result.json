@@ -1,0 +1,22 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "False Dilemma/Dichotomy",
+            "explanation": "Presenting two options as the only possibilities",
+            "example": "The text implies that the only choices are either using smartphones with all their features or using kosher phones with limited features, ignoring potential middle grounds where modified smartphones could be used with controlled access."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "explanation": "Mistaking correlation for causation",
+            "example": "The text suggests that the success in keeping ultra-orthodox Jews off social media is solely due to using kosher phones, overlooking other factors that may contribute to this behavior."
+        },
+        {
+            "fallacy": "Hasty Generalization",
+            "explanation": "Drawing a conclusion from a biased or small sample",
+            "example": "The text generalizes the success of kosher phones in the ultra-orthodox community without considering the diversity of reasons and outcomes within the community."
+        }
+    ],
+    "fallacy_count": 3,
+    "bias": 0.67,
+    "reliability": 42
+}

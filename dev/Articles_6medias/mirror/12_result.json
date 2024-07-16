@@ -1,0 +1,19 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Ad hominem",
+            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
+            "location": "The man faced a huge backlash after he skipped the queue to get off his flight when it landed - he feels he did nothing wrong as nobody was getting up.",
+            "explanation": "The backlash against the man's action of skipping the queue is based on personal attacks and criticism of his behavior rather than addressing the specific issue of queuing etiquette."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
+            "location": "One person wrote: 'What is it with people who stand up the minute the plane comes to a stop. You're not going anywhere anyway.'",
+            "explanation": "The comment about people standing up when the plane lands diverts attention from the main issue of the man skipping the queue to an irrelevant point about waiting times."
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 0,
+    "reliability": 34.67
+}

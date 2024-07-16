@@ -1,0 +1,17 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Appeal to emotion",
+            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
+            "explanation": "President Trump is evoking emotions by accusing Rep. Adam Schiff of treason without addressing the legal or factual aspects of the situation."
+        },
+        {
+            "fallacy": "Ad hominem",
+            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
+            "explanation": "President Trump is attacking Rep. Adam Schiff's character by calling for his arrest for treason instead of addressing the allegations or arguments made by Schiff."
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 22.33,
+    "reliability": 27.33
+}

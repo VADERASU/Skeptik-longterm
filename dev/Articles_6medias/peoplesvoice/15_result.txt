@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liV0xBmZdRxr3bPnBvuWcvwDTbpx",
+  "object": "chat.completion",
+  "created": 1721159498,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Appeal to emotion\",\n            \"example\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\",\n            \"explanation\": \"President Trump is evoking emotions by accusing Rep. Adam Schiff of treason without addressing the legal or factual aspects of the situation.\"\n        },\n        {\n            \"fallacy\": \"Ad hominem\",\n            \"example\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n            \"explanation\": \"President Trump is attacking Rep. Adam Schiff's character by calling for his arrest for treason instead of addressing the allegations or arguments made by Schiff.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1502,
+    "completion_tokens": 153,
+    "total_tokens": 1655
+  },
+  "system_fingerprint": null
 }

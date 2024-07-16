@@ -1,0 +1,51 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "Personal attack",
+            "example": "Liberals mocked Donald Trump's 2020 prediction that gas prices under President Biden would reach $7.00 per gallon."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "But liberals were wrong, Trump was spot on, and now we are all feeling the pain thanks to Biden's inept leadership."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "It took just over a year after Biden assumed office for Trump's prediction to come true."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "While it is not difficult to predict that prices, including fuel, will rise under a Democratic president, few of us thought we would see over $7 a gallon, even in California."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "They [wind farms] ruin the environment, they kill the birds and they cost a fortune."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "example": "It's time to re-open America's pipelines and stop being held to ransom by foreign countries intent on swindling the United States."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Since Russia invaded Ukraine, oil prices have continued to surge and gas prices have increased to over $4.00 per gallon."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "example": "Instead of supporting American energy independence, Biden is likely seeking a substitute for Russian oil, which finances the Russian invasion of Ukraine, though Biden has not sanctioned relevant Russian energy suppliers."
+        },
+        {
+            "fallacy": "Post Hoc (PH)",
+            "example": "Over the weekend, the Biden administration secretly met with Venezuelan President Nicol\u00c3\u00a1s Maduro about producing more oil."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "example": "Yet renewable energy is not a long- or short-term solution."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "example": "In 2020, Biden promised he would 'transition' away from the oil industry."
+        }
+    ],
+    "fallacy_count": 11,
+    "bias": 19.33,
+    "reliability": 24.33
+}

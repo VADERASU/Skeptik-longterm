@@ -1,0 +1,32 @@
+{
+    "Logical_Fallacies": [
+        {
+            "Fallacy": "Ad hominem",
+            "Explanation": "Attacking the person (President Biden) rather than his argument or actions.",
+            "Example": "Republicans deriding President Biden based on his age and physical movements instead of addressing his policies or decisions."
+        },
+        {
+            "Fallacy": "Appeal to tradition",
+            "Explanation": "Arguing that President Biden's age impacts his ability to govern based on historical norms of younger presidents.",
+            "Example": "Critics suggesting Biden is declining in old age and cannot handle the responsibilities of the presidency due to his age."
+        },
+        {
+            "Fallacy": "Hasty generalization",
+            "Explanation": "Drawing a conclusion about President Biden's mental acuity based on a few isolated incidents.",
+            "Example": "Criticizing President Biden's mental acuity based on a limited number of verbal missteps or moments of freezing."
+        },
+        {
+            "Fallacy": "Post Hoc (PH)",
+            "Explanation": "Assuming that President Biden's age causes his alleged lack of clarity or memory issues.",
+            "Example": "Implying that President Biden's age is directly responsible for his verbal missteps or confusion without considering other factors."
+        },
+        {
+            "Fallacy": "False cause (FC)",
+            "Explanation": "Mistaking correlation (President Biden's age) for causation (alleged decline in mental acuity).",
+            "Example": "Asserting that President Biden's advanced age is the cause of his supposed decline in cognitive abilities without concrete evidence linking the two."
+        }
+    ],
+    "fallacy_count": 0,
+    "bias": 13.33,
+    "reliability": 23.67
+}

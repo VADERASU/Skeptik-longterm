@@ -1,3 +1,23 @@
 {
-  "debug": "This is a debug response"
+  "id": "chatcmpl-9liSjHteC9r2M6377R59WexyOiRlj",
+  "object": "chat.completion",
+  "created": 1721159357,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"False Dilemma/Dichotomy\",\n            \"example\": \"Claiming you must either support or oppose a policy without considering middle ground.\",\n            \"location\": \"The federal government is promising more airlifts \u00e2\u20ac\u201d depending on conditions on the ground \u00e2\u20ac\u201d as its critics accuse it of moving too slowly.\",\n            \"explanation\": \"The statement presents the situation as a dichotomy of moving too slowly or not, without considering other possibilities or nuances.\"\n        },\n        {\n            \"fallacy\": \"Questionable Conclusion\",\n            \"example\": \"Concluding a policy is effective based on a single study without considering other evidence.\",\n            \"location\": \"A growing chorus of critics is asking why it took the federal government until the end of the week to kick the evacuation into gear.\",\n            \"explanation\": \"Critics questioning the timing of the evacuation does not necessarily lead to the conclusion that the policy was ineffective without considering other factors.\"\n        }\n    ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1979,
+    "completion_tokens": 216,
+    "total_tokens": 2195
+  },
+  "system_fingerprint": null
 }

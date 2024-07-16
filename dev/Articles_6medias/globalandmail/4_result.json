@@ -1,0 +1,19 @@
+{
+    "logical_fallacies": [
+        {
+            "fallacy": "False Dilemma/Dichotomy",
+            "example": "Claiming you must either support or oppose a policy without considering middle ground.",
+            "location": "The federal government is promising more airlifts \u00e2\u20ac\u201d depending on conditions on the ground \u00e2\u20ac\u201d as its critics accuse it of moving too slowly.",
+            "explanation": "The statement presents the situation as a dichotomy of moving too slowly or not, without considering other possibilities or nuances."
+        },
+        {
+            "fallacy": "Questionable Conclusion",
+            "example": "Concluding a policy is effective based on a single study without considering other evidence.",
+            "location": "A growing chorus of critics is asking why it took the federal government until the end of the week to kick the evacuation into gear.",
+            "explanation": "Critics questioning the timing of the evacuation does not necessarily lead to the conclusion that the policy was ineffective without considering other factors."
+        }
+    ],
+    "fallacy_count": 2,
+    "bias": 0,
+    "reliability": 44.67
+}
