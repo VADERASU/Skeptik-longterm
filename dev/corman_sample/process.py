@@ -19,7 +19,7 @@ def send_content_to_openai(content, model="gpt-4o", debug=False):
 
     # Determine max_tokens based on model
     if model == "gpt-4o":
-        max_tokens = 8192
+        max_tokens = 4096
     else:
         max_tokens = 4096
 
@@ -100,8 +100,8 @@ Task: Identify logical fallacies in the given text using this list. Explain wher
         print(f"Debug: Would send payload to OpenAI API: {json.dumps(payload)[:500]}...")  # Print the first 500 characters
         return {"debug": "This is a debug response"}
     else:
-        print("Sleeping 60 seconds.")
-        time.sleep(60)
+        print("Sleeping 5 seconds.")
+        time.sleep(5)
         response = requests.post(url, headers=headers, json=payload)
         return response.json()
 
