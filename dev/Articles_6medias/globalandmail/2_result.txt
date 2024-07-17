@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3PJjNobz3IJYz0FBOuVt3bdd9cI",
+  "id": "chatcmpl-9m449Chrw94jqsoyPXvHSKHsqAUPG",
   "object": "chat.completion",
-  "created": 1721239869,
+  "created": 1721242401,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Sample Case\",\n      \"source\": \"Sample Source\",\n      \"sentences\": {\n        \"1\": \"Example sentence 1.\",\n        \"2\": \"Example sentence 2.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Logical Fallacy 1\",\n          \"Logical Fallacy 2\"\n        ],\n        \"sentences\": {\n          \"Logical Fallacy 1\": [\n            1, 2\n          ],\n          \"Logical Fallacy 2\": [\n            3, 4\n          ]\n        },\n        \"annotations\": {\n          \"Logical Fallacy 1\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Insert explanation here.\",\n                \"sentence\": [1, 2],\n                \"link\": \"https://www.examplelink.com\"\n              }\n            ]\n          },\n          \"Logical Fallacy 2\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Insert explanation here.\",\n                \"sentence\": [3, 4]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n}\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Foreign-interference office coming 'soon' but not yet ready to launch: Mendicino\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"Public Safety Minister Marco Mendicino says the Liberals are not ready to launch the foreign-interference office they promised in last month's federal budget.\",\n        \"2\": \"He insisted he wants to get the office up and running 'as soon as possible' but wouldn't offer any specifics on a timeline.\",\n        \"3\": \"Mendicino said that Public Safety Canada is already working to establish a National Counter-Foreign Interference Office, as promised in the budget.\",\n        \"4\": \"But he said its launch is contingent on Parliament passing the budget bill.\",\n        \"5\": \"The Liberal budget earmarked $56 million over five years for measures to combat foreign interference, threats, and covert activities, most of which is going to the RCMP to investigate threats and proactively work with diaspora communities.\",\n        \"6\": \"The funding would also be put toward launching an office that would help co-ordinate Canada's response to threats from countries including China and Russia.\",\n        \"7\": \"Yet Mendicino offered no timeline for when that office will launch, when asked by MPs and later by reporters.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to tradition\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Appeal to tradition\": [\n            3, 4, 5, 6, 7\n          ],\n          \"Questionable conclusion\": [\n            7\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The repeated reference to the promises made in the budget and the expectation that the office will be launched based on those promises appeal to tradition, assuming that past practices or beliefs should dictate current actions.\",\n                \"sentence\": [3, 4, 5, 6, 7]\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The lack of a specific timeline provided by Mendicino and the uncertainty around the launch of the office lead to a questionable conclusion regarding the actual readiness and commitment to the establishment of the foreign-interference office.\",\n                \"sentence\": [7]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 243,
-    "total_tokens": 1494
+    "prompt_tokens": 2106,
+    "completion_tokens": 532,
+    "total_tokens": 2638
   },
   "system_fingerprint": null
 }

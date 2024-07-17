@@ -1,0 +1,65 @@
+{
+    "cases": [
+        {
+            "name": "GUILTY ON ALL COUNTS! Donald Trump a Convicted Criminal",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The common refrain is that the cover-up is worse than the crime. In this case, the cover-up was the crime.",
+                "2": "Donald Trump is now a convicted criminal\u2014an ignominious distinction added to his increasingly notorious profile: bank fraudster, sexual abuser, and aspiring authoritarian."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        4,
+                        5,
+                        10
+                    ],
+                    "Questionable conclusion": [
+                        17,
+                        18
+                    ]
+                },
+                "annotations": {
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article appeals to tradition by emphasizing Trump's historical actions and presenting them as a definitive part of his character, which can influence readers' perceptions based on long-held beliefs.",
+                                "sentence": [
+                                    4,
+                                    5
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            },
+                            {
+                                "explanation": "The text questions the conclusion of Trump's guilt and potential sentence, leaving room for doubt and uncertainty.",
+                                "sentence": [
+                                    10
+                                ]
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article raises doubts about the certainty of Trump's guilt and potential sentence, which may mislead readers into questioning the validity of the legal process and the severity of the crime.",
+                                "sentence": [
+                                    17,
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": -18,
+            "reliability": 30,
+            "word_count": 1842,
+            "fallacies_per_1000_words": 1.0857763300760044
+        }
+    ]
+}

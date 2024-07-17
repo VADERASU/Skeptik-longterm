@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3PS0fNfG8jShGQObAfrQuoXGzMM",
+  "id": "chatcmpl-9m44LY01dikU82auVbDBaVdYFqeqX",
   "object": "chat.completion",
-  "created": 1721239878,
+  "created": 1721242413,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Example 1\",\n      \"source\": \"Political Debate\",\n      \"sentences\": {\n        \"1\": \"The candidate attacked his opponent's personal life instead of discussing the proposed policies.\",\n        \"2\": \"Furthermore, when questioned about his own past behavior, he responded with, 'Who are you to talk?'\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Personal attack\",\n          \"Who are you to talk?\"\n        ],\n        \"sentences\": {\n          \"Personal attack\": [\n            1\n          ],\n          \"Who are you to talk?\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Personal attack\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate used a personal attack to divert attention from the policy discussion by criticizing the opponent's personal life.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=personal+attack+logical+fallacy\"\n              }\n            ]\n          },\n          \"Who are you to talk?\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate evaded addressing the question by deflecting criticism back to the questioner, which is a form of the 'Who are you to talk?' fallacy.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    },\n    {\n      \"name\": \"Example 2\",\n      \"source\": \"Economic Policy Discussion\",\n      \"sentences\": {\n        \"1\": \"A spokesperson for a political party dismissed the economic opinion of a rival party member by attacking their character.\",\n        \"2\": \"Additionally, the spokesperson refused to acknowledge the validity of the rival's argument, stating, 'What do they know anyway?'\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Evading the Burden of Proof\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1\n          ],\n          \"Evading the Burden of Proof\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The spokesperson attacked the character of the rival party member instead of addressing the economic argument directly, which is a form of the ad hominem fallacy.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=ad+hominem+logical+fallacy\"\n              }\n            ]\n          },\n          \"Evading the Burden of Proof\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The spokesperson failed to provide evidence or support for their own stance on the economic issue, thereby evading the burden of proof.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Harjit Sajjan and the Unauthorized Travel Documents Issue\",\n      \"source\": \"The Canadian Press\",\n      \"sentences\": {\n        \"1\": \"International Development Minister Harjit Sajjan told his fellow MPs Wednesday he did not know a Canadian senator was handing out unauthorized travel documents to hundreds of Afghans during the Taliban's rise in 2021 because he wasn't checking his email at the time.\",\n        \"2\": \"Conservative MP Michelle Remple Garner compared the minister's explanation to the excuse that the 'dog ate my homework.'\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Evading the Burden of Proof\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Evading the Burden of Proof\": [\n            1\n          ],\n          \"Questionable conclusion\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"EBP\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Minister Sajjan fails to provide evidence or support for his claim that he was unaware of the unauthorized travel documents issue due to not checking his email. This statement lacks substantiation and avoids the burden of proof.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=evading+burden+of+proof\"\n              }\n            ]\n          },\n          \"QC\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Michelle Remple Garner draws a questionable conclusion by comparing the minister's explanation to a common excuse, suggesting that Sajjan's reason is inadequate without providing substantial evidence to support this comparison.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 616,
-    "total_tokens": 1867
+    "prompt_tokens": 2078,
+    "completion_tokens": 384,
+    "total_tokens": 2462
   },
   "system_fingerprint": null
 }

@@ -1,0 +1,54 @@
+{
+    "cases": [
+        {
+            "name": "Glencore Threatens Direct Bid for Teck Resources",
+            "source": "WSJ",
+            "sentences": {
+                "1": "New Teck Resources bid could go directly to shareholders, Glencore says",
+                "2": "Glencore PLC GLNCY, the Swiss commodities giant in pursuit of Teck Resources Ltd. TECK-N has threatened to take any new offer directly to Teck shareholders unless the board of the Canadian company opens negotiations that might lead to the merger of the two companies."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Hasty generalization"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        2
+                    ],
+                    "Hasty generalization": [
+                        48
+                    ]
+                },
+                "annotations": {
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement implies that a merger between the two companies is the only viable outcome, without considering other possibilities or the complexities involved in such a decision.",
+                                "sentence": [
+                                    2
+                                ],
+                                "link": "https://www.logicallyfallacious.com/logicalfallacies/Questionable-Conclusion"
+                            }
+                        ]
+                    },
+                    "Hasty generalization": {
+                        "Explanation": [
+                            {
+                                "explanation": "Drawing a conclusion that Teck investors are clearly expecting a higher bid from Glencore and preparing for a bidding war based on the behavior of hedge funds, which may not represent the entire investor base or accurately predict future actions.",
+                                "sentence": [
+                                    48
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 41,
+            "word_count": 834,
+            "fallacies_per_1000_words": 2.398081534772182
+        }
+    ]
+}

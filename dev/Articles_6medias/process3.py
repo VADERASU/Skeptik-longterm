@@ -1,38 +1,82 @@
-import os
 import json
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error, r2_score
+import matplotlib.pyplot as plt
 
+# Load the JSON file
+with open('combined_results.json') as file:
+    data = json.load(file)
 
-def collect_result_files(base_dir):
-    result_files = []
-    for root, dirs, files in os.walk(base_dir):
-        for file in files:
-            if file.endswith('_result.json'):
-                result_files.append(os.path.join(root, file))
-    return result_files
+# Extract relevant data
+records = []
+for item in data:
+    for case in item['cases']:
+        if 'fallacies_per_1000_words' in case:
+            fallacies_per_1000_words = case['fallacies_per_1000_words']
+            bias = case['bias']
+            reliability = case['reliability']
+            records.append({
+                'fallacies_per_1000_words': fallacies_per_1000_words,
+                'bias': bias,
+                'reliability': reliability,
+            })
+        else:
+            print(f"Missing fallacies_per_1000_words in case: {case}")
 
+# Convert to DataFrame
+df = pd.DataFrame(records)
 
-def combine_json_files(file_paths, output_file):
-    combined_data = []
+# Verify data
+print(df.head())
 
-    for file_path in file_paths:
-        try:
-            with open(file_path, 'r') as file:
-                data = json.load(file)
-                combined_data.append(data)
-        except Exception as e:
-            print(f"Error reading {file_path}: {e}")
+# Check if DataFrame is empty
+if df.empty:
+    raise ValueError("The DataFrame is empty. No valid records found.")
 
-    try:
-        with open(output_file, 'w') as output_file:
-            json.dump(combined_data, output_file, indent=4)
-        print(f"Combined JSON saved to {output_file.name}")
-    except Exception as e:
-        print(f"Error writing combined JSON: {e}")
+# Features and target
+X = df[['bias', 'reliability']]
+y = df['fallacies_per_1000_words']
 
+# Split the data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Replace 'your_directory' with the path to your directory
-base_directory = './'
-output_file_path = 'combined_results.json'
+# Initialize models
+models = {
+    'Linear Regression': LinearRegression(),
+    'Decision Tree': DecisionTreeRegressor(random_state=42),
+    'Random Forest': RandomForestRegressor(random_state=42)
+}
 
-result_files = collect_result_files(base_directory)
-combine_json_files(result_files, output_file_path)
+# Train models and evaluate
+results = {}
+for name, model in models.items():
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    mse = mean_squared_error(y_test, y_pred)
+    rmse = mse ** 0.5
+    r2 = r2_score(y_test, y_pred)
+    results[name] = {'Model': model, 'MSE': mse, 'RMSE': rmse, 'R²': r2}
+
+# Display results
+for name, result in results.items():
+    print(f'{name}:')
+    print(f'  MSE: {result["MSE"]}')
+    print(f'  RMSE: {result["RMSE"]}')
+    print(f'  R²: {result["R²"]}\n')
+
+# Plot results
+plt.figure(figsize=(14, 7))
+for name, result in results.items():
+    y_pred = result['Model'].predict(X_test)
+    plt.scatter(y_test, y_pred, label=name)
+
+plt.plot([y.min(), y.max()], [y.min(), y.max()], 'k--', lw=2)
+plt.xlabel('Measured')
+plt.ylabel('Predicted')
+plt.legend()
+plt.title('Measured vs Predicted Fallacies per 1000 Words')
+plt.show()

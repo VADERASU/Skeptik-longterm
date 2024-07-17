@@ -1,0 +1,80 @@
+{
+    "cases": [
+        {
+            "name": "President Biden appears to freeze at White House Juneteenth event",
+            "source": "WSJ",
+            "sentences": {
+                "1": "President Biden appeared to freeze during a Juneteenth celebration at the White House on Monday.",
+                "2": "Biden, 81, was filmed standing still as stone while those around him, including Vice President Kamala Harris, clapped and danced to a concert featuring gospel singer Kirk Franklin.",
+                "3": "Republicans, who have sought to make the president's advanced age an issue in the 2024 election, were quick to deride the president.",
+                "4": "Critics say Biden is declining in his old age and can't handle the responsibilities of the presidency.",
+                "5": "Earlier this year, a report from Biden's own Department of Justice's special counsel called him an 'elderly man with a poor memory' at the end of an investigation into his mishandling of classified documents dating back to his Senate tenure, which ultimately saved him from having charges brought against him by Special Counsel Robert Hur.",
+                "6": "Biden has been prone to gaffes going back to when he was vice president, but the frequency and nature of his verbal missteps in recent years appear to be more significant.",
+                "7": "At 81, Biden is the oldest man to serve as president in U.S. history.",
+                "8": "If he is re-elected in November, he will be 86 when his second term ends. The presumptive Republican presidential nominee, former President Trump, is just four years younger at 77."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Hasty generalization",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        3
+                    ],
+                    "Hasty generalization": [
+                        6
+                    ],
+                    "Questionable conclusion": [
+                        5,
+                        8
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "The critics are attacking Biden personally based on his age and alleged decline rather than addressing his policies or actions.",
+                                "sentence": [
+                                    3
+                                ]
+                            }
+                        ]
+                    },
+                    "Hasty generalization": {
+                        "Explanation": [
+                            {
+                                "explanation": "Drawing a conclusion about Biden's mental capabilities based on a biased sample of gaffes without considering the full context or other factors.",
+                                "sentence": [
+                                    6
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The report from Biden's Department of Justice's special counsel making a conclusion about Biden's memory and mishandling of documents without providing substantial evidence or context.",
+                                "sentence": [
+                                    5
+                                ]
+                            },
+                            {
+                                "explanation": "Comparing Biden's age to Trump's age without acknowledging other relevant factors that contribute to an individual's ability to serve as president.",
+                                "sentence": [
+                                    8
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 13.33,
+            "reliability": 23.67,
+            "word_count": 709,
+            "fallacies_per_1000_words": 4.2313117066290555
+        }
+    ]
+}

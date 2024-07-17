@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3YDchdDKLtItAzGDb4nxTFcdzV5",
+  "id": "chatcmpl-9m49YiiuyGuSZEqxkBR4tskQVsLow",
   "object": "chat.completion",
-  "created": 1721240421,
+  "created": 1721242736,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Healthcare\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"A politician discredits an opponent by criticizing their character instead of addressing the policy.\",\n        \"2\": \"Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.\",\n        \"3\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Strawman (Caricature)\",\n          \"Appeal to emotion\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1\n          ],\n          \"Strawman (Caricature)\": [\n            2\n          ],\n          \"Appeal to emotion\": [\n            3\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The fallacy occurs here as the politician is attacking the opponent's character instead of addressing the policy directly.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Strawman (Caricature)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The fallacy occurs here as the opponent's argument for universal healthcare is distorted and misrepresented as advocating for a government-controlled system, creating a weaker version to attack.\",\n                \"sentence\": [2]\n              }\n            ]\n          },\n          \"Appeal to emotion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The fallacy occurs here as emotional stories of soldiers are used to argue against war without addressing the broader political implications of the decision.\",\n                \"sentence\": [3]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}  \n}"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Meghan Markle Buckingham Palace balcony ban was 'more than she could bear'\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"The Duke and Duchess of Sussex decided Harry would attend the King's Coronation at Westminster Abbey on May 6 as it would appear a 'terrible snub' if he failed to turn up.\",\n        \"2\": \"Meghan Markle's exclusion from the traditional Buckingham Palace balcony appearance at the upcoming King's coronation was 'more than she could bear', a royal expert has said.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to tradition\",\n          \"Appeal to tradition\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Appeal to tradition\": [\n            2,\n            6\n          ],\n          \"Questionable conclusion\": [\n            35\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The argument that Meghan's exclusion from the traditional Buckingham Palace balcony appearance was 'more than she could bear' appeals to tradition by suggesting that the significance of this tradition should dictate Meghan's emotional response.\",\n                \"sentence\": [2],\n                \"link\": \"\"\n              },\n              {\n                \"explanation\": \"The statement that Meghan could have attended the coronation as they have a big team of helpers and making excuses based on tradition and social status reflects an appeal to tradition fallacy.\",\n                \"sentence\": [6],\n                \"link\": \"\"\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion that Harry attending the coronation alone could jeopardize their future earnings and potential to get back with the royals is questionable as it lacks strong evidence or reasoning.\",\n                \"sentence\": [35]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 386,
-    "total_tokens": 1637
+    "prompt_tokens": 2028,
+    "completion_tokens": 426,
+    "total_tokens": 2454
   },
   "system_fingerprint": null
 }

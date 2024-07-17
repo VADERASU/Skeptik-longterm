@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3UoJFvy66PrcsW5kI8C5hsRbE3d",
+  "id": "chatcmpl-9m40BfEwYJb7Qd54ucQ9juaCCjECl",
   "object": "chat.completion",
-  "created": 1721240210,
+  "created": 1721242155,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Healthcare\",\n      \"source\": \"Debate Forum\",\n      \"sentences\": {\n        \"1\": \"The candidate from Party A dismissed the healthcare proposal from Party B by stating it would lead to a socialist government takeover.\",\n        \"2\": \"The candidate failed to address the specifics of the proposed healthcare plan and instead focused on associating it with a negative political ideology.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Strawman (Caricature)\"\n        ],\n        \"sentences\": {\n          \"Strawman (Caricature)\": [\n            1\n          ]\n        },\n        \"annotations\": {\n          \"Strawman (Caricature)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate misrepresents the opponent's healthcare proposal as advocating for a socialist government takeover, which is a distorted and exaggerated version of the actual plan.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=strawman+fallacy\"\n              }\n            ]\n          }\n        }\n      }\n    },\n    {\n      \"name\": \"Climate Change Policy Discussion\",\n      \"source\": \"Environmental Conference\",\n      \"sentences\": {\n        \"1\": \"During the panel discussion on climate change policies, one participant diverted the conversation by bringing up the economic costs of implementing environmental regulations.\",\n        \"2\": \"This tactic shifted the focus away from the urgent need for sustainable policies to address climate change.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Red Herring (sidetracking)\"\n        ],\n        \"sentences\": {\n          \"Red Herring (sidetracking)\": [\n            1\n          ]\n        },\n        \"annotations\": {\n          \"Red Herring (sidetracking)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"By introducing the economic costs as a distraction, the participant avoided addressing the core issue of implementing effective climate change policies.\",\n                \"sentence\": [1]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Biden's 'perpetual state of confusion' on display in Normandy amid rising cognitive questions\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"The Republican National Committee (RNC) research division posted several videos on X that appeared to show President Biden in 'a perpetual state of confusion' following his speech in Normandy on Thursday to commemorate the 80th anniversary of D-Day.\",\n        \"2\": \"Questions about Biden's mental acuity circulated this week after The Wall Street Journal's bombshell report that interviewed 45 lawmakers and administration officials about Biden's mental performance.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Hasty generalization\",\n          \"Appeal to tradition\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Hasty generalization\": [\n            30\n          ],\n          \"Appeal to tradition\": [\n            65\n          ],\n          \"Questionable conclusion\": [\n            67\n          ]\n        },\n        \"annotations\": {\n          \"RH\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The article makes a hasty generalization by drawing a conclusion about Biden's mental acuity based on limited interviews with selected individuals.\",\n                \"sentence\": [30]\n              }\n            ]\n          },\n          \"Appeal to tradition (tradition)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The article appeals to tradition by mentioning skepticism about Biden's age and mental ability, implying that because of his age, he may not be fit for his job.\",\n                \"sentence\": [65]\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The article draws a questionable conclusion by suggesting that Biden's mental performance is questionable based on conflicting accounts and partisan politics.\",\n                \"sentence\": [67]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 452,
-    "total_tokens": 1703
+    "prompt_tokens": 1974,
+    "completion_tokens": 428,
+    "total_tokens": 2402
   },
   "system_fingerprint": null
 }

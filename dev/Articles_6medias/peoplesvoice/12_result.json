@@ -1,0 +1,63 @@
+{
+    "cases": [
+        {
+            "name": "Hillary Clinton's Coffee Mug Sale",
+            "source": "Breitbart",
+            "sentences": {
+                "1": "Twice-failed presidential candidate Hillary Clinton has started raising money for a potential return to politics by selling coffee mugs that mock the fact she scrubbed 33,000 emails containing dozens of pages of top-secret classified information from her tenure as Secretary of State under then-President Barack Obama.",
+                "2": "In total, 37 pages of classified information were on Clinton's private server. Fast forward to 2022 and the brazen career criminal seems determined to rub our faces in it.",
+                "3": "Hillary is selling the coffee mugs for the shameless price of 20 American dollars. Her website warns the shipment of the mugs may be delayed for over a week - perhaps due to the current supply-chain woes occurring under the hapless Biden administration.",
+                "4": "\"Take a sip from your new mug as you read the news\u00e2\u20ac\u00a6,\" Hillary tweeted out a photo of the mug and headline that slams her former opponent, Trump, and proves that she still hasn't moved on from her 2016 electoral beat-down.",
+                "5": "Breitbart report: In 2019, Donald Trump called on Congress to look into Hillary's 'deleted and acid-washed' emails.",
+                "6": "\"Will Jerry Nadler ever look into the fact that Crooked Hillary deleted and acid-washed 33,000 emails AFTER getting a most powerful demand notice for them from Congress?\" he asked.",
+                "7": "Nothing came of Trump's demand.",
+                "8": "Former FBI director James Comey a year prior denied Hillary's destruction of 33,000 government-related emails on a personal server was worth prosecuting. Calling it \"sloppiness,\" Comey told ABC News that \"even extreme sloppiness \u00e2\u20ac\u201d is handled through administrative discipline,\" he said. \"Somebody is not prosecuted.",
+                "9": "\"And I've gone through 50 years of cases. I don't know of a case where anyone has ever been prosecuted for just being careless, even extremely careless,\" he continued to excuse Hillary.",
+                "10": "\"And so the investigators knew that unless they found something that was a smoking gun, where someone told Secretary Clinton, \u00e2\u20ac\u02dcYou know, you shouldn't be doing this,' or where she acknowledged it or where \u00e2\u20ac\u00a6 there's an indication of her obstructing justice, the case was unlikely to be prosecuted,\" Comey explained.",
+                "11": "Comey was fired in 2017 by Donald Trump during the \"Russiagate\" hoax."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        1
+                    ],
+                    "Questionable conclusion": [
+                        11
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement refers to Hillary Clinton as a 'brazen career criminal,' attacking her character rather than addressing the issue of selling coffee mugs related to her past controversies.",
+                                "sentence": [
+                                    1
+                                ],
+                                "link": ""
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The sentence implies that James Comey's firing by Donald Trump during the 'Russiagate' hoax is a direct consequence of Comey excusing Hillary Clinton's actions regarding the deleted emails. This conclusion is questionable as it oversimplifies the events and ignores other factors that may have led to Comey's dismissal.",
+                                "sentence": [
+                                    11
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 22,
+            "reliability": 19,
+            "word_count": 425,
+            "fallacies_per_1000_words": 4.705882352941176
+        }
+    ]
+}

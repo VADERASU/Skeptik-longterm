@@ -1,0 +1,57 @@
+{
+    "cases": [
+        {
+            "name": "Amanda Owen and Clive Owen's Living Arrangement",
+            "source": "Lorraine",
+            "sentences": {
+                "1": "Clive Owen revealed his ex-wife Amanda Owen still 'cooks all his meals' even after they ended their 22-year marriage.",
+                "2": "Our Yorkshire Farm star Clive spoke to Christine Lampard as he set the record straight about the reasons behind their separation.",
+                "3": "Clive also explained that despite their separation, they live close to each other and are still in each other's lives."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        2,
+                        3
+                    ],
+                    "Questionable conclusion": [
+                        22
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "Clive is emphasizing the continuation of their close living arrangements as a positive aspect despite their separation, appealing to the tradition of staying connected even after a relationship ends.",
+                                "sentence": [
+                                    2,
+                                    3
+                                ],
+                                "link": ""
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion drawn by Clive that the relationship would have been different if he had supported Amanda more is questionable as it oversimplifies the complexities of relationships and the reasons for their separation.",
+                                "sentence": [
+                                    22
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 35,
+            "word_count": 470,
+            "fallacies_per_1000_words": 4.25531914893617
+        }
+    ]
+}

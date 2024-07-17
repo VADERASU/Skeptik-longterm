@@ -1,0 +1,75 @@
+{
+    "cases": [
+        {
+            "name": "Rupert Murdoch's Divorce Announcement",
+            "source": "The Mirror",
+            "sentences": {
+                "1": "Billionaire Rupert Murdoch's divorce with Jerry Hall was apparently started by the media mogul without any warning as the news spread of their shock split in June 2022.",
+                "2": "Rupert Murdoch ended his marriage to Jerry Hall with an 11-word sentence emailed to her, it has been claimed.",
+                "3": "The brutal email was sent by Murdoch when Hall was waiting to meet him at their home in Oxfordshire, her pal says.",
+                "4": "\"Jerry, sadly I've decided to call an end to our marriage,\" Rupert Murdoch reportedly wrote to his fourth wife.",
+                "5": "He added: \"We have certainly had some good times, but I have much to do. My New York lawyer will be contacting yours immediately\".",
+                "6": "The divorce was reportedly initiated by the billionaire media mogul without any warning in June 2022.",
+                "7": "The end of the couple's six-year marriage marked the 92-year-old's fourth to be dissolved.",
+                "8": "However, it was Hall's first marriage after previously being in a long-term relationship with Rolling Stones rocker Mick Jagger.",
+                "9": "Almost one year on from their unexpected divorce, new claims have emerged about the brutal way in which Murdoch went about informing his wife that it was over.",
+                "10": "Friends of former supermodel Hall said she was 'blindsided' by the split, as the couple had 'never fought' and Murdoch's wife had stood by him and cared for him throughout several battles with illnesses.",
+                "11": "Despite this, it has been claimed that Hall was given just 30 days to move out of the couple's mansion in Bel Air, California.",
+                "12": "Security guards are believed to have watched Hall pack her belongings as she was 'helped by her children' the report in Vanity Fair claimed.",
+                "13": "The divorce was finalised in August last year after which Hall was stopped from giving story ideas to writers of Succession - a show which is loosely based on the Murdoch family.",
+                "14": "Murdoch, who is worth \u00c2\u00a314.5 billion, has six children - but none with Hall.",
+                "15": "They are daughter Prudence MacLeod with his first wife Patricia Booker, daughter Elisabeth and sons Lachlan and James with his second spouse Anna Mann, and daughters Chloe and Grace, who he shares with his third wife Wendi Deng.",
+                "16": "Murdoch and Hall, 65, wed in March 2016 in central London. The billionaire marked the occasion by announcing on Twitter he would stop posting on the platform, calling himself 'the luckiest and happiest man in the world'.",
+                "17": "Last month, Murdoch shocked the showbiz world when he announced that he is engaged to be married, again, less than a year after he and Hall divorced.",
+                "18": "The billionaire and Ann Lesley Smith met just seven months ago following the finalisation of his fourth marriage to model Hall.",
+                "19": "However It now believed that the couple's wedding is off. It would have been his fifth ceremony and Lesley Ann's second.",
+                "20": "Murdoch owns The Sun and The Times newspapers in the UK, Fox News and The Wall Street Journal in the States and papers in his native Australia.",
+                "21": "The Murdoch family's shares in the companies he founded reside in a managed trust.",
+                "22": "The Mirror has reached out to Murdoch and Hall's representatives for comment on this story."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Red Herring (sidetracking)"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        7,
+                        13
+                    ],
+                    "Red Herring (sidetracking)": [
+                        17
+                    ]
+                },
+                "annotations": {
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that the divorce was initiated without warning and the details about Hall's restrictions on sharing stories are presented without sufficient evidence or context, leaving room for doubt.",
+                                "sentence": [
+                                    7,
+                                    13
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring (sidetracking)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The sudden announcement of Murdoch's engagement after the divorce is a distraction from the main topic of discussion, which is the divorce itself.",
+                                "sentence": [
+                                    17
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 23.33,
+            "word_count": 531,
+            "fallacies_per_1000_words": 3.766478342749529
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "cases": [
+        {
+            "name": "Coronation Street's Carla Connor Poisoning",
+            "source": "Coronation Street",
+            "sentences": {
+                "1": "Coronation Street's Carla Connor saved by unlikely resident as fans work out Stephen's downfall",
+                "2": "Coronation Street's Carla Connor is being poisoned by murderer Stephen Reid but one unlikely friend may step in to help",
+                "3": "Coronation Street's Carla Connor has been left believing she's losing her mind as Stephen Reid secretly poisons her but fans think they've figured out how the murderer will finally get his comeuppance.",
+                "4": "Stephen Reid (Todd Boyce) has been trying to hide his murderous streak from his Weatherfield neighbours while attempting to get his hands on as much money as possible.",
+                "5": "His latest scheme has involved him spiking Carla's (Alison King) drinks with LSD to convince her and those around her that she's suffering from psychosis.",
+                "6": "Coronation Street fans will remember Carla suffered a mental breakdown previously and her friends believe she may be experiencing the same symptoms.",
+                "7": "In Wednesday's installment, Carla kicked everyone out of the factory as the mind-altering drugs Stephen slipped into her drink kick in once again.",
+                "8": "After repeatedly shutting Stephen down in an important business meeting, the killer was shunned away to make tea and coffee.",
+                "9": "He then dropped LSD into her cup and was almost caught by Sally Metcalfe (Sally Dynevor) when she reminded him about Carla's milk preferences.",
+                "10": "Carla began to hallucinate after drinking her tea but no one seemed to make the connection that her beverage was to blame.",
+                "11": "However, a seemingly throwaway comment from Sally has led fans to predict she could be the one to seal the killer's fate.",
+                "12": "One fan urged: 'Wow, Peter think like Sally. She said Carla was fine before the Coffee #corrie #coronationstreet.'",
+                "13": "'Can they pleeeeeease hurry and make the connection between Stephen's brews and Carla's episodes #boring #Corrie,' another suggested.",
+                "14": "A third asked: 'How is no one clicking on that Carla only goes mad when Stephen makes her a drink? And why the f**k is nothing happening about him murdering those 2 fellas?'",
+                "15": "Another added: 'I need someone to make Carla a cup of tea and realise she's fine drinking it, then Stephen to make her a cup and realise she's gone mental #corrie,' while a fifth said: 'Carla is eventually going to twig it's Stephen and no one will believe her.'",
+                "16": "Meanwhile, it seems Stephen may have his eyes set on another victim as dodgy businessman Rufus Donahue (Steve Meo) let the killer know he suspects he's spiked Carla.",
+                "17": "Will Stephen take deadly action against Rufus before turning his attention back to Carla?"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        6
+                    ],
+                    "Questionable conclusion": [
+                        17
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The fallacy of appeal to tradition occurs in this sentence by suggesting that just because Carla suffered a mental breakdown previously, her current symptoms must be the same. This assumes that past events dictate future outcomes without considering other factors.",
+                                "sentence": [
+                                    6
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The fallacy of a questionable conclusion is present in this sentence by prematurely assuming Stephen will turn his attention back to Carla before considering all possible scenarios or evidence.",
+                                "sentence": [
+                                    17
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 32.33,
+            "word_count": 426,
+            "fallacies_per_1000_words": 4.694835680751174
+        }
+    ]
+}

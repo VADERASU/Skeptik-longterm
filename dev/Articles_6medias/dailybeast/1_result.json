@@ -1,0 +1,72 @@
+{
+    "cases": [
+        {
+            "name": "Roger Stone Caught on Tape Discussing Trump's Plan to Challenge 2024 Election",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Self-proclaimed 'dirty trickster' Roger Stone was secretly videotaped at Mar-a-Lago during a remarkably candid conversation.",
+                "2": "Roger Stone, a longtime Republican operative who served as an adviser to Donald Trump, was secretly recorded at Mar-a-Lago spilling the beans on the former president's strategy to challenge the results of the 2024 election should he lose again.",
+                "3": "The self-described 'dirty trickster' of right-wing politics unknowingly divulged the plan to liberal reporters Lauren Windsor and Ally Sammarco, who posed as Trump fans and covertly videotaped him at a 'Catholics Prayer for Trump' event on March 19. The recordings were first reported by Rolling Stone.",
+                "4": "The remarkably candid conversation is just the latest released by Windsor and her left-leaning sting group, The Undercurrent, in recent weeks\u00e2\u20ac\u201dand comes on the heels of headline-grabbing tapes that captured both Supreme Court Justice Samuel Alito and his wife, Martha-Ann Alito, weighing in on a number of hot button culture war issues facing the court and the country.",
+                "5": "Stone, who was a key figure in Trump's 'Stop the Steal' efforts following the 2020 election, characterized his plan to challenge election results in 2024 with three pillars: 'Lawyers, judges, technology.' He also bragged that the Trump campaign occupied strong 'offensive footing' this time around.",
+                "6": "'In some states, it'll be easier to stop. In other places it won't,' Stone told Sammarco. 'At least this time when they do it, you have a lawyer and a judge, his home phone number standing by so you can stop it,' apparently referring to the certification of 2024 results.",
+                "7": "'We made no preparations last time, none,' he added.",
+                "8": "Stone also tacitly endorsed storming the Capitol building after Sammarco told him she was at the insurrection.",
+                "9": "'That may not be necessary,' Stone continued. 'There are technical, legal steps we have to take to try to have a more honest election.'",
+                "10": "Stone noted during the conversation that the Trump campaign is attempting to change state voting laws and plans to immediately file a number of lawsuits seeking to change the results should the former president lose again, as Trump allies did in Michigan and several other states in 2020.",
+                "11": "'We should be suing in a half a dozen places,' Stone said of the Michigan lawsuit, adding that the RNC's war chest would be tapped to fund the various lawsuits.",
+                "12": "The Trump campaign launched 62 lawsuits contesting the results of the election across the country in 2020. However, most were quickly dismissed or dropped due to a lack of standing or evidence, according to Bloomberg Law.",
+                "13": "Stone told Windsor that the Trump campaign even has governors who are ready to contest this November's election results\u00e2\u20ac\u201dthough he qualified, candidly, that there 'aren't many' willing to put their reputation on the line in service of the former president."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Cherry Picking"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        10,
+                        13
+                    ],
+                    "Cherry Picking": [
+                        12
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "Roger Stone is appealing to tradition by suggesting that contesting election results through lawsuits is a valid approach because Trump allies did so in several states in 2020. However, the fact that something was done in the past does not necessarily make it the best or only way to handle election disputes.",
+                                "sentence": [
+                                    10
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            },
+                            {
+                                "explanation": "Roger Stone implies that governors contesting election results in November is a reasonable action by pointing out that there are some governors willing to do so. This appeal to tradition assumes that following this pattern is valid without considering other perspectives or options.",
+                                "sentence": [
+                                    13
+                                ]
+                            }
+                        ]
+                    },
+                    "Cherry Picking": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement highlights the Trump campaign's launch of 62 lawsuits to contest election results in 2020 but fails to mention the outcome or reasons for the dismissal of most of these lawsuits, which could provide a more balanced view of the effectiveness of such legal actions. This selective presentation of information influences the perception of the Trump campaign's legal strategies.",
+                                "sentence": [
+                                    12
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": -11,
+            "reliability": 33.67,
+            "word_count": 469,
+            "fallacies_per_1000_words": 4.264392324093817
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "cases": [
+        {
+            "name": "Royal 'Coronation roles' - Kate's message, Louis' carriage ride and Meghan snub",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The Coronation of King Charles will be the first time in 70 years that the UK or even the world has seen such a historic spectacle.",
+                "2": "It is the first time in recent history that an already existing crown will be used during the Coronation of a Queen Consort instead of a new one being made."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        2
+                    ],
+                    "Questionable conclusion": [
+                        1
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument relies on the tradition of using an existing crown during the Coronation of a Queen Consort instead of creating a new one as a basis for decision-making, without providing a strong rationale beyond tradition.",
+                                "sentence": [
+                                    2
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement presents the upcoming Coronation of King Charles as a historic event based on the time gap since the last similar spectacle, which may not inherently make it historic or significant.",
+                                "sentence": [
+                                    1
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 41.33,
+            "word_count": 1501,
+            "fallacies_per_1000_words": 1.3324450366422385
+        }
+    ]
+}

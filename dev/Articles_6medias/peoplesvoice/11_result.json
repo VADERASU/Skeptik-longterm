@@ -1,0 +1,58 @@
+{
+    "cases": [
+        {
+            "name": "Trump's 2020 Prediction Gas Prices Would Reach $7 Under Biden Comes True",
+            "source": "Breitbart",
+            "sentences": {
+                "1": "Liberals mocked Donald Trump's 2020 prediction that gas prices under President Biden would reach $7.00 per gallon.",
+                "2": "But liberals were wrong, Trump was spot on, and now we are all feeling the pain thanks to Biden's inept leadership.",
+                "3": "While it is not difficult to predict that prices, including fuel, will rise under a Democratic president, few of us thought we would see over $7 a gallon, even in California.",
+                "4": "Instead of supporting American energy independence, Biden is likely seeking a substitute for Russian oil, which finances the Russian invasion of Ukraine, though Biden has not sanctioned relevant Russian energy suppliers."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Appeal to authority (dubious authority)"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        1,
+                        3
+                    ],
+                    "Appeal to authority (dubious authority)": [
+                        4
+                    ]
+                },
+                "annotations": {
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that Trump's prediction was accurate solely based on gas prices reaching $7 under Biden is questionable as it oversimplifies the factors affecting gas prices.",
+                                "sentence": [
+                                    1,
+                                    3
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument relies on Trump's authority without providing substantial evidence to support the claim.",
+                                "sentence": [
+                                    4
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 19.33,
+            "reliability": 24.33,
+            "word_count": 384,
+            "fallacies_per_1000_words": 5.208333333333333
+        }
+    ]
+}

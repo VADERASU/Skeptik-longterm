@@ -1,0 +1,79 @@
+{
+    "cases": [
+        {
+            "name": "Warning of Candida Auris Outbreak",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Urgent warning of super contagious 'Last Of Us' black fungus with 60% mortality",
+                "2": "Cases of Candida auris, better known as C auris, has risen rapidly over recent months which has sparked fears of another killer disease following the start of the coronavirus pandemic in 2020",
+                "3": "The American College of Physicians (ACAP) has issued a warning about the rise of a deadly fungus, which it has described as 'particularly concerning'.",
+                "4": "Cases of Candida auris, better known as C auris, has risen rapidly over recent months which has sparked fears of another killer disease.",
+                "5": "The Centers for Disease Control and Prevention (CDC) had already described as an 'urgent threat' in 2019 but statistics show that numbers have increased over the last four years.",
+                "6": "New research from the CDC has revealed case numbers more than tripled across the United States between 2020 and 2021.",
+                "7": "The fungus is thought to have a death-rate of 60 per cent of the people it infects.",
+                "8": "A person is infected following direct contact with a contaminated object and can spread among humans through direct contact. Strict handwashing can limit spreading.",
+                "9": "The latest study looked at the number of confirmed and probable cases which were reported to state and local health facilities between 2016 and 2021.",
+                "10": "Fungal infections caused 7,000 deaths in the US in 2021, according to the CDC, with 1.5 million deaths worldwide. It has been suggested by some experts that this is due to the changing climate which is ideal for the fungus.",
+                "11": "Researchers found infections had risen from 1,310 in 2020 to 4,041 in 2021, while clinical cases of C auris increased to 2,377 with 5,754 screening results last year.",
+                "12": "Authors of the CDC study, according to Daily Mail, said the findings 'highlight the need for improved detection and infection control practices to prevent spread of C auris'.",
+                "13": "They also added that the spread of the fungus could have been 'exacerbated by pandemic-related strain on the health care and public health systems'.",
+                "14": "Antifungal drug echinocandin is the first line of therapy given to treat C auris.",
+                "15": "It was first reported in America in 2016 but was given the highest level of concern by the CDC due to its frequent resistance to many drugs, the ease of the spread in healthcare settings and the high morality rate.",
+                "16": "The main symptoms of the deadly fungus are fever and chills which do not improve. It can cause different kinds of infection and it is thought that the number of C auris cases may be underestimated in the study as screening for the fungus is not uniformly conducted across the country.",
+                "17": "New York City and Chicago were reported to be the worst affected, but cases of C auris have now occurred in more than half of US states. Most of the spread of cases has been in long-term care hospitals and nursing homes.",
+                "18": "Three states \u2014 Oregon, Minnesota, and Michigan \u2014 all reported their first case of the fungus in 2021. Meanwhile, areas with previous cases but limited spread, such as California, Texas, and Florida, had new and increasing transmission."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        2,
+                        10
+                    ],
+                    "Questionable conclusion": [
+                        17,
+                        18
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The appeal to tradition fallacy occurs in sentence 2 where the text implies that the rise of Candida auris is concerning because it follows the start of the coronavirus pandemic in 2020. This implies that the tradition of previous killer diseases following pandemics makes the current situation more alarming, which is not a valid basis for assessing the severity of the current issue.",
+                                "sentence": [
+                                    2
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            },
+                            {
+                                "explanation": "The appeal to tradition fallacy is present in sentence 10 where the text suggests that the increase in fungal infections and deaths may be due to the changing climate, which is described as ideal for the fungus. This implies that the tradition of climate change causing ideal conditions for fungal growth is a definite causal factor, which oversimplifies the complex interactions involved in disease spread.",
+                                "sentence": [
+                                    10
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The questionable conclusion fallacy occurs in sentences 17 and 18 where the text presents an alarming scenario of new and increasing transmission of C auris in areas with previous cases but limited spread, without providing sufficient evidence or context to support this conclusion. This oversimplification of the situation leads to a hasty and unwarranted generalization about the spread of the fungus.",
+                                "sentence": [
+                                    17,
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 40.67,
+            "word_count": 512,
+            "fallacies_per_1000_words": 3.90625
+        }
+    ]
+}

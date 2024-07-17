@@ -1,0 +1,66 @@
+{
+    "cases": [
+        {
+            "name": "Foreign-interference office coming 'soon' but not yet ready to launch: Mendicino",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Public Safety Minister Marco Mendicino says the Liberals are not ready to launch the foreign-interference office they promised in last month's federal budget.",
+                "2": "He insisted he wants to get the office up and running 'as soon as possible' but wouldn't offer any specifics on a timeline.",
+                "3": "Mendicino said that Public Safety Canada is already working to establish a National Counter-Foreign Interference Office, as promised in the budget.",
+                "4": "But he said its launch is contingent on Parliament passing the budget bill.",
+                "5": "The Liberal budget earmarked $56 million over five years for measures to combat foreign interference, threats, and covert activities, most of which is going to the RCMP to investigate threats and proactively work with diaspora communities.",
+                "6": "The funding would also be put toward launching an office that would help co-ordinate Canada's response to threats from countries including China and Russia.",
+                "7": "Yet Mendicino offered no timeline for when that office will launch, when asked by MPs and later by reporters."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "Questionable conclusion": [
+                        7
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The repeated reference to the promises made in the budget and the expectation that the office will be launched based on those promises appeal to tradition, assuming that past practices or beliefs should dictate current actions.",
+                                "sentence": [
+                                    3,
+                                    4,
+                                    5,
+                                    6,
+                                    7
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The lack of a specific timeline provided by Mendicino and the uncertainty around the launch of the office lead to a questionable conclusion regarding the actual readiness and commitment to the establishment of the foreign-interference office.",
+                                "sentence": [
+                                    7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 42.33,
+            "word_count": 693,
+            "fallacies_per_1000_words": 2.886002886002886
+        }
+    ]
+}

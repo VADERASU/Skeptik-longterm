@@ -1,0 +1,139 @@
+{
+    "cases": [
+        {
+            "name": "Ronna McDaniel meltdown: Falsehoods and debunked narratives MSNBC promoted on its 'sacred airwaves'",
+            "source": "NBC",
+            "sentences": {
+                "1": "A mob at MSNBC got its wishes this week and helped ensure new colleague Ronna McDaniel would be ousted from the network.",
+                "2": "NBC announced just days ago that the former RNC chair would be joining as a political analyst, but within four days, McDaniel was sent packing after an on-air outcry."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Hasty generalization"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        4,
+                        5
+                    ],
+                    "Hasty generalization": [
+                        18
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "The criticism of Ronna McDaniel's character and actions instead of addressing her arguments or positions is an example of an ad hominem attack.",
+                                "sentence": [
+                                    4,
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "Hasty generalization": {
+                        "Explanation": [
+                            {
+                                "explanation": "Drawing a conclusion about MSNBC's behavior based on the actions of a few individuals is a hasty generalization.",
+                                "sentence": [
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 22.33,
+            "reliability": 22.67,
+            "word_count": 2188,
+            "fallacies_per_1000_words": 0.9140767824497258
+        },
+        {
+            "name": "The Hunter Biden laptop is 'Russian disinformation'",
+            "source": "NBC",
+            "sentences": {
+                "1": "Like the vast majority of legacy news organizations, MSNBC was quick to dismiss the bombshell revelations of Hunter Biden's laptop during the 2020 election as 'Russian disinformation.'",
+                "2": "'Morning Joe' co-host Joe Scarborough declared the story 'false' and later claimed it was 'so obviously' Russian disinformation, asking, 'Why are we spreading the lies here?'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to authority",
+                    "False Cause"
+                ],
+                "sentences": {
+                    "Appeal to authority": [
+                        21
+                    ],
+                    "False Cause": [
+                        83
+                    ]
+                },
+                "annotations": {
+                    "Appeal to authority": {
+                        "Explanation": [
+                            {
+                                "explanation": "Joe Scarborough's status as a co-host does not make his claim about the Hunter Biden laptop being 'Russian disinformation' automatically valid. This is an appeal to authority fallacy.",
+                                "sentence": [
+                                    21
+                                ]
+                            }
+                        ]
+                    },
+                    "False Cause": {
+                        "Explanation": [
+                            {
+                                "explanation": "Linking the dismissal of the Hunter Biden laptop story as 'Russian disinformation' to its eventual verification by NBC News is a false cause fallacy, assuming that the initial dismissal was the direct cause of the later verification.",
+                                "sentence": [
+                                    83
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 22.33,
+            "reliability": 22.67,
+            "word_count": 2188,
+            "fallacies_per_1000_words": 0.9140767824497258
+        },
+        {
+            "name": "Relentless attacks against Kyle Rittenhouse",
+            "source": "NBC",
+            "sentences": {
+                "1": "During the 2020 unrest in Kenosha, Wis., following the police-involved shooting of Jacob Blake, 17-year-old Kyle Rittenhouse fatally shot two people and injured a third person while acting in self-defense.",
+                "2": "He was later found not guilty following a dramatic trial that received national attention."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        89
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "Describing Kyle Rittenhouse with negative labels like 'school shooter' and 'enemy' without addressing the specifics of his case is an ad hominem attack.",
+                                "sentence": [
+                                    89
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 1,
+            "bias": 22.33,
+            "reliability": 22.67,
+            "word_count": 2188,
+            "fallacies_per_1000_words": 0.4570383912248629
+        }
+    ]
+}

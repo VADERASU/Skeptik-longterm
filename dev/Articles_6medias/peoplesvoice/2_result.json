@@ -1,0 +1,53 @@
+{
+    "cases": [
+        {
+            "name": "Bill Gates Facing Life Behind Bars on Child Rape Charges",
+            "source": "The People's Voice",
+            "sentences": {
+                "1": "Bill Gates has already lost his marriage due his friendship with the convicted pedophile Jeffrey Epstein, but he is about to lose a whole lot more, according to investigators who revealed the globalist billionaire is about to be thrown under the bus and prosecuted on child rape charges.",
+                "2": "Mainstream media don't want you to know because they are desperately prevent the release of the Epstein client list."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Red Herring (sidetracking)"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        1
+                    ],
+                    "Red Herring (sidetracking)": [
+                        2
+                    ]
+                },
+                "annotations": {
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that Bill Gates is about to be prosecuted on child rape charges is drawn without providing any evidence or credible sources.",
+                                "sentence": [
+                                    1
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring (sidetracking)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement diverts attention by shifting the focus to mainstream media rather than addressing the issue of preventing the release of the Epstein client list.",
+                                "sentence": [
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 29.33,
+            "reliability": 5,
+            "word_count": 1416,
+            "fallacies_per_1000_words": 1.4124293785310735
+        }
+    ]
+}

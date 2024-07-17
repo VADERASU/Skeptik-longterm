@@ -1,0 +1,76 @@
+{
+    "cases": [
+        {
+            "name": "Logical Fallacies in Trump's Speech",
+            "source": "The Guardian",
+            "sentences": {
+                "1": "Donald Trump appears to get Melania's name wrong as expert warns he is showing 'gross signs of dementia'",
+                "2": "Donald Trump, who accuses President Joe Biden of being too old to be in power, seems to get his own wife's name muddled at the Conservative Political Action Conference",
+                "3": "Donald Trump appeared to call wife Melania 'Mercedes' during a chaotic speech in Washington.",
+                "4": "His errors came as Dr. John Gartner, a psychologist and former professor at the Johns Hopkins University Medical School, delivered a damning verdict on both politicians.",
+                "5": "During his rambling speech, the presidential candidate delivered attacks on his political rival and warned of an apocalyptic future the US could face if the current president wins the White House again in November.",
+                "6": "But Dr. Gartner argues it is Trump who we should be worried about.",
+                "7": "Dr Gartner argues Trump is showing signs of 'Phonemic paraphasias,' when a patient substitutes non-words for words that sound similar.",
+                "8": "Trump also appeared to make a blunder, suggesting he agreed with Vladimir Putin and would rather see Biden in the White House again.",
+                "9": "In the speech, Trump also claimed to be a 'proud political dissident' days after comparing himself to Alexei Navalny, the top political opponent of Russia's autocratic leader Vladimir Putin, who died in a remote Arctic prison after being jailed by the Kremlin leader."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Questionable conclusion",
+                    "False Cause"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        2,
+                        6
+                    ],
+                    "Questionable conclusion": [
+                        5
+                    ],
+                    "False Cause": [
+                        9
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's attacks on Biden's age while making a mistake himself regarding his wife's name divert attention from the real issues by attacking the person instead of discussing policies or arguments.",
+                                "sentence": [
+                                    2,
+                                    6
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's warning of an apocalyptic future if Biden wins without providing solid evidence is a questionable conclusion.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "False Cause": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's statement suggesting that agreeing with Putin about preferring Biden in the White House leads to a false cause-effect relationship.",
+                                "sentence": [
+                                    9
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": -16.67,
+            "reliability": 15,
+            "word_count": 651,
+            "fallacies_per_1000_words": 4.608294930875576
+        }
+    ]
+}

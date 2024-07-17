@@ -1,0 +1,61 @@
+{
+    "cases": [
+        {
+            "name": "Rory McIlroy's Divorce U-Turn",
+            "source": "The Mirror US",
+            "sentences": {
+                "1": "PGA Tour star Rory McIlroy was spotted with Erica Stoll shortly after his US Open heartbreaker to Bryson DeChambeau, with the couple seemingly in good spirits despite the divorce U-Turn.",
+                "2": "After announcing he would be calling off the divorce, McIlroy explained what went into his decision to attempt to repair the damage that caused the filing in the first place."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        2,
+                        20
+                    ],
+                    "Questionable conclusion": [
+                        18
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The appeal to tradition fallacy occurs when McIlroy implies that staying together as a family is the best future solely because it is traditional or has been done in the past, without addressing other possible reasons for the decision.",
+                                "sentence": [
+                                    2
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            },
+                            {
+                                "explanation": "The appeal to tradition fallacy is evident in emphasizing the importance of family values and the need to consider their daughter without exploring other factors that could contribute to a successful relationship beyond tradition.",
+                                "sentence": [
+                                    20
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The questionable conclusion fallacy arises from assuming that McIlroy's decision to call off the divorce solely based on financial considerations without providing concrete evidence or considering other potential factors.",
+                                "sentence": [
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 32.67,
+            "word_count": 748,
+            "fallacies_per_1000_words": 2.6737967914438503
+        }
+    ]
+}

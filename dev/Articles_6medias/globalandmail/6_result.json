@@ -1,0 +1,56 @@
+{
+    "cases": [
+        {
+            "name": "Sudan's Army Ceasefire Extension",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Sudan's army said on Thursday that it would prolong a ceasefire by 72 hours, but violence continued to rock the capital Khartoum and western Darfur region and there was no confirmation of a truce extension by the paramilitary force it was fighting.",
+                "2": "The army on Wednesday said it agreed to a new three-day ceasefire through Sunday proposed by a regional African group following one mediated by the U.S. and Saudi Arabia due to expire on Thursday night. On Thursday, the military reiterated it would extend the truce and said it would honour it unilaterally.",
+                "3": "The White House on Thursday said it was concerned by the ceasefire violations, adding that the situation could worsen at any moment and urging U.S. citizens to leave within 24 to 48 hours.",
+                "4": "At least 512 people have been killed and close to 4,200 wounded by the fighting since April 15."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "False Cause (FC)"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        3
+                    ],
+                    "False Cause (FC)": [
+                        4
+                    ]
+                },
+                "annotations": {
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement from the White House, expressing concern about ceasefire violations and urging U.S. citizens to leave within a specific timeframe, may be considered a questionable conclusion as it assumes a direct link between the ceasefire violations and the need for immediate evacuation without providing explicit reasoning or evidence to support this drastic action.",
+                                "sentence": [
+                                    3
+                                ],
+                                "link": ""
+                            }
+                        ]
+                    },
+                    "False Cause (FC)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The sentence suggests a causal relationship between the number of people killed and wounded by the fighting since April 15 and the conflict itself occurring on that date. However, it fails to establish a direct cause-and-effect relationship between the two events, falling into the false cause fallacy.",
+                                "sentence": [
+                                    4
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 44,
+            "word_count": 759,
+            "fallacies_per_1000_words": 2.635046113306983
+        }
+    ]
+}

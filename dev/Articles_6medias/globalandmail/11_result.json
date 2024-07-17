@@ -1,0 +1,55 @@
+{
+    "cases": [
+        {
+            "name": "Housing Market Trends",
+            "source": "The Wall Street Journal",
+            "sentences": {
+                "1": "Housing is hot - again. Across the country, in cities big and small, prices are surging after a summer lull.",
+                "2": "$1-million Toronto and Vancouver could soon have company in the club of cities with average resale home prices of $1-million or more."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Appeal to tradition"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        35
+                    ],
+                    "Appeal to tradition": [
+                        8,
+                        9
+                    ]
+                },
+                "annotations": {
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion drawn about the impact of the promises made by the Liberals on housing affordability is not adequately supported.",
+                                "sentence": [
+                                    35
+                                ]
+                            }
+                        ]
+                    },
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument presents an appeal to tradition by suggesting that Toronto and Vancouver may soon join the club of cities with average resale home prices of $1 million or more.",
+                                "sentence": [
+                                    8,
+                                    9
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 1.33,
+            "reliability": 39.33,
+            "word_count": 709,
+            "fallacies_per_1000_words": 2.8208744710860367
+        }
+    ]
+}

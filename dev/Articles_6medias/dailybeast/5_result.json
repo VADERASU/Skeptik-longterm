@@ -1,0 +1,72 @@
+{
+    "cases": [
+        {
+            "name": "Jimmy Kimmel Exposes Fox News Plan to Spin a Biden Debate Victory",
+            "source": "Late-night show",
+            "sentences": {
+                "1": "Late-night host Jimmy Kimmel thinks Fox News is scared of how Donald Trump will perform when he takes to the stage at the first presidential debate of the 2024 election, scheduled for June 27.",
+                "2": "\"The gang at Fox News is hard at work coming up with an excuse for if Biden does well at the debate,\" Kimmel said. \"After spending the past two nights peddling a very misleading clip that claims to show Biden freezing up, Sean Hannity's now back to the 'if Trump loses the debate, it's because Biden's on drugs' routine.\"",
+                "3": "Kimmel showed a clip of Hannity arguing to Lara Trump this week that Biden will likely be taking some sort of drug during the debate, be it coffee or something slightly more nefarious-mirroring Trump's claim in April that Biden was \"higher than a kite\" during his 2024 State of the Union address.",
+                "4": "Hannity backed the idea that Biden should be drug-tested, and Kimmel was happy to call his bluff: \"Let's do it. Let's test the president for caffeine. Let's test Trump for Adderall and Cialis. Let's see how the tests come out.\"",
+                "5": "Kimmel mocked the very idea of Biden relying on any special stimulant drug for his big public appearances. \"I mean, who in the world is buying this idea that there's some magic debate pill you can take\u2026 It's all nuts. It's just all nuttiness.\"",
+                "6": "The late-night host also marveled at how Biden got Trump to agree to the debate rules, which include muting candidates when it's not their time to talk and not allowing either candidate to bring notes on stage with them.",
+                "7": "\"Trump has apparently agreed to these rules,\" Kimmel said, \"which is something to keep in mind ten days from now when he claims the whole thing was rigged against him.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion",
+                    "Red Herring"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        7
+                    ],
+                    "Questionable conclusion": [
+                        7
+                    ],
+                    "Red Herring": [
+                        7
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The late-night host is implying that because Trump agreed to the debate rules, it should be considered a tradition or precedent that he will later claim the debate was rigged against him. This is an appeal to tradition as it tries to justify a future action based on a past agreement.",
+                                "sentence": [
+                                    7
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that Trump will claim the whole debate was rigged against him based on his agreement to the rules is questionable as it assumes a future event based on a current decision without strong evidence.",
+                                "sentence": [
+                                    7
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring": {
+                        "Explanation": [
+                            {
+                                "explanation": "The discussion of Trump agreeing to debate rules and the potential claim of rigging serves as a distraction from the main topic of Fox News potentially spinning a Biden debate victory. It diverts attention from the primary issue at hand.",
+                                "sentence": [
+                                    7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": -11,
+            "reliability": 30.67,
+            "word_count": 310,
+            "fallacies_per_1000_words": 9.67741935483871
+        }
+    ]
+}

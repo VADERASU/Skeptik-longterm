@@ -1,0 +1,72 @@
+{
+    "cases": [
+        {
+            "name": "Donald Trump's Cash Crunch Just Got Much, Much Worse",
+            "source": "WSJ",
+            "sentences": {
+                "1": "As Donald Trump's legal troubles consume more and more of his time, they're also consuming more of his donors' money\u00e2\u20ac\u201dand there's a huge hole in the bucket.",
+                "2": "On Tuesday, Trump's 'Save America' leadership political action committee reported raising just $8,508 from donors in the entire month of January, while spending about $3.9 million, according to a new filing with the Federal Election Commission."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "False Cause (FC)",
+                    "Questionable conclusion",
+                    "Red Herring (sidetracking)"
+                ],
+                "sentences": {
+                    "False Cause (FC)": [
+                        1
+                    ],
+                    "Questionable conclusion": [
+                        2,
+                        3,
+                        10
+                    ],
+                    "Red Herring (sidetracking)": [
+                        32
+                    ]
+                },
+                "annotations": {
+                    "FC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Mistaking correlation for causation in assuming that Trump's legal troubles consuming his time directly lead to consuming more donors' money.",
+                                "sentence": [
+                                    1
+                                ],
+                                "link": "https://www.logicalfallacies.info/causal/false-cause/"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Drawing unwarranted conclusions based on limited information or data.",
+                                "sentence": [
+                                    2,
+                                    3,
+                                    10
+                                ]
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Sidetracking from the main financial issues by focusing on Trump's campaign spending details.",
+                                "sentence": [
+                                    32
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": -5,
+            "reliability": 44.33,
+            "word_count": 881,
+            "fallacies_per_1000_words": 3.40522133938706
+        }
+    ]
+}

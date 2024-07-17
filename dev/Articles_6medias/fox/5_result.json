@@ -1,0 +1,65 @@
+{
+    "cases": [
+        {
+            "name": "Trump says guilty verdict is a 'scar' on New York justice system, vows to 'keep fighting'",
+            "source": "Fox News Digital",
+            "sentences": {
+                "1": "Former President Trump told Fox News Digital his guilty verdict is a 'scar' on the New York justice system, while vowing to 'keep fighting' and maintaining that Election Day will be 'the most important day in the history of our country.'",
+                "2": "Trump pointed to Judge Juan Merchan, saying he was 'conflicted,' and said the venue for the trial \u2014 Lower Manhattan \u2014 was 'about as bad as it could possibly be.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        4,
+                        5,
+                        10
+                    ],
+                    "Questionable conclusion": [
+                        17,
+                        18
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump appeals to the tradition of Election Day being significant in the country's history without providing substantial evidence or reasoning for this claim.",
+                                "sentence": [
+                                    4,
+                                    5
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            },
+                            {
+                                "explanation": "Trump suggests that the guilty verdict is a 'sad day for New York and a sad day for the country' without offering a clear basis for why these events are considered sad.",
+                                "sentence": [
+                                    10
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump asserts that Election Day will be 'the most important day in the history of our country' without providing sufficient justification or reasoning for such a claim.",
+                                "sentence": [
+                                    17,
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 13.33,
+            "reliability": 35.33,
+            "word_count": 614,
+            "fallacies_per_1000_words": 3.257328990228013
+        }
+    ]
+}

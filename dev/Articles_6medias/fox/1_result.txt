@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3UfqUknWO2Jd4OrOunz2JgcIyEX",
+  "id": "chatcmpl-9m3zw5plwx1SNCMK9xsdF3bIS9PTO",
   "object": "chat.completion",
-  "created": 1721240201,
+  "created": 1721242140,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Climate Change Debate\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"When discussing climate change, the senator attacked the environmentalist's personal lifestyle choices instead of addressing the scientific evidence.\",\n        \"2\": \"The politician then shifted the conversation to economic costs, avoiding the core issue of environmental impact.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Red Herring\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1\n          ],\n          \"Red Herring\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The senator attacks the environmentalist personally instead of engaging with the scientific evidence, distracting from the main argument.\",\n                \"sentence\": [1],\n                \"link\": \"\"\n              }\n            ]\n          },\n          \"Red Herring\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician shifts the conversation to economic costs, diverting attention from the environmental impact, which is the central issue in the climate change debate.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"President Biden appears to freeze at White House Juneteenth event\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"President Biden appeared to freeze during a Juneteenth celebration at the White House on Monday.\",\n        \"2\": \"Biden, 81, was filmed standing still as stone while those around him, including Vice President Kamala Harris, clapped and danced to a concert featuring gospel singer Kirk Franklin.\",\n        \"3\": \"Republicans, who have sought to make the president's advanced age an issue in the 2024 election, were quick to deride the president.\",\n        \"4\": \"Critics say Biden is declining in his old age and can't handle the responsibilities of the presidency.\",\n        \"5\": \"Earlier this year, a report from Biden's own Department of Justice's special counsel called him an 'elderly man with a poor memory' at the end of an investigation into his mishandling of classified documents dating back to his Senate tenure, which ultimately saved him from having charges brought against him by Special Counsel Robert Hur.\",\n        \"6\": \"Biden has been prone to gaffes going back to when he was vice president, but the frequency and nature of his verbal missteps in recent years appear to be more significant.\",\n        \"7\": \"At 81, Biden is the oldest man to serve as president in U.S. history.\",\n        \"8\": \"If he is re-elected in November, he will be 86 when his second term ends. The presumptive Republican presidential nominee, former President Trump, is just four years younger at 77.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Hasty generalization\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            3\n          ],\n          \"Hasty generalization\": [\n            6\n          ],\n          \"Questionable conclusion\": [\n            5, 8\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The critics are attacking Biden personally based on his age and alleged decline rather than addressing his policies or actions.\",\n                \"sentence\": [3]\n              }\n            ]\n          },\n          \"Hasty generalization\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Drawing a conclusion about Biden's mental capabilities based on a biased sample of gaffes without considering the full context or other factors.\",\n                \"sentence\": [6]\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The report from Biden's Department of Justice's special counsel making a conclusion about Biden's memory and mishandling of documents without providing substantial evidence or context.\",\n                \"sentence\": [5]\n              },\n              {\n                \"explanation\": \"Comparing Biden's age to Trump's age without acknowledging other relevant factors that contribute to an individual's ability to serve as president.\",\n                \"sentence\": [8]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 278,
-    "total_tokens": 1529
+    "prompt_tokens": 2162,
+    "completion_tokens": 673,
+    "total_tokens": 2835
   },
   "system_fingerprint": null
 }

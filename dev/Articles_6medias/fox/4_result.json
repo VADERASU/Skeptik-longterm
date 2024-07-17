@@ -1,0 +1,67 @@
+{
+    "cases": [
+        {
+            "name": "Man who went viral for driving during virtual court hearing for suspended license reportedly vindicated",
+            "source": "WSJ",
+            "sentences": {
+                "1": "A Michigan man who went viral last week in a video clip of a judge noticing him driving while calling into a virtual court hearing for his supposed suspended driver's license was the victim of a clerical error, according to reports.",
+                "2": "Corey Harris, 44, attended the virtual May 15 hearing for an October traffic stop in Pittsfield Township, Michigan, USA Today reported.",
+                "3": "In the clip, Judge Cedric Simpson appeared to be in disbelief as Harris was driving while attending the hearing for a suspended driver's license.",
+                "4": "\"Mr. Harris, are you driving?\" Simpson asked, to which Harris replied that he was behind the wheel.",
+                "5": "\"OK, so maybe I don't understand something. This is a driving-while-license-suspended [case],\" Simpson told Harris' public defender. \"And he was just driving, and he doesn't have a license.\"",
+                "6": "He then ordered Harris' bail revoked and ordered him to surrender to authorities at the Washtenaw County Jail by 6 p.m. that day, to Harris' disbelief. The video clip made the rounds on the internet and quickly spread like wildfire.",
+                "7": "\"With the type of ties that I have with the church and the community, it's very embarrassing,\" Harris told WXYZ-TV about the widely viewed incident.",
+                "8": "His driver's license was suspended in 2010 for unpaid child support, but a judge rescinded the suspension in January 2022, the TV station said.",
+                "9": "However, the Michigan Secretary of State's Office never received a clearance from the Saginaw Friend of the Court, reported WXYZ, which tracked down the clerical error. That means that the lifting of the suspension never went into effect.",
+                "10": "In the video clip, Harris told Simpson he was pulling into a parking lot at a doctor's office for an appointment.",
+                "11": "\"What was I thinking? I was thinking about getting my wife medical help,\" Harris told the news station. \"That's what I was thinking. I wasn't thinking about the fact that I got a suspended license. I don't care about all that.\"",
+                "12": "\"Always double-check behind these workers because they will say that they will do something, and they don't do it,\" he added.",
+                "13": "Harris said he spent two days in jail following the hearing after turning himself in.",
+                "14": "Khyla Craine, deputy legal director for the Michigan secretary of state, told the station that the process to get a driver's license reinstated can be a complicated process.",
+                "15": "\"Sometimes it is simple as we at the secretary of state's office did not get a clearance from the court that everything was done, but something happened in the wires, and we needed to talk to the court to get the clearance and clean it up for the resident,\" Craine said."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        8
+                    ],
+                    "Questionable conclusion": [
+                        6
+                    ]
+                },
+                "annotations": {
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument in this sentence appeals to tradition by implying that the judge's decision was correct because it followed the traditional legal process, failing to consider the clerical error that occurred.",
+                                "sentence": [
+                                    8
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion drawn by the judge to revoke Harris' bail and order him to surrender based on the belief that he was driving with a suspended license without considering the clerical error is questionable.",
+                                "sentence": [
+                                    6
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 41.67,
+            "word_count": 509,
+            "fallacies_per_1000_words": 3.929273084479371
+        }
+    ]
+}

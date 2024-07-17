@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3XLgYMiHunFqpiHovqH93WJv0eM",
+  "id": "chatcmpl-9m48XvU9AjEOQA9M51oWg9gbF33L6",
   "object": "chat.completion",
-  "created": 1721240367,
+  "created": 1721242673,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Healthcare\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"The politician argued that the opponent's proposal for universal healthcare would lead to a government-controlled system.\",\n        \"2\": \"The opponent clarified that their plan aimed for a balanced public-private system.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Strawman (Caricature)\",\n          \"False Cause (FC)\"\n        ],\n        \"sentences\": {\n          \"Strawman (Caricature)\": [\n            1\n          ],\n          \"False Cause (FC)\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Strawman (Caricature)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician distorted the opponent's argument by misrepresenting it as advocating for a government-controlled system, which is a weakened version of the actual proposal.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=strawman+fallacy\"\n              }\n            ]\n          },\n          \"False Cause (FC)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The opponent's clarification about their plan being a balanced public-private system was not a direct cause of the politician's misrepresentation of the proposal. There is no direct causal link between the two events.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Rory McIlroy's Divorce U-Turn\",\n      \"source\": \"The Mirror US\",\n      \"sentences\": {\n        \"1\": \"PGA Tour star Rory McIlroy was spotted with Erica Stoll shortly after his US Open heartbreaker to Bryson DeChambeau, with the couple seemingly in good spirits despite the divorce U-Turn.\",\n        \"2\": \"After announcing he would be calling off the divorce, McIlroy explained what went into his decision to attempt to repair the damage that caused the filing in the first place.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to tradition\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Appeal to tradition\": [\n            2, 20\n          ],\n          \"Questionable conclusion\": [\n            18\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The appeal to tradition fallacy occurs when McIlroy implies that staying together as a family is the best future solely because it is traditional or has been done in the past, without addressing other possible reasons for the decision.\",\n                \"sentence\": [2],\n                \"link\": \"https://www.google.com/search?q=contrasting+view\"\n              },\n              {\n                \"explanation\": \"The appeal to tradition fallacy is evident in emphasizing the importance of family values and the need to consider their daughter without exploring other factors that could contribute to a successful relationship beyond tradition.\",\n                \"sentence\": [20]\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The questionable conclusion fallacy arises from assuming that McIlroy's decision to call off the divorce solely based on financial considerations without providing concrete evidence or considering other potential factors.\",\n                \"sentence\": [18]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 321,
-    "total_tokens": 1572
+    "prompt_tokens": 2198,
+    "completion_tokens": 432,
+    "total_tokens": 2630
   },
   "system_fingerprint": null
 }

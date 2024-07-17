@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3TR9dZgVwJuzQLWEq6lSnVseDgS",
+  "id": "chatcmpl-9m4EJVPPR1kzoXl9gr5Copt0cyTU3",
   "object": "chat.completion",
-  "created": 1721240125,
+  "created": 1721243031,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Logical Fallacies in Political Discourse\",\n      \"source\": \"Debate Club\",\n      \"sentences\": {\n        \"1\": \"A politician discredits an opponent by criticizing their character instead of addressing the policy.\",\n        \"2\": \"Ignoring climate change advice from a scientist with a high carbon footprint.\",\n        \"3\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Who are you to talk?\",\n          \"Ad hominem\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1, 3\n          ],\n          \"Who are you to talk?\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The fallacy occurs when instead of addressing the opponent's argument, the focus is shifted to attacking the opponent personally.\",\n                \"sentence\": [1, 3]\n              }\n            ]\n          },\n          \"Who are you to talk?\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"This fallacy dismisses an argument based on the perceived hypocrisy of the person making the argument, rather than evaluating the argument itself.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Economic Policy Discussion\",\n      \"source\": \"Financial Times\",\n      \"sentences\": {\n        \"1\": \"When asked about unemployment rates, a politician talks about education reform.\",\n        \"2\": \"A politician promises to 'improve the economy' without specifying how.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Obfuscation/distraction\",\n          \"Vagueness\"\n        ],\n        \"sentences\": {\n          \"Obfuscation/distraction\": [\n            1\n          ],\n          \"Vagueness\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Obfuscation/distraction\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"This fallacy occurs when the focus is shifted away from the main issue, in this case, unemployment rates, to education reform, which is a distraction.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Vagueness\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The fallacy of vagueness occurs when terms are used imprecisely, leading to unclear evaluations. In this case, the promise to 'improve the economy' lacks specificity.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Bipartisan House Lawmakers Are Demanding That Biden Drops Julian Assange Case\",\n      \"source\": \"Fox News\",\n      \"sentences\": {\n        \"1\": \"House members from opposing sides of the aisle have joined forces in demanding that the Biden administration drop its case against Julian Assange.\",\n        \"2\": \"The two congressmen have asked fellow House members to join their bipartisan attempt urging the Biden administration to withdraw the US extradition request.\",\n        \"3\": \"According to Fox News, Massie's and McGovern's letter to fellow House members notes Assange's case represents an attack on press freedom.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to tradition\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Appeal to tradition\": [\n            3\n          ],\n          \"Questionable conclusion\": [\n            3\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The argument appeals to tradition by highlighting the concerns expressed by international media outlets, human rights advocates, and members of Congress as a basis for supporting the withdrawal of the extradition request. This fallacy assumes that because past opinions have been against Assange's prosecution, it is the right course of action.\",\n                \"sentence\": [3],\n                \"link\": \"https://en.wikipedia.org/wiki/Appeal_to_tradition\"\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion drawn that Assange's case represents an attack on press freedom may be questioned due to the varying perspectives on the matter. While some argue for press freedom, others may view Assange's actions as violating national security laws rather than a pure exercise of press freedom.\",\n                \"sentence\": [3]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 610,
-    "total_tokens": 1861
+    "prompt_tokens": 2055,
+    "completion_tokens": 417,
+    "total_tokens": 2472
   },
   "system_fingerprint": null
 }

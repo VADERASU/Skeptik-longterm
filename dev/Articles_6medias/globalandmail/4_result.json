@@ -1,0 +1,54 @@
+{
+    "cases": [
+        {
+            "name": "Canadian Evacuation Flights from Sudan",
+            "source": "CBC",
+            "sentences": {
+                "1": "Canada has conducted its first two evacuation flights to get Canadians and other foreign nationals out of Sudan.",
+                "2": "A growing chorus of critics is asking why it took the federal government until the end of the week to kick the evacuation into gear."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "False dilemma/dichotomy"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        1
+                    ],
+                    "False dilemma/dichotomy": [
+                        18
+                    ]
+                },
+                "annotations": {
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that Canada conducted the evacuation flights can be questioned in terms of the effectiveness and timeliness of the evacuation operation.",
+                                "sentence": [
+                                    1
+                                ],
+                                "link": "https://www.google.com/search?q=evaluating+evacuation+effectiveness"
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Presenting the situation as if the government had only two options - kicking the evacuation into gear or not - without considering other factors or possibilities.",
+                                "sentence": [
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 44.67,
+            "word_count": 815,
+            "fallacies_per_1000_words": 2.4539877300613497
+        }
+    ]
+}

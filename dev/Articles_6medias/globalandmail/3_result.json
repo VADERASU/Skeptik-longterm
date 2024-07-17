@@ -1,0 +1,54 @@
+{
+    "cases": [
+        {
+            "name": "Harjit Sajjan and the Unauthorized Travel Documents Issue",
+            "source": "The Canadian Press",
+            "sentences": {
+                "1": "International Development Minister Harjit Sajjan told his fellow MPs Wednesday he did not know a Canadian senator was handing out unauthorized travel documents to hundreds of Afghans during the Taliban's rise in 2021 because he wasn't checking his email at the time.",
+                "2": "Conservative MP Michelle Remple Garner compared the minister's explanation to the excuse that the 'dog ate my homework.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Evading the Burden of Proof",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Evading the Burden of Proof": [
+                        1
+                    ],
+                    "Questionable conclusion": [
+                        2
+                    ]
+                },
+                "annotations": {
+                    "EBP": {
+                        "Explanation": [
+                            {
+                                "explanation": "Minister Sajjan fails to provide evidence or support for his claim that he was unaware of the unauthorized travel documents issue due to not checking his email. This statement lacks substantiation and avoids the burden of proof.",
+                                "sentence": [
+                                    1
+                                ],
+                                "link": "https://www.google.com/search?q=evading+burden+of+proof"
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Michelle Remple Garner draws a questionable conclusion by comparing the minister's explanation to a common excuse, suggesting that Sajjan's reason is inadequate without providing substantial evidence to support this comparison.",
+                                "sentence": [
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 41.67,
+            "word_count": 658,
+            "fallacies_per_1000_words": 3.0395136778115504
+        }
+    ]
+}

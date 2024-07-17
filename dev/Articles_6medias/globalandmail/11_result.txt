@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3R53g2aXLiZl1fjfJCOdnR7VJUq",
+  "id": "chatcmpl-9m47DfhG6C7LnTAunliq1fyuMUew4",
   "object": "chat.completion",
-  "created": 1721239979,
+  "created": 1721242591,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"During the debate, instead of addressing the opponent's proposed healthcare policy, the candidate attacked their character and personal life.\",\n        \"2\": \"The audience started chanting 'Who are you to talk?' when a politician criticized another for not following through on their promises.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Personal attack\",\n          \"Who are you to talk?\"\n        ],\n        \"sentences\": {\n          \"Personal attack\": [\n            1\n          ],\n          \"Who are you to talk?\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Personal attack\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate avoided addressing the opponent's proposed healthcare policy and instead attacked their character and personal life, which is a personal attack fallacy.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.yourlogicalfallacyis.com/ad-hominem\"\n              }\n            ]\n          },\n          \"Who are you to talk?\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The audience dismissed the politician's criticism by questioning their own adherence to promises, falling into the 'Who are you to talk?' fallacy.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Housing Market Trends\",\n      \"source\": \"The Wall Street Journal\",\n      \"sentences\": {\n        \"1\": \"Housing is hot - again. Across the country, in cities big and small, prices are surging after a summer lull.\",\n        \"2\": \"$1-million Toronto and Vancouver could soon have company in the club of cities with average resale home prices of $1-million or more.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Questionable conclusion\",\n          \"Appeal to tradition\"\n        ],\n        \"sentences\": {\n          \"Questionable conclusion\": [\n            35\n          ],\n          \"Appeal to tradition\": [\n            8, 9\n          ]\n        },\n        \"annotations\": {\n          \"RH\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion drawn about the impact of the promises made by the Liberals on housing affordability is not adequately supported.\",\n                \"sentence\": [35]\n              }\n            ]\n          },\n          \"CP\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The argument presents an appeal to tradition by suggesting that Toronto and Vancouver may soon join the club of cities with average resale home prices of $1 million or more.\",\n                \"sentence\": [8, 9]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n} \n"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 316,
-    "total_tokens": 1567
+    "prompt_tokens": 2178,
+    "completion_tokens": 299,
+    "total_tokens": 2477
   },
   "system_fingerprint": null
 }

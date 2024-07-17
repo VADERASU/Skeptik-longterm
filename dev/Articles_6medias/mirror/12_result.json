@@ -1,0 +1,65 @@
+{
+    "cases": [
+        {
+            "name": "Man slated for 'scampering' down plane aisle to get off flight first",
+            "source": "WSJ",
+            "sentences": {
+                "1": "A flight passenger has been branded a 'jerk' for rushing to the front of the plane when landing, despite sitting at the back of the aircraft - he defends his decision to get there first.",
+                "2": "A man faced a huge backlash after he skipped the queue to get off his flight when it landed - he feels he did nothing wrong as nobody was getting up.",
+                "3": "The bloke was sat near the back of the plane, but when it landed he saw nobody near him was standing up yet to join the queue forming at the front of the aircraft.",
+                "4": "Chancing his luck, he decided to take the opportunity and walked straight to the queue at the front of the plane and bypassed all of the passengers around him - but many were not happy with his move.",
+                "5": "In his Reddit post, he argues that he didn't skip the queue as people had the chance to get up but were not taking the opportunity.",
+                "6": "The man, who remained anonymous, wrote: 'I was sat towards the very back of the plane when we landed. People at the front got up to get ready but no one in the middle section got up.'",
+                "7": "He added that when people saw what he was doing, someone told him to wait at the back of the plane like everybody else - but he pretended not to hear his fellow passenger as he had headphones on.",
+                "8": "'I didn't respond again but this time there was a lady behind me who said she needed to catch her connecting flight that was already boarding. The guy then said 'well the rules haven't changed but if you want to be a jerk go ahead'.",
+                "9": "'The lady who had the connecting flight definitely had a valid reason to 'cut' in line, but when was this ever a rule? I don't think I did anything wrong because everyone who I 'skipped' could have gotten up and waited in the aisle.'",
+                "10": "In response, many judged the man for the move and said he acted unreasonably.",
+                "11": "One person wrote: 'What is it with people who stand up the minute the plane comes to a stop. You're not going anywhere anyway.'",
+                "12": "Another stated: 'I get up when the plane lands because I get cramps in my legs. But I just stand in my seat and don't go scampering along the aisle and just wait until I am directed to move along.'",
+                "13": "A third penned: 'Think about others and what you jumping ahead does to their trip. It's not just about you and how few bags you have and how fast you can zip your way to a line that isn't moving anyway.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition (tradition)",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition (tradition)": [
+                        9
+                    ],
+                    "Questionable conclusion": [
+                        10
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition (tradition)": {
+                        "explanation": [
+                            {
+                                "explanation": "The man argues that because it was never a rule to wait at the back of the plane, he believes he did nothing wrong, appealing to the tradition of not having a specific rule in place.",
+                                "sentence": [
+                                    9
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "explanation": [
+                            {
+                                "explanation": "Many people judged the man for his action, considering it unreasonable, leading to a conclusion based on their judgment rather than objective reasoning.",
+                                "sentence": [
+                                    10
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 34.67,
+            "word_count": 494,
+            "fallacies_per_1000_words": 4.048582995951417
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "cases": [
+        {
+            "name": "Biden's 'perpetual state of confusion' on display in Normandy amid rising cognitive questions",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The Republican National Committee (RNC) research division posted several videos on X that appeared to show President Biden in 'a perpetual state of confusion' following his speech in Normandy on Thursday to commemorate the 80th anniversary of D-Day.",
+                "2": "Questions about Biden's mental acuity circulated this week after The Wall Street Journal's bombshell report that interviewed 45 lawmakers and administration officials about Biden's mental performance."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Hasty generalization",
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Hasty generalization": [
+                        30
+                    ],
+                    "Appeal to tradition": [
+                        65
+                    ],
+                    "Questionable conclusion": [
+                        67
+                    ]
+                },
+                "annotations": {
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article makes a hasty generalization by drawing a conclusion about Biden's mental acuity based on limited interviews with selected individuals.",
+                                "sentence": [
+                                    30
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to tradition (tradition)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article appeals to tradition by mentioning skepticism about Biden's age and mental ability, implying that because of his age, he may not be fit for his job.",
+                                "sentence": [
+                                    65
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article draws a questionable conclusion by suggesting that Biden's mental performance is questionable based on conflicting accounts and partisan politics.",
+                                "sentence": [
+                                    67
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 12,
+            "reliability": 25.67,
+            "word_count": 577,
+            "fallacies_per_1000_words": 5.199306759098787
+        }
+    ]
+}

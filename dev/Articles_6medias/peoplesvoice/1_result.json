@@ -1,0 +1,57 @@
+{
+    "cases": [
+        {
+            "name": "NBC News Admits Obama Is 'Shadow President' Serving His 'Third Term'",
+            "source": "Infowars.com",
+            "sentences": {
+                "1": "NBC News has admitted that Barack Obama has been secretly operating as America's 'shadow President' for the last three years, illegally serving a third term in the White House.",
+                "2": "According to an explosive report, Obama has been secretly overseeing the Biden administration, heightening concerns the ex-President is actually the secret commander-in-chief with his former VP at the helm:",
+                "3": "\"WASHINGTON \u00e2\u20ac\u201d Former President Barack Obama quietly advised the White House over the past five months on its strategy to address artificial intelligence, engaging behind the scenes with tech companies and holding Zoom meetings with top West Wing aides at President Joe Biden's request, according to aides to both men.",
+                "4": "The joint effort culminated Monday when Biden signed an executive order establishing some government oversight of AI development. It's the first time Biden has tapped his former boss to help shape a key policy initiative, aides said, and he did it because Obama shares his views on the issue and brings a certain heft that could help move the process along quickly.\"",
+                "5": "Infowars.com reports: Social media swiftly criticized the news, with many asserting it proved what has long been claimed about Biden's presidency - that it essentially serves as Obama's third term, a cunning circumvention of the US Constitution.",
+                "6": "Recall that in 2020, Obama admitted he'd \"be fine\" with feeding lines from his basement to a frontman or stand-in through an earpiece."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "False Cause"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        5
+                    ],
+                    "False Cause": [
+                        6
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement implies that just because something has been claimed or believed for a long time (that Biden's presidency serves as Obama's third term), it should be accepted as true.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "False Cause": {
+                        "Explanation": [
+                            {
+                                "explanation": "The sentence mistakenly assumes that Obama's willingness to feed lines through an earpiece is the reason behind him being a 'shadow President' or operating a 'third term,' creating a causal relationship between the two unrelated events.",
+                                "sentence": [
+                                    6
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 30,
+            "reliability": 6,
+            "word_count": 241,
+            "fallacies_per_1000_words": 8.298755186721992
+        }
+    ]
+}

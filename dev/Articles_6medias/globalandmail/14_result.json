@@ -1,0 +1,77 @@
+{
+    "cases": [
+        {
+            "name": "Power Struggle at Rogers Communications",
+            "source": "The Globe and Mail",
+            "sentences": {
+                "1": "Joe Natale presented the board of Rogers Communications Inc. with a list of demands aimed at protecting his authority as CEO, but the board rejected the requests, resulting in his dismissal this week.",
+                "2": "The document also specified that Mr. Staffieri not rejoin the company.",
+                "3": "Mr. Natale's request regarding Mr. Staffieri was at odds with Mr. Rogers's desire to bring him back into the CFO role, several of the sources said.",
+                "4": "Mr. Natale attended the Tuesday evening meeting of the board, which Mr. Rogers recently reconstituted through a written resolution."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition (tradition)",
+                    "Questionable conclusion",
+                    "False dilemma/dichotomy"
+                ],
+                "sentences": {
+                    "Appeal to tradition (tradition)": [
+                        2,
+                        3
+                    ],
+                    "Questionable conclusion": [
+                        4
+                    ],
+                    "False dilemma/dichotomy": [
+                        38
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition (tradition)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The appeal to tradition fallacy occurs when Mr. Natale's request regarding Mr. Staffieri contradicts Mr. Rogers's desire to bring him back into the CFO role, based on conflicting traditions or past decisions.",
+                                "sentence": [
+                                    2
+                                ],
+                                "link": ""
+                            },
+                            {
+                                "explanation": "The appeal to tradition is evident in the conflict between Mr. Natale's requests and the board's decisions, where traditions or established roles clash.",
+                                "sentence": [
+                                    3
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The questionable conclusion fallacy arises when assuming that the board reconstitution will lead to a resolution of the power struggle without considering other factors.",
+                                "sentence": [
+                                    4
+                                ]
+                            }
+                        ]
+                    },
+                    "False dilemma/dichotomy": {
+                        "Explanation": [
+                            {
+                                "explanation": "The false dilemma occurs when family members present a binary choice between supporting Mr. Natale or facing uncertainty, neglecting potential middle grounds or alternative solutions.",
+                                "sentence": [
+                                    38
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 0,
+            "reliability": 45,
+            "word_count": 985,
+            "fallacies_per_1000_words": 3.045685279187817
+        }
+    ]
+}

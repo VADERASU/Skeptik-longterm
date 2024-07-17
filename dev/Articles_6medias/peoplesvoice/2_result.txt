@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3SJTaXJIC2CqNPNHnh8pEdlMIwT",
+  "id": "chatcmpl-9m4CYDvdKJKDFXam9tkiCHuUml9cf",
   "object": "chat.completion",
-  "created": 1721240055,
+  "created": 1721242922,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Healthcare\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"When discussing the proposal for universal healthcare, one candidate misrepresented it, claiming it advocated for a government-controlled system.\",\n        \"2\": \"This diversion from the actual policy proposal was aimed at discrediting the opponent.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Strawman (Caricature)\",\n          \"Obfuscation/distraction\"\n        ],\n        \"sentences\": {\n          \"Strawman (Caricature)\": [\n            1\n          ],\n          \"Obfuscation/distraction\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Strawman (Caricature)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The fallacy occurs when one distorts the opponent's argument to attack a weakened version. Here, the candidate misrepresents the proposal for universal healthcare as advocating for a government-controlled system.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=strawman+fallacy\"\n              }\n            ]\n          },\n          \"Obfuscation/distraction\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The fallacy occurs when attention is diverted or the reader is confused. In this case, the diversion from the actual policy proposal aims to discredit the opponent without addressing the real issue.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Bill Gates Facing Life Behind Bars on Child Rape Charges\",\n      \"source\": \"The People's Voice\",\n      \"sentences\": {\n        \"1\": \"Bill Gates has already lost his marriage due his friendship with the convicted pedophile Jeffrey Epstein, but he is about to lose a whole lot more, according to investigators who revealed the globalist billionaire is about to be thrown under the bus and prosecuted on child rape charges.\",\n        \"2\": \"Mainstream media don't want you to know because they are desperately prevent the release of the Epstein client list.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Questionable conclusion\",\n          \"Red Herring (sidetracking)\"\n        ],\n        \"sentences\": {\n          \"Questionable conclusion\": [\n            1\n          ],\n          \"Red Herring (sidetracking)\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion that Bill Gates is about to be prosecuted on child rape charges is drawn without providing any evidence or credible sources.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Red Herring (sidetracking)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The statement diverts attention by shifting the focus to mainstream media rather than addressing the issue of preventing the release of the Epstein client list.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n} \n"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 340,
-    "total_tokens": 1591
+    "prompt_tokens": 2986,
+    "completion_tokens": 333,
+    "total_tokens": 3319
   },
   "system_fingerprint": null
 }

@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3cmBft3PU6Ua5eOF5ZBkgoPYxji",
+  "id": "chatcmpl-9m3x4U94XVIuHtfWdS8ZVc4tU5342",
   "object": "chat.completion",
-  "created": 1721240704,
+  "created": 1721241962,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Logical Fallacies in Political Debates\",\n      \"source\": \"Debate Night News\",\n      \"sentences\": {\n        \"1\": \"During the debate, the candidate resorted to ad hominem attacks instead of addressing the opponent's arguments.\",\n        \"2\": \"The audience was left confused as the politician kept diverting attention from the main issues.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Obfuscation/distraction\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1\n          ],\n          \"Obfuscation/distraction\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate attacked the opponent's character instead of engaging with their arguments, diverting attention from the actual issues at hand.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.logicalfallacies.info/relevance/ad-hominem/\"\n              }\n            ]\n          },\n          \"Obfuscation/distraction\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician deliberately diverted attention away from the main issues by confusing the audience and not addressing the core arguments.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Disaster for Trump as Truth Social Crashes at Critical SOTU Moment\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"Donald Trump may have rage-posted his way through President Joe Biden's State of the Union address on Truth Social, but his social media site crashed for many before Biden even entered the House chamber, with technical issues lingering for at least an hour before and into his remarks.\",\n        \"2\": \"Beginning shortly before 9 p.m. EST Thursday, outages numbered in the thousands, according to Downdetector. The outages peaked an hour later and then began to slowly resume back to normal, according to the monitor.\",\n        \"3\": \"Around the same time, users on X reported not being able to access Trump's feed, with some\u2014including former Trump White House Press Secretary Alyssa Farah Griffin\u2014mocking him for it.\",\n        \"4\": \"\\\"Trump said he'd be live fact-checking Biden's SOTU but Truth Social appears to be down. Sad!\\\" she wrote on X.\",\n        \"5\": \"On Fox News, meanwhile, anchor Bret Baier\u2014who had read out loud some of Trump's posts\u2014invited him to just call in.\",\n        \"6\": \"\\\"If the former president wants to call in,\\\" Baier said, likely speaking directly to Trump through the screen, \\\"we're happy to put him [on] instead of just reading Truth Social posts.\\\"\",\n        \"7\": \"Those who were able to see what Trump had to say were likely not surprised, as his posts were largely negative reactions to people he saw on the broadcast.\",\n        \"8\": \"\\\"Thankfully, we don't have to be looking at RINO Mitt Romney much longer!\\\" Trump wrote of the retiring Utah senator who has opposed Trump's 2024 candidacy.\",\n        \"9\": \"Trump, who incited a mob of supporters that broke into the Capitol and House chamber on Jan. 6, 2021, then accused Biden of being \\\"very disrespectful to our country\\\" because his address in that same chamber didn't begin promptly at 9 p.m.\",\n        \"10\": \"He also predictably took aim at Biden during his speech, insisting the president was \\\"angry and crazy\\\" and that \\\"the words are not flowing smoothly out of his mouth!\\\"\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Hasty generalization\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            9\n          ],\n          \"Hasty generalization\": [\n            7\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"In this sentence, Trump attacks Biden personally by accusing him of being disrespectful without addressing the content of Biden's speech. This diverts attention from the actual arguments presented.\",\n                \"sentence\": [9],\n                \"link\": \"\"\n              }\n            ]\n          },\n          \"Hasty generalization\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"In this sentence, it is assumed that all of Trump's posts were negative reactions based on the limited sample of posts seen by some viewers. This draws a conclusion about the entirety of Trump's posts without considering the full scope.\",\n                \"sentence\": [7],\n                \"link\": \"\"\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 305,
-    "total_tokens": 1556
+    "prompt_tokens": 1676,
+    "completion_tokens": 735,
+    "total_tokens": 2411
   },
   "system_fingerprint": null
 }

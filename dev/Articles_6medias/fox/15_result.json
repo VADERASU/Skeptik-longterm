@@ -1,0 +1,66 @@
+{
+    "cases": [
+        {
+            "name": "Hillary Clinton on Biden's Age",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Hillary Clinton says to move on from Biden's age: 'Let's go ahead and accept the reality' that he's old",
+                "2": "Hillary Clinton says people need to 'accept the reality' that President Biden is old, move on and focus on beating Donald Trump.",
+                "3": "The former Secretary of State appeared on the 'Mornings with Zerlina' radio show on SiriusXM Tuesday where she discussed what she saw as the authoritarian threat of Trump winning the 2024 presidential election. By contrast, she advised people to acknowledge Biden's age and move on to protect democracy.",
+                "4": "Somebody the other day said to me... 'Well, but, you know, Joe Biden's old.' I said, 'You know what, Joe Biden is old. Let's go ahead and accept the reality. Joe Biden is old.' So we have a contest between one candidate who's old, but who's done an effective job and doesn't threaten our democracy. And we have another candidate who is old, barely makes sense when he talks, is dangerous, and threatens our democracy,\" Clinton said.",
+                "5": "She added, 'So, really, pick between your two old ones and figure out how you're going to save our democracy. Because no matter where you stand on the political spectrum, you want to maintain freedom, and the rule of law, and protection for people's fundamental rights, or at least I used to think so.'",
+                "6": "Though she called for people to recognize that Biden is old, Clinton avoided referencing issues about Biden's mental capacity. Instead, she suggested it was Trump who had memory issues.",
+                "7": "She said, 'Why would we say, 'Oh, you know what? Yeah, he's still getting things done and it's going to improve my life and the life of my children and grandchildren, but he's just too old and I don't like seeing somebody old?'",
+                "8": "'I mean, I think there's a lot to that, but if you are worried about that, listen to Donald Trump, who is like ranting, making no sense, can't even remember who he is running against. He constantly talks about Barack Obama being his opponent. Last I checked, that wasn't what was happening.'",
+                "9": "'So, if you're worried about a person not necessarily knowing what's going on, I'd worry a lot more about Donald Trump,' Clinton said.",
+                "10": "Clinton also responded to a question about whether concerns over Biden's age were a 'proxy' for a reluctance to see a female president, with Vice President Kamala Harris waiting in the wings.",
+                "11": "'It's a challenge for a number of Americans to think of a woman as being president, and then, if the woman is also a woman of color and the daughter of immigrants, you know, that might make it even more of a challenge,' Clinton said. 'But I think it's much more about the fact that Americans are kind of skittish about age.'",
+                "12": "A new poll from the New York Times and Siena College found that 61% of respondents who voted for Biden in 2020 agreed with the statement 'Joe Biden is just too old to be an effective president.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        4,
+                        5
+                    ],
+                    "Questionable conclusion": [
+                        12
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "Hillary Clinton appeals to the tradition of age and experience as qualifiers for the presidency while contrasting the 'old' Biden with the 'dangerous' Trump to sway opinion towards Biden.",
+                                "sentence": [
+                                    4,
+                                    5
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement from the New York Times and Siena College poll that 'Joe Biden is just too old to be an effective president' draws a questionable conclusion based on respondents' opinions without providing substantial evidence or reasoning.",
+                                "sentence": [
+                                    12
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 11,
+            "reliability": 31.33,
+            "word_count": 498,
+            "fallacies_per_1000_words": 4.016064257028112
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "cases": [
+        {
+            "name": "The Traitors' Ep. 10 Recap: The Queen Is Dethroned in Shocking Twist",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The Faithfuls just might have a chance of winning this thing, but the one remaining Traitor in the mix has already proved to be awfully sneaky.",
+                "2": "As the Peacock series rolls up to its finale next week, we're down to just one Traitor\u00e2\u20ac\u201dBelow Deck star and returning Traitors player Kate Chastain. Despite her claim at the start of her foray into Traitor-dom that she's a bad liar, Kate proved this week that she can be a master of misdirection and deception.",
+                "3": "As usual, the Traitors got to choose a murder victim after the elimination, and this time, they chose former Parliament member and Pilot Pete ally John Bercow\u00e2\u20ac\u201dwhose long speeches at the roundtables tend to sway the votes."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion",
+                    "False Cause (FC)"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        2
+                    ],
+                    "Questionable conclusion": [
+                        3
+                    ],
+                    "False Cause (FC)": [
+                        3
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text implies that Kate Chastain is a master of misdirection and deception despite claiming she's a bad liar at the start. This implies that just because she claimed something at the beginning, it must be true throughout, which is an Appeal to Tradition fallacy.",
+                                "sentence": [
+                                    2
+                                ],
+                                "link": "https://www.logicallyfallacious.com/logicalfallacies/Appeal-to-Tradition"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text suggests that the Traitors chose John Bercow as a murder victim, implying that his long speeches swaying the votes led to his selection. This is a Questionable Conclusion as it assumes a direct causal link between his speeches and being chosen as the victim without sufficient evidence.",
+                                "sentence": [
+                                    3
+                                ]
+                            }
+                        ]
+                    },
+                    "False Cause (FC)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text mentions the Traitors choosing John Bercow as a murder victim and implies a causal relationship between his speeches swaying votes and his selection. This is a False Cause fallacy, as it assumes that his speeches directly caused his selection as a murder victim, without establishing a valid causal connection.",
+                                "sentence": [
+                                    3
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 0,
+            "reliability": 33.67,
+            "word_count": 1142,
+            "fallacies_per_1000_words": 2.626970227670753
+        }
+    ]
+}

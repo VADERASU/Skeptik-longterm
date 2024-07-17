@@ -1,0 +1,67 @@
+{
+    "cases": [
+        {
+            "name": "Defence Lawyers Controversy at Toronto District School Board",
+            "source": "The Globe and Mail",
+            "sentences": {
+                "1": "Canada's largest school board doesn't seem to understand the indispensable role of defence lawyers in our justice system.",
+                "2": "Carissima Mathen, LSM, is professor of law at the University of Ottawa. Her books include Courts Without Cases: The Law and Politics of Advisory Opinions.",
+                "3": "\"Does it ever bother you, defending people you know are guilty?\"",
+                "4": "That's one of the most common questions defence lawyers get from people who are unfamiliar with the job. The legendary Canadian lawyer Edward Greenspan had perhaps the best answer: \"If I defended crimes, maybe it would - but I don't defend crimes. I only defend innocent people. Until they are found guilty, there are no other kinds of people for me to defend.\"",
+                "5": "I was reminded of Mr. Greenspan's words in light of a controversy involving the Toronto District School Board and Marie Henein, one of Canada's best known criminal lawyers who represented former CBC Radio host Jian Ghomeshi.",
+                "6": "Her memoir, Nothing But The Truth, was proposed for a book club series to which the TDSB sometimes sends students. The club's organizer says that a superintendent told her that the book was not suitable because Ms. Henein \"defended Jian Ghomeshi and how do you explain that to little girls.\" (The board now says it is reviewing the book and developing a broader policy for future events.)",
+                "7": "There are many legitimate reasons why a particular book might not suit a particular reading group. The TDSB's rejection, however, was because the author had defended - and successfully, at that - a high-profile person against charges of sexual assault. After #MeToo, the TDSB superintended signalled, her book should apparently be avoided.",
+                "8": "This messaging - to students and to the public at large - is deeply problematic, for at least two reasons.",
+                "9": "First, being a defence lawyer is a difficult, occasionally vexing role - and yet it is extraordinarily important. The whole point is to disrupt what might otherwise be a frogmarch to conviction. The more heinous the alleged crime, and the more the Crown's accusations stoke fear and revulsion, the more zealous a defence lawyer is called to be - and, indeed, needs to be. There are few principles in our legal system as important as this one to ensure that we remain governed by the law, and not driven by the mob.",
+                "10": "And make no mistake: Public opinion makes a real difference to the working conditions of criminal defence lawyers. The public often is outraged at criminal cases - not just at accused persons, but everyone involved in their trials - and defence lawyers are easy fodder when an acquittal is viewed as unjust, as some clearly see Mr. Ghomeshi's 2016 judgment. However, the great majority of criminal lawyers never achieve Ms. Henein's prominence. They often have to rely on Legal Aid, which is always an easy target for politicians looking to reduce or redistribute budgetary expenses. Denigrating the role of defence lawyers, as the TDSB did, makes it easier to justify cuts to Legal Aid that will have very real downstream effects on indigent and marginalized defendants.",
+                "11": "Second, the TDSB's actions send a terrible message to women and girls considering a career in law. Sexual assault is a gendered crime, and the historically male-dominated defence bar has sometimes contributed to difficulties ensuring fairness to all parties. It makes sense to encourage women and girls to enter the field. Yet some people are clearly disturbed that Ms. Henein could have possibly achieved such success by, in part, representing men charged with sexual offences. \"How can she defend him?\" has become the sequel of defence lawyers' most commonly faced question. It subjects women to different professional expectations, while also continuing a worrying societal trend in which personal identity and professional obligations are merged.",
+                "12": "No one is required to admire Ms. Henein, buy her book or accept her arguments. Individuals should feel free to dislike the techniques she employed in defending her client at trial. But public institutions, such as the TDSB, are not individuals. As an educational organization, it has a higher responsibility to ensure that it is not contributing to ill-informed opinions about the criminal justice system and the actors who make it function, and passing those on to our youth.",
+                "13": "None of this means that defence lawyers should be immune from criticism. Their conduct is subject to legal and professional standards which, if violated, triggers appeals or disciplinary proceedings. But nothing in Ms. Henein's conduct came close to crossing those lines. She was a fearsome advocate for Mr. Ghomeshi, employing the available rules to devastating effect - as the system allowed, and as her role required.",
+                "14": "I have defended reforms to sexual-assault law for more than 20 years. I know well the uncompromising, even brutal nature of our far-from-perfect system, and that it should be subject to continual review and scrutiny. But, as Ms. Henein herself has said, it is the system we have. And in its basic precepts - the presumption of innocence, the heavy burden on the Crown - it outshines pretty much any alternative."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        7,
+                        11
+                    ],
+                    "Questionable conclusion": [
+                        14
+                    ]
+                },
+                "annotations": {
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The Toronto District School Board's rejection of Marie Henein's book due to her defense of a high-profile person against charges of sexual assault is a red herring as it sidetracks from the book's content and suitability based on the author's legal skills.",
+                                "sentence": [
+                                    7,
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that the current system of law outshines any alternative is questionable as it lacks a comprehensive evaluation of other potential systems or improvements.",
+                                "sentence": [
+                                    14
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 1,
+            "reliability": 33.67,
+            "word_count": 840,
+            "fallacies_per_1000_words": 2.3809523809523814
+        }
+    ]
+}

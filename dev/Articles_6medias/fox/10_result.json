@@ -1,0 +1,71 @@
+{
+    "cases": [
+        {
+            "name": "Biden slammed for Transgender Day of Visibility on Easter Sunday",
+            "source": "WSJ",
+            "sentences": {
+                "1": "President Joe Biden was slammed on social media Saturday after marking Easter Sunday, the most solemn Christian holiday, as 'Transgender Day of Visibility.'",
+                "2": "Prominent Christians, politicians, and commenters flooded social media platforms with criticism after the announcement from the White House."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "Questionable conclusion": [
+                        35,
+                        36
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The criticism is based on the tradition of Easter Sunday being a significant Christian holiday, contrasting it with the newly designated Transgender Day of Visibility.",
+                                "sentence": [
+                                    3,
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9,
+                                    10
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Critics question the decision-making process behind choosing the date for Transgender Day of Visibility, implying a lack of transparency or justification.",
+                                "sentence": [
+                                    35,
+                                    36
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 13.67,
+            "reliability": 22,
+            "word_count": 460,
+            "fallacies_per_1000_words": 6.521739130434782
+        }
+    ]
+}

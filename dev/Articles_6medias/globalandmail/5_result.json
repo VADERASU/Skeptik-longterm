@@ -1,0 +1,56 @@
+{
+    "cases": [
+        {
+            "name": "Toronto-area housing developments at risk as lenders accuse StateView Homes of wrongdoing",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The future of hundreds of unbuilt townhouses is in limbo as Toronto-area home builder StateView Homes deals with fallout caused by an alleged 'cheque-kiting' scheme that ran up debts of $37-million.",
+                "2": "A lawsuit filed by Toronto-Dominion Bank TD-T on March 24 alleges a series of 'fraudulent cheques' were used to manipulate the bank's overdraft system, costing the bank $37-million between April, 2022, and March, 2023.",
+                "3": "StateView didn't comment on allegations of cheque fraud outlined by TD but in an e-mailed statement vice-president of marketing Darryl Orian said: 'Unfortunately, as the situation is ongoing, StateView Homes cannot comment on the circumstances or details leading to a settlement with TD.'",
+                "4": "StateView issued a fuller statement Tuesday addressing 'rumours and speculation around the solvency of the organization,' stressing it was not declaring bankruptcy.",
+                "5": "In the wake of TD's filings, StateView is facing demands for repayment from at least two other lenders that could see an unfinished townhouse project (Nao Towns Phase II in Markham, Ont., with 96 units) pushed into insolvency."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "False Cause (FC)",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "False Cause (FC)": [
+                        16
+                    ],
+                    "Questionable conclusion": [
+                        18
+                    ]
+                },
+                "annotations": {
+                    "False Cause (FC)": {
+                        "Explanation": [
+                            {
+                                "explanation": "Mistaking correlation for causation by asserting that StateView's alleged cheque-kiting led to a material adverse change, without concrete evidence of a causal link.",
+                                "sentence": [
+                                    16
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Drawing an unwarranted conclusion that the unfinished project was pushed into insolvency solely based on the demands for repayment from lenders.",
+                                "sentence": [
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 44,
+            "word_count": 674,
+            "fallacies_per_1000_words": 2.967359050445104
+        }
+    ]
+}

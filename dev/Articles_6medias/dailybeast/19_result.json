@@ -1,0 +1,63 @@
+{
+    "cases": [
+        {
+            "name": "Kari Lake Comes Up Empty-Handed When Pressed About Arizona Election Claims",
+            "source": "WSJ",
+            "sentences": {
+                "1": "When it comes to Kari Lake's debunked theory of widespread election fraud in her 2022 Arizona gubernatorial race, she's not even sure 'who exactly stole the election,' she admitted Monday.",
+                "2": "During an interview on Arizona's KTAR News 92.3 FM, Lake's false claims were challenged by the station's legal analyst, Barry Markson.",
+                "3": "My question is, as you've been saying for three years, or for two years: can you tell us who stole the election from you and how they did it, and if you can't or you don't want to, that's OK, but I want to make sure the question is there in front of you, Markson said.",
+                "4": "A post-election lawsuit from Lake alleging election fraud was rejected in December 2022, with an Arizona court ruling that there was no 'clear and convincing evidence' the race outcome was affected by fraud. Lake's additional legal losses extended through late last year. But that hasn't seemed to deter her.",
+                "5": "I don't know who exactly stole the election, Lake said, 'but there are a lot of people who are running elections poorly, and we've seen the result.'",
+                "6": "A candidate for Senate in Arizona this year, Lake added: 'The elections are run poorly. They're run very poorly, and I don't know who exactly.'",
+                "7": "At another point in the interview, Lake tried to explain critical comments she made in 2022 about former Arizona Sen. John McCain and his supporters. But McCain's daughter, Megan, hasn't bought that Lake's remarks were made in jest.",
+                "8": "Guess she realized she can't become a Senator without us, McCain wrote on X Tuesday."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Hasty generalization"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        4,
+                        5,
+                        6
+                    ],
+                    "Hasty generalization": [
+                        8
+                    ]
+                },
+                "annotations": {
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Kari Lake draws unwarranted conclusions about election fraud without considering the lack of clear evidence supporting her claims.",
+                                "sentence": [
+                                    4,
+                                    5,
+                                    6
+                                ]
+                            }
+                        ]
+                    },
+                    "Hasty generalization": {
+                        "Explanation": [
+                            {
+                                "explanation": "McCain hastily generalizes that Lake cannot become a Senator without their support based on her previous remarks.",
+                                "sentence": [
+                                    8
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": -7.33,
+            "reliability": 33.67,
+            "word_count": 272,
+            "fallacies_per_1000_words": 7.352941176470588
+        }
+    ]
+}

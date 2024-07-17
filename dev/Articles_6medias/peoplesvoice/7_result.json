@@ -1,0 +1,59 @@
+{
+    "cases": [
+        {
+            "name": "Americans' Views on COVID-19 Vaccine Side Effects",
+            "source": "TGP",
+            "sentences": {
+                "1": "A recent survey has revealed that almost a quarter of Americans believe they know someone who died from side effects of the COVID-19 vaccine.",
+                "2": "The survey found that 24% of American adults claim to know someone personally who died due to the side effects of the COVID-19 vaccine. In contrast, a significant 69% of respondents stated they don't know anyone who died from being vaccinated against the virus.",
+                "3": "Even more people say they might be willing to become plaintiffs in a class-action lawsuit against vaccine makers.",
+                "4": "Furthermore, the survey delved into the potential legal ramifications of these beliefs.",
+                "5": "A notable 42% of respondents expressed that they would 'likely' join a major class-action lawsuit against big pharma if one were to file a lawsuit concerning vaccine side effects. This includes 24% who said it's 'very likely' they'd join such a lawsuit.",
+                "6": "On the other hand, 47% of those surveyed 'aren't likely' to join a class-action lawsuit against vaccine makers, with 25% stating it's 'not at all likely' they would participate. An additional 11% remain uncertain.",
+                "7": "The survey also highlighted some demographic differences. For instance, more men (51%) than women (44%) claim to know someone who died from vaccine side effects. Adults under 40 are less likely to know someone who died from the virus but are more inclined to join a lawsuit against pharmaceutical companies for vaccine side effects. Interestingly, men under 40 are particularly likely to say they'd join a class-action lawsuit. Racial differences were also evident in the survey results. While 43% of white respondents said they know someone who died from the COVID-19 virus, this number rises to 52% for black respondents and 57% for other minorities. However, fewer whites (20%) than blacks (28%) or other minorities (32%) claim to know someone who died from vaccine side effects. Black respondents were found to be more willing to join a class-action lawsuit for vaccine side effects."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "False Cause (FC)"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        4
+                    ],
+                    "False Cause (FC)": [
+                        7
+                    ]
+                },
+                "annotations": {
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The survey delves into the potential legal ramifications of beliefs regarding vaccine side effects but does not provide evidence or support for the likelihood of these outcomes.",
+                                "sentence": [
+                                    4
+                                ],
+                                "link": "https://www.google.com/search?q=questionable+conclusion"
+                            }
+                        ]
+                    },
+                    "False Cause (FC)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The survey data highlights demographic differences in knowing someone who died from the COVID-19 virus and willingness to join a class-action lawsuit for vaccine side effects. However, it incorrectly implies a causal relationship between race and the likelihood of knowing someone who died from vaccine side effects and willingness to join a lawsuit.",
+                                "sentence": [
+                                    7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 15,
+            "reliability": 22.67,
+            "word_count": 358,
+            "fallacies_per_1000_words": 5.58659217877095
+        }
+    ]
+}

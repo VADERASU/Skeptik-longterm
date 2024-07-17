@@ -1,0 +1,63 @@
+{
+    "cases": [
+        {
+            "name": "Disney Sparks Outrage Following 'Woke' Minnie Mouse Makeover",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Disney has come under fire after debuting a 'woke' new look for Minnie Mouse.",
+                "2": "The cartoon character has ditched her trademark red and white polka dot dress in favour of a 'progressive' Hillary Clinton style blue pantsuit in honour of Disneyland Paris's 30th anniversary.",
+                "3": "Minnies's new look did not go down well with fans, with many people accusing the company of trying to be 'woke,' and calling her old outfit 'timeless'.",
+                "4": "Conservative commentator Candace Owens even accused Walt Disney Co. of putting its Minnie Mouse character in trousers to undermine societal values and distract Americans from failures by the Biden's administration.",
+                "5": "In an interview with Fox News host Jesse Watters, Owens said: \"This is why people don't take these people seriously\u2026they're taking all of these things that nobody was offended by and feel like they have to get rid of them and destroy them because they're bored, they're absolutely bored. They are trying to destroy the fabrics of our society pretending that there are issues.\"",
+                "6": "RT reports: Much of the goal, Owens said, is to divert attention from crises facing the country, such as the highest inflation in 40 years. \"Look at Minnie Mouse. The world is going forward because we've got her in a pantsuit,\" she said. \"Never mind that you can't get anything at the grocery store and you can't buy a piece of bacon unless you've got $30 in your pocket. At least we're addressing the real problem, which is Minnie Mouse.\"",
+                "7": "The rant came in response to a new Minnie Mouse costume that Disney created to mark the 30th anniversary of Disneyland Paris and to be worn only during Women's History Month, which is March. A blue pantsuit with black polka dots and black shoes will replace Minnie's signature red dress with white dots.",
+                "8": "Disneyland Paris shared a sneak peek of the new costume on Tuesday. Designer Stella McCartney said she was \"delighted\" to be involved in putting Mickey Mouse's girlfriend in trousers. \"This new take on her signature polka dots makes Minnie Mouse a symbol of progress for a new generation. She will wear it in honor of Women's History Month,\" she said.",
+                "9": "The latest branding controversy comes just one week after Mars Inc. stirred backlash by redesigning its animated M&M's mascots. The revisions included putting the female character in less feminine shoes, which Mars called a modern makeover for a \"more dynamic, progressive world.\"",
+                "10": "Owens said sarcastically that girls have been traumatized by seeing Minnie portrayed as a female while they were growing up. \"It goes back to what they did with the M&M's, and now they are making her more masculine. I'm glad they are seeing that this needed to be addressed.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        3,
+                        7
+                    ],
+                    "Questionable conclusion": [
+                        10
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The appeal to tradition fallacy occurs in these sentences where critics are opposing the change in Minnie Mouse's outfit by claiming that her old outfit is 'timeless' and by emphasizing the significance of her signature red dress with white dots.",
+                                "sentence": [
+                                    3,
+                                    7
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The questionable conclusion fallacy is present in this sentence where Owens sarcastically suggests that girls have been traumatized by seeing Minnie portrayed as a female, implying an unwarranted and exaggerated conclusion.",
+                                "sentence": [
+                                    10
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 15.67,
+            "reliability": 25.33,
+            "word_count": 457,
+            "fallacies_per_1000_words": 4.3763676148796495
+        }
+    ]
+}

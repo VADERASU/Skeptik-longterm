@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3YquSMFvIG77SFYRMZvReiamxxY",
+  "id": "chatcmpl-9m4ASYYRBIoUfpweMwGTsoB9hyPXy",
   "object": "chat.completion",
-  "created": 1721240460,
+  "created": 1721242792,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Logical Fallacies in Political Discourse\",\n      \"source\": \"Debate on National Policies\",\n      \"sentences\": {\n        \"1\": \"When asked about unemployment rates, a politician talks about education reform.\",\n        \"2\": \"A politician discredits an opponent by criticizing their character instead of addressing the policy.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Obfuscation/distraction\",\n          \"Personal attack\"\n        ],\n        \"sentences\": {\n          \"Obfuscation/distraction\": [\n            1\n          ],\n          \"Personal attack\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Obfuscation/distraction\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician diverts attention from the main issue of unemployment rates by talking about education reform, which is not directly related to the question asked.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Personal attack\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician resorts to criticizing the opponent's character instead of engaging with the opponent's policy views, which is an attempt to avoid the real issue at hand.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Prince Harry's Coronation 'Demands'\",\n      \"source\": \"Daily Mail\",\n      \"sentences\": {\n        \"1\": \"Prince Harry and Meghan Markle's attendance at King Charles' Coronation seemingly rests on a number of 'demands' - and it's a major headache for the Palace.\",\n        \"2\": \"The historic event awkwardly takes place on Prince Archie's birthday - and it's rumored that the Sussex's eldest and sister Princess Lilibet haven't even been invited.\",\n        \"3\": \"According to royal historian and author Dr Tessa Dunlop, it would be 'odd' if Archie has not been invited to the event.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to tradition\",\n          \"Questionable conclusion\",\n          \"Post Hoc\"\n        ],\n        \"sentences\": {\n          \"Appeal to tradition\": [\n            2\n          ],\n          \"Questionable conclusion\": [\n            3\n          ],\n          \"Post Hoc\": [\n            23\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The argument relies on the belief that just because something has been done a certain way (not inviting young children to royal events in this case), it should continue to be done so without considering the specific circumstances.\",\n                \"sentence\": [2],\n                \"link\": \"https://www.google.com/search?q=contrasting+view\"\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion that it would be 'odd' if Archie has not been invited is drawn without considering the specific reasons or circumstances behind the decision-making process regarding the event guest list.\",\n                \"sentence\": [3]\n              }\n            ]\n          },\n          \"Post Hoc\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The assumption that Harry's revelations about killing Taliban insurgents may impact his security at the Coronation is based on the temporal sequence of events (revelations preceding increased safety concerns) without establishing a direct causal relationship.\",\n                \"sentence\": [23]\n              }\n            ]\n          }\n        }\n      }\n    },\n    {\n      \"name\": \"Family Balcony Appearance\",\n      \"source\": \"Yahoo News\",\n      \"sentences\": {\n        \"1\": \"The Sussexes and their children were not present on the balcony for the Queen's Platinum Jubilee celebrations last summer, but the Prince and Princess of Wales and their children were.\",\n        \"2\": \"A source claims the Sussexes are asking Palace aides to include them on the balcony with the rest of the Royal Family once the King has been crowned to wave to the crowds.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"False dilemma\"\n        ],\n        \"sentences\": {\n          \"False dilemma\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"False dilemma\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The presentation of the situation as if the only options are either to include the Sussexes on the balcony or not, without considering alternative arrangements or compromises.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 288,
-    "total_tokens": 1539
+    "prompt_tokens": 2966,
+    "completion_tokens": 712,
+    "total_tokens": 3678
   },
   "system_fingerprint": null
 }

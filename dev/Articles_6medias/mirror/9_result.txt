@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3YfK6xoYwRavJAgbfdpfeBFr0pb",
+  "id": "chatcmpl-9m4AJ2VbVaLWPAdkfSFaLQhtqDYgA",
   "object": "chat.completion",
-  "created": 1721240449,
+  "created": 1721242783,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Healthcare\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"The candidate argued that universal healthcare would ensure access to medical services for all citizens.\",\n        \"2\": \"However, the opponent misrepresented the proposal as advocating for a government-controlled system.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Strawman (Caricature)\"\n        ],\n        \"sentences\": {\n          \"Strawman (Caricature)\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Strawman (Caricature)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The opponent distorted the candidate's argument by presenting it as something extreme and different from what was actually proposed.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    },\n    {\n      \"name\": \"Climate Change Discussion\",\n      \"source\": \"BBC\",\n      \"sentences\": {\n        \"1\": \"A renowned scientist emphasized the urgent need for global action to mitigate the effects of climate change.\",\n        \"2\": \"However, a skeptic dismissed the scientist's advice due to the scientist's personal high carbon footprint.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Who are you to talk?\",\n          \"Ad hominem\"\n        ],\n        \"sentences\": {\n          \"Who are you to talk?\": [\n            2\n          ],\n          \"Ad hominem\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Who are you to talk?\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The skeptic rejected the scientist's advice based on the scientist's personal behavior rather than the validity of the argument.\",\n                \"sentence\": [2]\n              }\n            ]\n          },\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The skeptic attacked the scientist's character instead of addressing the scientific evidence presented.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Royal 'Coronation roles' - Kate's message, Louis' carriage ride and Meghan snub\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"The Coronation of King Charles will be the first time in 70 years that the UK or even the world has seen such a historic spectacle.\",\n        \"2\": \"It is the first time in recent history that an already existing crown will be used during the Coronation of a Queen Consort instead of a new one being made.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to tradition\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Appeal to tradition\": [\n            2\n          ],\n          \"Questionable conclusion\": [\n            1\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The argument relies on the tradition of using an existing crown during the Coronation of a Queen Consort instead of creating a new one as a basis for decision-making, without providing a strong rationale beyond tradition.\",\n                \"sentence\": [2],\n                \"link\": \"https://www.google.com/search?q=contrasting+view\"\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The statement presents the upcoming Coronation of King Charles as a historic event based on the time gap since the last similar spectacle, which may not inherently make it historic or significant.\",\n                \"sentence\": [1]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 459,
-    "total_tokens": 1710
+    "prompt_tokens": 3018,
+    "completion_tokens": 364,
+    "total_tokens": 3382
   },
   "system_fingerprint": null
 }

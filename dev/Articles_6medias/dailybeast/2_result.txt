@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3b2Py2UrfmwPlUHyC5HCuofKdXC",
+  "id": "chatcmpl-9m3tM6W6QdfKQxQBRTdohz3gJxufh",
   "object": "chat.completion",
-  "created": 1721240596,
+  "created": 1721241732,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate\",\n      \"source\": \"Debate Night News\",\n      \"sentences\": {\n        \"1\": \"The candidate attacked their opponent's personal life instead of discussing the proposed policies.\",\n        \"2\": \"When questioned about the budget plan, the senator diverted the conversation to foreign policy.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Personal attack\",\n          \"Obfuscation/distraction\"\n        ],\n        \"sentences\": {\n          \"Personal attack\": [\n            1\n          ],\n          \"Obfuscation/distraction\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Personal attack\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate used a personal attack to avoid addressing the opponent's policies directly.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.logicallyfallacious.com/logicalfallacies/Ad-Hominem-Abusive\"\n              }\n            ]\n          },\n          \"Obfuscation/distraction\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The senator diverted the conversation away from the budget plan, focusing on foreign policy instead.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Justin Timberlake's 'One Martini' Cocktail Recipe Revealed\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"We now know the martini Timberlake was drinking the night of his arrest for driving while intoxicated is 'equivalent to a double of just about any other cocktail.'\",\n        \"2\": \"After Justin Timberlake was arrested for allegedly drunk driving in the Hamptons early Tuesday, the pop star told cops he had just 'one martini.' Earlier that night, the ex-NSYNC vocalist met friends at celebrity hotspot the American Hotel in Sag Harbor.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Cherry Picking\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Cherry Picking\": [\n            10\n          ],\n          \"Questionable conclusion\": [\n            25\n          ]\n        },\n        \"annotations\": {\n          \"CP\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The text focuses on the positive aspects of Timberlake's behavior at the American Hotel while ignoring the negative aspects of his night of arrest, creating a biased view.\",\n                \"sentence\": [10],\n                \"link\": \"https://www.google.com/search?q=contrasting+view\"\n              }\n            ]\n          },\n          \"RH\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion regarding Timberlake's potential innocence or guilt is drawn without sufficient evidence or context.\",\n                \"sentence\": [25]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n``` \n\n"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 278,
-    "total_tokens": 1529
+    "prompt_tokens": 1978,
+    "completion_tokens": 355,
+    "total_tokens": 2333
   },
   "system_fingerprint": null
 }

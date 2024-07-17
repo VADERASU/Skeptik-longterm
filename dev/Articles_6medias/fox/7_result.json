@@ -1,0 +1,58 @@
+{
+    "cases": [
+        {
+            "name": "Conservatives blast Biden admin authorizing 'deadly use of force' for Trump Mar-a-Lago raid",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The conservative Heritage Foundation says Americans of any political leaning should be 'outraged' and 'shaken to the bone' over the Biden administration's authorized use of deadly force when the FBI raided former President Trump's Mar-a-Lago estate in Florida.",
+                "2": "The August 2022 raid was part of the Department of Justice (DOJ) investigation into Trump's alleged handling of classified records."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        9,
+                        10
+                    ],
+                    "Questionable conclusion": [
+                        33,
+                        34
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument implies that the use of deadly force is justified merely based on its acceptance in the past without considering the specific circumstances of this case.",
+                                "sentence": [
+                                    9,
+                                    10
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that the trial was postponed indefinitely is drawn without providing sufficient evidence or reasoning to support this claim.",
+                                "sentence": [
+                                    33,
+                                    34
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 19.33,
+            "reliability": 21,
+            "word_count": 969,
+            "fallacies_per_1000_words": 2.0639834881320946
+        }
+    ]
+}

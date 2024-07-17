@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3eWC8InkKX2ioEP5gIoV0qKVd6E",
+  "id": "chatcmpl-9m3zBi4qoNcoYmsNNmhCf22p2vcAp",
   "object": "chat.completion",
-  "created": 1721240812,
+  "created": 1721242093,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Sample Text\",\n      \"source\": \"Sample Source\",\n      \"sentences\": {\n        \"1\": \"Logical Fallacies List:\",\n        \"2\": \"Personal attack: Attaching a person or group to avoid the issue.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Hasty generalization\",\n          \"False Cause (FC)\"\n        ],\n        \"sentences\": {\n          \"Hasty generalization\": [\n            36\n          ],\n          \"False Cause (FC)\": [\n            38\n          ]\n        },\n        \"annotations\": {\n          \"Hasty generalization\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion that all dogs are aggressive is drawn from a small sample of aggressive dogs and applied to all dogs.\",\n                \"sentence\": [36],\n                \"link\": \"https://www.google.com/search?q=hasty+generalization\"\n              }\n            ]\n          },\n          \"False Cause (FC)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The assertion that ice cream consumption causes drowning is a false cause fallacy because correlation does not prove causation.\",\n                \"sentence\": [38]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Donald Trump's Cash Crunch Just Got Much, Much Worse\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"As Donald Trump's legal troubles consume more and more of his time, they're also consuming more of his donors' money\u00e2\u20ac\u201dand there's a huge hole in the bucket.\",\n        \"2\": \"On Tuesday, Trump's 'Save America' leadership political action committee reported raising just $8,508 from donors in the entire month of January, while spending about $3.9 million, according to a new filing with the Federal Election Commission.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"False Cause (FC)\",\n          \"Questionable conclusion\",\n          \"Red Herring (sidetracking)\"\n        ],\n        \"sentences\": {\n          \"False Cause (FC)\": [\n            1\n          ],\n          \"Questionable conclusion\": [\n            2, 3, 10\n          ],\n          \"Red Herring (sidetracking)\": [\n            32\n          ]\n        },\n        \"annotations\": {\n          \"FC\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Mistaking correlation for causation in assuming that Trump's legal troubles consuming his time directly lead to consuming more donors' money.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.logicalfallacies.info/causal/false-cause/\"\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Drawing unwarranted conclusions based on limited information or data.\",\n                \"sentence\": [2, 3, 10]\n              }\n            ]\n          },\n          \"RH\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Sidetracking from the main financial issues by focusing on Trump's campaign spending details.\",\n                \"sentence\": [32]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 277,
-    "total_tokens": 1528
+    "prompt_tokens": 2387,
+    "completion_tokens": 428,
+    "total_tokens": 2815
   },
   "system_fingerprint": null
 }

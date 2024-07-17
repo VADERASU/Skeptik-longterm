@@ -1,0 +1,63 @@
+{
+    "cases": [
+        {
+            "name": "Meghan Markle Buckingham Palace balcony ban was 'more than she could bear'",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The Duke and Duchess of Sussex decided Harry would attend the King's Coronation at Westminster Abbey on May 6 as it would appear a 'terrible snub' if he failed to turn up.",
+                "2": "Meghan Markle's exclusion from the traditional Buckingham Palace balcony appearance at the upcoming King's coronation was 'more than she could bear', a royal expert has said."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        2,
+                        6
+                    ],
+                    "Questionable conclusion": [
+                        35
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument that Meghan's exclusion from the traditional Buckingham Palace balcony appearance was 'more than she could bear' appeals to tradition by suggesting that the significance of this tradition should dictate Meghan's emotional response.",
+                                "sentence": [
+                                    2
+                                ],
+                                "link": ""
+                            },
+                            {
+                                "explanation": "The statement that Meghan could have attended the coronation as they have a big team of helpers and making excuses based on tradition and social status reflects an appeal to tradition fallacy.",
+                                "sentence": [
+                                    6
+                                ],
+                                "link": ""
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that Harry attending the coronation alone could jeopardize their future earnings and potential to get back with the royals is questionable as it lacks strong evidence or reasoning.",
+                                "sentence": [
+                                    35
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 1.67,
+            "reliability": 28.67,
+            "word_count": 640,
+            "fallacies_per_1000_words": 4.6875
+        }
+    ]
+}

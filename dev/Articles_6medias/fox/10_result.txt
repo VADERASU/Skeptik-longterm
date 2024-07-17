@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3WCd3UxKew9aF3DMpWsViWns6k4",
+  "id": "chatcmpl-9m42KkJTYF2B5kw1VbLF8HHLrYRhi",
   "object": "chat.completion",
-  "created": 1721240296,
+  "created": 1721242288,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Example 1\",\n      \"source\": \"Political debate\",\n      \"sentences\": {\n        \"1\": \"A politician discredits an opponent by criticizing their character instead of addressing the policy.\",\n        \"2\": \"Ignoring climate change advice from a scientist with a high carbon footprint.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Who are you to talk?\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1\n          ],\n          \"Who are you to talk?\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician is attacking the opponent's character instead of addressing the policy, which is a form of ad hominem fallacy.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.logicalfallacies.info/relevance/ad-hominem/\"\n              }\n            ]\n          },\n          \"Who are you to talk?\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Dismissing the scientist's advice based on their personal actions without considering the validity of the advice itself.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    },\n    {\n      \"name\": \"Example 2\",\n      \"source\": \"Economic debate\",\n      \"sentences\": {\n        \"1\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n        \"2\": \"When asked about unemployment rates, a politician talks about education reform.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Obfuscation/distraction\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1\n          ],\n          \"Obfuscation/distraction\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Dismissing the opinion based on the person's political affiliation rather than addressing the argument itself.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Obfuscation/distraction\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician is diverting attention from the issue of unemployment rates by talking about education reform instead.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Biden slammed for Transgender Day of Visibility on Easter Sunday\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"President Joe Biden was slammed on social media Saturday after marking Easter Sunday, the most solemn Christian holiday, as 'Transgender Day of Visibility.'\",\n        \"2\": \"Prominent Christians, politicians, and commenters flooded social media platforms with criticism after the announcement from the White House.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to tradition\",\n          \"Questionable conclusion\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Appeal to tradition\": [\n            3, 4, 5, 6, 7, 8, 9, 10\n          ],\n          \"Questionable conclusion\": [\n            35, 36\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The criticism is based on the tradition of Easter Sunday being a significant Christian holiday, contrasting it with the newly designated Transgender Day of Visibility.\",\n                \"sentence\": [3, 4, 5, 6, 7, 8, 9, 10],\n                \"link\": \"https://www.google.com/search?q=contrasting+view\"\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Critics question the decision-making process behind choosing the date for Transgender Day of Visibility, implying a lack of transparency or justification.\",\n                \"sentence\": [35, 36]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 541,
-    "total_tokens": 1792
+    "prompt_tokens": 1872,
+    "completion_tokens": 381,
+    "total_tokens": 2253
   },
   "system_fingerprint": null
 }

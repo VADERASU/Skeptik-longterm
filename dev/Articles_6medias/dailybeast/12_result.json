@@ -1,0 +1,104 @@
+{
+    "cases": [
+        {
+            "name": "Kosher Phones Used by Ultra-Orthodox Jews",
+            "source": "The Daily Beast",
+            "sentences": {
+                "1": "As an elder millennial, I received my first cell phone during my senior year of high school.",
+                "2": "Today, smartphone addiction is widely acknowledged, and most people I know are actively seeking to minimize screen time and shield their children from the highly addictive nature of technology.",
+                "3": "Ultra-orthodox groups are relatively secluded and are characterized by their strict adherence to Jewish law, particularly those concentrated in Israel and America but also found in various countries such as Australia, Canada, and England.",
+                "4": "\"I am a native New Yorker, but I saw zero footage of September 11th,\" Frieda Vizel told The Daily Beast.",
+                "5": "She's a 39-year-old woman who grew up as part of New York's ultra-orthodox Satmar community but chose to leave that way of life more than a decade ago.",
+                "6": "\"The footage was completely inaccessible to me [in my community].\" She grew up in the Hasidic Jewish town of Kiryas Joel in upstate New York, where she had no access to screens or television.",
+                "7": "The resistance to embrace smart technologies unfolded gradually.",
+                "8": "During the early 2000s, with technological advancements, some within the ultra-orthodox community began to buy some of the earliest versions of smartphones like Blackberries.",
+                "9": "\"After I got married [in the early 2000s], I had a mobile phone. Everyone in the community bought one,\" she recalled.",
+                "10": "The technology was rapidly gaining popularity and was eagerly adopted.",
+                "11": "However, the rabbis soon realized that smartphones, with their swiftly advancing features and fast internet speed, would be challenging to control and could jeopardize the community's way of life.",
+                "12": "To counter this risk, smartphones were prohibited, and a novel approach emerged: \"kosher\" phones.",
+                "13": "Kosher phones, often endorsed by rabbis for community use, typically come in two varieties.",
+                "14": "They can be extremely simple phones with minimal features, like basic calling and no internet, while others are smart devices retrofitted with filters that can be updated and installed by designated individuals within the ultra-orthodox community at the time of purchase.",
+                "15": "These filters guarantee that no distractions or apps conflicting with the expectations of the ultra-orthodox lifestyle are allowed.",
+                "16": "While pornographic websites are obviously blocked, other more innocuous websites like YouTube or apps like Spotify may also be limited due their perceived incompatibility.",
+                "17": "\"When I first heard about them, I started to think, 'Is this going to catch on? Are they going to get people to turn in their smartphones and get people to buy these basic phones?'\" said Vizel.",
+                "18": "A quick walk around any ultra-orthodox Jewish enclave anywhere in the world will show that the ban on smartphones has been remarkably successful.",
+                "19": "\"It is mind boggling to me to see the rate of success. In Hasidic Williamsburg, you see kosher phones everywhere and you rarely see a smartphone,\" Vizel said. \"I watched this happen in real time, and I thought it was impossible.\"",
+                "20": "In contrast to the ubiquitous online presence in today's hyper-connected world, the ultra-orthodox community follows a different approach.",
+                "21": "Adults may have access to internet-enabled devices for work or study, albeit with limitations and filters and they are not online all the time.",
+                "22": "Access is never granted to children under the age of 18.",
+                "23": "\"There is an acceptance that smartphones and the internet are necessary,\" Vizel said.",
+                "24": "However, they \"try not to bring it into their life,\" and don't subscribe to \"hyper-addicting smartphone culture.\"",
+                "25": "Interestingly, Vizel finds that she is often recognized and spotted by members of her former community, who have clearly been watching her videos on YouTube, perhaps with a filter like KosherTube, which ensures content that is viewable and appropriate for members of an ultra-orthodox Jewish community.",
+                "26": "\"I have a ton of viewers on my YouTube channel who are Hasidic,\" she said. \"But many don't have smartphones.\"",
+                "27": "Even though kosher phones are widely used in ultra-orthodox communities, it does not necessarily result in lower levels of addiction.",
+                "28": "Technology can prove to be incredibly enticing even with the filters and limited features.",
+                "29": "\"People can call hotlines and listen to the news, and people are enamoured by that,\" Vizel said. \"One of the ubiquitous sights in Williamsburg is that there are people glued to their phones. [...] Kosher phones are addictive but in a different way.\"",
+                "30": "Imposing restrictions on internet access also has its drawbacks.",
+                "31": "Leah Boulton is the founder and CEO of Pathways Melbourne, a group dedicated to supporting and empowering ultra-Orthodox Jews who are questioning their lifestyle, practices and beliefs.",
+                "32": "She told The Daily Beast that there are multiple challenges created by the technology.",
+                "33": "For one, the use of kosher phones can complicate the process of challenging their beliefs, as filters may block access to supportive websites and hinder the acquisition of essential information.",
+                "34": "\"Often when we start engaging with people, they have managed to access some form of internet,\" she said. \"Last year, we had a young man with two sim cards. He had a kosher and non-kosher one. It was very hard to contact him.\"",
+                "35": "Boulton doesn't criticize anyone who uses a kosher phone. It's their individual choice.",
+                "36": "However, it does lead to a more limited worldview. \"And this controls the risks that may lead to questioning.\"",
+                "37": "There are also safety concerns.",
+                "38": "While imposing restrictions on oneself and family members can provide a sense of manageability for mobile phone users, issues arise when there is a need for broader access to the world, making kosher phones a significant concern.",
+                "39": "\"If a child or adult is in an unsafe family environment, kosher phones allow little means to see that what they are experiencing is unacceptable,\" Boulton explained.",
+                "40": "Despite some of the drawbacks, adopting a simpler lifestyle with a kosher phone still triggers a yearning for Vizel\u2014especially when she sees ultra-orthodox children enjoying life without being tethered to an iPad or smartphone.",
+                "41": "\"The community's success in keeping kids off social media and off the internet is predicated on all of them being in the same situation,\" she said. \"If your kid is bored there are other children [who are] bored and want to play with them. These children have something special. It's almost impossible to replicate.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        4,
+                        5,
+                        10
+                    ],
+                    "Questionable conclusion": [
+                        17,
+                        18
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The use of tradition as a reason to continue a certain practice without considering its validity or relevance to the current situation.",
+                                "sentence": [
+                                    4,
+                                    5
+                                ],
+                                "link": "https://www.google.com/search?q=contrasting+view"
+                            },
+                            {
+                                "explanation": "The appeal to tradition is evident in the community's decision to continue using \"kosher\" phones due to their traditional way of life, without fully evaluating the impact or necessity of maintaining this practice.",
+                                "sentence": [
+                                    10
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Drawing a premature conclusion without sufficient evidence or reasoning.",
+                                "sentence": [
+                                    17,
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0.67,
+            "reliability": 42,
+            "word_count": 1151,
+            "fallacies_per_1000_words": 1.737619461337967
+        }
+    ]
+}

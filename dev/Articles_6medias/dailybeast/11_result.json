@@ -1,0 +1,63 @@
+{
+    "cases": [
+        {
+            "name": "Disaster for Trump as Truth Social Crashes at Critical SOTU Moment",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Donald Trump may have rage-posted his way through President Joe Biden's State of the Union address on Truth Social, but his social media site crashed for many before Biden even entered the House chamber, with technical issues lingering for at least an hour before and into his remarks.",
+                "2": "Beginning shortly before 9 p.m. EST Thursday, outages numbered in the thousands, according to Downdetector. The outages peaked an hour later and then began to slowly resume back to normal, according to the monitor.",
+                "3": "Around the same time, users on X reported not being able to access Trump's feed, with some\u2014including former Trump White House Press Secretary Alyssa Farah Griffin\u2014mocking him for it.",
+                "4": "\"Trump said he'd be live fact-checking Biden's SOTU but Truth Social appears to be down. Sad!\" she wrote on X.",
+                "5": "On Fox News, meanwhile, anchor Bret Baier\u2014who had read out loud some of Trump's posts\u2014invited him to just call in.",
+                "6": "\"If the former president wants to call in,\" Baier said, likely speaking directly to Trump through the screen, \"we're happy to put him [on] instead of just reading Truth Social posts.\"",
+                "7": "Those who were able to see what Trump had to say were likely not surprised, as his posts were largely negative reactions to people he saw on the broadcast.",
+                "8": "\"Thankfully, we don't have to be looking at RINO Mitt Romney much longer!\" Trump wrote of the retiring Utah senator who has opposed Trump's 2024 candidacy.",
+                "9": "Trump, who incited a mob of supporters that broke into the Capitol and House chamber on Jan. 6, 2021, then accused Biden of being \"very disrespectful to our country\" because his address in that same chamber didn't begin promptly at 9 p.m.",
+                "10": "He also predictably took aim at Biden during his speech, insisting the president was \"angry and crazy\" and that \"the words are not flowing smoothly out of his mouth!\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Hasty generalization"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        9
+                    ],
+                    "Hasty generalization": [
+                        7
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "In this sentence, Trump attacks Biden personally by accusing him of being disrespectful without addressing the content of Biden's speech. This diverts attention from the actual arguments presented.",
+                                "sentence": [
+                                    9
+                                ],
+                                "link": ""
+                            }
+                        ]
+                    },
+                    "Hasty generalization": {
+                        "Explanation": [
+                            {
+                                "explanation": "In this sentence, it is assumed that all of Trump's posts were negative reactions based on the limited sample of posts seen by some viewers. This draws a conclusion about the entirety of Trump's posts without considering the full scope.",
+                                "sentence": [
+                                    7
+                                ],
+                                "link": ""
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": -12.67,
+            "reliability": 32.33,
+            "word_count": 319,
+            "fallacies_per_1000_words": 6.269592476489028
+        }
+    ]
+}

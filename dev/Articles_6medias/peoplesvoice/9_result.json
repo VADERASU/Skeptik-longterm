@@ -1,0 +1,55 @@
+{
+    "cases": [
+        {
+            "name": "Bipartisan House Lawmakers Are Demanding That Biden Drops Julian Assange Case",
+            "source": "Fox News",
+            "sentences": {
+                "1": "House members from opposing sides of the aisle have joined forces in demanding that the Biden administration drop its case against Julian Assange.",
+                "2": "The two congressmen have asked fellow House members to join their bipartisan attempt urging the Biden administration to withdraw the US extradition request.",
+                "3": "According to Fox News, Massie's and McGovern's letter to fellow House members notes Assange's case represents an attack on press freedom."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        3
+                    ],
+                    "Questionable conclusion": [
+                        3
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument appeals to tradition by highlighting the concerns expressed by international media outlets, human rights advocates, and members of Congress as a basis for supporting the withdrawal of the extradition request. This fallacy assumes that because past opinions have been against Assange's prosecution, it is the right course of action.",
+                                "sentence": [
+                                    3
+                                ],
+                                "link": "https://en.wikipedia.org/wiki/Appeal_to_tradition"
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion drawn that Assange's case represents an attack on press freedom may be questioned due to the varying perspectives on the matter. While some argue for press freedom, others may view Assange's actions as violating national security laws rather than a pure exercise of press freedom.",
+                                "sentence": [
+                                    3
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 2,
+            "reliability": 41,
+            "word_count": 635,
+            "fallacies_per_1000_words": 3.149606299212598
+        }
+    ]
+}

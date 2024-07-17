@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3Q1PByCnSZqnuqHjPlCDnYSPX6I",
+  "id": "chatcmpl-9m44oirjPyJIy1Exj69GZ5Uq7hrtC",
   "object": "chat.completion",
-  "created": 1721239913,
+  "created": 1721242442,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Climate Change Debate\",\n      \"source\": \"Political Debate Show\",\n      \"sentences\": {\n        \"1\": \"The politician argues that we should not trust the scientific community on climate change because they have been wrong in the past.\",\n        \"2\": \"He points out that traditional methods of farming have worked for generations, so there is no need to change.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to authority (dubious authority)\",\n          \"Appeal to tradition\"\n        ],\n        \"sentences\": {\n          \"Appeal to authority (dubious authority)\": [\n            1\n          ],\n          \"Appeal to tradition\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to authority (dubious authority)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician is dismissing the scientific community's consensus on climate change by claiming they have been wrong in the past. This is an appeal to authority using a dubious authority, as the scientific community's track record should be considered more reliable than isolated past errors.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"In this statement, the politician is using the appeal to tradition fallacy by suggesting that just because traditional farming methods have been successful for generations, there is no need to consider changing them. This overlooks potential benefits of new technology or methods that could improve efficiency and sustainability.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Sudan's Army Ceasefire Extension\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"Sudan's army said on Thursday that it would prolong a ceasefire by 72 hours, but violence continued to rock the capital Khartoum and western Darfur region and there was no confirmation of a truce extension by the paramilitary force it was fighting.\",\n        \"2\": \"The army on Wednesday said it agreed to a new three-day ceasefire through Sunday proposed by a regional African group following one mediated by the U.S. and Saudi Arabia due to expire on Thursday night. On Thursday, the military reiterated it would extend the truce and said it would honour it unilaterally.\",\n        \"3\": \"The White House on Thursday said it was concerned by the ceasefire violations, adding that the situation could worsen at any moment and urging U.S. citizens to leave within 24 to 48 hours.\",\n        \"4\": \"At least 512 people have been killed and close to 4,200 wounded by the fighting since April 15.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Questionable conclusion\",\n          \"False Cause (FC)\"\n        ],\n        \"sentences\": {\n          \"Questionable conclusion\": [\n            3\n          ],\n          \"False Cause (FC)\": [\n            4\n          ]\n        },\n        \"annotations\": {\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The statement from the White House, expressing concern about ceasefire violations and urging U.S. citizens to leave within a specific timeframe, may be considered a questionable conclusion as it assumes a direct link between the ceasefire violations and the need for immediate evacuation without providing explicit reasoning or evidence to support this drastic action.\",\n                \"sentence\": [3],\n                \"link\": \"\"\n              }\n            ]\n          },\n          \"False Cause (FC)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The sentence suggests a causal relationship between the number of people killed and wounded by the fighting since April 15 and the conflict itself occurring on that date. However, it fails to establish a direct cause-and-effect relationship between the two events, falling into the false cause fallacy.\",\n                \"sentence\": [4]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n} \n"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 355,
-    "total_tokens": 1606
+    "prompt_tokens": 2233,
+    "completion_tokens": 503,
+    "total_tokens": 2736
   },
   "system_fingerprint": null
 }

@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9m3Y0Po0JfIjp73t2UcKQXifvVQRo",
+  "id": "chatcmpl-9m49PR5maQhoVI84t4lzMKEJByDus",
   "object": "chat.completion",
-  "created": 1721240408,
+  "created": 1721242727,
   "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Climate Change\",\n      \"source\": \"News Channel\",\n      \"sentences\": {\n        \"1\": \"A politician discredits an opponent by criticizing their character instead of addressing the policy.\",\n        \"2\": \"Ignoring climate change advice from a scientist with a high carbon footprint.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Personal attack\",\n          \"Who are you to talk?\"\n        ],\n        \"sentences\": {\n          \"Personal attack\": [\n            1\n          ],\n          \"Who are you to talk?\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"PA\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician is attacking the opponent's character instead of focusing on the policy, which is a form of personal attack.\",\n                \"sentence\": [1],\n                \"link\": \"\"\n              }\n            ]\n          },\n          \"WYTT\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The rejection of climate change advice from a scientist based on their personal actions rather than the validity of their argument.\",\n                \"sentence\": [2],\n                \"link\": \"\"\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Economic Policy Discussion\",\n      \"source\": \"Economic Forum\",\n      \"sentences\": {\n        \"1\": \"Dismissing someone's opinion on economic policy because they belong to a different political party.\",\n        \"2\": \"When asked about unemployment rates, a politician talks about education reform.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Obfuscation/distraction\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1\n          ],\n          \"Obfuscation/distraction\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"AH\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Dismissing an opinion based on the person's political affiliation rather than the merit of their argument.\",\n                \"sentence\": [1],\n                \"link\": \"\"\n              }\n            ]\n          },\n          \"OD\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician is diverting attention by talking about education reform instead of addressing the question about unemployment rates.\",\n                \"sentence\": [2],\n                \"link\": \"\"\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Amanda Owen and Clive Owen's Living Arrangement\",\n      \"source\": \"Lorraine\",\n      \"sentences\": {\n        \"1\": \"Clive Owen revealed his ex-wife Amanda Owen still 'cooks all his meals' even after they ended their 22-year marriage.\",\n        \"2\": \"Our Yorkshire Farm star Clive spoke to Christine Lampard as he set the record straight about the reasons behind their separation.\",\n        \"3\": \"Clive also explained that despite their separation, they live close to each other and are still in each other's lives.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Appeal to tradition\",\n          \"Questionable conclusion\"\n        ],\n        \"sentences\": {\n          \"Appeal to tradition\": [\n            2, 3\n          ],\n          \"Questionable conclusion\": [\n            22\n          ]\n        },\n        \"annotations\": {\n          \"Appeal to tradition\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Clive is emphasizing the continuation of their close living arrangements as a positive aspect despite their separation, appealing to the tradition of staying connected even after a relationship ends.\",\n                \"sentence\": [2, 3],\n                \"link\": \"\"\n              }\n            ]\n          },\n          \"Questionable conclusion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion drawn by Clive that the relationship would have been different if he had supported Amanda more is questionable as it oversimplifies the complexities of relationships and the reasons for their separation.\",\n                \"sentence\": [22]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1251,
-    "completion_tokens": 547,
-    "total_tokens": 1798
+    "prompt_tokens": 1828,
+    "completion_tokens": 362,
+    "total_tokens": 2190
   },
   "system_fingerprint": null
 }

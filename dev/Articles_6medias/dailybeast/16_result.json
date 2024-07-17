@@ -1,0 +1,71 @@
+{
+    "cases": [
+        {
+            "name": "Testy Exchange Between Hunter Biden, Matt Gaetz Revealed in Deposition Transcript",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Rep. Matt Gaetz (R-FL) and Hunter Biden had a tense exchange Wednesday during the latter's testimony before the House Oversight Committee, with the president's son taking issue with Gaetz's line of questioning.",
+                "2": "In the closed-door session, Biden called the impeachment probe into his father a 'partisan political pursuit' being pushed by 'MAGA-motivated conspiracies,' according to a transcript released by the committee Thursday.",
+                "3": "Gaetz, a frequent defender of former President Donald Trump, questioned Biden about serving on the board of Burisma, a Ukrainian energy company. Gaetz wanted to know if Biden, a recovering addict, was 'on drugs' while on the board.",
+                "4": "Biden's lawyer, Abbe Lowell, first took issue with that.",
+                "5": "\"One of the things that I spoke to staff that you just asked about as to whether it's outside the bounds. If you want to spend the next part of the last hour you have asking about his drug use, go at it,\" Lowell said. \"It's outside the scope. It certainly has no relevance to an impeachment inquiry nor does it have anything to do with oversight of ethics legislation that may address family members of presidents or vice presidents. So go at it, but it's outside the scope and you're wasting your time.\"",
+                "6": "Gaetz then repeated his question to Biden: 'Were you on drugs when you were on the Burisma board?'",
+                "7": "Biden replied: 'Mr. Gaetz, look me in the eye. You really think that's appropriate to ask me?'",
+                "8": "After Gaetz said it 'absolutely' was, Biden shot back: 'Of all the people sitting around this table, do you think that's appropriate to ask me?'",
+                "9": "Biden may have been alluding to a series of salacious allegations against the Florida firebrand, including a Daily Beast report earlier this month revealing that in 2021 a young woman told prosecutors working on a sex trafficking investigation that she had sex with Gaetz at a party which she was paid to attend and where drugs were present. When approached for comment at the time, a Gaetz spokesperson said: 'Rep. Gaetz does not know anything about the woman you're referencing.'",
+                "10": "Last February, federal prosecutors decided to close that investigation into Gaetz without filing charges. Gaetz is still facing an ongoing House Ethics Committee inquiry into allegations of sex crimes and drug use, among other things.",
+                "11": "Gaetz has maintained that the inquiry is retaliation for his role in last year's ouster of House Speaker Kevin McCarthy.",
+                "12": "\"The Ethics Committee is engaging in payback against me for ousting the person who singularly appointed every Republican\u00e2\u20ac\u201dKevin McCarthy,\" he told ABC News earlier this month.",
+                "13": "After Biden asked Gaetz whether his question was 'appropriate,' Gaetz replied, 'Yeah. Are you going to answer it?'",
+                "14": "After a little more back-and-forth, Biden responded at length.",
+                "15": "\"I will answer it this way: I have been absolutely transparent about my drug use. Again, I spoke to you all earlier this morning about that. I'm sorry; I'm an addict. I was an addict. I have been in recovery for over four and a half years now, Mr. Gaetz. I work really, really hard at it,\" he said.",
+                "16": "\"Let me answer. I work really hard at it, under an enormous amount of pressure. Was I an addict? Yes, I was an addict. What does that have to do with whether or not you're going to go forward with an impeachment of my father other than to simply try to embarrass me?\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Red Herring"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "Red Herring": [
+                        13
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "Gaetz's focus on Biden's drug use instead of addressing the substantive issue of Biden's involvement with Burisma is an ad hominem attack.",
+                                "sentence": [
+                                    6,
+                                    7,
+                                    8
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring": {
+                        "Explanation": [
+                            {
+                                "explanation": "Gaetz's insistence on Biden answering the drug use question diverts attention from the main topic under discussion.",
+                                "sentence": [
+                                    13
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": -1,
+            "reliability": 38,
+            "word_count": 574,
+            "fallacies_per_1000_words": 3.484320557491289
+        }
+    ]
+}
