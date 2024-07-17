@@ -1,0 +1,125 @@
+{
+    "cases": [
+        {
+            "name": "Nearly A Quarter of Americans Say They Know Someone Who Died From The Covid Jab",
+            "source": "WSJ",
+            "sentences": {
+                "1": "A recent survey has revealed that almost a quarter of Americans believe they know someone who died from side effects of the COVID-19 vaccine.",
+                "2": "Even more people say they might be willing to become plaintiffs in a class-action lawsuit against vaccine makers.",
+                "3": "The data comes from the latest national telephone and online Rasmussen Reports conducted on October 26 and 29-30, 2023, using a sample size of 1,110 American adults.",
+                "4": "TGP reports: The survey found that 24% of American adults claim to know someone personally who died due to the side effects of the COVID-19 vaccine.",
+                "5": "In contrast, a significant 69% of respondents stated they don't know anyone who died from being vaccinated against the virus.",
+                "6": "Furthermore, the survey delved into the potential legal ramifications of these beliefs.",
+                "7": "A notable 42% of respondents expressed that they would 'likely' join a major class-action lawsuit against big pharma if one were to file a lawsuit concerning vaccine side effects.",
+                "8": "This includes 24% who said it's 'very likely' they'd join such a lawsuit.",
+                "9": "On the other hand, 47% of those surveyed 'aren't likely' to join a class-action lawsuit against vaccine makers, with 25% stating it's 'not at all likely' they would participate.",
+                "10": "An additional 11% remain uncertain.",
+                "11": "The survey also highlighted some demographic differences.",
+                "12": "For instance, more men (51%) than women (44%) claim to know someone who died from vaccine side effects.",
+                "13": "Adults under 40 are less likely to know someone who died from the virus but are more inclined to join a lawsuit against pharmaceutical companies for vaccine side effects.",
+                "14": "Interestingly, men under 40 are particularly likely to say they'd join a class-action lawsuit.",
+                "15": "Racial differences were also evident in the survey results.",
+                "16": "While 43% of white respondents said they know someone who died from the COVID-19 virus, this number rises to 52% for black respondents and 57% for other minorities.",
+                "17": "However, fewer whites (20%) than blacks (28%) or other minorities (32%) claim to know someone who died from vaccine side effects.",
+                "18": "Black respondents were found to be more willing to join a class-action lawsuit for vaccine side effects."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Hasty generalization",
+                    "Appeal to emotion",
+                    "Cherry Picking",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Hasty generalization": [
+                        1,
+                        4
+                    ],
+                    "Appeal to emotion": [
+                        1,
+                        2,
+                        7,
+                        8,
+                        14
+                    ],
+                    "Cherry Picking": [
+                        1,
+                        4,
+                        12,
+                        13,
+                        17,
+                        18
+                    ],
+                    "Questionable conclusion": [
+                        7,
+                        8,
+                        14,
+                        18
+                    ]
+                },
+                "annotations": {
+                    "Hasty generalization": {
+                        "Explanation": [
+                            {
+                                "explanation": "Claiming that almost a quarter of Americans know someone who died from vaccine side effects based on a survey sample may not be representative of the entire population.",
+                                "sentence": [
+                                    1,
+                                    4
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Using the emotional weight of knowing someone who died to support arguments about the vaccine's dangers.",
+                                "sentence": [
+                                    1,
+                                    2,
+                                    7,
+                                    8,
+                                    14
+                                ]
+                            }
+                        ]
+                    },
+                    "Cherry Picking": {
+                        "Explanation": [
+                            {
+                                "explanation": "Highlighting the percentage of people who know someone who died from vaccine side effects without equally emphasizing the much larger percentage who do not.",
+                                "sentence": [
+                                    1,
+                                    4,
+                                    12,
+                                    13,
+                                    17,
+                                    18
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Drawing conclusions about legal action willingness and demographics from the survey data without sufficient supporting evidence.",
+                                "sentence": [
+                                    7,
+                                    8,
+                                    14,
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": 15,
+            "reliability": 22.67,
+            "word_count": 358,
+            "fallacies_per_1000_words": 11.1731843575419,
+            "total_sentences_affected": 10,
+            "total_sentences_affected_per_1000_words": 27.932960893854748
+        }
+    ]
+}

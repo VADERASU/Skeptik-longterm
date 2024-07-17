@@ -1,0 +1,77 @@
+{
+    "cases": [
+        {
+            "name": "Urgent warning of super contagious 'Last Of Us' black fungus with 60% mortality",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Cases of Candida auris, better known as C auris, has risen rapidly over recent months which has sparked fears of another killer disease following the start of the coronavirus pandemic in 2020",
+                "2": "The American College of Physicians (ACAP) has issued a warning about the rise of a deadly fungus, which it has described as 'particularly concerning'.",
+                "3": "Cases of Candida auris, better known as C auris, has risen rapidly over recent months which has sparked fears of another killer disease.",
+                "4": "The Centers for Disease Control and Prevention (CDC) had already described as an 'urgent threat' in 2019 but statistics show that numbers have increased over the last four years.",
+                "5": "New research from the CDC has revealed case numbers more than tripled across the United States between 2020 and 2021.",
+                "6": "The fungus is thought to have a death-rate of 60 per cent of the people it infects.",
+                "7": "A person is infected following direct contact with a contaminated object and can spread among humans through direct contact.",
+                "8": "Strict handwashing can limit spreading.",
+                "9": "The latest study looked at the number of confirmed and probable cases which were reported to state and local health facilities between 2016 and 2021.",
+                "10": "Fungal infections caused 7,000 deaths in the US in 2021, according to the CDC, with 1.5 million deaths worldwide.",
+                "11": "It has been suggested by some experts that this is due to the changing climate which is ideal for the fungus.",
+                "12": "Researchers found infections had risen from 1,310 in 2020 to 4,041 in 2021, while clinical cases of C auris increased to 2,377 with 5,754 screening results last year.",
+                "13": "Authors of the CDC study, according to Daily Mail, said the findings 'highlight the need for improved detection and infection control practices to prevent spread of C auris'.",
+                "14": "They also added that the spread of the fungus could have been 'exacerbated by pandemic related strain on the health care and public health systems'.",
+                "15": "Antifungal drug echinocandin is the first line of therapy given to treat C auris.",
+                "16": "It was first reported in America in 2016 but was given the highest level of concern by the CDC due to its frequent resistance to many drugs, the ease of the spread in healthcare settings and the high morality rate.",
+                "17": "The main symptoms of the deadly fungus are fever and chills which do not improve.",
+                "18": "It can cause different kinds of infection and it is thought that the number of C auris cases may be underestimated in the study as screening for the fungus is not uniformly conducted across the country.",
+                "19": "New York City and Chicago were reported to be the worst affected, but cases of C auris have now occurred in more than half of US states.",
+                "20": "Most of the spread of cases has been in long-term care hospitals and nursing homes.",
+                "21": "Three states \u00e2\u20ac\u201d Oregon, Minnesota and Michigan \u00e2\u20ac\u201d all reported their first case of the fungus in 2021.",
+                "22": "Meanwhile, areas with previous cases but limited spread, such as California, Texas and Florida, had new and increasing transmission."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to fear",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to fear": [
+                        1,
+                        6
+                    ],
+                    "Questionable conclusion": [
+                        11
+                    ]
+                },
+                "annotations": {
+                    "AP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article aims to evoke fear by presenting the rise of Candida auris cases in a way that suggests an imminent widespread health threat, similar to the coronavirus pandemic.",
+                                "sentence": [
+                                    1,
+                                    6
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement that the rise in fungal infections is due to the changing climate is a questionable conclusion as it does not provide concrete evidence linking climate change directly to the increase in cases.",
+                                "sentence": [
+                                    11
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 40.67,
+            "word_count": 512,
+            "fallacies_per_1000_words": 3.90625,
+            "total_sentences_affected": 3,
+            "total_sentences_affected_per_1000_words": 5.859375
+        }
+    ]
+}

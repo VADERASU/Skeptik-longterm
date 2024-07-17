@@ -61,7 +61,9 @@
             "bias": 1,
             "reliability": 33.67,
             "word_count": 840,
-            "fallacies_per_1000_words": 2.3809523809523814
+            "fallacies_per_1000_words": 2.3809523809523814,
+            "total_sentences_affected": 3,
+            "total_sentences_affected_per_1000_words": 3.571428571428571
         }
     ]
 }

@@ -1,0 +1,44 @@
+How DHS and FBI officials spun a dubious Russian election threat days before voting
+
+A Department of Homeland Security election alert spawning new Russia fears was so incoherent and inconsistent with previous findings, it suggested a state of political panic inside the agency.
+
+Just days before the 2020 election the bureaucratic forces behind the original claim of Russian hacking of state election-related websites in 2016 launched a new drive to spawn fears of Moscow-made political chaos in the wake of the voting.
+
+The new narrative was not consistent with information previously published by the the FBI and the Department of Homeland Security's new Cybersecurity and Infrastructure Security Agency (CISA), however. It was so incoherent, in fact, that it suggested a state of panic on the part of the Department of Homeland Security (DHS) officials worried about a possible transition to a Joe Biden administration.
+
+On October 20, Christopher Krebs, the head of CISA, issued a video statement expressing confidence that "it would be incredibly difficult for them to change the outcome of an election at the national level."  Then he abruptly changed his tone, adding, "But that doesn't mean various actors won't try to introduce chaos in our elections and make sensational claims that overstate their capabilities. In fact, the days and weeks just before and after Election Day is the perfect time for our adversaries to launch efforts intended to undermine your confidence in the integrity of the electoral process."
+
+Krebs' warning of a possible Russian announcement that hackers had succeeded in disrupting the result of the U.S. election was so removed from reality that it suggested internal panic DHS over the failure of Russian hackers to do anything that could be cited as interfering in the election.
+
+Two days after Krebs' dubious warning, the FBI and the DHS's new Cybersecurity and Infrastructure Security Agency (CISA) issued an "alert" reporting that "a Russian state-sponsored APT [Advanced Persistent Threat] actor" known as "Berserk Bear" had "conducted a campaign against a wide variety of U.S. targets."
+
+Since "at least September," according to the DHS alert, the DHS warning claimed that it had targeted "dozens" of "U.S. state, local, territorial and tribal government networks."  It even claimed that the supposed Russian campaign had compromised the network infrastructure of several official organizations and "exfiltrated data from at least two victims servers." At the same time, it acknowledged there was "no indication" that any government operations had been "intentionally disrupted."
+
+The report went on to suggest, "[T]here may be some risk to elections information housed on SLTT [state, local territorial and tribal] government networks." And then it abruptly shifted tone and level of analysis to offer the speculation that the Russian government "may be seeking access to obtain future disruption options, to influence U.S. policies or actions", or to "delegitimize" the "government entities".
+
+On October 28, Krebs elaborated on the latter theme in an interview with the PBS NewsHour.  Referring inaccurately to government warnings about "Russian interference, some of which targeted voter registration," which the FBI-CISA alert had never mentioned, PBS interviewer William Brangham asked, "Do you worry at all that there might be infiltration that we are not aware of?"
+
+Instead of correcting Brangham's inaccurate suggestion, Krebs responded that "infiltration" into voter registration files was "certainly possible," but that "[W]e have improved the ability to detect compromises or anomalous activity."
+
+Krebs then homed in on a scenario he obviously wanted the public to focus on: "[Y]ou might see various actors, foreign powers, claim that they were able to accomplish something, [that] they were able to hack a database or hack the vote count. And it's simply not true."
+
+Although the October 22 alert did not assert any deliberate Russian government hack of election-related sites, Krebs sought to keep speculation about both Russian capabilities and intent alive.
+The buried alert that undermined the frightening official assessment
+
+Eleven days before Krebs debuted his speculation about Russia claiming to have hacked U.S. elections, the FBI and CISA issued a separate alert that seriously undercut his questionable claims.
+
+The earlier document was clearly referring to the very same efforts by hackers to break into various websites addressed in the October 22 alert.  It not only referred to the same state and local government networks and to the wider range of targets affected but also mentioned precisely the same technical vulnerabilities that were targeted in the series of hacks.
+
+The alert further stated that, "[I]t does not appear these targets are being selected because of their proximity to elections information…." In other words, the two US agencies conceded they had no basis for attributing the hacks in question to any election interference plot.
+
+The most striking difference between the two alerts, however, was that the October 9 alert did not refer to any "Russian state-sponsored APT actor" as the October 22 one did. Instead, it simply pointed to "APT actors" in the plural, indicating that the U.S. intelligence community had no evidence indicating a single actor was at work, let alone one that was "Russian-state sponsored." 
+
+Contrary to the impression that U.S. officials may have conveyed in referencing an "Advance Persistent Threat," or APT, it is now widely understood by cybersecurity specialists that this term no longer refers to a state-sponsored actor. That is because the sophisticated tools and techniques once associated with state-sponsored hacking have now become available to a much wider range of cyber actors. Indeed, the codes for such high-end tools have been identified in the Shadow Brokers and Vault 7 leaks, and the tools have been marketed widely at affordable prices on the dark web.
+
+The October 9 alert firmly established the dearth of evidence on the part of CISA and FBI about a Russian state-sponsored hacking team planning elections-related operations in the U.S. The sudden pivot days later to an unqualified claim that a single state-sponsored APT had been responsible for the same very large range of operations should have been accompanied by claims of substantial new intelligence, or at least a reference to the evidence underlying the dramatic new reversal. But no such proof ever arrived.
+
+Scott McConnell, the spokesman for CISA, promised the Grazyzone on October 29 that he would provide someone to answer questions about the October 22 alert by the close of business Friday. In the end, however, no one from CISA responded, and there was no answer on McConnell's line.
+
+The peculiar reversal by the DHS and CISA on the hacking claims raise questions about the institutional considerations taken by these agencies. Did indications that President Donald Trump's campaign was faltering inform their decision to issue a more stridently anti-Russian assessment in hopes of surviving a political transition?
+
+The US officials who drew up the initial pre-election alert seemed keenly aware that despite that drumbeat of over the past two years, no state-sponsored Russian hacking of election institutions was underway.  But as the Trump campaign sputtered, they had their own careers to consider. Days later, DHS and CISA declared the wily Russians guilty of yet another malign operations — one that would not require them to have slightest evidence to support, and that would be impossible for them to explain.

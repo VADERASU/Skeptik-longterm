@@ -1,0 +1,81 @@
+{
+    "cases": [
+        {
+            "name": "Toronto-area housing developments at risk as lenders accuse StateView Homes of wrongdoing",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The future of hundreds of unbuilt townhouses is in limbo as Toronto-area home builder StateView Homes deals with fallout caused by an alleged 'cheque-kiting' scheme that ran up debts of $37-million.",
+                "2": "A lawsuit filed by Toronto-Dominion Bank TD-T on March 24 alleges a series of 'fraudulent cheques' were used to manipulate the bank's overdraft system, costing the bank $37-million between April, 2022, and March, 2023.",
+                "3": "TD claims a series of bad cheques from several StateView business accounts at Royal Bank of Canada RY-T were deposited in dozens of TD accounts associated with StateView real estate projects.",
+                "4": "The lawsuit claims StateView - founded in 2010 by brothers Dino and Carlo Taurasi with friend and chief financial officer Daniel Ciccone - repeatedly deposited cheques written on the RBC accounts into the TD accounts, and the Canadian Clearing and Settlement Systems (which handles transactions between financial institutions) conditionally credited the value of the cheques to the TD account 'pending final settlement.'",
+                "5": "TD alleges that before the transfer cleared, however, StateView moved the conditionally credited money out - either to a different account at another bank, or wire transferred it to a third party - and then stopped payment on the original RBC cheques.",
+                "6": "To avoid detection of this scheme, called cheque-kiting, TD further alleges StateView processed a large volume of 'sham transactions' between other TD accounts.",
+                "7": "None of the allegations have been tested in court, and TD and its lawyers at McCarthy T\u00e9trault LLP declined to comment as the matter is still before the courts.",
+                "8": "StateView didn't comment on allegations of cheque fraud outlined by TD but in an e-mailed statement vice-president of marketing Darryl Orian said: 'Unfortunately, as the situation is ongoing, StateView Homes cannot comment on the circumstances or details leading to a settlement with TD.'",
+                "9": "StateView issued a fuller statement Tuesday addressing 'rumours and speculation around the solvency of the organization,' stressing it was not declaring bankruptcy.",
+                "10": "StateView also said Mr. Ciccone, the CFO, has been relieved of his position in the company.",
+                "11": "'StateView has faced significant disruptions in its treasury functions at its current financial institution, which has unfortunately resulted in StateView's liquidity being constrained,' the statement reads.",
+                "12": "'StateView intends to complete all projects currently under construction and is actively working with our partners to move forward with as many projects as possible while also recognizing the position of our lenders.'",
+                "13": "In the wake of TD's filings, StateView is facing demands for repayment from at least two other lenders that could see an unfinished townhouse project (Nao Towns Phase II in Markham, Ont., with 96 units) pushed into insolvency.",
+                "14": "Lawyers for Dorr Capital Corp. and Atrium Mortgage Investment Corp. have requested a hearing - scheduled for Friday at Ontario's Superior Court of Justice - to argue for the appointment of a receiver to ensure the lenders can collect $24.4-million that the companies say they are owed.",
+                "15": "According to a statement of claim filed by Dorr and Atrium, StateView missed a $277,598.63 loan payment for the Nao project on April 1, after which it registered a new mortgage (from TD) against the property without written consent or notice.",
+                "16": "Moreover, Dorr and Atrium describe the alleged cheque-kiting scheme as 'a material adverse change \u2026 relating to the debtor and the guarantors' because the $37-million StateView owes TD is 'a debt and liability arising out of fraud.'",
+                "17": "StateView's website says it has completed construction on nine projects since its founding, and the Home Construction Regulatory Authority's registry shows it has 279 completed units, including 28 handed over in 2023.",
+                "18": "StateView also has several Ontario projects under construction, sold out or 'fully reserved' that may now be subject to reorganization of StateView's debts.",
+                "19": "Those include: High Crown Estates in King City (48 units), MiNu Towns in Markham (147 units), On the Mark in Markham (164 units), Elia Collection in Newmarket (72 units), Queen's Court in Brampton (82 towns and detached homes), Elm & Co. in Stouffville (202 units) and BEA Towns in Barrie (218 units)."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Red Herring (sidetracking)",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Red Herring (sidetracking)": [
+                        8,
+                        9
+                    ],
+                    "Questionable conclusion": [
+                        17,
+                        18
+                    ]
+                },
+                "annotations": {
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "StateView's statement about not commenting on the ongoing situation sidesteps the allegations of cheque fraud, which is the core issue at hand.",
+                                "sentence": [
+                                    8
+                                ]
+                            },
+                            {
+                                "explanation": "StateView's statement addressing 'rumours and speculation around solvency' and stressing it is not declaring bankruptcy distracts from the allegations of fraud.",
+                                "sentence": [
+                                    9
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article concludes that ongoing and future projects might be affected based on the current financial troubles without sufficient evidence to support the extent of the impact.",
+                                "sentence": [
+                                    17,
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 44,
+            "word_count": 674,
+            "fallacies_per_1000_words": 2.967359050445104,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 5.934718100890208
+        }
+    ]
+}

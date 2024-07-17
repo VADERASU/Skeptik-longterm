@@ -1,0 +1,121 @@
+{
+    "cases": [
+        {
+            "name": "New Teck Resources bid could go directly to shareholders, Glencore says",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Glencore PLC GLNCY, the Swiss commodities giant in pursuit of Teck Resources Ltd. TECK-N has threatened to take any new offer directly to Teck shareholders unless the board of the Canadian company opens negotiations that might lead to the merger of the two companies.",
+                "2": "In a statement issued Thursday morning, one day after Teck withdrew a shareholders' vote to split the company in two, Glencore reiterated its willingness to improve its opening, US$23-billion all-share merger offer.",
+                "3": "\"We believe that with engagement, we could further improve our proposal's structure, terms and value,\" Glencore said. \"Glencore remains willing to make an offer directly to Teck shareholders if there continues to be no engagement with the Teck board.\"",
+                "4": "Analysis: Why Teck Resources' proposed split never made much sense and shareholders shot it down",
+                "5": "Opinion: Teck's ambitious break-up proposal crashes and burns. Mistakes were made that worked in Glencore's favour",
+                "6": "But Teck, led by chief executive officer Jonathan Price, has given no indication that it will negotiate with Glencore and the company remains effectively takeover-proof unless the owners of the class A shares, with 100 votes apiece, agree to a deal (the widely held class B shares have a single vote but represent most of the equity).",
+                "7": "The main owners of the A shares are chairman emeritus Norman B. Keevil, who is the son of Teck's founder, and his ally, Sumitomo of Japan.",
+                "8": "Teck rejected Glencore's opening pitch, made in late March, and a revised offer that contained a cash option.",
+                "9": "On Wednesday, just before the shareholders' meeting in Vancouver, Teck did so again.",
+                "10": "\"Glencore's rejected proposals remain a non-starter, with the same flawed structure and material risk identified by our board,\" Mr. Price said.",
+                "11": "Glencore is thought to be preparing an improved offer that would be delivered next week.",
+                "12": "Its previous offers came with a 22 per cent premium, suggesting that the next one might have to raise the premium to a range of 25 per cent to 30 per cent to gain traction.",
+                "13": "Glencore would not comment about any improved premium, nor whether its next offer would be its final one.",
+                "14": "Teck investors are clearly expecting a higher bid from Glencore and perhaps a bidding war.",
+                "15": "On Thursday, Teck's B shares closed up 1.2 per cent on the Toronto Stock Exchange, having gained 36 per cent over the past year and giving the company a market value of $32.3-billion.",
+                "16": "The heavy volumes in recent days suggest that hedge funds are piling in and consider Teck to be \"in play.\"",
+                "17": "In big takeovers, hedge funds typically buy 20 per cent to 40 per of the shares, giving the funds substantial influence over the outcome of any takeover or merger attempt.",
+                "18": "Chinese director Chong stepped down from Teck's board ahead of failed split vote, as questions surround CIC's vote",
+                "19": "A timeline of the takeover bid for Teck Resources that captured the mining world's attention",
+                "20": "In a Thursday note, Angus Aitken of London's Aitken Mount Capital Partners, said that having a share register loaded with hedge funds would work in Glencore's favour, since they would push for the Teck board and the controlling A shareholders to accept a takeover pitched at a high premium.",
+                "21": "\"Whoever has been buying has deep pockets, it appears,\" he said. \"[Those] people are potentially helpful to the Glencore transaction.\"",
+                "22": "Glencore would make an offer for both the A and B shares, and would need two-thirds acceptance to move forward with its proposal to combine its metals division with Teck's, then create a separate company that would own Teck and Glencore's thermal and metallurgical coal assets.",
+                "23": "Teck's idea was to spin off its metallurgical coal business into a new company called Elk Valley Resources, which would pay most of its cash flow to the pure Teck metals company for about a decade.",
+                "24": "But many Teck investors did not like the idea of the coal company delivering so much income to Teck Metals, as it would be called, for so long.",
+                "25": "As a result, Teck realized it would be unable to gain the two-thirds of the votes needed to split the company.",
+                "26": "It is not known yet if Glencore would face rival bids for Teck.",
+                "27": "None of the Glencore's global competitors - Vale SA, BHP Group Ltd., Rio Tinto Group and Anglo American PLC - has so far expressed interest in owning Teck, at least publicly.",
+                "28": "But Teck has ample copper assets, which might be of interest to any big mining company pursuing energy-transition metals.",
+                "29": "If Glencore makes a new bid, Teck would have ample time if it chose to encourage a bidding war.",
+                "30": "Under Canadian securities law, hostile bids must remain open for 105 days, up from 35 days under the previous takeover regime.",
+                "31": "In its takeover guide, the Baker McKenzie law firm said, \"The extension of the minimum bid period to 105 days is aimed at addressing concerns that the target boards did not have enough time to respond to hostile takeover bids.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion",
+                    "Bandwagon",
+                    "Cherry Picking"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        7
+                    ],
+                    "Questionable conclusion": [
+                        20,
+                        21
+                    ],
+                    "Bandwagon": [
+                        14,
+                        16
+                    ],
+                    "Cherry Picking": [
+                        28
+                    ]
+                },
+                "annotations": {
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The focus on Teck's ample copper assets as a point of interest for big mining companies is cherry-picking favorable information without addressing potential risks or disadvantages of Teck's assets.",
+                                "sentence": [
+                                    28
+                                ],
+                                "link": "https://www.google.com/search?q=cherry+picking+fallacy"
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement that having a share register loaded with hedge funds would work in Glencore's favour presumes without evidence that hedge funds will necessarily support Glencore's bid.",
+                                "sentence": [
+                                    20
+                                ],
+                                "link": "https://www.google.com/search?q=questionable+conclusion+fallacy"
+                            },
+                            {
+                                "explanation": "\"Whoever has been buying has deep pockets, it appears,\" he said. \"[Those] people are potentially helpful to the Glencore transaction.\" This is a questionable conclusion as it assumes that those with deep pockets will automatically support Glencore's transaction without evidence.",
+                                "sentence": [
+                                    21
+                                ],
+                                "link": "https://www.google.com/search?q=questionable+conclusion+fallacy"
+                            }
+                        ]
+                    },
+                    "BW": {
+                        "Explanation": [
+                            {
+                                "explanation": "The anticipation of a higher bid from Glencore and perhaps a bidding war is based on the assumption that because Teck investors expect it, it must happen.",
+                                "sentence": [
+                                    14
+                                ],
+                                "link": "https://www.google.com/search?q=bandwagon+fallacy"
+                            },
+                            {
+                                "explanation": "The statement that heavy volumes in recent days suggest that hedge funds are piling in and consider Teck to be 'in play' implies that because many hedge funds are buying in, it must be a good or correct decision.",
+                                "sentence": [
+                                    16
+                                ],
+                                "link": "https://www.google.com/search?q=bandwagon+fallacy"
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": 0,
+            "reliability": 41,
+            "word_count": 834,
+            "fallacies_per_1000_words": 4.796163069544364,
+            "total_sentences_affected": 6,
+            "total_sentences_affected_per_1000_words": 7.194244604316547
+        }
+    ]
+}

@@ -63,7 +63,9 @@
             "bias": 1,
             "reliability": 29,
             "word_count": 1418,
-            "fallacies_per_1000_words": 2.1156558533145278
+            "fallacies_per_1000_words": 2.1156558533145278,
+            "total_sentences_affected": 3,
+            "total_sentences_affected_per_1000_words": 2.1156558533145278
         },
         {
             "name": "Family Balcony Appearance",
@@ -98,7 +100,9 @@
             "bias": 1,
             "reliability": 29,
             "word_count": 1418,
-            "fallacies_per_1000_words": 0.7052186177715092
+            "fallacies_per_1000_words": 0.7052186177715092,
+            "total_sentences_affected": 1,
+            "total_sentences_affected_per_1000_words": 0.7052186177715092
         }
     ]
 }

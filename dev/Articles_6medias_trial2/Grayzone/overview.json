@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Washington Post erases Israeli minister's farfetched October 7 rape claim at his request",
+    "bias": -26.33,
+    "Reliability": 12.33,
+    "content": "1.txt"
+  },
+  {
+    "title": "October 7 testimonies reveal Israel's military 'shelling' Israeli citizens with tanks, missiles",
+    "bias": -33,
+    "Reliability": 5,
+    "content": "2.txt"
+  },
+  {
+    "title": "Bombshell filing: 9/11 hijackers were CIA recruits",
+    "bias": -11.67,
+    "Reliability": 21,
+    "content": "3.txt"
+  },
+  {
+    "title": "Ilhan Omar's meddling in Horn of Africa earns boos at Somali American concert",
+    "bias": -17.33,
+    "Reliability": 34.67,
+    "content": "4.txt"
+  },
+  {
+    "title": "Biden and Trump compete for South Florida swing voters with anti-communist conspiracies and interventionist chest-beating",
+    "bias": -30.67,
+    "Reliability": 24,
+    "content": "5.txt"
+  },
+  {
+    "title": "Stephen F. Cohen on Russia's democratization and how US meddling undermines it",
+    "bias": 0,
+    "Reliability": 35.33,
+    "content": "6.txt"
+  },
+  {
+    "title": "US Congress and corporate media deploy massive lie, claiming Venezuela's gov't threatened to starve non-vote",
+    "bias": -40,
+    "Reliability": 19.33,
+    "content": "7.txt"
+  },
+  {
+    "title": "Meet Bolivia's revolutionary 19-year-old vice-minister of sports",
+    "bias": 0,
+    "Reliability": 33.67,
+    "content": "8.txt"
+  },
+  {
+    "title": "Ex-UK ambassador: War on Syria continues with US occupation, sanctions, propaganda",
+    "bias": -24.67,
+    "Reliability": 22.33,
+    "content": "9.txt"
+  },
+  {
+    "title": "Veteran diplomat: US confronts China to protect supremacy, not security",
+    "bias": -18,
+    "Reliability": 36,
+    "content": "10.txt"
+  },
+  {
+    "title": "Covid-19 catch-22: Regime-change policies come packed with US pandemic relief",
+    "bias": -22,
+    "Reliability": 32.67,
+    "content": "11.txt"
+  },
+  {
+    "title": "Navalny poisoning: CIA, MI6, 'discredited' state-funded Bellingcat play key role in accusing Russia",
+    "bias": 0,
+    "Reliability": 35,
+    "content": "12.txt"
+  },
+  {
+    "title": "Bomb Libya and take its oil: Biden budget chief pick Neera Tanden agreed with Trump",
+    "bias": -26.67,
+    "Reliability": 26,
+    "content": "13.txt"
+  },
+  {
+    "title": "How DHS and FBI officials spun a dubious Russian election threat days before voting",
+    "bias": -2.67,
+    "Reliability": 46,
+    "content": "14.txt"
+  },
+  {
+    "title": "The huckster and the hack: UK govt report undermines stars of Cambridge Analytica-Russiagate scandal",
+    "bias": 7,
+    "Reliability": 42.67,
+    "content": "14.txt"
+  },
+]

@@ -1,0 +1,86 @@
+{
+    "cases": [
+        {
+            "name": "Parents Face Domestic Abuse Charges For Not Using Their Child's Preferred Pronoun",
+            "source": "Mail Online",
+            "sentences": {
+                "1": "A fresh dispute has emerged regarding new Crown Prosecution Service guidelines.",
+                "2": "The Mail Online reports: The CPS faced claims it was \"losing the plot\" over guidance that could also mean someone who refuses to fund their partner's transitioning process could be committing a serious offence.",
+                "3": "However, the Mail on Sunday was told the CPS was now reviewing its controversial 'Impacts of Domestic Abuse' advice.",
+                "4": "Earlier this year, feminist campaigner Maya Forstater branded the prosecution service 'ideologically captured'.",
+                "5": "And in a scathing report, the Policy Exchange think-tank called on the CPS to replace the guidelines with something that follows British law instead of 'Stonewall law': a reference to the controversial 'diversity' charity.",
+                "6": "In a report backed by ex-Justice Secretary Sir Robert Buckland and two former senior judges, Policy Exchange said the law placed no obligations on spouses and partners to support a partner's transgender identity - but that the CPS legal guidance on domestic abuse appeared to suggest otherwise.",
+                "7": "Last night, Sir Robert said: 'The issue of gender is deeply sensitive.",
+                "8": "To reflect gender identity beliefs as a set of undisputed facts is not only mistaken but comes at a huge cost, especially to the women and children the law should be there to protect.'",
+                "9": "He added: 'Policy Exchange's report points out that failing to support a partner's feelings about their gender is not equivalent to a form of domestic abuse, which is a serious offence.'",
+                "10": "Former Lord Justice of Appeal, Sir Patrick Elias, said: 'The paper raises very serious concerns about the impartiality and independence of the CPS when dealing with the highly sensitive issue of the treatment of transgender persons.",
+                "11": "It appears to have adopted uncritically the controversial views of Stonewall.'",
+                "12": "The report was released just as a new Director of Public Prosecutions - Stephen Parkinson - took up his post and last night, the CPS made clear that parts of the domestic abuse advice were now being reviewed."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Appeal to emotion",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        4,
+                        5
+                    ],
+                    "Appeal to emotion": [
+                        8
+                    ],
+                    "Questionable conclusion": [
+                        6
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "Maya Forstater's statement that the prosecution service is 'ideologically captured' attacks the institution's credibility rather than addressing the specific guidelines or their implications.",
+                                "sentence": [
+                                    4
+                                ]
+                            },
+                            {
+                                "explanation": "The reference to 'Stonewall law' is an attempt to discredit the guidelines by associating them with a controversial organization, rather than addressing the guidelines' content.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Sir Robert's statement about the 'huge cost' to women and children uses emotional language to evoke concern without providing evidence to support this claim.",
+                                "sentence": [
+                                    8
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The report's claim that the law does not place obligations on spouses and partners to support a partner's transgender identity is used to conclude that the CPS guidelines are wrong without considering the legal nuances and interpretations.",
+                                "sentence": [
+                                    6
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 17.33,
+            "reliability": 19,
+            "word_count": 332,
+            "fallacies_per_1000_words": 9.036144578313253,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 12.048192771084338
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "cases": [
+        {
+            "name": "President Trump Says Adam Schiff Should Be Arrested For Treason",
+            "source": "WSJ",
+            "sentences": {
+                "1": "President Trump has suggested Rep. Adam Schiff (D-CA) should face 'arrest for treason' after he 'illegally made up a FAKE & terrible statement' that he read out in Congress in an attempt to frame the president.",
+                "2": "For the second time in days, President Trump has accused a Democratic member of Congress of treason, escalating his attacks on those leading an impeachment inquiry against him based on a complaint lodged by a 'whistleblower' with no first-hand knowledge of events.",
+                "3": "On Sunday, Trump tweeted that Schiff should be 'questioned at the highest level' for 'treason.'",
+                "4": "Trump suggested in a tweet Monday that House Intelligence Committee Chair Adam Schiff (D-CA) should face 'arrest for treason,' claiming Schiff 'illegally made up a FAKE & terrible statement.'",
+                "5": "President Trump was referring to Schiff's 'analysis' of Trump's July 25 call with Ukrainian President Volodymyr Zelensky.",
+                "6": "Schiff misrepresented the call as a gangster-like shakedown, with Trump blatantly threatening the Ukrainian president.",
+                "7": "The U.S. Constitution defines treason as waging war on the U.S. or giving 'aid and comfort' to American enemies.",
+                "8": "Punishment for the crime may include the death penalty.",
+                "9": "During a House hearing Thursday, Schiff tried to ramp up criticism of President Trump portraying him as a mob boss.",
+                "10": "'It reads like a classic organized crime shakedown,' Schiff said of Trump's call.",
+                "11": "'Shorn of its rambling character and in not so many words, this is the essence of what the president communicates.'",
+                "12": "He then parodied Trump's call in wildly inaccurate terms.",
+                "13": "'We've been very good to your country, very good.",
+                "14": "No other country has done as much as we have, but you know what?",
+                "15": "I don't see much reciprocity here,' Schiff said, supposedly 'parodying' Trump's demands to the Ukrainian leader.",
+                "16": "'I have a favor I want from you, though, and I'm gonna say this only seven times, so you better listen good.",
+                "17": "I want you to make up dirt on my political opponent, understand, lots of it.'",
+                "18": "Schiff explained he was trying to make clear what the president 'was trying to communicate with the president of Ukraine.'",
+                "19": "'This is, in some character, what the president was trying to communicate with the president of Ukraine,' Schiff said.",
+                "20": "'It would be funny if it wasn't such a graphic betrayal of the president's oath of office.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to emotion",
+                    "Strawman (Caricature)",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to emotion": [
+                        6,
+                        9
+                    ],
+                    "Strawman (Caricature)": [
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17
+                    ],
+                    "Questionable conclusion": [
+                        1,
+                        4
+                    ]
+                },
+                "annotations": {
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Describing Schiff's portrayal of Trump as a 'mob boss' and a 'gangster-like shakedown,' invokes strong emotional reactions rather than addressing the specifics of the call.",
+                                "sentence": [
+                                    6,
+                                    9
+                                ]
+                            }
+                        ]
+                    },
+                    "Strawman (Caricature)": {
+                        "Explanation": [
+                            {
+                                "explanation": "Schiff's exaggerated parody of Trump's call creates a distorted version of the argument, making it easier to attack.",
+                                "sentence": [
+                                    12,
+                                    13,
+                                    14,
+                                    15,
+                                    16,
+                                    17
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The claim that Schiff should be arrested for treason is a strong conclusion that is not sufficiently supported by the evidence provided.",
+                                "sentence": [
+                                    1,
+                                    4
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 22.33,
+            "reliability": 27.33,
+            "word_count": 386,
+            "fallacies_per_1000_words": 7.772020725388601,
+            "total_sentences_affected": 10,
+            "total_sentences_affected_per_1000_words": 25.906735751295336
+        }
+    ]
+}

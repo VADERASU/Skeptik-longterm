@@ -1,0 +1,96 @@
+{
+    "cases": [
+        {
+            "name": "Sophie's PDA for 'impatient' Charles was 'ice breaker' at service, says expert",
+            "source": "Mirror",
+            "sentences": {
+                "1": "The new Duchess of Edinburgh Sophie joined other royals including Prince William, Kate Middleton and Queen Camilla for the annual Commonwealth Day service today - and a body language expert spotted a playful moment between the new duchess and King Charles.",
+                "2": "An \"impatient\" King Charles shared a telling and sweet PDA with his sister-in-law Sophie at the annual Commonwealth Day service today - and it acted as an ice breaker, according to a body language expert.",
+                "3": "Nearly all the key members of the Firm, including the Queen Consort and Prince and Princess of Wales, gathered for the ceremony at Westminster Abbey, where the King will be crowned in less than two months' time.",
+                "4": "As they arrived at the Abbey amid blustery conditions, the royal party shook hands with selected attendees before they gathered for several moments and exchanged a few words before processing to their seats.",
+                "5": "In a blink-and-you-'ll-miss-it moment, a playful Sophie appeared to jokingly shoulder-bump Charles, who appeared eager to get on with proceedings.",
+                "6": "And body language expert Judi James told the Mirror that she believes it was the most telling moment and a sweet PDA between the pair.",
+                "7": "She explained: \"Whether it was the upgrade to Duchess of Edinburgh or maybe just a response to Charles's slightly impatient-looking dithering as he waited to get on with the procession, but Sophie leant right in to give Charles a very playful shoulder-bump greeting, along with a very meaningful grin.",
+                "8": "\"It was probably the first glimpse of a gesture like this at a formal public event like this and as an ice-breaker, it seemed to set the tone for the new Prince and Princess of Wales, who were spotted exchanging some grins that were fondly bordering on the flirtatious during the service.",
+                "9": "\"At one point Kate leant over to point to the place William should have been on his song sheet and he replied with a rather sweet suppressed smile, followed by a small bounce on his heels to signal a moment of happiness.",
+                "10": "\"Kate was also seen chatting to William during one of the musical numbers and his grin in reply looked equally cheeky.\"",
+                "11": "Meanwhile, Judi also noted that Charles had an \"air of impatience\" as he arrived at the Abbey while Camilla appeared \"intensely nervous\".",
+                "12": "She added: \"Charles's air of impatience might have been prompted by what went on outside the Abbey.",
+                "13": "Being greeted by jeers from the crowd from people carrying anti-monarchy banners didn't rattle the King but it did seem to startle Camilla.",
+                "14": "\"While Charles stopped to enjoy the performance of a haka, Camilla walked straight past despite the fact he seemed to turn to expect to enjoy it with her.",
+                "15": "\"Camilla was also clearly worried about the wind taking her hat and messing her hair but those are not the normal concerns for royal women.",
+                "16": "Buffeted by the same strong wind, Kate just placed one hand to steady her hat and Anne walked through without as much as a blink of concern.",
+                "17": "\"Camilla was still troubled by the time she got inside the venue, miming as such to Sophie and patting and fiddling with her hair throughout her appearance.",
+                "18": "\"Camilla looked intensely nervous here at what might have been a rather relaxed induction into life as a new Queen.",
+                "19": "Her hands shook as she held her order of service and she barely sang the words to the songs.",
+                "20": "\"She chatted to William and Kate on the way and seemed to ignore Charles, who stepped across to grab her by the arm and motion her to her spot for their walk up the aisle.",
+                "21": "On the way out she spoke to Charles but he seemed to ignore her, turning his head away to acknowledge the audience instead.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to authority (dubious authority)",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to authority (dubious authority)": [
+                        1,
+                        2,
+                        6,
+                        7,
+                        8,
+                        11,
+                        12,
+                        14,
+                        16
+                    ],
+                    "Questionable conclusion": [
+                        7,
+                        10,
+                        12,
+                        18
+                    ]
+                },
+                "annotations": {
+                    "AA": {
+                        "Explanation": [
+                            {
+                                "explanation": "The author relies on the opinion of a body language expert to make significant claims about the interactions, without providing substantial evidence or further verification.",
+                                "sentence": [
+                                    1,
+                                    2,
+                                    6,
+                                    7,
+                                    8,
+                                    11,
+                                    12,
+                                    14,
+                                    16
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The author draws conclusions about the nature of the interactions based on limited observations, such as making broad claims about the relationships and feelings of the individuals involved.",
+                                "sentence": [
+                                    7,
+                                    10,
+                                    12,
+                                    18
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 2,
+            "reliability": 31.33,
+            "word_count": 633,
+            "fallacies_per_1000_words": 3.1595576619273302,
+            "total_sentences_affected": 11,
+            "total_sentences_affected_per_1000_words": 17.377567140600316
+        }
+    ]
+}

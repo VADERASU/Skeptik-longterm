@@ -1,0 +1,99 @@
+{
+    "cases": [
+        {
+            "name": "Sajjan says he was unaware of senator sending travel documents to Afghans because 'I wasn't reading my e-mail'",
+            "source": "The Canadian Press",
+            "sentences": {
+                "1": "International Development Minister Harjit Sajjan told his fellow MPs Wednesday he did not know a Canadian senator was handing out unauthorized travel documents to hundreds of Afghans during the Taliban's rise in 2021 because he wasn't checking his email at the time.",
+                "2": "Sen. Marilou McPhedran told the House immigration committee last week that Sajjan's then-chief of staff, George Young, had given her a template for a 'visa facilitation letter' that people could use to clear checkpoints on their way to the airport to escape the country.",
+                "3": "She said she shared that template with several 'trusted advocates,' including the chief human rights officer with FIFA and a former Canadian Olympian.",
+                "4": "McPhedran said she doesn't know how many letters were handed out, but believes it was about 640.",
+                "5": "Sajjan was defence minister at the time and McPhedran said she copied him and several other ministers on many emails about her activities.",
+                "6": "Sajjan told the committee he was so busy at the time he didn't have time to check his inbox.",
+                "7": "'During the time of the evacuation, I really didn't have the time to be able to check my emails,' Sajjan told reporters after his committee appearance.",
+                "8": "Sajjan told the committee he was consumed 24/7 by continuous security updates about the situation in Afghanistan throughout August 2021 as Canadian Forces aided in the evacuation of Afghans.",
+                "9": "MP calls explanation 'preposterous'",
+                "10": "Sajjan said that even when the federal election campaign period started on Aug. 15, 2021, he was entirely focused on the situation in Afghanistan until the final Canadian evacuation flight left the capital city of Kabul.",
+                "11": "He said he was aware of authentic visa facilitation letters issued by Global Affairs Canada, but didn't authorize anyone else to use them.",
+                "12": "In a statement, the Immigration Department said it issued several authentic letters directly to Afghan nationals who were eligible to come to Canada to help them clear checkpoints, but didn't allow third parties to issue them on the government's behalf.",
+                "13": "The situation was referred to the RCMP, which concluded it cannot pursue a viable investigation.",
+                "14": "Meanwhile, the government's refusal to honour the documents to allow Afghans entry to Canada is now the subject of a court case.",
+                "15": "Conservative MP Michelle Remple Garner compared the minister's explanation to the excuse that the 'dog ate my homework.'",
+                "16": "'The response 'I didn't check my email' was preposterous,' she said after the meeting, criticizing what she described as a lack of oversight and fairness in the process.",
+                "17": "McPhedran tabled her emails with the committee but they have not yet been shared with members.",
+                "18": "In a written statement sent to The Canadian Press on Wednesday, she thanked Sajjan for his commitment to getting Afghans, including women and girls at high risk, out of the country.",
+                "19": "She also thanked him for his 'appreciation of his then-chief of staff George Young for working diligently to try to save lives.'",
+                "20": "Sajjan said Young never told him that McPhedran was handing out visa facilitation letters but he wouldn't comment further on whether Young's alleged actions were appropriate.",
+                "21": "He said he directed his staff to forward all people who were concerned about getting individuals out of Afghanistan to the appropriate interdepartmental team. He also described the frenzied atmosphere at the time.",
+                "22": "NDP immigration critic Jenny Kwan said that at the end of the day, the minister is responsible for the actions of his chief of staff.",
+                "23": "'I am dismayed with the minister's comments and a little bit in shock at the level of, frankly, incompetence, if that's how he operated,' Kwan said.",
+                "24": "Conservative members of the committee filed a notice of motion to call Young to testify.",
+                "25": "'This testimony is going to be critical in terms of understanding exactly what happened, if there was authorization, why he undertook this and if he actually did it to begin with,' Remple Garner said after the meeting."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Personal attack",
+                    "Questionable conclusion",
+                    "Red Herring (sidetracking)"
+                ],
+                "sentences": {
+                    "Personal attack": [
+                        16,
+                        23
+                    ],
+                    "Questionable conclusion": [
+                        25
+                    ],
+                    "Red Herring (sidetracking)": [
+                        15
+                    ]
+                },
+                "annotations": {
+                    "PA": {
+                        "Explanation": [
+                            {
+                                "explanation": "Conservative MP Michelle Remple Garner's statement 'The response 'I didn't check my email' was preposterous,' constitutes a personal attack by discrediting Sajjan's character instead of focusing on the issue at hand.",
+                                "sentence": [
+                                    16
+                                ]
+                            },
+                            {
+                                "explanation": "NDP immigration critic Jenny Kwan's comments criticizing Sajjan for incompetence attack his character rather than addressing the specific circumstances or validity of his explanation.",
+                                "sentence": [
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Conservative members of the committee filed a notice of motion to call Young to testify, claiming it is critical for understanding what happened. However, this conclusion may be unwarranted without more evidence linking Young's actions directly to the issue.",
+                                "sentence": [
+                                    25
+                                ]
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Michelle Remple Garner's analogy comparing Sajjan's explanation to the excuse 'the dog ate my homework' serves as a red herring by diverting attention from the substantive details of the case to a trivializing comparison.",
+                                "sentence": [
+                                    15
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 0,
+            "reliability": 41.67,
+            "word_count": 658,
+            "fallacies_per_1000_words": 4.559270516717325,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 6.079027355623101
+        }
+    ]
+}

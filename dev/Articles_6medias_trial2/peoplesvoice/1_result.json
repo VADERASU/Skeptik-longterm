@@ -1,0 +1,80 @@
+{
+    "cases": [
+        {
+            "name": "NBC News Admits Obama Is 'Shadow President' Serving His 'Third Term'",
+            "source": "NBC News",
+            "sentences": {
+                "1": "NBC News has admitted that Barack Obama has been secretly operating as America's 'shadow President' for the last three years, illegally serving a third term in the White House.",
+                "2": "According to an explosive report, Obama has been secretly overseeing the Biden administration, heightening concerns the ex-President is actually the secret commander-in-chief with his former VP at the helm:",
+                "3": "\"WASHINGTON \u2014 Former President Barack Obama quietly advised the White House over the past five months on its strategy to address artificial intelligence, engaging behind the scenes with tech companies and holding Zoom meetings with top West Wing aides at President Joe Biden's request, according to aides to both men.",
+                "4": "The joint effort culminated Monday when Biden signed an executive order establishing some government oversight of AI development.",
+                "5": "It's the first time Biden has tapped his former boss to help shape a key policy initiative, aides said, and he did it because Obama shares his views on the issue and brings a certain heft that could help move the process along quickly.\"",
+                "6": "Infowars.com reports: Social media swiftly criticized the news, with many asserting it proved what has long been claimed about Biden's presidency - that it essentially serves as Obama's third term, a cunning circumvention of the US Constitution.",
+                "7": "Recall that in 2020, Obama admitted he'd \"be fine\" with feeding lines from his basement to a frontman or stand-in through an earpiece."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Appeal to tradition",
+                    "False cause"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        1,
+                        2,
+                        6
+                    ],
+                    "Appeal to tradition": [
+                        6
+                    ],
+                    "False cause": [
+                        1,
+                        6
+                    ]
+                },
+                "annotations": {
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The claim that Obama is serving a 'third term' based on his advice to Biden is an unwarranted conclusion.",
+                                "sentence": [
+                                    1,
+                                    2,
+                                    6
+                                ]
+                            }
+                        ]
+                    },
+                    "AT": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument is appealing to the idea that Biden's presidency is invalid because it allegedly continues Obama's tenure, which implies a traditional two-term limit should be strictly observed without considering the actual role and influence of former presidents.",
+                                "sentence": [
+                                    6
+                                ]
+                            }
+                        ]
+                    },
+                    "FC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The assumption that Obama advising Biden directly leads to him being a 'shadow president' is a false cause, as it does not consider other reasons for their collaboration.",
+                                "sentence": [
+                                    1,
+                                    6
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 30,
+            "reliability": 6,
+            "word_count": 241,
+            "fallacies_per_1000_words": 12.448132780082986,
+            "total_sentences_affected": 3,
+            "total_sentences_affected_per_1000_words": 12.448132780082986
+        }
+    ]
+}

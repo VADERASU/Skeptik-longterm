@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Artificial intelligence makes Bill C-18, Canada's Online News Act, already outdated",
+    "bias": 1.33,
+    "Reliability": 33.33,
+    "content": "1.txt"
+  },
+  {
+    "title": "Foreign-interference office coming 'soon' but not yet ready to launch: Mendicino",
+    "bias": 0,
+    "Reliability": 42.33,
+    "content": "2.txt"
+  },
+  {
+    "title": "Sajjan says he was unaware of senator sending travel documents to Afghans because 'I wasn't reading my e-mail'",
+    "bias": 0,
+    "Reliability": 41.67,
+    "content": "3.txt"
+  },
+  {
+    "title": "First two Canadian military evacuation flights leave Sudan",
+    "bias": 0,
+    "Reliability": 44.67,
+    "content": "4.txt"
+  },
+  {
+    "title": "Toronto-area housing developments at risk as lenders accuse StateView Homes of wrongdoing",
+    "bias": 0,
+    "Reliability": 44,
+    "content": "5.txt"
+  },
+  {
+    "title": "Sudan's army says it extends ceasefire, but fighting goes on",
+    "bias": 0,
+    "Reliability": 44,
+    "content": "6.txt"
+  },
+  {
+    "title": "Scientist argues for review around deadly food preservative",
+    "bias": 0,
+    "Reliability": 43.33,
+    "content": "7.txt"
+  },
+  {
+    "title": "New Teck Resources bid could go directly to shareholders, Glencore says",
+    "bias": 0,
+    "Reliability": 41,
+    "content": "8.txt"
+  },
+  {
+    "title": "Ottawa's plans to airlift Canadians from Sudan stalled by inability to find landing spots",
+    "bias": 0,
+    "Reliability": 43.33,
+    "content": "9.txt"
+  },
+  {
+    "title": "Why Teck Resources' proposed split never made much sense and shareholders shot it down",
+    "bias": 0,
+    "Reliability": 40.67,
+    "content": "10.txt"
+  },
+  {
+    "title": "Seven stats to amaze and depress all who own a house or hope to own",
+    "bias": 1.33,
+    "Reliability": 39.33,
+    "content": "11.txt"
+  },
+  {
+    "title": "Flood-damaged Vancouver, southern B.C. railways expected to remain impassable for days",
+    "bias": 0,
+    "Reliability": 49.33,
+    "content": "12.txt"
+  },
+  {
+    "title": "Canada's largest school board doesn't seem to understand the indispensable role of defence lawyers in our justice system",
+    "bias": 1,
+    "Reliability": 33.67,
+    "content": "13.txt"
+  },
+  {
+    "title": "Rogers CEO Joe Natale's demands rejected by board, leading to his exit",
+    "bias": 0,
+    "Reliability": 45,
+    "content": "14.txt"
+  },
+  {
+    "title": "Trudeau wins no concessions on Buy America from Biden",
+    "bias": 1,
+    "Reliability": 45.33,
+    "content": "15.txt"
+  }
+]

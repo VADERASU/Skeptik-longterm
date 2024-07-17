@@ -1,0 +1,130 @@
+{
+    "cases": [
+        {
+            "name": "Trump's 2020 Prediction Gas Prices Would Reach $7 Under Biden Comes True",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Liberals mocked Donald Trump's 2020 prediction that gas prices under President Biden would reach $7.00 per gallon.",
+                "2": "But liberals were wrong, Trump was spot on, and now we are all feeling the pain thanks to Biden's inept leadership.",
+                "3": "The price of gas in Gorda, California, reached the eye-watering figure of $7.59 on Sunday.",
+                "4": "Fuel stations in Los Angeles County were also selling premium gasoline for more than $7.00 a gallon.",
+                "5": "One gas station in Los Angeles was advertising gas for $6.99.",
+                "6": "Trump predicted gas would reach $7 under Biden on November 3, 2020, right before election day.",
+                "7": "It took just over a year after Biden assumed office for Trump's prediction to come true.",
+                "8": "While it is not difficult to predict that prices, including fuel, will rise under a Democratic president, few of us thought we would see over $7 a gallon, even in California.",
+                "9": "Trump further stated:",
+                "10": "\"They [wind farms] ruin the environment, they kill the birds and they cost a fortune,\" Trump explained.",
+                "11": "\"We have natural gas\u00e2\u20ac\u00a6costs us nothing.",
+                "12": "Actually nothing.",
+                "13": "They burn it off.",
+                "14": "When you look at all of those flames on top of the wells, that's natural gas that they burn off.",
+                "15": "They throw [it] away\u00e2\u20ac\u00a6and we want to give that away for windmills.\"",
+                "16": "It's time to re-open America's pipelines and stop being held to ransom by foreign countries intent on swindling the United States.",
+                "17": "Per Breitbart: The average price of gas in the US is just six cents away from breaking the all-time 2008 record of $4.11.",
+                "18": "Since Russia invaded Ukraine, oil prices have continued to surge and gas prices have increased to over $4.00 per gallon.",
+                "19": "Instead of supporting American energy independence, Biden is likely seeking a substitute for Russian oil, which finances the Russian invasion of Ukraine, though Biden has not sanctioned relevant Russian energy suppliers.",
+                "20": "Russia provided ten percent of global supply last year.",
+                "21": "Over the weekend, the Biden administration secretly met with Venezuelan President Nicol\u00c3\u00a1s Maduro about producing more oil.",
+                "22": "Other than meeting with Maduro to reduce oil prices, Biden has promoted renewable energy to address the spiking price of gas.",
+                "23": "Yet renewable energy is not a long- or short-term solution.",
+                "24": "In 2020, Biden promised he would \"transition\" away from the oil industry."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Strawman (Caricature)",
+                    "Red Herring (sidetracking)",
+                    "Appeal to emotion",
+                    "Post Hoc (PH)",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Strawman (Caricature)": [
+                        10,
+                        15
+                    ],
+                    "Red Herring (sidetracking)": [
+                        16,
+                        19,
+                        20,
+                        21
+                    ],
+                    "Appeal to emotion": [
+                        2,
+                        16
+                    ],
+                    "Post Hoc (PH)": [
+                        7
+                    ],
+                    "Questionable conclusion": [
+                        2,
+                        23
+                    ]
+                },
+                "annotations": {
+                    "Strawman (Caricature)": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's statement about wind farms ruining the environment and killing birds distorts the argument for renewable energy.",
+                                "sentence": [
+                                    10,
+                                    15
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring (sidetracking)": {
+                        "Explanation": [
+                            {
+                                "explanation": "Calls to re-open pipelines and discussions about Biden's meeting with Maduro divert attention from the main issue of gas prices.",
+                                "sentence": [
+                                    16,
+                                    19,
+                                    20,
+                                    21
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement about feeling the pain due to Biden's leadership and being held to ransom by foreign countries evokes emotions rather than presenting a logical argument.",
+                                "sentence": [
+                                    2,
+                                    16
+                                ]
+                            }
+                        ]
+                    },
+                    "Post Hoc (PH)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article implies that gas prices rose because Biden assumed office, without providing evidence for a direct causal relationship.",
+                                "sentence": [
+                                    7
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that Biden's renewable energy policies are not a solution is drawn without sufficient evidence.",
+                                "sentence": [
+                                    23
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 5,
+            "bias": 19.33,
+            "reliability": 24.33,
+            "word_count": 384,
+            "fallacies_per_1000_words": 13.020833333333334,
+            "total_sentences_affected": 9,
+            "total_sentences_affected_per_1000_words": 23.4375
+        }
+    ]
+}

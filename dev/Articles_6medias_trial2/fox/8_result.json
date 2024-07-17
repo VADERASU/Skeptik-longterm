@@ -1,0 +1,94 @@
+{
+    "cases": [
+        {
+            "name": "House GOP eyes election safeguards to block 'dangerously high number' of illegal immigrants from voting",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Speaker Mike Johnson, R-La., unveiled legislation on Wednesday aimed at blocking non-citizens from voting in U.S. elections.",
+                "2": "Johnson held a high-profile press conference at the base of the U.S. Capitol to promote the Safeguard American Voter Eligibility (SAVE) Act alongside the bill's leaders in the House and Senate, Rep. Chip Roy, R-Texas, and Sen. Mike Lee, R-Utah.",
+                "3": "The speaker warned that a 'dangerously high number' of illegal immigrants are able to vote in U.S. elections and said it could even affect who wins or loses.",
+                "4": "'Due to the wide open border that the Biden administration has refused to close, in fact, that they engineered to open, we now have so many non-citizens in the country that if only one out of 100 of those voted, they would cast hundreds of thousands of votes,' Johnson said.",
+                "5": "'And since our elections are so razor-thin\u00e2\u20ac\u00a6 and a few states decide the makeup of Congress and who is elected to the White House, this is a dangerously high number, and it is a great concern to millions and millions of Americans. It could obviously change the outcome of our elections.'",
+                "6": "Johnson later conceded that it's not known how many illegal immigrants or non-citizens have voted in U.S. elections, but said the bill would definitely stop any instances of it from taking place.",
+                "7": "'States are not allowed right now to prove if somebody claims on that simple form that they're a citizen, they can vote. They're not allowed to prove whether it's true or not. We all know intuitively that a lot of illegals are voting in federal elections, but it's not been something that is easily provable,' he said. 'We don't have that number. This legislation will allow us to do exactly that. It will prevent that from happening.'",
+                "8": "Roy, meanwhile, told reporters that a majority of the American populace supports stronger voter ID protections.",
+                "9": "'We're here for the simple proposition supported by the vast majority of the American people, that only citizens of the United States should vote. That we should have documentary proof. That we should have a system to guarantee that only citizens of the United States vote in federal elections,' Roy said.",
+                "10": "Also in attendance at the press conference were former Trump administration officials Stephen Miller and Hogan Gidley, now top officials at conservative think tank America First Policy Institute.",
+                "11": "'It is dangerous lunacy to ignore the law and allow people who are not American citizens to vote in American elections,' Gidley said.",
+                "12": "Johnson did not answer shouted questions from Fox News Digital about when he wants the bill to hit the House floor.",
+                "13": "Elizabeth Elkind is a politics reporter for Fox News Digital leading coverage of the House of Representatives. Previous digital bylines seen at Daily Mail and CBS News."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Appeal to emotion",
+                    "Appeal to ignorance"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        3,
+                        5
+                    ],
+                    "Appeal to emotion": [
+                        5,
+                        11
+                    ],
+                    "Appeal to ignorance": [
+                        7
+                    ]
+                },
+                "annotations": {
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that illegal immigrants voting could significantly alter election outcomes is drawn without sufficient evidence to support the impact scale.",
+                                "sentence": [
+                                    3
+                                ]
+                            },
+                            {
+                                "explanation": "The concern that illegal immigrants' votes could change election outcomes is presented without concrete data to support the claim.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement evokes fear and concern by suggesting that the presence of non-citizen votes is a 'great concern to millions and millions of Americans.'",
+                                "sentence": [
+                                    5
+                                ]
+                            },
+                            {
+                                "explanation": "Describing it as 'dangerous lunacy' is intended to provoke a strong emotional reaction rather than provide a logical argument.",
+                                "sentence": [
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to ignorance": {
+                        "Explanation": [
+                            {
+                                "explanation": "Claiming that 'we all know intuitively that a lot of illegals are voting' is an appeal to ignorance, as it asserts a belief without evidence, relying on the idea that it hasn't been disproved.",
+                                "sentence": [
+                                    7
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 14.67,
+            "reliability": 32.67,
+            "word_count": 476,
+            "fallacies_per_1000_words": 6.302521008403361,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 8.403361344537815
+        }
+    ]
+}

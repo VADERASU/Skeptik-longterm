@@ -1,0 +1,179 @@
+{
+    "cases": [
+        {
+            "name": "President Biden appears to freeze at White House Juneteenth event",
+            "source": "WSJ",
+            "sentences": {
+                "1": "President Biden appeared to freeze during a Juneteenth celebration at the White House on Monday.",
+                "2": "Biden, 81, was filmed standing still as stone while those around him, including Vice President Kamala Harris, clapped and danced to a concert featuring gospel singer Kirk Franklin.",
+                "3": "Video shows Biden staring blankly and not moving an inch for about 30 seconds before Philonise Floyd \u00e2\u20ac\u201d the brother of George Floyd, whose murder triggered nationwide riots in 2020 \u00e2\u20ac\u201d noticed the president and put his arm around him.",
+                "4": "Biden then smiles as Floyd leans in to say something, and they bump fists after exchanging a few words.",
+                "5": "Republicans, who have sought to make the president's advanced age an issue in the 2024 election, were quick to deride the president.",
+                "6": "The White House did not immediately respond to a request for comment.",
+                "7": "\"Why isn't Biden moving?\" the Republican National Committee's rapid response account questioned on X.",
+                "8": "\"Lights are on but no one's home,\" former President Trump's campaign posted.",
+                "9": "\"Who said Biden's got no rhythm?\" quipped Sen. Mike Lee, R-Utah.",
+                "10": "The incident echoed two occasions last year when Senate Minority Leader Mitch McConnell, R-Ky. froze in front of reporters at the Capitol and at an event in Covington, Kentucky.",
+                "11": "McConnell, who was 81 at the time, later announced he would step down from leadership after the election and would not seek re-election when his current term expires in 2027.",
+                "12": "Critics say Biden is declining in his old age and can't handle the responsibilities of the presidency.",
+                "13": "Last week, the Wall Street Journal published a report detailing instances in which the president has demonstrated a lack of clarity in private meetings with staff and members of Congress.",
+                "14": "But the White House and Cabinet members have vigorously pushed back against these claims, and defended the president's mental acuity and ability to perform on the jon.",
+                "15": "\"Congressional Republicans, foreign leaders and nonpartisan national-security experts have made clear in their own words that President Biden is a savvy and effective leader who has a deep record of legislative accomplishment,\" White House spokesman Andrew Bates said.",
+                "16": "\"Now, in 2024, House Republicans are making false claims as a political tactic that flatly contradict previous statements made by themselves and their colleagues.\"",
+                "17": "Earlier this year, a report from Biden's own Department of Justice's special counsel called him an \"elderly man with a poor memory\" at the end of an investigation into his mishandling of classified documents dating back to his Senate tenure, which ultimately saved him from having charges brought against him by Special Counsel Robert Hur.",
+                "18": "Biden has been prone to gaffes going back to when he was vice president, but the frequency and nature of his verbal missteps in recent years appear to be more significant.",
+                "19": "In May, Biden seemed to have a break with reality when he confused the timing of the COVID pandemic by a factor of years when he said, \"And when I was vice president, things were kind of bad during the pandemic, and, what happened was Barack said to me: 'Go to Detroit \u00e2\u20ac\u201d and help fix it.'\" The pandemic happened years after Biden's time as vice president.",
+                "20": "The president has, on several occasions, referenced dead people as being alive.",
+                "21": "In 2022, at a White House event, Biden called out former Rep. Jackie Walorski during a speech, \"Jackie, are you here? Where's Jackie?\" Walorski had died in a car crash the previous month.",
+                "22": "At a campaign rally in February, Biden told the audience, \"Right after I was elected, I went to a G7 meeting in southern England.",
+                "23": "And I sat down and said, 'America is back!' and Mitterand from Germany \u00e2\u20ac\u201d I mean France \u00e2\u20ac\u201d looked at me and said, 'How long you back for?'\" Mitterand was president from 1981 to 1995 and died in 1996.",
+                "24": "In 2021, Biden claimed he had spoken with the late German Chancellor Helmut Kohl, who had died in 2017, while recalling past conversations during fundraising events.",
+                "25": "At 81, Biden is the oldest man to serve as president in U.S. history.",
+                "26": "If he is re-elected in November, he will be 86 when his second term ends.",
+                "27": "The presumptive Republican presidential nominee, former President Trump, is just four years younger at 77."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Personal attack",
+                    "Who are you to talk?",
+                    "Red Herring",
+                    "Strawman (Caricature)",
+                    "Appeal to tradition",
+                    "Questionable conclusion",
+                    "Cherry Picking"
+                ],
+                "sentences": {
+                    "Personal attack": [
+                        8,
+                        9
+                    ],
+                    "Who are you to talk?": [
+                        19,
+                        20,
+                        23,
+                        24
+                    ],
+                    "Red Herring": [
+                        10,
+                        11
+                    ],
+                    "Strawman (Caricature)": [
+                        16
+                    ],
+                    "Appeal to tradition": [
+                        25,
+                        26
+                    ],
+                    "Questionable conclusion": [
+                        12,
+                        13
+                    ],
+                    "Cherry Picking": [
+                        17
+                    ]
+                },
+                "annotations": {
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The campaign's statement \"Lights are on but no one's home\" is a personal attack on Biden's mental state, rather than addressing the issue at hand.",
+                                "sentence": [
+                                    8
+                                ]
+                            },
+                            {
+                                "explanation": "Sen. Mike Lee's comment \"Who said Biden's got no rhythm?\" is another personal attack on Biden's abilities, which distracts from the main issue.",
+                                "sentence": [
+                                    9
+                                ]
+                            }
+                        ]
+                    },
+                    "WYT": {
+                        "Explanation": [
+                            {
+                                "explanation": "Biden's confusion about the timing of the COVID pandemic and references to dead people as being alive are used to discredit his arguments by highlighting past mistakes, which is a form of the 'Who are you to talk?' fallacy.",
+                                "sentence": [
+                                    19,
+                                    20
+                                ]
+                            },
+                            {
+                                "explanation": "The mention of Biden's incorrect statement about Mitterand and his conversation with Helmut Kohl are used to imply that he cannot be trusted, focusing on his past errors rather than his current argument.",
+                                "sentence": [
+                                    23,
+                                    24
+                                ]
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The mention of Mitch McConnell's freezing incidents is a red herring, as it shifts the focus from Biden's situation to another politician's similar issue.",
+                                "sentence": [
+                                    10,
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "S": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement that House Republicans' claims contradict their previous statements is a strawman fallacy, as it misrepresents the opposition's argument to make it easier to attack.",
+                                "sentence": [
+                                    16
+                                ]
+                            }
+                        ]
+                    },
+                    "AT": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement that Biden is the oldest president and will be 86 if re-elected appeals to tradition by implying he is unfit due to his age.",
+                                "sentence": [
+                                    25,
+                                    26
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that Biden can't handle the presidency due to his age is questionable, as it is not sufficiently supported by evidence.",
+                                "sentence": [
+                                    12
+                                ]
+                            },
+                            {
+                                "explanation": "The Wall Street Journal's report detailing instances of Biden's lack of clarity is used to draw a questionable conclusion about his overall ability to perform as president.",
+                                "sentence": [
+                                    13
+                                ]
+                            }
+                        ]
+                    },
+                    "CH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The report from Biden's Department of Justice special counsel highlighting his poor memory is an example of cherry picking, as it selectively uses evidence that supports a negative view of Biden while ignoring other instances where he may have performed competently.",
+                                "sentence": [
+                                    17
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 7,
+            "bias": 13.33,
+            "reliability": 23.67,
+            "word_count": 709,
+            "fallacies_per_1000_words": 9.873060648801129,
+            "total_sentences_affected": 14,
+            "total_sentences_affected_per_1000_words": 19.746121297602258
+        }
+    ]
+}

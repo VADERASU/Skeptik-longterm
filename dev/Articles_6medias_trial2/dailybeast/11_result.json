@@ -1,0 +1,104 @@
+{
+    "cases": [
+        {
+            "name": "Disaster for Trump as Truth Social Crashes at Critical SOTU Moment",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Donald Trump may have rage-posted his way through President Joe Biden's State of the Union address on Truth Social, but his social media site crashed for many before Biden even entered the House chamber, with technical issues lingering for at least an hour before and into his remarks.",
+                "2": "Beginning shortly before 9 p.m. EST Thursday, outages numbered in the thousands, according to Downdetector.",
+                "3": "The outages peaked an hour later and then began to slowly resume back to normal, according to the monitor.",
+                "4": "Around the same time, users on X reported not being able to access Trump's feed, with some\u2014including former Trump White House Press Secretary Alyssa Farah Griffin\u2014mocking him for it.",
+                "5": "\"Trump said he'd be live fact-checking Biden's SOTU but Truth Social appears to be down. Sad!\" she wrote on X.",
+                "6": "On Fox News, meanwhile, anchor Bret Baier\u2014who had read out loud some of Trump's posts\u2014invited him to just call in.",
+                "7": "\"If the former president wants to call in,\" Baier said, likely speaking directly to Trump through the screen, \"we're happy to put him [on] instead of just reading Truth Social posts.\"",
+                "8": "Those who were able to see what Trump had to say were likely not surprised, as his posts were largely negative reactions to people he saw on the broadcast.",
+                "9": "\"Thankfully, we don't have to be looking at RINO Mitt Romney much longer!\" Trump wrote of the retiring Utah senator who has opposed Trump's 2024 candidacy.",
+                "10": "Trump, who incited a mob of supporters that broke into the Capitol and House chamber on Jan. 6, 2021, then accused Biden of being \"very disrespectful to our country\" because his address in that same chamber didn't begin promptly at 9 p.m.",
+                "11": "He also predictably took aim at Biden during his speech, insisting the president was \"angry and crazy\" and that \"the words are not flowing smoothly out of his mouth!\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Personal attack",
+                    "Ad hominem",
+                    "Appeal to emotion",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Personal attack": [
+                        9,
+                        10,
+                        11
+                    ],
+                    "Ad hominem": [
+                        9,
+                        10,
+                        11
+                    ],
+                    "Appeal to emotion": [
+                        10,
+                        11
+                    ],
+                    "Questionable conclusion": [
+                        10,
+                        11
+                    ]
+                },
+                "annotations": {
+                    "PA": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's comments on Mitt Romney and Biden focus on their character rather than their policies or actions.",
+                                "sentence": [
+                                    9,
+                                    10,
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "AH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's remarks, such as calling Biden \"angry and crazy,\" are attacks on the person rather than addressing the content of Biden's speech.",
+                                "sentence": [
+                                    9,
+                                    10,
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "Accusations like Biden being \"very disrespectful to our country\" and \"angry and crazy\" play on emotional reactions rather than providing factual critique.",
+                                "sentence": [
+                                    10,
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's statements about Biden being \"disrespectful\" and \"angry and crazy\" lead to conclusions without substantial evidence.",
+                                "sentence": [
+                                    10,
+                                    11
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": -12.67,
+            "reliability": 32.33,
+            "word_count": 319,
+            "fallacies_per_1000_words": 12.539184952978056,
+            "total_sentences_affected": 3,
+            "total_sentences_affected_per_1000_words": 9.404388714733543
+        }
+    ]
+}

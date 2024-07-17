@@ -1,0 +1,123 @@
+{
+    "cases": [
+        {
+            "name": "Disney Sparks Outrage Following 'Woke' Minnie Mouse Makeover",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Disney has come under fire after debuting a 'woke' new look for Minnie Mouse.",
+                "2": "The cartoon character has ditched her trademark red and white polka dot dress in favour of a 'progressive' Hillary Clinton style blue pantsuit in honour of Disneyland Paris's 30th anniversary.",
+                "3": "Minnies's new look did not go down well with fans, with many people accusing the company of trying to be 'woke,' and calling her old outfit 'timeless'.",
+                "4": "Conservative commentator Candace Owens even accused Walt Disney Co. of putting its Minnie Mouse character in trousers to undermine societal values and distract Americans from failures by the Biden's administration.",
+                "5": "In an interview with Fox News host Jesse Watters, Owens said: \"This is why people don't take these people seriously\u00e2\u20ac\u00a6\u00e2\u20ac\u00a6.they're taking all of these things that nobody was offended by and feel like they have to get rid of them and destroy them because they're bored, they're absolutely bored.",
+                "6": "They are trying to destroy the fabrics of our society pretending that there are issues.\"",
+                "7": "RT reports: Much of the goal, Owens said, is to divert attention from crises facing the country, such as the highest inflation in 40 years.",
+                "8": "\"Look at Minnie Mouse.",
+                "9": "The world is going forward because we've got her in a pantsuit,\" she said.",
+                "10": "\"Never mind that you can't get anything at the grocery store and you can't buy a piece of bacon unless you've got $30 in your pocket.",
+                "11": "At least we're addressing the real problem, which is Minnie Mouse.\"",
+                "12": "The rant came in response to a new Minnie Mouse costume that Disney created to mark the 30th anniversary of Disneyland Paris and to be worn only during Women's History Month, which is March.",
+                "13": "A blue pantsuit with black polka dots and black shoes will replace Minnie's signature red dress with white dots.",
+                "14": "Disneyland Paris shared a sneak peek of the new costume on Tuesday.",
+                "15": "Designer Stella McCartney said she was \"delighted\" to be involved in putting Mickey Mouse's girlfriend in trousers.",
+                "16": "\"This new take on her signature polka dots makes Minnie Mouse a symbol of progress for a new generation.",
+                "17": "She will wear it in honor of Women's History Month,\" she said.",
+                "18": "The latest branding controversy comes just one week after Mars Inc. stirred backlash by redesigning its animated M&M's mascots.",
+                "19": "The revisions included putting the female character in less feminine shoes, which Mars called a modern makeover for a \"more dynamic, progressive world.\"",
+                "20": "Owens said sarcastically that girls have been traumatized by seeing Minnie portrayed as a female while they were growing up.",
+                "21": "\"It goes back to what they did with the M&M's, and now they are making her more masculine.",
+                "22": "I'm glad they are seeing that this needed to be addressed.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Red Herring (sidetracking)",
+                    "Appeal to tradition (tradition)",
+                    "Slippery slope",
+                    "Appeal to emotion",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Red Herring (sidetracking)": [
+                        7,
+                        10
+                    ],
+                    "Appeal to tradition (tradition)": [
+                        3
+                    ],
+                    "Slippery slope": [
+                        4,
+                        6
+                    ],
+                    "Appeal to emotion": [
+                        20
+                    ],
+                    "Questionable conclusion": [
+                        9,
+                        11
+                    ]
+                },
+                "annotations": {
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Owens diverts attention from the discussion of Minnie's new outfit to unrelated issues like inflation and grocery prices.",
+                                "sentence": [
+                                    7,
+                                    10
+                                ]
+                            }
+                        ]
+                    },
+                    "AT": {
+                        "Explanation": [
+                            {
+                                "explanation": "The use of the term 'timeless' assumes that the old outfit is better simply because it is traditional.",
+                                "sentence": [
+                                    3
+                                ]
+                            }
+                        ]
+                    },
+                    "SS": {
+                        "Explanation": [
+                            {
+                                "explanation": "Owens claims that putting Minnie in trousers undermines societal values, suggesting a chain of events leading to societal destruction which is not substantiated.",
+                                "sentence": [
+                                    4,
+                                    6
+                                ]
+                            }
+                        ]
+                    },
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "Owens uses an emotional argument by suggesting girls are traumatized by seeing Minnie portrayed as a female.",
+                                "sentence": [
+                                    20
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Owens sarcastically concludes that the change in Minnie's outfit is seen as a real societal issue, which is an exaggeration.",
+                                "sentence": [
+                                    9,
+                                    11
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 5,
+            "bias": 15.67,
+            "reliability": 25.33,
+            "word_count": 457,
+            "fallacies_per_1000_words": 10.940919037199125,
+            "total_sentences_affected": 8,
+            "total_sentences_affected_per_1000_words": 17.505470459518598
+        }
+    ]
+}

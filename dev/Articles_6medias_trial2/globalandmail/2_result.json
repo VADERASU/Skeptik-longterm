@@ -1,0 +1,126 @@
+{
+    "cases": [
+        {
+            "name": "Foreign-interference office coming 'soon' but not yet ready to launch: Mendicino",
+            "source": "Canadian Press",
+            "sentences": {
+                "1": "OTTAWA \u00e2\u20ac\u201d Public Safety Minister Marco Mendicino says the Liberals are not ready to launch the foreign-interference office they promised in last month's federal budget, amid ongoing scrutiny of allegations that Beijing interfered in recent federal elections.",
+                "2": "\"The work has already started,\" Mendicino said in French during Thursday testimony to the House of Commons procedure committee.",
+                "3": "He insisted he wants to get the office up and running \"as soon as possible\" \u00e2\u20ac\u201d but wouldn't offer any specifics on a timeline.",
+                "4": "Since last November, the committee has been probing allegations that China meddled in Canadian federal elections, which Bloc Qu\u00c3\u00a9b\u00c3\u00a9cois MP Marie-H\u00c3\u00a9l\u00c3\u00a8ne Gaudreau argued should have already been met with policy changes.",
+                "5": "\"We have been worried, and we want to maintain confidence in the integrity of our elections,\" she said in French. \"The weeks are marching by quickly and there's an urgency.\"",
+                "6": "She noted that experts testified nearly six months ago about laws that could be strengthened to avoid interference.",
+                "7": "\"There must be enough teeth, because clearly there are lots of flaws,\" she told Mendicino in French. \"It's your responsibility and you \u00e2\u20ac\u00a6 have had six months to prepare for this and respond to this fundamental question.\"",
+                "8": "Mendicino said that Public Safety Canada is already working to establish a National Counter-Foreign Interference Office, as promised in the budget.",
+                "9": "But he said its launch is contingent on Parliament passing the budget bill.",
+                "10": "\"We will remain vigilant on the implementation of this tool,\" he said in French, adding that it's among a list of actions his government has pledge to pursue.",
+                "11": "The Liberal budget earmarked $56 million over five years for measures to combat foreign interference, threats and covert activities, most of which is going to the RCMP to investigate threats and proactively work with diaspora communities.",
+                "12": "The funding would also be put toward launching an office that would, which would help co-ordinate Canada's response to threats from countries including China and Russia.",
+                "13": "Yet Mendicino offered no timeline for when that office will launch, when asked by MPs and later by reporters. And he would not commit to Gaudreau's request that he release an action plan that includes timelines within the next two weeks.",
+                "14": "\"There is a plan in place to stand up that particular office within my department,\" he said in English.",
+                "15": "\"This is something that we are going to move forward with very quickly and urgently.\"",
+                "16": "The Liberals are also deliberating about whether to launch a registry of foreign agents, or people who are paid to advocate on behalf of foreign states.",
+                "17": "But Mendicino said Ottawa is still sorting out details, including whether the registry would apply to those working on behalf of specific countries or all states, and whether it would follow Australia and the U.S. in applying to not just foreigners but also citizens and permanent residents.",
+                "18": "Mendicino testified that those considerations, along with how to keep such a registry complaint with Charter rights, are among \"the very crunchy questions that we've got to answer as we create this tool.\"",
+                "19": "The government is gathering feedback until May 9, after which it will publish a consultation report and propose regulations. But Mendicino claimed that some in diaspora communities have avoided taking part out of concern of \"being targeted,\" presumably by a foreign state.",
+                "20": "\"I want to be as forward-leaning on putting forward legislation that will create this registry,\" he told reporters.",
+                "21": "\"It's important to add the caveat, because the concerns that I'm hearing in the community are very real, around stigmatization.\"",
+                "22": "The government's slow progress on both measures comes as opposition parties continue to clamour for an independent public inquiry that would delve into allegations reported by the Globe and Mail and Global News that Beijing sought to wage influence in the 2019 and 2021 elections.",
+                "23": "Prime Minister Justin Trudeau has appointed former governor general David Johnston as a special rapporteur on the matter. He is expected to report back by May 23 on whether or not a public inquiry is necessary. His final recommendations are due in late October.",
+                "24": "This report by The Canadian Press was first published April 27, 2023."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Red Herring (sidetracking)",
+                    "Evading the Burden of Proof (EBP)",
+                    "Appeal to emotion"
+                ],
+                "sentences": {
+                    "Red Herring (sidetracking)": [
+                        2,
+                        8,
+                        13
+                    ],
+                    "Evading the Burden of Proof (EBP)": [
+                        3,
+                        10,
+                        15
+                    ],
+                    "Appeal to emotion": [
+                        5,
+                        21
+                    ]
+                },
+                "annotations": {
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Mendicino mentions that the work has already started, which sidetracks from providing a specific timeline for the office launch.",
+                                "sentence": [
+                                    2
+                                ]
+                            },
+                            {
+                                "explanation": "Mendicino reiterates that Public Safety Canada is working to establish the office but does not address the urgency or provide a timeline.",
+                                "sentence": [
+                                    8
+                                ]
+                            },
+                            {
+                                "explanation": "Mendicino offers no timeline for the office launch, sidetracking the issue by focusing on other aspects.",
+                                "sentence": [
+                                    13
+                                ]
+                            }
+                        ]
+                    },
+                    "EBP": {
+                        "Explanation": [
+                            {
+                                "explanation": "Mendicino insists on getting the office up and running 'as soon as possible' but provides no evidence or timeline to support this claim.",
+                                "sentence": [
+                                    3
+                                ]
+                            },
+                            {
+                                "explanation": "Mendicino states they will 'remain vigilant' but does not provide concrete evidence or details on implementation.",
+                                "sentence": [
+                                    10
+                                ]
+                            },
+                            {
+                                "explanation": "Mendicino claims they are moving forward 'very quickly and urgently' without providing evidence or specifics.",
+                                "sentence": [
+                                    15
+                                ]
+                            }
+                        ]
+                    },
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "Gaudreau appeals to urgency and the emotional need to maintain confidence in elections without addressing the specifics of the policy changes.",
+                                "sentence": [
+                                    5
+                                ]
+                            },
+                            {
+                                "explanation": "Mendicino highlights concerns of stigmatization within diaspora communities, evoking feelings of fear and concern without addressing the policy details.",
+                                "sentence": [
+                                    21
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 0,
+            "reliability": 42.33,
+            "word_count": 693,
+            "fallacies_per_1000_words": 4.329004329004329,
+            "total_sentences_affected": 8,
+            "total_sentences_affected_per_1000_words": 11.544011544011545
+        }
+    ]
+}

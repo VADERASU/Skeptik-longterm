@@ -1,0 +1,104 @@
+{
+    "cases": [
+        {
+            "name": "Why Teck Resources' proposed split never made much sense and shareholders shot it down",
+            "source": "WSJ",
+            "sentences": {
+                "1": "It took Teck Resources Ltd. TECK-B-T 2\u00bd years to structure the spinout of its steelmaking coal business, and only a few hours for the idea to be shot down by outsiders.",
+                "2": "When Teck announced its split in February, the Canadian miner seemed, at first, to be giving shareholders concerned about environmental, social and governance (ESG) principles the divestment of its coal division that they'd long dreamed of.",
+                "3": "Chief executive Jonathan Price used grandiose words, pitching it as the creation of 'two great, sustainable companies, set up for success.'",
+                "4": "Yet once the news was digested, a central piece of the proposal stood out: Although Teck would be split into two companies - its existing metals business and a new publicly traded company, Elk Valley Resources Ltd., that held the coal assets - almost all the money from both would flow to one because 90 per cent of Elk Valley's cash flows would be sent back to Teck for an estimated 11 years.",
+                "5": "The day the deal was announced, Royal Bank of Canada analyst Sam Crittenden summarized the proposal rather succinctly: 'In the near term, the new Teck seems similar to the old Teck.'",
+                "6": "On Wednesday, shareholders confirmed they felt the same way, with enough voting against the split to force Teck to scrap the proposal and go back to the drawing board.",
+                "7": "As Mr. Price explained on a conference call, shareholders are all for the coal divestment, just not the one Teck took years to craft with the expensive assistance of seven investment banks.",
+                "8": "'They would like to see a simpler and more direct separation,' he explained.",
+                "9": "To Teck's credit, management had good intentions.",
+                "10": "Before the pandemic, the share prices of so many resource companies were in the dumps because investors were more ESG conscious.",
+                "11": "At the start of 2020, Teck's shares were trading around $20 a share, roughly one-third of their current price.",
+                "12": "To adapt, Teck's board of directors held 'strategic discussions' with the miner's management team in 2019, according to regulatory filings, and some of the ideas thrown around included selling or spinning off Teck's energy business - it had a 21-per-cent stake in the Fort Hills oil sands project - as well as its entire coal division.",
+                "13": "But Teck was in a pickle.",
+                "14": "Even though its steelmaking coal business is less carbon intensive than mining thermal coal, which is used for power generation, its coal wasn't exactly clean, and that narrowed the roster of prospective buyers.",
+                "15": "Teck also couldn't afford to simply spin the division out and give investors the choice to hold or sell the new coal company shares, because it needed the coal cash flow to fund the expansion of a major copper project in northern Chile, Quebrada Blanca Phase 2, or QB2.",
+                "16": "In late 2019 and early 2020, Ardea Partners LLP, an independent advisory firm run by former Goldman Sachs bankers, presented all the strategic alternatives available to Teck, including a full-blown sale of the coal division.",
+                "17": "Management was asked to evaluate the options, and by early 2022, it went back to the board with some pretty firm beliefs.",
+                "18": "Executives had reviewed all the options, and they shot down most of them, including: selling the coal business to another steelmaking coal operator or private equity firm; a strategic joint venture; a merger with an existing coal company; and a complete spin-off with no access to coal's cash flows.",
+                "19": "It wasn't that some of these options couldn't be pulled off.",
+                "20": "In fact, at one point there were two offers to sell off large stakes in the coal business, which could have provided some upfront cash that supplanted 10 years of cash flows, according to filings.",
+                "21": "However, Teck said in a filing that 'neither expression of interest was viewed as attractive at that time due to the valuation assumptions underlying such offers.'",
+                "22": "Management also said it shot down the other options because of concerns about 'viability, value, execution risk and failure to meet Teck's strategic goals,' according to filings.",
+                "23": "The only option, then, was to proceed with the convoluted spinout, and ultimately the board got behind the idea, arguing that it would provide investors with 'a choice of allocating investments to one or both of two businesses with very different commodity fundamentals and value propositions.'",
+                "24": "The only problem: It wasn't true.",
+                "25": "This wasn't really a spinout.",
+                "26": "It was more like shuffling deck chairs, and shareholders saw through it.",
+                "27": "And now any potential partner, or buyer, of the coal business knows it has the upper hand in any negotiation."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to emotion",
+                    "Questionable conclusion",
+                    "Red Herring (sidetracking)"
+                ],
+                "sentences": {
+                    "Appeal to emotion": [
+                        3,
+                        8
+                    ],
+                    "Questionable conclusion": [
+                        24,
+                        25,
+                        26
+                    ],
+                    "Red Herring (sidetracking)": [
+                        10,
+                        11,
+                        14
+                    ]
+                },
+                "annotations": {
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "Using emotive language like 'grandiose words' and 'simpler and more direct separation' to appeal to shareholders' emotions.",
+                                "sentence": [
+                                    3,
+                                    8
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Concluding that the spinout wasn't true and was just 'shuffling deck chairs' without providing sufficient evidence.",
+                                "sentence": [
+                                    24,
+                                    25,
+                                    26
+                                ]
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Introducing unrelated points like the impact of ESG consciousness on share prices and the cleanliness of coal to sidetrack from the main issue of the spinout structure.",
+                                "sentence": [
+                                    10,
+                                    11,
+                                    14
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 0,
+            "reliability": 40.67,
+            "word_count": 776,
+            "fallacies_per_1000_words": 3.865979381443299,
+            "total_sentences_affected": 8,
+            "total_sentences_affected_per_1000_words": 10.309278350515465
+        }
+    ]
+}

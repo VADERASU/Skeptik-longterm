@@ -1,0 +1,192 @@
+{
+    "cases": [
+        {
+            "name": "Bill Gates Is Funding The Deforestation Of 70 Million Acres....To Reduce Global Warming",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Bill Gates and other investors are hoping they can help to reduce carbon dioxide in the air by chopping down and burying trees.",
+                "2": "In order to achieve this they are funding the California startup Kodama Systems who plan to cut down 70 million acres of forests, mostly in the Western United States, over the next decade.",
+                "3": "After cutting down the trees, Kodama then plans to then bury them\u2026all in the name of reducing global warming\u2026allegedly.",
+                "4": "Expose-news reports: However, \"global warming\" is a scam to enable the rich to become richer and the real reason for the destruction of forests is to reap saleable carbon offsets.",
+                "5": "The Carbon Cycle",
+                "6": "The following text in this section is extracted from National Geographic's encyclopaedia intended for children aged 10 to 13.",
+                "7": "Carbon is in a constant state of movement from place to place.",
+                "8": "It is stored in what are known as reservoirs, and it moves between these reservoirs through a variety of processes, including photosynthesis, burning fossil fuels, and simply releasing breath from the lungs.",
+                "9": "The movement of carbon from reservoir to reservoir is known as the carbon cycle.",
+                "10": "Carbon can be stored in a variety of reservoirs, including plants and animals, which is why they are considered carbon life forms.",
+                "11": "Carbon is used by plants to build leaves and stems, which are then digested by animals and used for cellular growth.",
+                "12": "In the atmosphere, carbon is stored in the form of gases, such as carbon dioxide.",
+                "13": "It is also stored in oceans, captured by many types of marine organisms.",
+                "14": "Some organisms, such as clams or coral, use the carbon to form shells and skeletons.",
+                "15": "Most of the carbon on the planet is contained within rocks, minerals, and other sediment buried beneath the surface of the planet.",
+                "16": "Because Earth is a closed system, the amount of carbon on the planet never changes.",
+                "17": "The carbon cycle is vital to life on Earth.",
+                "18": "Nature tends to keep carbon levels balanced, meaning that the amount of carbon naturally released from reservoirs is equal to the amount that is naturally absorbed by reservoirs.",
+                "19": "Maintaining this carbon balance allows the planet to remain hospitable for life.",
+                "20": "Read more: The Carbon Cycle for Grades 5-8, Encyclopaedic Entry, National Geographic",
+                "21": "Anthropogenic Climate Change is a Fraud",
+                "22": "The National Geographic Encyclopaedic Entry above ends with the sentence: \"Scientists believe that humans have upset this [carbon] balance by burning fossil fuels, which has added more carbon to the atmosphere than usual and led to climate change and global warming.\"",
+                "23": "National Geographic must be referring to either corporately funded scientists or scientists employed by corporations.",
+                "24": "As we will see in the next section, scientists who are truly concerned about the planet and the life it supports reveal the facts.",
+                "25": "Anthropogenic or human-caused climate change is a fraud and has been known to be a fraud from the outset.",
+                "26": "This was demonstrably revealed to the world in 2009 with the release of leaked emails dubbed Climategate.",
+                "27": "As it leads into the next section, it's also worth noting an eye-opening 2013 article published by Forbes that used quotes from climate alarmists to reveal the truth about the climate change agenda.",
+                "28": "The article was aptly titled: 'In Their Own Words: Climate Alarmists Debunk Their 'Science'.'",
+                "29": "Bill Gates Plans to Cut Down Trees",
+                "30": "At the end of July, Forbes was given the task of promoting Gates' latest plan to destroy and capitalise on the natural world in the name of \"climate change\" in an article titled: 'Chop Down Forests to Save the Planet? Maybe Not as Crazy as it Sounds'.",
+                "31": "Yes, it is as crazy as it sounds.",
+                "32": "At least Forbes was honest enough to highlight why the article was being published in its drop head: \"Bill Gates and other investors are betting Kodama Systems can reduce carbon dioxide in the air by chopping down and burying trees.",
+                "33": "Now if only Uncle Sam would get on board with tax credits, too.\"",
+                "34": "The final sentence gives a clue to what this latest scam is all about - money.",
+                "35": "Let's see what the article has to say and how Forbes manipulates and outright lies to try to sell the idea that Gates and other investors are doing this for the good of the planet.",
+                "36": "It's not long into the article that Forbes links carbon to trading of carbon credits and carbon offsets:",
+                "37": "Trees are \"spewing\" carbon into the air.",
+                "38": "Really?",
+                "39": "It's shameless propaganda."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Red Herring (sidetracking)",
+                    "Appeal to emotion",
+                    "Questionable conclusion",
+                    "Cherry Picking",
+                    "Appeal to authority (dubious authority)"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        4,
+                        23,
+                        25
+                    ],
+                    "Red Herring (sidetracking)": [
+                        21,
+                        24,
+                        27
+                    ],
+                    "Appeal to emotion": [
+                        34,
+                        35,
+                        39
+                    ],
+                    "Questionable conclusion": [
+                        25,
+                        26
+                    ],
+                    "Cherry Picking": [
+                        23
+                    ],
+                    "Appeal to authority (dubious authority)": [
+                        28
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article attacks the credibility of those who believe in global warming by labeling it a scam to enrich the wealthy.",
+                                "sentence": [
+                                    4
+                                ]
+                            },
+                            {
+                                "explanation": "It discredits scientists by implying they are not truly concerned about the planet simply because they are employed by corporations.",
+                                "sentence": [
+                                    23
+                                ]
+                            },
+                            {
+                                "explanation": "It broadly claims that anthropogenic climate change is a known fraud, attacking the integrity of all scientists supporting it.",
+                                "sentence": [
+                                    25
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring (sidetracking)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The section titled 'Anthropogenic Climate Change is a Fraud' sidetracks from the main argument about carbon dioxide reduction by focusing on the claim that climate change is a fraud.",
+                                "sentence": [
+                                    21
+                                ]
+                            },
+                            {
+                                "explanation": "The article claims that 'scientists who are truly concerned' will reveal the facts, which diverts attention from the core issue of deforestation.",
+                                "sentence": [
+                                    24
+                                ]
+                            },
+                            {
+                                "explanation": "It introduces an unrelated article to support the claim that climate change is a fraud, distracting from the primary discussion.",
+                                "sentence": [
+                                    27
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article evokes a sense of financial conspiracy and exploitation by implying that the plan is a scam about money.",
+                                "sentence": [
+                                    34
+                                ]
+                            },
+                            {
+                                "explanation": "It tries to provoke a strong emotional reaction by accusing Forbes of manipulating and lying.",
+                                "sentence": [
+                                    35
+                                ]
+                            },
+                            {
+                                "explanation": "The term 'shameless propaganda' is used to elicit a strong negative emotional response against the argument.",
+                                "sentence": [
+                                    39
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article concludes that anthropogenic climate change is a fraud based on the release of emails, without considering broader evidence.",
+                                "sentence": [
+                                    25,
+                                    26
+                                ]
+                            }
+                        ]
+                    },
+                    "Cherry Picking": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article selectively targets scientists employed by corporations, ignoring the broader scientific consensus on climate change.",
+                                "sentence": [
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to authority (dubious authority)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article references another article that uses quotes from climate alarmists, relying on these quotes as authoritative without solid backing.",
+                                "sentence": [
+                                    28
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 6,
+            "bias": 22,
+            "reliability": 12.67,
+            "word_count": 746,
+            "fallacies_per_1000_words": 8.04289544235925,
+            "total_sentences_affected": 11,
+            "total_sentences_affected_per_1000_words": 14.745308310991957
+        }
+    ]
+}

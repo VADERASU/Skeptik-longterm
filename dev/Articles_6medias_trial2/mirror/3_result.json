@@ -1,0 +1,151 @@
+{
+    "cases": [
+        {
+            "name": "Putin 'resuscitated' after 'cardiac arrest' in bedroom claims Telegram channel",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Controversial social media channel that regularly claims Russian dictator Putin is dying has alleged that the Kremlin supremo had to receive emergency aid from medics after having a heart attack.",
+                "2": "Russian premier Vladimir Putin suffered a 'cardiac arrest' on Sunday evening according to a statement posted on a Telegram channel which regularly says the war-mongering leader is terminally ill.",
+                "3": "The channel - General SVR - suggests all recent appearances by the Russian dictator, including foreign visits, have been carried out by a body double or doubles.",
+                "4": "It claimed that doctors had to resuscitate Putin before taking him to a special intensive care facility located within his official residence.",
+                "5": "'Doctors performed resuscitation, having previously determined that the president was in cardiac arrest,' reported the channel.",
+                "6": "'Help was provided on time, the heart was started and Putin regained consciousness.'",
+                "7": "There was no immediate response from the Kremlin to the claim but officials have previously strongly denied Putin, 71, suffers from health problems.",
+                "8": "The post on General SVR - which claims, without having ever provided any proof, to have an inside source on his entourage - continued: 'At about 21:05 Moscow time, security officers of Russian President Vladimir Putin, who were on duty at the residence, heard noise and sounds of falling coming from the president's bedroom.",
+                "9": "Two security officers immediately followed into the president's bedroom and saw Putin lying on the floor next to the bed and an overturned table with food and drinks.",
+                "10": "Probably, when the president fell, he hit the table and dishes and knocked them onto the floor, which caused the noise.",
+                "11": "Putin convulsively arched while lying on the floor, rolling his eyes.",
+                "12": "The doctors who were on duty at the residence and located in one of the adjacent rooms were immediately called.",
+                "13": "The channel alleged that 'the president was moved to a specially equipped room in his residence, where the necessary medical equipment for resuscitation had already been installed', adding that the president's condition was 'stabilised' and he is 'under constant medical supervision'.",
+                "14": "It said: 'We have already repeatedly talked about the deterioration of Putin's health due to oncology and a number of other diseases.",
+                "15": "This case of cardiac arrest seriously alarmed the president's inner circle, despite the fact that the attending doctors had already warned that Putin was very ill and was unlikely to live until the end of autumn.",
+                "16": "Recently, all official meetings and events have been conducted by the president's double.",
+                "17": "After news of the evening incident, several people close to Putin contacted each other by telephone and agreed to hold consultations on Monday regarding possible actions if the president dies in the coming days.'",
+                "18": "Adding weight to the claims, footage of an unexplained late-evening dash to the Kremlin - the seat of Russian power - by Putin's motorcade on Sunday evening, have surfaced.",
+                "19": "The president normally resides outside of Moscow and not in his official apartment in the vast government building.",
+                "20": "The channel is supposedly run by a former Kremlin lieutenant-general, known by the alias Viktor Mikhailovich.",
+                "21": "It claims his top apparatchiks and security henchmen control the activities of the doppelg\u00e4ngers.",
+                "22": "A recent Japanese TV report used AI to analyse Putin's face, walk and voice in multiple appearances, and concluded that he does use body doubles.",
+                "23": "The head of Ukrainian military intelligence Lt-Gen Kyrylo Budanov has made the same claim, alleging the real Putin has not been seen since June 2022.",
+                "24": "He alleged last month: 'The one, who everyone used to know, was last seen around June 26, 2022.'",
+                "25": "Putin was recently reported to have made trips to Kyrgyzstan and China, and to have been unusually active in travelling inside Russia.",
+                "26": "Last week he visited Perm, and held talks with his war commander General Valery Gerasimov in Rostov-on-Don after making a 'detour' to visit the military headquarters.",
+                "27": "The channel says all these are by body doubles who underwent plastic surgery and years of training by Russian secret services to perform as Putin stand-ins.",
+                "28": "The claims were reported by the Ukrainian media."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to authority (dubious authority)",
+                    "Appeal to ignorance",
+                    "Cherry Picking",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to authority (dubious authority)": [
+                        20,
+                        22,
+                        23
+                    ],
+                    "Appeal to ignorance": [
+                        23
+                    ],
+                    "Cherry Picking": [
+                        14,
+                        16,
+                        27
+                    ],
+                    "Questionable conclusion": [
+                        3,
+                        17,
+                        25
+                    ]
+                },
+                "annotations": {
+                    "APA": {
+                        "Explanation": [
+                            {
+                                "explanation": "Appeal to a supposed former Kremlin lieutenant-general, without verifying the credibility of this source.",
+                                "sentence": [
+                                    20
+                                ]
+                            },
+                            {
+                                "explanation": "Appealing to an AI analysis from a Japanese TV report without providing detailed methodology or credibility.",
+                                "sentence": [
+                                    22
+                                ]
+                            },
+                            {
+                                "explanation": "Appealing to the head of Ukrainian military intelligence's claim without substantial evidence.",
+                                "sentence": [
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "AI": {
+                        "Explanation": [
+                            {
+                                "explanation": "Claiming that Putin has not been seen since June 2022 as evidence he uses body doubles, without concrete proof.",
+                                "sentence": [
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "Highlighting the claims of Putin's deteriorating health while ignoring the lack of concrete evidence.",
+                                "sentence": [
+                                    14
+                                ]
+                            },
+                            {
+                                "explanation": "Claiming that all official meetings and events have been conducted by a double without addressing any disconfirming evidence.",
+                                "sentence": [
+                                    16
+                                ]
+                            },
+                            {
+                                "explanation": "Focusing on the claim that Putin uses body doubles without providing a balanced view of the evidence.",
+                                "sentence": [
+                                    27
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Concluding that all recent appearances by Putin were by body doubles based on unverified claims.",
+                                "sentence": [
+                                    3
+                                ]
+                            },
+                            {
+                                "explanation": "Drawing unwarranted conclusions about the potential death of Putin from a single incident.",
+                                "sentence": [
+                                    17
+                                ]
+                            },
+                            {
+                                "explanation": "Inferring that Putin\u2019s reported travels indicate the use of body doubles without sufficient evidence.",
+                                "sentence": [
+                                    25
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": 0,
+            "reliability": 8.67,
+            "word_count": 677,
+            "fallacies_per_1000_words": 5.908419497784343,
+            "total_sentences_affected": 9,
+            "total_sentences_affected_per_1000_words": 13.293943870014772
+        }
+    ]
+}

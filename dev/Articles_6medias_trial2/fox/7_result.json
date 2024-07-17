@@ -1,0 +1,126 @@
+{
+    "cases": [
+        {
+            "name": "Conservatives blast Biden admin authorizing 'deadly use of force' for Trump Mar-a-Lago raid",
+            "source": "Fox News",
+            "sentences": {
+                "1": "The conservative Heritage Foundation says Americans of any political leaning should be 'outraged' and 'shaken to the bone' over the Biden administration's authorized use of deadly force when the FBI raided former President Trump's Mar-a-Lago estate in Florida.",
+                "2": "The August 2022 raid was part of the Department of Justice (DOJ) investigation into Trump's alleged handling of classified records.",
+                "3": "On Wednesday, a person familiar with Special Counsel Robert Hur's investigation into Biden's handling of classified documents after his departure as vice president during the Obama administration, confirmed that the standard DOJ policy statement regarding the use of deadly force was also included in the operations order for the searches at Biden's residences in Delaware.",
+                "4": "Special Counsel Jack Smith's investigation into Trump's alleged improper retention of classified records included an 'Operations Order' that was produced during discovery.",
+                "5": "The order revealed that the 'FBI believed its objective for the Mar-a-Lago raid was to seize 'classified information, NDI, and US Government records,' as described in the search warrant.",
+                "6": "The order also contained, according to a court filing, a 'Policy Statement' regarding 'Use of Deadly Force,' which stated, 'Law Enforcement officers of the Department of Justice may use deadly force when necessary.'",
+                "7": "The FBI told Fox News in a statement on Tuesday that it 'followed standard protocol' when executing the search warrant at Mar-a-Lago, as it does with all search warrants.",
+                "8": "The standard protocol, the agency added, includes a standard policy statement limiting the use of deadly force.",
+                "9": "'No one ordered additional steps to be taken and there was no departure from the norm in this matter,' the FBI said.",
+                "10": "The filing also shows the DOJ and FBI agents 'planned to bring 'Standard Issue Weapons,' 'Ammo,' 'Handcuffs,' and 'medium and large sized bolt cutters,' but they were instructed to wear 'unmarked polo or collared shirts' and to keep 'law enforcement equipment concealed.''",
+                "11": "The Heritage Foundation \u2014 a nonprofit conservative think tank in Washington, D.C., that promotes and develops conservative public policies \u2014 issued a statement on Wednesday about the FBI's authorization to use deadly force during the Mar-a-Lago raid.",
+                "12": "'Americans of all political leanings should be outraged, and frankly shaken to the bone, by the latest details concerning the FBI's raid of Mar-a-Lago,' the foundation and Heritage Action President Kevin Roberts said.",
+                "13": "'President Biden's Attorney General gave the FBI the green light to use deadly force in storming the home of a former and potential future president without advance notice and without regard to who might have been in the residence.'",
+                "14": "'For his entire term, President Biden's weaponization of the federal government against not just his political opponent, but against parents, people of faith, and conservatives is unprecedented and a grave threat to our constitutional republic,' the statement continued.",
+                "15": "'Our political leaders in Washington must step up to the plate to hold this administration accountable, and as I have said before, the FBI should be started over from scratch and rebuilt from the ground up.",
+                "16": "The very fabric of our nation depends upon it.'",
+                "17": "The Trump campaign called out other media outlets for attempting to justify Biden's authorization of the use of force against his political opponent.",
+                "18": "'This is a sickening attempt to run cover for Joe Biden who is the most corrupt president in history and a threat to our democracy,' Trump Campaign National Press Secretary Karoline Leavitt told Fox News Digital on Wednesday.",
+                "19": "'The good news is, Americans don't buy the pro-Democrat, Election Interfering pro-Biden propaganda the Washington Post is constantly selling, and that is why President Trump continues to dominate Crooked Joe Biden in the polls.'",
+                "20": "Sen. Ted Cruz, R-Texas, spoke about authorization of deadly force on his podcast Wednesday, saying the FBI was anticipating potential conflicts with the Secret Service.",
+                "21": "Cruz read through the unsealed document on his podcast, which painted a picture of the FBI being prepared to engage with deadly force, should agents encounter resistance.",
+                "22": "'So, they're anticipating Secret Service may actively resist the FBI, and they're prepared to engage,' Cruz said.",
+                "23": "'And they're prepared to engage with an order that explicitly authorizes deadly force.",
+                "24": "Like, what in the hell?'",
+                "25": "Pam Bondi, the former Florida attorney general, appeared on Fox News on Wednesday morning, and also expressed shock and outrage over the FBI's authorization to use deadly force during the Mar-a-Lago raid.",
+                "26": "Bondi said she was in a New York City courtroom with Trump all day Tuesday, and when they walked out, they received the news.",
+                "27": "'How upsetting is that, especially to all the great men and women in the Secret Service who were in Mar-a-Lago,' she said.",
+                "28": "'It was a safe place.",
+                "29": "I've been part of executing multiple search warrants, and nothing about this was standard.",
+                "30": "It was a siege by land, by sea, by air, of Mar-a-Lago.",
+                "31": "'Nothing about this was normal, yet, we've heard now that they even had medics and EMS there, in case there could have been a shootout.",
+                "32": "Can you believe that,' Bondi added.",
+                "33": "'No.",
+                "34": "Nothing about this was standard.",
+                "35": "What you do is you coordinate with other federal agencies before you go in there.'",
+                "36": "Trump was charged as a result of Smith's investigation into his retention of classified materials.",
+                "37": "Trump pleaded not guilty to all 37 felony charges from Smith's probe, including willful retention of national defense information, conspiracy to obstruct justice, and false statements.",
+                "38": "Trump was also charged with an additional three counts as part of a superseding indictment out of the investigation: a count of willful retention of national defense information and two obstruction counts.",
+                "39": "Trump pleaded not guilty.",
+                "40": "The federal judge presiding over the case, Judge Aileen Cannon of the U.S. District Court for the Southern District of Florida, postponed the trial stemming from Smith's case indefinitely.",
+                "41": "The trial was set to begin May 20."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to emotion",
+                    "Strawman",
+                    "Questionable conclusion",
+                    "Red Herring"
+                ],
+                "sentences": {
+                    "Appeal to emotion": [
+                        1,
+                        12,
+                        13
+                    ],
+                    "Strawman": [
+                        14
+                    ],
+                    "Questionable conclusion": [
+                        18
+                    ],
+                    "Red Herring": [
+                        17
+                    ]
+                },
+                "annotations": {
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement 'Americans of any political leaning should be outraged and shaken to the bone...' is designed to provoke an emotional response rather than discuss the issue rationally.",
+                                "sentence": [
+                                    1,
+                                    12,
+                                    13
+                                ]
+                            }
+                        ]
+                    },
+                    "SW": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement claims that Biden's weaponization of the federal government is a grave threat to the republic, which distorts the argument by exaggerating and attacking a misrepresented version.",
+                                "sentence": [
+                                    14
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that Biden is the most corrupt president in history is not substantiated with sufficient evidence.",
+                                "sentence": [
+                                    18
+                                ]
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The Trump campaign's statement shifts the focus from the details of the raid to a broader attack on media outlets and Biden.",
+                                "sentence": [
+                                    17
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": 19.33,
+            "reliability": 21,
+            "word_count": 969,
+            "fallacies_per_1000_words": 4.127966976264189,
+            "total_sentences_affected": 6,
+            "total_sentences_affected_per_1000_words": 6.191950464396285
+        }
+    ]
+}

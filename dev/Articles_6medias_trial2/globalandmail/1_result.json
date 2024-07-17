@@ -1,0 +1,85 @@
+{
+    "cases": [
+        {
+            "name": "Artificial intelligence makes Bill C-18, Canada's Online News Act, already outdated",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Michael Geist holds the Canada Research Chair in Internet and E-commerce Law at the University of Ottawa, Faculty of Law.",
+                "2": "The Online News Act, the government's legislative initiative to make Google and Meta pay hundreds of Canadian media companies for links to their news content, is likely to become law before politicians break for the summer later this week.",
+                "3": "The lion's share of attention on Bill C-18 has thus far focused on the response of the two internet companies, as both have raised the prospect of blocking news content on their platforms if faced with new financial liability for linking.",
+                "4": "Yet that focus ignores a vital new reality that may already render the bill out of date.",
+                "5": "Several witnesses before the Senate committee studying the bill pointed to the emergence of generative artificial intelligence and its impact on the news business.",
+                "6": "They included The Logic's David Skok and Globe and Mail publisher Phillip Crawley, who warned that links to news content on Google - a primary portal for consuming news for many - \"could be disrupted in the next six to 12 months quite significantly by the difference that ChatGPT and generative AI is already making in only six months.\"",
+                "7": "The Senate tinkered with a few minor modifications to Bill C-18, but the resulting bill is still wholly incapable of addressing the burgeoning commercial, legal and policy challenges posed by generative AI.",
+                "8": "Generative AI might transform both search and news, but the not-so-secret reality of the Online News Act is that it is written for a different era entirely.",
+                "9": "In fact, the bill acts as if AI does not exist at all.",
+                "10": "Heritage Minister Pablo Rodriguez recently confirmed that Bill C-18 in its current form only applies to two companies: Google and Meta.",
+                "11": "The current definition of \"digital news intermediary\" not only excludes notable internet platforms such as Twitter, Apple and TikTok, but also leading AI providers such as OpenAI (which operates ChatGPT) and Microsoft (which has incorporated AI into its Bing search engine).",
+                "12": "That means there is no obligation arising out of the bill on any of those companies to negotiate agreements with Canadian news outlets.",
+                "13": "Even if they were caught, the bill targets activities that are largely irrelevant for the purposes of generative AI.",
+                "14": "Bill C-18 covers both reproduction of news content and \"facilitating access\" to news content, which includes linking, indexing or aggregating news content.",
+                "15": "None of these activities describe the generative-AI process, which does not reproduce original text, need not link to original sources and does not index content in the same manner as a conventional search engine.",
+                "16": "The emergence of generative AI has sparked a discussion about the prospect of licensing news content for inclusion in the large language models used by AI systems.",
+                "17": "But Bill C-18 actually moves AI companies in the opposite direction, as it seems likely to wean internet intermediaries off Canadian news sources and discourages linking to original sources by upending the long-standing principle of linking to online sources as part of the free flow of information on the internet.",
+                "18": "Canada can ill-afford to ignore the regulatory implications of AI.",
+                "19": "As part of the AI legal landscape, there will be a need to consider the copyright and licensing implications of large language models that are essential for generative AI.",
+                "20": "That issue is sure to spark a fierce debate.",
+                "21": "Some will argue for the adoption of conventional licensing approaches, though any potential compensation system for news content would need to factor in the limited relative value of content from any given news source in the context of training sets with trillions of words.",
+                "22": "Moreover, the implementation of significant restrictions on the development of large language models could harm Canadian aspirations to be a global AI leader and actually lead to greater bias and misinformation by relying on less-reliable training data.",
+                "23": "These are critical AI policy questions, but they won't be decided by Bill C-18.",
+                "24": "Rather, the government's online news bill seems increasingly likely to go down as a cautionary tale in legislative hubris.",
+                "25": "It could lead to lost millions in the short term, should the internet platforms block news in response to mandated payments for links, and rendered irrelevant in the long term as it is sidelined by a generative-AI world for which it was not designed."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion",
+                    "Cherry Picking"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        8,
+                        9
+                    ],
+                    "Questionable conclusion": [
+                        24,
+                        25
+                    ],
+                    "Cherry Picking": [
+                        17
+                    ]
+                },
+                "annotations": {
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The author highlights potential negative consequences of the bill while ignoring possible positive outcomes, which is an example of Cherry Picking.",
+                                "sentence": [
+                                    17
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The author concludes that the bill will be a legislative failure and lead to significant losses without adequate evidence to support these claims, making it a Questionable Conclusion fallacy.",
+                                "sentence": [
+                                    24,
+                                    25
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 1.33,
+            "reliability": 33.33,
+            "word_count": 741,
+            "fallacies_per_1000_words": 4.048582995951417,
+            "total_sentences_affected": 5,
+            "total_sentences_affected_per_1000_words": 6.747638326585696
+        }
+    ]
+}

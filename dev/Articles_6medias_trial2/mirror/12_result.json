@@ -1,0 +1,90 @@
+{
+    "cases": [
+        {
+            "name": "Man slated for 'scampering' down plane aisle to get off flight first",
+            "source": "WSJ",
+            "sentences": {
+                "1": "A flight passenger has been branded a 'jerk' for rushing to the front of the plane when landing, despite sitting at the back of the aircraft - he defends his decision to get there first.",
+                "2": "A man faced a huge backlash after he skipped the queue to get off his flight when it landed - he feels he did nothing wrong as nobody was getting up.",
+                "3": "The bloke was sat near the back of the plane, but when it landed he saw nobody near him was standing up yet to join the queue forming at the front of the aircraft.",
+                "4": "Chancing his luck, he decided to take the opportunity and walked straight to the queue at the front of the plane and bypassed all of the passengers around him - but many were not happy with his move.",
+                "5": "In his Reddit post, he argues that he didn't skip the queue as people had the chance to get up but were not taking the opportunity.",
+                "6": "The man, who remained anonymous, wrote: 'I was sat towards the very back of the plane when we landed. People at the front got up to get ready but no one in the middle section got up.'",
+                "7": "'I was in the aisle seat and I only had a backpack, so I took the opportunity and walked to the front of the plane to lineup behind the people in the very front.'",
+                "8": "He added that when people saw what he was doing, someone told him to wait at the back of the plane like everybody else - but he pretended not to hear his fellow passenger as he had headphones on.",
+                "9": "'I didn't respond again but this time there was a lady behind me who said she needed to catch her connecting flight that was already boarding. The guy then said 'well the rules haven't changed but if you want to be a jerk go ahead'.'",
+                "10": "'The lady who had the connecting flight definitely had a valid reason to 'cut' in line, but when was this ever a rule? I don't think I did anything wrong because everyone who I 'skipped' could have gotten up and waited in the aisle.'",
+                "11": "In response, many judged the man for the move and said he acted unreasonably.",
+                "12": "One person wrote: 'What is it with people who stand up the minute the plane comes to a stop. You're not going anywhere anyway.'",
+                "13": "Another stated: 'I get up when the plane lands because I get cramps in my legs. But I just stand in my seat and don't go scampering along the aisle and just wait until I am directed to move along.'",
+                "14": "A third penned: 'Think about others and what you jumping ahead does to their trip. It's not just about you and how few bags you have and how fast you can zip your way to a line that isn't moving anyway.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to emotion",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to emotion": [
+                        12,
+                        14
+                    ],
+                    "Questionable conclusion": [
+                        5,
+                        10,
+                        14
+                    ]
+                },
+                "annotations": {
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement appeals to the reader's emotions by describing the man's action as unreasonable, without providing a logical argument.",
+                                "sentence": [
+                                    12
+                                ],
+                                "link": "https://www.google.com/search?q=appeal+to+emotion"
+                            },
+                            {
+                                "explanation": "The statement appeals to the reader's emotions by emphasizing the negative impact on others, without addressing the validity of the man's actions.",
+                                "sentence": [
+                                    14
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The man's argument that he didn't skip the queue because others could have gotten up is a questionable conclusion, as it ignores the social norms and expectations in such situations.",
+                                "sentence": [
+                                    5
+                                ],
+                                "link": "https://www.google.com/search?q=questionable+conclusion"
+                            },
+                            {
+                                "explanation": "The man's justification that everyone he 'skipped' could have gotten up is a questionable conclusion, as it disregards the rules and common etiquette of disembarking a plane.",
+                                "sentence": [
+                                    10
+                                ]
+                            },
+                            {
+                                "explanation": "The statement concludes the man's actions were selfish and harmful to others, which is a questionable conclusion without considering other perspectives or the context.",
+                                "sentence": [
+                                    14
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 34.67,
+            "word_count": 494,
+            "fallacies_per_1000_words": 4.048582995951417,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 8.097165991902834
+        }
+    ]
+}

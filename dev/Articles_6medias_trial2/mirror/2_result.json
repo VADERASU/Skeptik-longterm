@@ -1,0 +1,136 @@
+{
+    "cases": [
+        {
+            "name": "Trump 'gets Melania's name wrong' as expert warns his brain is 'dementing'",
+            "source": "Unknown",
+            "sentences": {
+                "1": "Donald Trump appears to get Melania's name wrong as expert warns he is showing 'gross signs of dementia'.",
+                "2": "Donald Trump, who accuses President Joe Biden of being too old to be in power, seems to get his own wife's name muddled at the Conservative Political Action Conference.",
+                "3": "Donald Trump appeared to call wife Melania 'Mercedes' during a chaotic speech in Washington.",
+                "4": "It came as a mental health expert fears the former President's brain is 'dementing', and in a worse state than Joe Biden's.",
+                "5": "Trump addressed the crowd at the Conservative Political Action Conference, and gave the former First Lady a standing ovation.",
+                "6": "He went on to say how 'people love her' during the keynote speech before adding: 'Oh look at that Mercedes, that's pretty good' he said as the audience applauded.",
+                "7": "During his rambling speech, the presidential candidate delivered attacks on his political rival and warned of an apocalyptic future the US could face if the current president wins the White House again in November.",
+                "8": "Trump said: 'If crooked Joe Biden and his thugs win in 2024 the worst is yet to come. Our country will sink to levels that are unimaginable.'",
+                "9": "His errors came as Dr. John Gartner, a psychologist and former professor at the Johns Hopkins University Medical School, delivered a damning verdict on both politicians.",
+                "10": "He argued that it is actually Trump and not President Biden who is showing diminished mental acuity.",
+                "11": "He wrote: 'In 2018, Trump took the test and bragged about his results during the campaign cycle.",
+                "12": "He has already urged his rival to take the test as quickly as possible.",
+                "13": "Trump was the first US president to undergo the test as part of his presidential physical, and said Biden 'didn't take a cognitive test because he couldn't pass one.'",
+                "14": "But Dr Gartner argues it is Trump who we should be worried about.",
+                "15": "As reported in Salon, he said: 'Not enough people are sounding the alarm, that based on his behaviour, and in my opinion, Donald Trump is dangerously demented.",
+                "16": "In fact, we are seeing the opposite among too many in the news media, the political leaders and among the public.",
+                "17": "There is also this focus on Biden's gaffes or other things that are well within the normal limits of ageing.",
+                "18": "By comparison, Trump appears to be showing gross signs of dementia.",
+                "19": "This is a tale of two brains.",
+                "20": "Biden's brain is ageing.",
+                "21": "Trump's brain is dementing.",
+                "22": "Dr Gartner argues Trump is showing signs of 'Phonemic paraphasias,' when a patient substitutes non-words for words that sound similar.",
+                "23": "According to the doctor, these 'are not normally seen until a patient enters the moderate to severe stages of Alzheimer's.'",
+                "24": "Some examples from Trump includes beneficiaries becoming 'benefishes,' Obama became 'obamna,' missiles became 'mishiz,' and bipartisan became 'bipars.'",
+                "25": "Trump also appeared to make a blunder, suggesting he agreed with Vladimir Putin and would rather see Biden in the White House again.",
+                "26": "He said 'He did announce the other day that he'd much rather see Biden as president, and I agree with him.'",
+                "27": "Rather than correcting himself he powered on with the speech.",
+                "28": "In the speech, Trump also claimed to be a 'proud political dissident' days after comparing himself to Alexei Navalny, the top political opponent of Russia's autocratic leader Vladimir Putin, who died in a remote Arctic prison after being jailed by the Kremlin leader.",
+                "29": "'I stand before you today only as your past and hopefully future president, but as a proud political dissident. I am a dissident,' he told the crowd.",
+                "30": "The former US president said a Biden win in the coming election will lead to the US losing World War III.",
+                "31": "Ranting to his massed supporters, Trump warned against a Biden victory saying: 'He'll soon have us losing World War III. We won't even be in World War III, we'll be losing World War III.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Personal attack",
+                    "Appeal to emotion",
+                    "Slippery slope",
+                    "Ad hominem"
+                ],
+                "sentences": {
+                    "Personal attack": [
+                        1,
+                        4,
+                        10,
+                        14,
+                        18,
+                        21
+                    ],
+                    "Appeal to emotion": [
+                        7,
+                        8
+                    ],
+                    "Slippery slope": [
+                        30,
+                        31
+                    ],
+                    "Ad hominem": [
+                        1,
+                        4,
+                        10,
+                        14,
+                        18,
+                        21
+                    ]
+                },
+                "annotations": {
+                    "Personal attack": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article focuses on Trump's potential cognitive decline instead of addressing the substantive issues he discusses.",
+                                "sentence": [
+                                    1,
+                                    4,
+                                    10,
+                                    14,
+                                    18,
+                                    21
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article uses emotionally charged language to provoke fear about the future if Biden wins.",
+                                "sentence": [
+                                    7,
+                                    8
+                                ]
+                            }
+                        ]
+                    },
+                    "Slippery slope": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's claim that a Biden win would lead to the US losing World War III is an exaggerated prediction without a clear causal link.",
+                                "sentence": [
+                                    30,
+                                    31
+                                ]
+                            }
+                        ]
+                    },
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "The article attacks Trump\u2019s mental state rather than addressing the points he is making.",
+                                "sentence": [
+                                    1,
+                                    4,
+                                    10,
+                                    14,
+                                    18,
+                                    21
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": -16.67,
+            "reliability": 15,
+            "word_count": 651,
+            "fallacies_per_1000_words": 6.1443932411674345,
+            "total_sentences_affected": 10,
+            "total_sentences_affected_per_1000_words": 15.360983102918587
+        }
+    ]
+}

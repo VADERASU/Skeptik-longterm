@@ -1,0 +1,90 @@
+{
+    "cases": [
+        {
+            "name": "Monolingual Trump Slams Migrants Who 'Don't Speak Languages'",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Monolingual former President Donald Trump lashed out Thursday at immigrants to the United States who, as he put it, 'don't speak languages.'",
+                "2": "While speaking at the U.S.-Mexico border in Eagle Pass, Texas\u2014the same day that President Joe Biden visited the border in Brownsville\u2014Trump echoed his increasingly angry and pessimistic approach to describing immigration to the United States.",
+                "3": "'They're coming from jails, and they're coming from prisons, and they're coming from mental institutions, and they're coming from insane asylums, and they're terrorists. They're being let into our country, and it's horrible,' said Trump, who not that long ago declared that those same people are 'poisoning the blood of our country.'",
+                "4": "Trump then claimed that no one has given him a satisfactory answer on the topic.",
+                "5": "'Nobody can explain to me how allowing millions of people from places unknown, from countries unknown, who don't speak languages\u2014we have languages coming into our country\u2014we have nobody that even speaks those languages. They're truly foreign languages. Nobody speaks them,' he said. 'And they're pouring into our country, and they're bringing with them tremendous problems, including medical problems, as you know.'",
+                "6": "CNN, which aired a portion of Trump's comments, cut away for a fact-check minutes later by reporter Daniel Dale, an editorial strategy that is becoming more prevalent among major news networks.",
+                "7": "'I asked the Trump campaign: what is the evidence that unnamed foreign leaders are emptying out their institutions, their jails, sending people here as migrants? They couldn't come up with anything,' Dale told anchor Kaitlan Collins.",
+                "8": "Dale also addressed Trump's dismissive comments about languages.",
+                "9": "'He told the story that he's told before, Kaitlan, about people arriving speaking languages that no one's ever heard. He said in a previous, recent speech [that] we didn't even have one translator who could understand this language,' Dale said. 'This, I've looked into this; it seems to be just conjured out of thin air. It's nonsense.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to emotion",
+                    "Cherry Picking",
+                    "Hasty generalization",
+                    "Evading the Burden of Proof (EBP)"
+                ],
+                "sentences": {
+                    "Appeal to emotion": [
+                        3
+                    ],
+                    "Cherry Picking": [
+                        5
+                    ],
+                    "Hasty generalization": [
+                        3
+                    ],
+                    "Evading the Burden of Proof (EBP)": [
+                        5
+                    ]
+                },
+                "annotations": {
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump uses emotionally charged language to evoke fear and anger about immigrants, describing them as criminals and terrorists without addressing the actual issues.",
+                                "sentence": [
+                                    3
+                                ]
+                            }
+                        ]
+                    },
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump selectively highlights negative aspects of immigrants, such as their inability to speak English and alleged medical problems, while ignoring positive contributions and success stories.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "HG": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump makes a broad generalization about immigrants, claiming they are all criminals or mentally ill, based on a few extreme examples.",
+                                "sentence": [
+                                    3
+                                ]
+                            }
+                        ]
+                    },
+                    "EBP": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump makes a claim about the negative impact of immigrants without providing concrete evidence to support his assertions.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": -10,
+            "reliability": 35,
+            "word_count": 325,
+            "fallacies_per_1000_words": 12.307692307692308,
+            "total_sentences_affected": 2,
+            "total_sentences_affected_per_1000_words": 6.153846153846154
+        }
+    ]
+}

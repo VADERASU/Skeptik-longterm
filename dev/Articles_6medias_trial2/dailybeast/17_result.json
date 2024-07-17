@@ -1,0 +1,124 @@
+{
+    "cases": [
+        {
+            "name": "Trump Can't Stop Comparing Himself to Alexei Navalny During Fox News Town Hall",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Having to pay a fine for bank fraud \"is a form of Navalny,\" Trump said during a Fox News town hall Tuesday night.",
+                "2": "Trump Can't Stop Comparing Himself to Alexei Navalny",
+                "3": "Having to pay a fine for bank fraud \"is a form of Navalny,\" Trump said during a Fox News town hall.",
+                "4": "Donald Trump once again compared the death of Russian opposition leader Alexei Navalny to his recent legal woes, this time during a primetime Fox News town hall.",
+                "5": "Just a day after complaining on Truth Social that Navalny's death reminded him of \"Radical Left Politicians, Prosecutors, and Judges leading us down a path to destruction\" in part through \"Grossly Unfair Courtroom Decisions,\" Trump had a similar reaction when host Laura Ingraham asked how he is going to pay up.",
+                "6": "\"It is a form of Navalny. It is a form of communism or fascism,\" Trump responded, before insulting the judge in his recently concluded New York business fraud case.",
+                "7": "Judge Arthur Engoron ruled Friday that Trump is banned from operating a business in New York for three years and must pay a $364 million fine, plus interest.",
+                "8": "Trump's two adult sons were also fined $4 million each (before interest) and are prohibited from running a New York business for two years.",
+                "9": "The judgment in the civil fraud trial, which comes on the heels of a $83 million judgment levied after Trump lost a defamation case brought by writer E. Jean Carroll, forces Trump to put up the fine plus several million more if he wants to file an appeal.",
+                "10": "When asked Tuesday if he would \"give up\" one of his properties for this purpose, Trump sidestepped the question, instead withdrawing from his jacket pocket a print-out of the Eighth Amendment and reading it aloud.",
+                "11": "\"'Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted,'\" he quoted, after which Ingraham noted that the ruling came from a state court rather than a federal one.",
+                "12": "The Fox host, reiterating that the amount is \"such a huge amount of money,\" tried again.",
+                "13": "\"You have to decide whether you're going to put up that bond in escrow to appeal.",
+                "14": "Are you going to do that?\" she asked.",
+                "15": "Trump, who is also barred from borrowing money at any New York bank for three years, didn't directly respond.",
+                "16": "\"I'll tell you what we're going to do.",
+                "17": "Number one, we have a lot of cash.",
+                "18": "But that doesn't mean he can take it,\" Trump said, presumably referring to Engoron.",
+                "19": "The former president then went off topic by railing against President Joe Biden, leaving Ingraham's question unanswered.",
+                "20": "Also during the town hall, Trump alluded to last year's $785 million defamation settlement that Fox News paid to Dominion Voting Systems due to false claims it aired about the 2020 election\u2014suggesting that he would lay off his own debunked claims of widespread voter fraud due to the network's own complicated history with the subject matter.",
+                "21": "After saying that he \"did much better\" in the 2020 election than four years prior, Trump explained that he wouldn't be going into detail.",
+                "22": "\"I won't get into it, because of Fox,\" he said.",
+                "23": "At another point in the hour-long sit-down, the GOP frontrunner identified six possible running mates should he clinch the nomination.",
+                "24": "After Ingraham mentioned Trump's former primary rivals Ron DeSantis, Tim Scott and Vivek Ramaswamy, as well as Florida Rep. Byron Donalds, South Dakota Gov. Kristi Noem and former Hawaii Democratic Rep. Tulsi Gabbard, Trump confirmed that all are on his shortlist.",
+                "25": "\"Honestly, all of those people are good,\" he said.",
+                "26": "\"They're all good, they're all solid.\"",
+                "27": "Trump on Tuesday had especially nice things to say about Scott, who was in attendance at the South Carolina event ahead of that state's primary on Saturday.",
+                "28": "\"He's been such a great advocate,\" Trump said.",
+                "29": "\"I have to say this in a very positive way: Tim Scott, he has been much better for me than he was for himself.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Faulty analogy",
+                    "Red Herring (sidetracking)",
+                    "Appeal to emotion",
+                    "Strawman (Caricature)"
+                ],
+                "sentences": {
+                    "Faulty analogy": [
+                        1,
+                        3,
+                        4,
+                        6
+                    ],
+                    "Red Herring (sidetracking)": [
+                        19,
+                        20
+                    ],
+                    "Appeal to emotion": [
+                        10,
+                        11
+                    ],
+                    "Strawman (Caricature)": [
+                        5
+                    ]
+                },
+                "annotations": {
+                    "FA": {
+                        "Explanation": [
+                            {
+                                "explanation": "Comparing having to pay a fine for bank fraud to the persecution of Alexei Navalny is a faulty analogy because the two situations are not similar in relevant respects.",
+                                "sentence": [
+                                    1,
+                                    3,
+                                    4,
+                                    6
+                                ],
+                                "link": "https://www.thoughtco.com/faulty-analogy-logical-fallacy-1691068"
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's diversion to railing against President Joe Biden and discussing the Fox News defamation settlement when asked about paying the fine serves as a red herring, as it sidetracks the conversation from the original topic.",
+                                "sentence": [
+                                    19,
+                                    20
+                                ],
+                                "link": "https://www.txwes.edu/academics/academic-support/writing-center/resources/red-herring-fallacy/"
+                            }
+                        ]
+                    },
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "Appealing to the Eighth Amendment's clause on 'excessive fines' without addressing the specifics of why the fine is excessive in this context appeals to emotion, trying to evoke a sense of injustice without substantiating the claim.",
+                                "sentence": [
+                                    10,
+                                    11
+                                ],
+                                "link": "https://www.logicallyfallacious.com/logicalfallacies/Appeal-to-Emotion"
+                            }
+                        ]
+                    },
+                    "SC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Trump's claim that 'Radical Left Politicians, Prosecutors, and Judges' are leading to 'destruction' through 'Grossly Unfair Courtroom Decisions' misrepresents the actions and intentions of these individuals, constructing a strawman argument.",
+                                "sentence": [
+                                    5
+                                ],
+                                "link": "https://www.txwes.edu/academics/academic-support/writing-center/resources/strawman-fallacy/"
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": -2.33,
+            "reliability": 42.67,
+            "word_count": 673,
+            "fallacies_per_1000_words": 5.943536404160475,
+            "total_sentences_affected": 9,
+            "total_sentences_affected_per_1000_words": 13.372956909361069
+        }
+    ]
+}

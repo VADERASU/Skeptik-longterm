@@ -1,0 +1,121 @@
+{
+    "cases": [
+        {
+            "name": "Testy Exchange Between Hunter Biden, Matt Gaetz Revealed in Deposition Transcript",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Rep. Matt Gaetz (R-FL) and Hunter Biden had a tense exchange Wednesday during the latter's testimony before the House Oversight Committee, with the president's son taking issue with Gaetz's line of questioning.",
+                "2": "In the closed-door session, Biden called the impeachment probe into his father a 'partisan political pursuit' being pushed by 'MAGA-motivated conspiracies,' according to a transcript released by the committee Thursday.",
+                "3": "Gaetz, a frequent defender of former President Donald Trump, questioned Biden about serving on the board of Burisma, a Ukrainian energy company.",
+                "4": "Gaetz wanted to know if Biden, a recovering addict, was 'on drugs' while on the board.",
+                "5": "Biden's lawyer, Abbe Lowell, first took issue with that.",
+                "6": "'One of the things that I spoke to staff that you just asked about as to whether it's outside the bounds.",
+                "7": "If you want to spend the next part of the last hour you have asking about his drug use, go at it,' Lowell said.",
+                "8": "'It's outside the scope.",
+                "9": "It certainly has no relevance to an impeachment inquiry nor does it have anything to do with oversight of ethics legislation that may address family members of presidents or vice presidents.",
+                "10": "So go at it, but it's outside the scope and you're wasting your time.'",
+                "11": "Gaetz then repeated his question to Biden: 'Were you on drugs when you were on the Burisma board?'",
+                "12": "Biden replied: 'Mr. Gaetz, look me in the eye.",
+                "13": "You really think that's appropriate to ask me?'",
+                "14": "After Gaetz said it 'absolutely' was, Biden shot back: 'Of all the people sitting around this table, do you think that's appropriate to ask me?'",
+                "15": "Biden may have been alluding to a series of salacious allegations against the Florida firebrand, including a Daily Beast report earlier this month revealing that in 2021 a young woman told prosecutors working on a sex trafficking investigation that she had sex with Gaetz at a party which she was paid to attend and where drugs were present.",
+                "16": "When approached for comment at the time, a Gaetz spokesperson said: 'Rep. Gaetz does not know anything about the woman you're referencing.'",
+                "17": "Last February, federal prosecutors decided to close that investigation into Gaetz without filing charges.",
+                "18": "Gaetz is still facing an ongoing House Ethics Committee inquiry into allegations of sex crimes and drug use, among other things.",
+                "19": "Gaetz has maintained that the inquiry is retaliation for his role in last year's ouster of House Speaker Kevin McCarthy.",
+                "20": "'The Ethics Committee is engaging in payback against me for ousting the person who singularly appointed every Republican\u00e2\u20ac\u201dKevin McCarthy,' he told ABC News earlier this month.",
+                "21": "After Biden asked Gaetz whether his question was 'appropriate,' Gaetz replied, 'Yeah.",
+                "22": "Are you going to answer it?'",
+                "23": "After a little more back-and-forth, Biden responded at length.",
+                "24": "'I will answer it this way: I have been absolutely transparent about my drug use.",
+                "25": "Again, I spoke to you all earlier this morning about that.",
+                "26": "I'm sorry; I'm an addict.",
+                "27": "I was an addict.",
+                "28": "I have been in recovery for over four and a half years now, Mr. Gaetz.",
+                "29": "I work really, really hard at it,' he said.",
+                "30": "'Let me answer.",
+                "31": "I work really hard at it, under an enormous amount of pressure.",
+                "32": "Was I an addict?",
+                "33": "Yes, I was an addict.",
+                "34": "What does that have to do with whether or not you're going to go forward with an impeachment of my father other than to simply try to embarrass me?'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Personal attack",
+                    "Red Herring",
+                    "Ad hominem",
+                    "Appeal to emotion"
+                ],
+                "sentences": {
+                    "Personal attack": [
+                        4,
+                        11
+                    ],
+                    "Red Herring": [
+                        15,
+                        18
+                    ],
+                    "Ad hominem": [
+                        4,
+                        14
+                    ],
+                    "Appeal to emotion": [
+                        34
+                    ]
+                },
+                "annotations": {
+                    "Personal attack": {
+                        "Explanation": [
+                            {
+                                "explanation": "Gaetz's question about Biden's drug use is a personal attack to undermine his credibility instead of addressing the actual issue.",
+                                "sentence": [
+                                    4,
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring": {
+                        "Explanation": [
+                            {
+                                "explanation": "Bringing up allegations against Gaetz diverts attention from the actual topic of the questioning.",
+                                "sentence": [
+                                    15,
+                                    18
+                                ]
+                            }
+                        ]
+                    },
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "Gaetz's repeated questioning about drug use attacks Biden's character rather than his arguments or the situation at hand.",
+                                "sentence": [
+                                    4,
+                                    14
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Biden's response evokes sympathy by discussing his struggles with addiction to shift focus from the impeachment inquiry.",
+                                "sentence": [
+                                    34
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": -1,
+            "reliability": 38,
+            "word_count": 574,
+            "fallacies_per_1000_words": 6.968641114982578,
+            "total_sentences_affected": 6,
+            "total_sentences_affected_per_1000_words": 10.452961672473869
+        }
+    ]
+}

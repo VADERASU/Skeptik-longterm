@@ -1,0 +1,82 @@
+{
+    "cases": [
+        {
+            "name": "Jimmy Kimmel Fires Back at 'Preposterous' George Santos Lawsuit",
+            "source": "WSJ",
+            "sentences": {
+                "1": "After returning from what he described as an 'eventful' holiday weekend, Jimmy Kimmel on Tuesday had one question at the top of his mind: 'Did anyone else get sued by George Santos this weekend?'",
+                "2": "More than two months after Kimmel, using a bevy of pseudonyms, got George Santos to record all sorts of bizarre Cameo videos\u2014which the late-night host then promptly shared with viewers\u2014the disgraced former congressman is now suing Kimmel, ABC, and Disney (the network's parent company) over the prank.",
+                "3": "'I am currently embroiled in the most preposterous lawsuit of all time,' Kimmel shared.",
+                "4": "'George Santos\u2014a man Republicans kicked out of congress for being a fraud\u2014is suing me for fraud!'",
+                "5": "Which the host thinks is quite rude, frankly, 'because we did a nice thing.",
+                "6": "We supported him by ordering his Cameo videos.'",
+                "7": "Among the 'absolutely ridiculous messages' Kimmel sent to Santos via Cameo were congratulations\u2014and well wishes\u2014for 'Gary Fortuna for winning the Clearwater Florida Beef Eating Contest' by eating a record-breaking six pounds of ground beef in less than 30 minutes and promptly being hospitalized, and further congrats for Brenda 'on the successful cloning of her beloved schnauzer Adolf.'",
+                "8": "Santos' reaction to the unexpected publicity was to demand an additional $20,000 from Kimmel for sharing the videos, but Kimmel made it clear he wasn't about to roll over for the man sometimes known as George Devolder.",
+                "9": "And Kimmel's opinion on the matter\u2014which has now escalated to a request for $750,000 plus damages\u2014does not seem to have changed.",
+                "10": "'He says we deceived him under the guise of fandom soliciting personalized videos, only to then broadcast these on national television,' Kimmel explained.",
+                "11": "'And if there's one thing George Santos won't stand for, it's using a fake name under false pretenses.'",
+                "12": "'He says he thought these were real messages and he was duped,' Kimmel added of his video requests, noting that the serial fabulist is 'being represented by the prestigious law firm of Pot, Kettle, and Black.'",
+                "13": "'This is like being sued for paternity by Nick Cannon,' Kimmel concluded."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Red Herring",
+                    "Faulty analogy"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        4
+                    ],
+                    "Red Herring": [
+                        11,
+                        12
+                    ],
+                    "Faulty analogy": [
+                        13
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "Kimmel attacks Santos' character by pointing out that he was kicked out of Congress for fraud, rather than addressing the legitimacy of the lawsuit.",
+                                "sentence": [
+                                    4
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring": {
+                        "Explanation": [
+                            {
+                                "explanation": "Kimmel distracts from the issue of whether he deceived Santos by highlighting the irony of Santos' own history of deception.",
+                                "sentence": [
+                                    11,
+                                    12
+                                ]
+                            }
+                        ]
+                    },
+                    "Faulty analogy": {
+                        "Explanation": [
+                            {
+                                "explanation": "Kimmel compares being sued by Santos to being sued for paternity by Nick Cannon, which is a misleading analogy as these situations are not sufficiently similar.",
+                                "sentence": [
+                                    13
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": -1.33,
+            "reliability": 40.67,
+            "word_count": 346,
+            "fallacies_per_1000_words": 8.670520231213873,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 11.560693641618496
+        }
+    ]
+}

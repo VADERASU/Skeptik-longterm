@@ -1,0 +1,83 @@
+{
+    "cases": [
+        {
+            "name": "Kari Lake Comes Up Empty-Handed When Pressed About Arizona Election Claims",
+            "source": "WSJ",
+            "sentences": {
+                "1": "When it comes to Kari Lake's debunked theory of widespread election fraud in her 2022 Arizona gubernatorial race, she's not even sure 'who exactly stole the election,' she admitted Monday.",
+                "2": "During an interview on Arizona's KTAR News 92.3 FM, Lake's false claims were challenged by the station's legal analyst, Barry Markson.",
+                "3": "My question is, as you've been saying for three years, or for two years: can you tell us who stole the election from you and how they did it, and if you can't or you don't want to, that's OK, but I want to make sure the question is there in front of you,' Markso said.",
+                "4": "A post-election lawsuit from Lake alleging election fraud was rejected in December 2022, with an Arizona court ruling that there was no 'clear and convincing evidence' the race outcome was affected by fraud.",
+                "5": "Lake's additional legal losses extended through late last year. But that hasn't seemed to deter her.",
+                "6": "'I don't know who exactly stole the election,' Lake said, 'but there are a lot of people who are running elections poorly, and we've seen the result.'",
+                "7": "A candidate for Senate in Arizona this year, Lake added: 'The elections are run poorly. They're run very poorly, and I don't know who exactly.'",
+                "8": "At another point in the interview, Lake tried to explain critical comments she made in 2022 about former Arizona Sen. John McCain and his supporters.",
+                "9": "But McCain's daughter, Megan, hasn't bought that Lake's remarks were made in jest.",
+                "10": "'Guess she realized she can't become a Senator without us,' McCain wrote on X Tuesday."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Evading the Burden of Proof (EBP)",
+                    "Red Herring (sidetracking)",
+                    "Ad hominem"
+                ],
+                "sentences": {
+                    "Evading the Burden of Proof (EBP)": [
+                        1,
+                        6,
+                        7
+                    ],
+                    "Red Herring (sidetracking)": [
+                        6,
+                        7
+                    ],
+                    "Ad hominem": [
+                        10
+                    ]
+                },
+                "annotations": {
+                    "EBP": {
+                        "Explanation": [
+                            {
+                                "explanation": "Kari Lake claims election fraud but provides no evidence to support her assertion.",
+                                "sentence": [
+                                    1,
+                                    6,
+                                    7
+                                ]
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Lake diverts the attention from providing evidence of fraud to criticizing the way elections are run.",
+                                "sentence": [
+                                    6,
+                                    7
+                                ]
+                            }
+                        ]
+                    },
+                    "AH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Megan McCain's comment focuses on Lake's character and aspirations rather than addressing the argument or claims Lake made.",
+                                "sentence": [
+                                    10
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": -7.33,
+            "reliability": 33.67,
+            "word_count": 272,
+            "fallacies_per_1000_words": 11.029411764705882,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 14.705882352941176
+        }
+    ]
+}

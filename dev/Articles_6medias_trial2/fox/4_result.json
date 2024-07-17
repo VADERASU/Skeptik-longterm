@@ -1,0 +1,84 @@
+{
+    "cases": [
+        {
+            "name": "Man who went viral for driving during virtual court hearing for suspended license reportedly vindicated",
+            "source": "WSJ",
+            "sentences": {
+                "1": "A Michigan man who went viral last week in a video clip of a judge noticing him driving while calling into a virtual court hearing for his supposed suspended driver's license was the victim of a clerical error, according to reports.",
+                "2": "Corey Harris, 44, attended the virtual May 15 hearing for an October traffic stop in Pittsfield Township, Michigan, USA Today reported.",
+                "3": "In the clip, Judge Cedric Simpson appeared to be in disbelief as Harris was driving while attending the hearing for a suspended driver's license.",
+                "4": "\"Mr. Harris, are you driving?\" Simpson asked, to which Harris replied that he was behind the wheel.",
+                "5": "Defendant Corey Harris and Judge Cedric Simpson are seen during a virtual Michigan court hearing.",
+                "6": "Harris had his driver's license suspension lifted in 2022, but a clerical error reportedly resulted in it never being wiped from the system. (Storyful)",
+                "7": "\"OK, so maybe I don't understand something. This is a driving-while-license-suspended [case],\" Simpson told Harris' public defender.",
+                "8": "\"And he was just driving, and he doesn't have a license.\"",
+                "9": "He then ordered Harris' bail revoked and ordered him to surrender to authorities at the Washtenaw County Jail by 6 p.m. that day, to Harris' disbelief.",
+                "10": "The video clip made the rounds on the internet and quickly spread like wildfire.",
+                "11": "\"With the type of ties that I have with the church and the community, it's very embarrassing,\" Harris told WXYZ-TV about the widely viewed incident.",
+                "12": "His driver's license was suspended in 2010 for unpaid child support, but a judge rescinded the suspension in January 2022, the TV station said.",
+                "13": "However, the Michigan Secretary of State's Office never received a clearance from the Saginaw Friend of the Court, reported WXYZ, which tracked down the clerical error.",
+                "14": "That means that the lifting of the suspension never went into effect.",
+                "15": "In the video clip, Harris told Simpson he was pulling into a parking lot at a doctor's office for an appointment.",
+                "16": "A Zoom court hearing in Michigan was where a defendant was allegedly caught driving with a suspended driver's license. (Storyful)",
+                "17": "\"What was I thinking? I was thinking about getting my wife medical help,\" Harris told the news station.",
+                "18": "\"That's what I was thinking. I wasn't thinking about the fact that I got a suspended license. I don't care about all that.\"",
+                "19": "\"Always double-check behind these workers because they will say that they will do something, and they don't do it,\" he added.",
+                "20": "Harris said he spent two days in jail following the hearing after turning himself in.",
+                "21": "Khyla Craine, deputy legal director for the Michigan secretary of state, told the station that the process to get a driver's license reinstated can be a complicated process.",
+                "22": "\"Sometimes it is simple as we at the secretary of state's office did not get a clearance from the court that everything was done, but something happened in the wires, and we needed to talk to the court to get the clearance and clean it up for the resident,\" Craine said."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to emotion",
+                    "Red Herring (sidetracking)"
+                ],
+                "sentences": {
+                    "Appeal to emotion": [
+                        11,
+                        17,
+                        18
+                    ],
+                    "Red Herring (sidetracking)": [
+                        19
+                    ]
+                },
+                "annotations": {
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "Harris's statement about being embarrassed due to his ties with the church and community evokes emotions rather than addressing the facts of the case.",
+                                "sentence": [
+                                    11
+                                ]
+                            },
+                            {
+                                "explanation": "Harris's statement about thinking of getting his wife medical help rather than the suspended license evokes sympathy but does not address the legal issue.",
+                                "sentence": [
+                                    17,
+                                    18
+                                ]
+                            }
+                        ]
+                    },
+                    "RH": {
+                        "Explanation": [
+                            {
+                                "explanation": "Harris's statement about double-checking behind workers sidetracks from the main issue of his suspended license.",
+                                "sentence": [
+                                    19
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 41.67,
+            "word_count": 509,
+            "fallacies_per_1000_words": 3.929273084479371,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 7.858546168958742
+        }
+    ]
+}

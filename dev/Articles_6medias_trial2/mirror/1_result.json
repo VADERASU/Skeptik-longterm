@@ -1,0 +1,99 @@
+{
+    "cases": [
+        {
+            "name": "Rory McIlroy with wife for first time after divorce U-turn hours after US Open",
+            "source": "The Mirror US",
+            "sentences": {
+                "1": "PGA Tour star Rory McIlroy was spotted with Erica Stoll shortly after his US Open heartbreaker to Bryson DeChambeau, with the couple seemingly in good spirits despite the divorce U-Turn.",
+                "2": "Rory McIlroy was back in the presence of wife Erica Stoll just hours after the final round of the U.S. Open, which ended in heartbreak for the Northern Irishman.",
+                "3": "Hours after his crushing defeat - being beaten by LIV Golf star Bryson DeChambeau by one shot after a tense finish - the 35-year-old PGA Golf star was spotted spending time with Stoll and their daughter, Poppy.",
+                "4": "Their appearance together is the latest chapter in the stunning divorce U-Turn he performed last week and the first time they have been pictured together publicly since that news emerged on the eve of the tournament.",
+                "5": "After announcing he would be calling off the divorce, McIlroy explained what went into his decision to attempt to repair the damage that caused the filing in the first place.",
+                "6": "\"There have been rumours about my personal life recently, which is unfortunate,\" McIlroy said at the time, per The Guardian.",
+                "7": "\"Responding to each rumour is a fool's game.\"",
+                "8": "READ MORE: Rory McIlroy returns to mansion shared with Erica Stoll just hours after US Open agony",
+                "9": "READ MORE: Rory McIlroy and Erica Stoll held four private meetings at their Florida mansion to save marriage.",
+                "10": "\"Over the past weeks, Erica and I have realised that our best future was as a family together.",
+                "11": "Thankfully, we have resolved our differences and look forward to a new beginning.\"",
+                "12": "Despite what the golf star said, others in his close circle reportedly believe that McIlroy's decision to call off the divorce was because of the financials involved.",
+                "13": "Sources close to McIlroy spoke to the Daily Mail and revealed that the Northern Irishman could see much of his wealth go to lawyer fees and other expenses.",
+                "14": "\"Perhaps, the cold realisation of exactly how much the divorce could cost him hit hard,\" a source explained.",
+                "15": "For all the latest on news, politics, sports, and showbiz from the USA, go to The Mirror US.",
+                "16": "\"McIlroy has amassed a fortune of more than \u00c2\u00a3200m and his projected earnings in his career are predicted to be more than double that figure.\"",
+                "17": "Additionally, it was said that the coming months for McIlroy and Stoll will be very important in terms of how their relationship will progress.",
+                "18": "\"It's a cooling off period and the next six months will be telling as to whether they can properly patch up the relationship.",
+                "19": "There is also their three-year-old daughter Poppy to consider.",
+                "20": "Rory is a doting dad and he has strong family values,\" the source continued.",
+                "21": "Still, it appears the two have been doing their part to make the relationship work.",
+                "22": "McIlroy quickly returned to his home in Florida, which he shared with Stoll, just hours after his crushing end to the US Open.",
+                "23": "It comes after divorce papers filed just weeks ago claimed the relationship was \"irreversibly broken.\"",
+                "24": "What's more, it was alleged that the couple held a series of secret meetings in an attempt to repair the relationship.",
+                "25": "The Irish Independent reported that the two met at least four times to help repair the damage the relationship had sustained.",
+                "26": "Stoll reportedly turned down meeting with a lawyer and spoke at length with McIlroy weekly, which in turn helped saved the marriage.",
+                "27": "She is now by his side as he processes another near-miss in a major which will be hard to take.",
+                "28": "McIlroy was inches from ending his 10-year wait for another victory on the major stage.",
+                "29": "DeChambeau would win the tournament by just one shot after two costly missed chances from the Northern Irishman.",
+                "30": "Most notably, McIlroy missed a putt from inside three feet, the first time he had done that in almost 500 attempts this year.",
+                "31": "On the 18th, McIlroy had another short miss, which would be the killing blow for his chances to win.",
+                "32": "After seeing DeChambeau make his shot, McIlroy quickly left Pinehurst.",
+                "33": "DeChambeau shared some words of support for McIlroy, stating: \"Rory is one of the best to ever play.",
+                "34": "Being able to fight against a great like that is pretty special.",
+                "35": "For him to miss that putt, I'd never wish it on anybody.",
+                "36": "It just happened to play out that way.\"",
+                "37": "\"He'll win multiple more major championships.",
+                "38": "There's no doubt.",
+                "39": "I think that fire in him is going to continue to grow.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Appeal to authority (dubious authority)"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        17,
+                        18
+                    ],
+                    "Appeal to authority (dubious authority)": [
+                        37,
+                        38,
+                        39
+                    ]
+                },
+                "annotations": {
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The conclusion that the next six months will be telling for the relationship is unwarranted without further evidence or context.",
+                                "sentence": [
+                                    17,
+                                    18
+                                ],
+                                "link": "https://www.google.com/search?q=questionable+conclusion"
+                            }
+                        ]
+                    },
+                    "AA": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement that McIlroy will win multiple more major championships relies on the authority of DeChambeau, who is a fellow golfer but not a predictive expert on future outcomes of competitions.",
+                                "sentence": [
+                                    37,
+                                    38,
+                                    39
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 32.67,
+            "word_count": 748,
+            "fallacies_per_1000_words": 2.6737967914438503,
+            "total_sentences_affected": 5,
+            "total_sentences_affected_per_1000_words": 6.684491978609626
+        }
+    ]
+}

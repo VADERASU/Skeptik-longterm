@@ -1,0 +1,100 @@
+{
+    "cases": [
+        {
+            "name": "Biden slammed on social media after announcing Transgender Day of Visibility on Easter Sunday",
+            "source": "WSJ",
+            "sentences": {
+                "1": "President Joe Biden was slammed on social media Saturday after marking Easter Sunday, the most solemn Christian holiday, as 'Transgender Day of Visibility.'",
+                "2": "Prominent Christians, politicians, and commenters flooded social media platforms with criticism after the announcement from the White House.",
+                "3": "While March 31 has been designated to honor the transgender movement since Biden took office, this year it falls on Easter Sunday, one of the most important days for Christians, as they celebrate the resurrection of Jesus Christ.",
+                "4": "\"On Transgender Day of Visibility, we honor the extraordinary courage and contributions of transgender Americans and reaffirm our Nation's commitment to forming a more perfect Union \u00e2\u20ac\u201d where all people are created equal and treated equally throughout their lives,\" a statement released by the White House read.",
+                "5": "\"Today, we send a message to all transgender Americans:  You are loved.  You are heard.  You are understood.  You belong.  You are America, and my entire Administration and I have your back,\" it continued.",
+                "6": "\"NOW, THEREFORE, I, JOSEPH R. BIDEN JR., President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim March 31, 2024, as Transgender Day of Visibility.\"",
+                "7": "Former presidential candidate Vivek Ramaswamy called Biden out on X, formerly Twitter, writing, \"Joe Biden just proclaimed that 'Transgender Visibility Day' is on Sunday, March 31st. I wonder how he came up with that date.\"",
+                "8": "Rep. Alex Mooney, R-W.Va., echoed Ramaswamy's sentiments as he blasted Biden for the \"coincidence on the timing.\"",
+                "9": "\"Joe Biden has proclaimed Easter Sunday as 'Transgender Day of Visibility,'\" Mooney wrote on X. \"What a coincidence on the timing, right? This is a direct assault on Christianity. Yet another attack on religion and traditions by this administration.\"",
+                "10": "Tennessee Republican Rep. Diana Harshbarger said the announcement was \"intentional\" and slammed it as a \"blatant disregard.\"",
+                "11": "\"This is a direct assault on Christianity. It's evident the left is determined to undermine our religion and traditions,\" she wrote on X. \"This isn't just blatant disregard, it's intentional.\"",
+                "12": "Conservative commentator Benny Johnson shared a screenshot of the White House statement, writing alongside it, \"What a slap in the face to all Christians in America\u00e2\u20ac\u00a6\"",
+                "13": "Biden has previously come under fire for his stance on LGBTQ+ and abortion issues given his own position as a \"devout Catholic\" who regularly attends church.",
+                "14": "The White House also used the same terminology when addressing Biden's pro-choice stance on abortion.",
+                "15": "A recent poll from Pew Research found that just 13% of Americans think of Biden as \"very religious,\" while 41% say he is \"somewhat religious\" and another 44% say he is \"not at all\" or \"not too religious.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion",
+                    "Who are you to talk?",
+                    "Appeal to emotion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        9,
+                        11
+                    ],
+                    "Questionable conclusion": [
+                        9,
+                        11
+                    ],
+                    "Who are you to talk?": [
+                        13
+                    ],
+                    "Appeal to emotion": [
+                        12
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument is suggesting that the timing of Transgender Day of Visibility on Easter Sunday is wrong because it disrupts a long-standing Christian tradition.",
+                                "sentence": [
+                                    9,
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument concludes that the timing of the announcement is a direct attack on Christianity without sufficient evidence to support this claim.",
+                                "sentence": [
+                                    9,
+                                    11
+                                ]
+                            }
+                        ]
+                    },
+                    "Who are you to talk?": {
+                        "Explanation": [
+                            {
+                                "explanation": "This argument dismisses Biden's stance on LGBTQ+ and abortion issues based on his religious practices instead of addressing the policies themselves.",
+                                "sentence": [
+                                    13
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument appeals to the emotions of Christians by describing the announcement as a 'slap in the face,' which aims to provoke an emotional reaction rather than addressing the policy.",
+                                "sentence": [
+                                    12
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 4,
+            "bias": 13.67,
+            "reliability": 22,
+            "word_count": 460,
+            "fallacies_per_1000_words": 8.695652173913043,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 8.695652173913043
+        }
+    ]
+}

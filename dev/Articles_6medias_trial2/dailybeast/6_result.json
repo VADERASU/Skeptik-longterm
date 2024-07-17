@@ -1,0 +1,123 @@
+{
+    "cases": [
+        {
+            "name": "Anthony Fauci Responds to That House Hearing Mess Created by MTG",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Dr. Anthony Fauci responded to Rep. Marjorie Taylor Greene's (R-GA) unhinged attacks on him earlier Monday during a House subcommittee hearing, saying it's behavior like hers\u00e2\u20ac\u201din which she refused to call him \"doctor\" and demanded he be imprisoned\u00e2\u20ac\u201dthat drives death threats.",
+                "2": "On CNN's The Source, Fauci told anchor Kaitlan Collins that Greene's vitriolic antics were \"really quite unfortunate.\"",
+                "3": "\"The purpose of hearings is to try and figure out how we can do better so next time, if and when we are faced with a pandemic, we'd be better prepared and can benefit.",
+                "4": "If mistakes were made, we can identify them, and we try to correct them for the future,\" said Fauci, who retired from government service at the end of 2022.",
+                "5": "\"That's not what we saw today,\" he added, namechecking Greene.",
+                "6": "Fauci, who in his testimony detailed some of the death threats he has received as a result of his work to combat COVID-19 in the Trump and Biden administrations, was asked by Collins if he had thought those threats would continue even after stepping down.",
+                "7": "Fauci implicated Greene for helping spur them.",
+                "8": "\"It's a pattern, Kaitlan, that whenever somebody gets up, whether it's news media\u00e2\u20ac\u201dFox News does it a lot\u00e2\u20ac\u201dor it's somebody in the Congress who gets up and makes a public statement that I'm responsible for the deaths of x number of people because of policies or some crazy idea that I created the virus, immediately\u00e2\u20ac\u201dit's like clockwork\u00e2\u20ac\u201dthe death threats go way up,\" he explained.",
+                "9": "\"So that's the reason why I'm still getting death threats\u00e2\u20ac\u201dwhen you have performances like that unusual performance by Marjorie Taylor Greene in today's hearing,\" Fauci went on.",
+                "10": "\"Those are the kind of things that drive up the death threats because there is a segment of the population out there that believe that kind of nonsense.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Personal attack",
+                    "Appeal to emotion",
+                    "Red Herring (sidetracking)",
+                    "Hasty generalization",
+                    "Ad hominem"
+                ],
+                "sentences": {
+                    "Personal attack": [
+                        1
+                    ],
+                    "Appeal to emotion": [
+                        1,
+                        2,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "Red Herring (sidetracking)": [
+                        3,
+                        4,
+                        5
+                    ],
+                    "Hasty generalization": [
+                        8,
+                        10
+                    ],
+                    "Ad hominem": [
+                        1,
+                        9
+                    ]
+                },
+                "annotations": {
+                    "Personal attack": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement targets Marjorie Taylor Greene's character and actions rather than addressing the specific issues discussed in the hearing.",
+                                "sentence": [
+                                    1
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text evokes emotions related to death threats and personal attacks to support Fauci's argument.",
+                                "sentence": [
+                                    1,
+                                    2,
+                                    7,
+                                    8,
+                                    9,
+                                    10
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring (sidetracking)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The discussion shifts focus from the intended purpose of the hearing to the behavior of Marjorie Taylor Greene, distracting from the main issue.",
+                                "sentence": [
+                                    3,
+                                    4,
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "Hasty generalization": {
+                        "Explanation": [
+                            {
+                                "explanation": "Fauci makes a broad claim about the pattern of death threats increasing whenever he is publicly criticized without sufficient evidence to support this specific correlation.",
+                                "sentence": [
+                                    8,
+                                    10
+                                ]
+                            }
+                        ]
+                    },
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument attacks Marjorie Taylor Greene personally rather than addressing the content of her claims or actions.",
+                                "sentence": [
+                                    1,
+                                    9
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 5,
+            "bias": -14.67,
+            "reliability": 29.33,
+            "word_count": 313,
+            "fallacies_per_1000_words": 15.974440894568689,
+            "total_sentences_affected": 9,
+            "total_sentences_affected_per_1000_words": 28.75399361022364
+        }
+    ]
+}

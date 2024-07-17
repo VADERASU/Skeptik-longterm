@@ -1,0 +1,69 @@
+{
+    "cases": [
+        {
+            "name": "Flood-damaged Vancouver, southern B.C. railways expected to remain impassable for days",
+            "source": "WSJ",
+            "sentences": {
+                "1": "The railways that link Vancouver and the southern part of British Columbia with the rest of the country are expected to remain flood-damaged and impassable for days.",
+                "2": "Rail lines owned by Canadian National Railway Co. and Canadian Pacific Railway Ltd. run along the Fraser River, which spilled its banks and cut off roads, bridges and tracks in this week's heavy rain and flooding.",
+                "3": "Mathieu Gaudreault, a CN spokesperson, said crews are making progress on repairing the railway, but he declined to estimate when the tracks would open.",
+                "4": "\"Traffic through southern B.C., northbound and eastbound traffic from Vancouver, as well as inbound traffic to Vancouver from east/north of Kamloops are still affected by the situation,\" Mr. Gaudreault said.",
+                "5": "CP's tracks between Spence's Bridge and Falls Creek are blocked as a result of flood damage in several sections, said Salem Woodrow, a CP spokesperson.",
+                "6": "The washouts have halted freight on CP's busiest rail corridor, which links Vancouver's port with shippers of grain, consumer goods and other products.",
+                "7": "\"There is no time estimate for when service will resume,\" Ms. Woodrow said.",
+                "8": "B.C. declared a state of emergency on Wednesday after the record rainfall damaged thousands of homes and cut off supply lines.",
+                "9": "At least one person has died.",
+                "10": "Some roadways have reopened as the water recedes, but the damage to key transport routes will take days to repair.",
+                "11": "\"CP has deployed crews and equipment to the region, and CP engineering teams are working to repair the damaged rail corridor as quickly as possible where safe to do so,\" Ms. Woodrow said.",
+                "12": "Work to repair the washed-out tracks is being slowed by three sinkholes that have formed beneath CN's railway.",
+                "13": "Walter Spracklin, a Royal Bank of Canada stock analyst, said CN executives told him the railway will not be repaired before this weekend and could be out until next week.",
+                "14": "In a note to clients, Mr. Spracklin said the loss of key routes will reduce cargo volumes and drive up costs and capital expenses for both railways, but will have little - if any - impact on the companies' share prices.",
+                "15": "CP and CN's share prices are down by 3 per cent and less than 1 per cent, respectively, this week.",
+                "16": "Climate Scientist and Professor Simon Donner explains what the phenomenon 'atmospheric river' is and why the one that hit Western Canada dumped record breaking amounts of rain in the Lower Mainland of British Columbia."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to authority (dubious authority)",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to authority (dubious authority)": [
+                        13
+                    ],
+                    "Questionable conclusion": [
+                        14
+                    ]
+                },
+                "annotations": {
+                    "AA": {
+                        "Explanation": [
+                            {
+                                "explanation": "Walter Spracklin, a stock analyst, is quoted making a prediction about the railway repair timeline based on what CN executives told him. This is an appeal to authority because Spracklin may not have the expertise to assess the accuracy of the repair timeline himself.",
+                                "sentence": [
+                                    13
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement that the loss of key routes will reduce cargo volumes and drive up costs but will have little impact on share prices is a questionable conclusion. It assumes a direct and simplistic relationship between operational disruptions and share prices without considering other market factors.",
+                                "sentence": [
+                                    14
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 0,
+            "reliability": 49.33,
+            "word_count": 412,
+            "fallacies_per_1000_words": 4.854368932038835,
+            "total_sentences_affected": 2,
+            "total_sentences_affected_per_1000_words": 4.854368932038835
+        }
+    ]
+}

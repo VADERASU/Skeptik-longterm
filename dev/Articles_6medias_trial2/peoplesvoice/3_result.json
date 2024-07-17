@@ -1,0 +1,182 @@
+{
+    "cases": [
+        {
+            "name": "Elon Musk: Ventilators Euthanized MILLIONS Globally, Not COVID",
+            "source": "WSJ",
+            "sentences": {
+                "1": "X owner Elon Musk has declared that millions of people were murdered during the pandemic due to doctors forcing them on ventilators.",
+                "2": "According to Musk, it was the ventilators that caused the majority of the deaths in the early stages of the pandemic and not the virus itself.",
+                "3": "Concerns have been mounting for some time that doctors around the globe were misusing mechanical ventilators for Covid patients due to the financial incentives they had in killing off vast swathes of the population.",
+                "4": "Richie Allen reports: The protocol was to put Covid patients on the machines used to push oxygen into the lungs.",
+                "5": "At the outbreak of the coronavirus pandemic in Italy, many emergency departments were immediately placing COVID-19 patients with low levels of oxygen on mechanical ventilators.",
+                "6": "It soon became a standard practice for a condition known as Acute Respiratory Distress Syndrome (ARDS).",
+                "7": "Other nations followed and gravely ill Covid patients were routinely placed in ventilators, with very few surviving.",
+                "8": "\"80% of the people they put on ventilators died,\" Joe Rogan told Musk during a podcast interview this week.",
+                "9": "Musk responded by arguing that those people died because of the ventilators and not Covid.",
+                "10": "\"Yeah. So, in fact, I actually posted about that,\" Musk said.",
+                "11": "\"I called doctors in Wuhan and said, 'What are the biggest mistakes that you made on the first wave?'",
+                "12": "\"This is early on,\" he explained.",
+                "13": "\"And they said, 'We put far too many people on intubated ventilators.'",
+                "14": "\"So then I actually posted on Twitter at the time and said, 'Hey, I'm what I'm hearing from Wuhan is that they made a big mistake in putting people on intubated ventilators for an extended period.",
+                "15": "And that this is actually what is damaging the lungs, not COVID. It's the treatment.",
+                "16": "The cure is worse than the disease.'",
+                "17": "\"And they, people, yelled at me and said, I'm not a doctor.",
+                "18": "\"I'm like, 'Yeah, but I do make spaceships with life support systems.'\"",
+                "19": "The comments from Musk, while demonized by the corporate media, are also corroborated by other experts.",
+                "20": "In a post on X, Dr. Joseph Mercola wrote about \"The COVID hospital death trap.\"",
+                "21": "In the thread, Mercola wrote:",
+                "22": "\"Within weeks of the pandemic outbreak, it had become apparent that the standard practice of putting COVID-19 patients on mechanical ventilation was a death sentence.\"",
+                "23": "\"76.4% of COVID-19 patients (aged 18 to 65) in New York City who were placed on ventilators died.\"",
+                "24": "\"Among patients over age 65 who were vented, the mortality rate was 97.2%.\"",
+                "25": "\"The recommendation to place COVID patients on mechanical ventilation as a first-line response came from the World Health Organization, which allegedly based its guidance on experiences and recommendations from doctors in China.\"",
+                "26": "\"But venting COVID patients wasn't recommended because it increased survival.\"",
+                "27": "\"It was to protect health care workers by isolating the virus inside the vent machine.\"",
+                "28": "\"Data suggest around 10,000 patients died with COVID in NYC hospitals after being put on ventilators in spring 2020.\"",
+                "29": "\"Other metropolitan areas also saw massive spikes in deaths among younger individuals who were at low risk of dying from COVID.\"",
+                "30": "\"It's possible many of these deaths were the result of being placed on mechanical ventilation\"",
+                "31": "Attorney Tom Renz also testified before the Pennsylvania State Senate earlier this year that people were not made aware of the dangers posed by ventilators.",
+                "32": "\"No one told the patients, 'Hey, you're going to be put on this vent. It's probably going to kill you, but it may protect the healthcare workers',\" Renz said.",
+                "33": "\"No one told the families that,\" he added.",
+                "34": "\"I've got data from CMS that showed in a number of Texas hospitals, as high as 90% of patients put on the vent died. 90%.",
+                "35": "\"Now, they wouldn't let you try ivermectin, but they were more than willing to put you on the vent where you had a 90% fatality rate.",
+                "36": "\"You tell me that they didn't notice?\" he insisted.",
+                "37": "\"I can't say all doctors are created equal. [Peter] McCullough is ahead above most.",
+                "38": "\"But you got through med school.",
+                "39": "\"I would think you would probably be smart enough to notice when nine out of ten of your patients - when they're put on the vent - die.",
+                "40": "\"At least maybe you should ask the question, is there a better way?",
+                "41": "\"Why not let someone try ivermectin or hydroxychloroquine if you have a nine out of ten chance of dying anyways?"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Cherry Picking",
+                    "Appeal to Dubious Authority",
+                    "Questionable Conclusion",
+                    "Appeal to Emotion",
+                    "Post Hoc",
+                    "Slippery Slope"
+                ],
+                "sentences": {
+                    "Cherry Picking": [
+                        2,
+                        7,
+                        22,
+                        23,
+                        24,
+                        28
+                    ],
+                    "Appeal to Dubious Authority": [
+                        8,
+                        19,
+                        20,
+                        21,
+                        31
+                    ],
+                    "Questionable Conclusion": [
+                        2,
+                        9,
+                        15,
+                        30
+                    ],
+                    "Appeal to Emotion": [
+                        1,
+                        3,
+                        32,
+                        35
+                    ],
+                    "Post Hoc": [
+                        2,
+                        9
+                    ],
+                    "Slippery Slope": [
+                        41
+                    ]
+                },
+                "annotations": {
+                    "CP": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text selectively presents data on ventilator deaths without considering broader context or contradictory evidence, like improvements in treatment protocols over time.",
+                                "sentence": [
+                                    2,
+                                    7,
+                                    22,
+                                    23,
+                                    24,
+                                    28
+                                ]
+                            }
+                        ]
+                    },
+                    "ADA": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text relies on claims made by non-medical experts like Elon Musk and Joe Rogan, without providing evidence from medical authorities.",
+                                "sentence": [
+                                    8,
+                                    19,
+                                    20,
+                                    21,
+                                    31
+                                ]
+                            }
+                        ]
+                    },
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "The claim that ventilators were the primary cause of death is made without robust evidence, improperly concluding causation from correlation.",
+                                "sentence": [
+                                    2,
+                                    9,
+                                    15,
+                                    30
+                                ]
+                            }
+                        ]
+                    },
+                    "AE": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text uses emotionally charged language to provoke a reaction, such as describing ventilators as 'murder' tools and discussing high fatality rates dramatically.",
+                                "sentence": [
+                                    1,
+                                    3,
+                                    32,
+                                    35
+                                ]
+                            }
+                        ]
+                    },
+                    "PH": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text assumes that because deaths followed ventilator use, the ventilators caused the deaths without considering other factors like the severity of illness.",
+                                "sentence": [
+                                    2,
+                                    9
+                                ]
+                            }
+                        ]
+                    },
+                    "SS": {
+                        "Explanation": [
+                            {
+                                "explanation": "The text implies that not using ventilators would easily allow for alternative treatments like ivermectin or hydroxychloroquine, without considering the complexities and risks involved.",
+                                "sentence": [
+                                    41
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 6,
+            "bias": 31.33,
+            "reliability": 6,
+            "word_count": 739,
+            "fallacies_per_1000_words": 8.119079837618402,
+            "total_sentences_affected": 19,
+            "total_sentences_affected_per_1000_words": 25.71041948579161
+        }
+    ]
+}

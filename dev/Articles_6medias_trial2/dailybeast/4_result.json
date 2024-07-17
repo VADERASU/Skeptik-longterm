@@ -1,0 +1,107 @@
+{
+    "cases": [
+        {
+            "name": "Officials Livid With Climate Protesters Who Sprayed Stonehenge Orange",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Two climate protesters were arrested Wednesday after using orange cornstarch to temporarily paint Stonehenge orange.",
+                "2": "According to a press release from the coalition Just Stop Oil, which organized the action, the Stonehenge demonstration is one part of a broader effort to push the incoming U.K. government to commit to signing \"a legally binding treaty to phase out fossil fuels by 2030.\"",
+                "3": "Speaking on the podcast PoliticsJOE, Just Stop Oil spokesman James Skeet emphasized the group's belief that the orange cornstarch will wash off of the prehistoric monument in a couple of days.",
+                "4": "In contrast, he said, \"the damage that is being done to all of our communities by oil and gas executives and the politicians that they've bought is going to run on for many generations.\"",
+                "5": "During the appearance, Skeet challenged listeners with a question: \"What is it that's more shocking\u2014is it a bit of cornstarch on a treasured monument, or is it the fact that governments have admitted to burning more oil, gas, and coal when we're just coming off the back of 12 straight months of record temperatures that are leading to fires, floods, crop failures worldwide?\"",
+                "6": "The damage from climate inaction, Skeet said, is \"going to lead to millions of people killed and displaced in the years to come.\"",
+                "7": "Still, authorities and online spectators are about as livid as one might expect.",
+                "8": "Prime Minister Rishi Sunak called the action a \"disgraceful act of vandalism,\" according to NBC News.",
+                "9": "Sunak echoed the sentiment on X, where he called Just Stop Oil \"a disgrace.\"",
+                "10": "Meanwhile, curators for English Heritage\u2014which manages Stonehenge as a UNESCO World Heritage Site\u2014are investigating the damage and called the decoration \"extremely upsetting.\"",
+                "11": "The site remains open to the public.",
+                "12": "X is replete with negative reactions as well.",
+                "13": "As one commenter put it, \"I'm kind of with you on your campaign.",
+                "14": "But this? This doesn't work.",
+                "15": "This doesn't get people on side.",
+                "16": "It does the opposite.",
+                "17": "It's vandalism.\"",
+                "18": "Speaking on PoliticsJOE, Skeet emphasized that the demonstration has successfully placed the climate crisis at the top of the world news cycle, where it would not have been before.",
+                "19": "As for whether or not actions like this endear people to Just Stop Oil itself, he suggested that the question might be beside the point.",
+                "20": "\"There's ample research on this that suggest that though people don't like Just Stop Oil, they tend to actually disassociate it from the issue itself,\" Skeet said.",
+                "21": "\"So, generally, people will be going, 'Oh, I don't like these Just Stop Oil folks, but actually, the issue of the climate crisis is really important, and something needs to happen about it.\"",
+                "22": "The protesters themselves are equally adamant that something must be done.",
+                "23": "Niamh Lynch, a 21-year-old student from Oxford, said in Just Stop Oil's press release, \"It's time for us to think about what our civilization will leave behind\u2014what is our legacy? ...",
+                "24": "Standing inert for generations works well for stones\u2014not climate policy.\"",
+                "25": "Rajan Naidu, a 73-year-old from Birmingham, added, \"Either we end the fossil fuel era, or the fossil fuel era will end us.\"",
+                "26": "Naidu continued: \"Just as fifty years ago, when the world used international treaties to defuse the threats posed by nuclear weapons, today the world needs a Fossil Fuel Non-Proliferation Treaty to phase out fossil fuels and to support dependent economies, workers and communities to move away from oil, gas and coal.\""
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to emotion",
+                    "Red Herring (sidetracking)",
+                    "Strawman (Caricature)"
+                ],
+                "sentences": {
+                    "Appeal to emotion": [
+                        6,
+                        24,
+                        25
+                    ],
+                    "Red Herring (sidetracking)": [
+                        5
+                    ],
+                    "Strawman (Caricature)": [
+                        5
+                    ]
+                },
+                "annotations": {
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "Skeet's statement about millions of people being killed and displaced leverages emotional impact to support his argument.",
+                                "sentence": [
+                                    6
+                                ]
+                            },
+                            {
+                                "explanation": "Niamh Lynch's statement evokes the concept of legacy and the emotional attachment to what civilization leaves behind.",
+                                "sentence": [
+                                    24
+                                ]
+                            },
+                            {
+                                "explanation": "Rajan Naidu's statement uses a dramatic comparison to the end of an era, invoking fear and urgency to persuade.",
+                                "sentence": [
+                                    25
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring (sidetracking)": {
+                        "Explanation": [
+                            {
+                                "explanation": "Skeet's question about what is more shocking between cornstarch on a monument and government actions sidetracks from discussing the specific action of vandalizing Stonehenge.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "Strawman (Caricature)": {
+                        "Explanation": [
+                            {
+                                "explanation": "Skeet's question about comparing cornstarch on a monument to government actions distorts the argument by misrepresenting the significance of the act of vandalism.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": -3,
+            "reliability": 42,
+            "word_count": 569,
+            "fallacies_per_1000_words": 5.272407732864675,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 7.0298769771529
+        }
+    ]
+}

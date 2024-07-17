@@ -49,7 +49,9 @@
             "bias": 22.33,
             "reliability": 22.67,
             "word_count": 2188,
-            "fallacies_per_1000_words": 0.9140767824497258
+            "fallacies_per_1000_words": 0.9140767824497258,
+            "total_sentences_affected": 3,
+            "total_sentences_affected_per_1000_words": 1.3711151736745886
         },
         {
             "name": "The Hunter Biden laptop is 'Russian disinformation'",
@@ -98,7 +100,9 @@
             "bias": 22.33,
             "reliability": 22.67,
             "word_count": 2188,
-            "fallacies_per_1000_words": 0.9140767824497258
+            "fallacies_per_1000_words": 0.9140767824497258,
+            "total_sentences_affected": 2,
+            "total_sentences_affected_per_1000_words": 0.9140767824497258
         },
         {
             "name": "Relentless attacks against Kyle Rittenhouse",
@@ -133,7 +137,9 @@
             "bias": 22.33,
             "reliability": 22.67,
             "word_count": 2188,
-            "fallacies_per_1000_words": 0.4570383912248629
+            "fallacies_per_1000_words": 0.4570383912248629,
+            "total_sentences_affected": 1,
+            "total_sentences_affected_per_1000_words": 0.4570383912248629
         }
     ]
 }

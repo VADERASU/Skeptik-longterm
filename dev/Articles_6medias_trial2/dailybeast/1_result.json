@@ -1,0 +1,88 @@
+{
+    "cases": [
+        {
+            "name": "Roger Stone Caught on Tape Discussing Trump's Plan to Challenge 2024 Election",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Self-proclaimed 'dirty trickster' Roger Stone was secretly videotaped at Mar-a-Lago during a remarkably candid conversation.",
+                "2": "Roger Stone, a longtime Republican operative who served as an adviser to Donald Trump, was secretly recorded at Mar-a-Lago spilling the beans on the former president's strategy to challenge the results of the 2024 election should he lose again.",
+                "3": "The self-described 'dirty trickster' of right-wing politics unknowingly divulged the plan to liberal reporters Lauren Windsor and Ally Sammarco, who posed as Trump fans and covertly videotaped him at a 'Catholics Prayer for Trump' event on March 19.",
+                "4": "The recordings were first reported by Rolling Stone.",
+                "5": "The remarkably candid conversation is just the latest released by Windsor and her left-leaning sting group, The Undercurrent, in recent weeks\u2014and comes on the heels of headline-grabbing tapes that captured both Supreme Court Justice Samuel Alito and his wife, Martha-Ann Alito, weighing in on a number of hot button culture war issues facing the court and the country.",
+                "6": "Stone, who was a key figure in Trump's 'Stop the Steal' efforts following the 2020 election, characterized his plan to challenge election results in 2024 with three pillars: 'Lawyers, judges, technology.'",
+                "7": "He also bragged that the Trump campaign occupied strong 'offensive footing' this time around.",
+                "8": "'In some states, it'll be easier to stop.",
+                "9": "In other places it won't,' Stone told Sammarco.",
+                "10": "'At least this time when they do it, you have a lawyer and a judge, his home phone number standing by so you can stop it,' apparently referring to the certification of 2024 results.",
+                "11": "'We made no preparations last time, none,' he added.",
+                "12": "Stone also tacitly endorsed storming the Capitol building after Sammarco told him she was at the insurrection.",
+                "13": "'That may not be necessary,' Stone continued.",
+                "14": "'There are technical, legal steps we have to take to try to have a more honest election.'",
+                "15": "Stone noted during the conversation that the Trump campaign is attempting to change state voting laws and plans to immediately file a number of lawsuits seeking to change the results should the former president lose again, as Trump allies did in Michigan and several other states in 2020.",
+                "16": "'We should be suing in a half a dozen places,' Stone said of the Michigan lawsuit, adding that the RNC's war chest would be tapped to fund the various lawsuits.",
+                "17": "The Trump campaign launched 62 lawsuits contesting the results of the election across the country in 2020.",
+                "18": "However, most were quickly dismissed or dropped due to a lack of standing or evidence, according to Bloomberg Law.",
+                "19": "Stone told Windsor that the Trump campaign even has governors who are ready to contest this November's election results\u2014though he qualified, candidly, that there 'aren't many' willing to put their reputation on the line in service of the former president."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to authority (dubious authority)",
+                    "Red Herring (sidetracking)",
+                    "Appeal to emotion"
+                ],
+                "sentences": {
+                    "Appeal to authority (dubious authority)": [
+                        5
+                    ],
+                    "Red Herring (sidetracking)": [
+                        17,
+                        18
+                    ],
+                    "Appeal to emotion": [
+                        12
+                    ]
+                },
+                "annotations": {
+                    "Appeal to authority (dubious authority)": {
+                        "Explanation": [
+                            {
+                                "explanation": "The sentence mentions headline-grabbing tapes of Supreme Court Justice Samuel Alito and his wife weighing in on culture war issues, which could be seen as invoking the authority of a Supreme Court Justice in an unrelated context to bolster the significance of the tapes.",
+                                "sentence": [
+                                    5
+                                ]
+                            }
+                        ]
+                    },
+                    "Red Herring (sidetracking)": {
+                        "Explanation": [
+                            {
+                                "explanation": "These sentences discuss the number of lawsuits launched by the Trump campaign in 2020 and their outcomes, which sidetracks from the main topic of Stone's discussion about the 2024 election strategy.",
+                                "sentence": [
+                                    17,
+                                    18
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The sentence refers to storming the Capitol building, which evokes strong emotional responses related to the events of January 6, 2021, rather than providing a logical argument.",
+                                "sentence": [
+                                    12
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": -11,
+            "reliability": 33.67,
+            "word_count": 469,
+            "fallacies_per_1000_words": 6.3965884861407245,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 8.528784648187633
+        }
+    ]
+}

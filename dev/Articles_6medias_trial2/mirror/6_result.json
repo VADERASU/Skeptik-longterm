@@ -1,0 +1,115 @@
+{
+    "cases": [
+        {
+            "name": "Meghan Markle Buckingham Palace balcony ban was 'more than she could bear'",
+            "source": "Mirror",
+            "sentences": {
+                "1": "The Duke and Duchess of Sussex decided Harry would attend the King's Coronation at Westminster Abbey on May 6 as it would appear a 'terrible snub' if he failed to turn up.",
+                "2": "Meghan Markle's exclusion from the traditional Buckingham Palace balcony appearance at the upcoming King's coronation was 'more than she could bear', a royal expert has said.",
+                "3": "The Duke and Duchess of Sussex confirmed Prince Harry will be attending the King's Coronation at Westminster Abbey on May 6 but Meghan has decided to snub the big event, instead staying at the family home in Montecito, California, US, with their two children, Archie and Lilibet.",
+                "4": "But with the estranged royal couple excluded from any kind of significant role in the ceremony, the Duchess may have chosen to stay away to avoid her own embarrassment, according to Ingrid Seward, editor in chief of Majesty magazine and royal biographer.",
+                "5": "The royal expert tells the Mirror that, despite wanting to stay behind for Archie's birthday, she thinks Meghan could have attended the ceremony as the pair have a big team of helpers.",
+                "6": "She said: 'However pathetic when you have a team of helpers, Meghan can still use the excuse of Archie's 4th birthday to avoid crossing the Atlantic to be ridiculed, by both the royal family and the Brits.'",
+                "7": "'Why should she bother. For a girl who makes a huge fuss about which table she has in a restaurant it would be a terrible insult not to have one of the top seats at the coronation ceremony.'",
+                "8": "With the The Duke and Duchess not being working royals anymore, the pair would have been left out of the Buckingham Palace balcony picture - which would have caused Meghan embarrassment, according to Ingrid.",
+                "9": "She said: 'To add to this possibility the disgrace being excluded from the Buckingham Palace balcony line-up was more than she could bear.'",
+                "10": "'Now Meghan can play the martyr if she pleases. Certainly, the rest of Harry's family especially Kate and William will be delighted she is not there. King Charles and Queen Camilla will also be mighty relieved.'",
+                "11": "But despite the pair having misgivings over whether they should attend the ceremony, Archie, will spend his fourth birthday in America and not see his grandad.",
+                "12": "Ingrid believes he will be the real loser, she added: 'The real loser is little Archie. How exciting it would have been to see the soldiers, carriages and horses of his grandfather's armies. What a shame he was denied the opportunity however hard for his parents.'",
+                "13": "But despite this. and although the ceremony falls on Archie's birthday, Ingrid believes Meghan actually wanted Harry to attend as it would appear a 'terrible snub' if he failed to turn up.",
+                "14": "'Harry's decision to come to the coronation without Meghan won't have been easy.",
+                "15": "Harry and Meghan are an emotional unit. He lacks confidence without her and is more suspicious when she is not at his side. Harry needed to and he wanted to come to the coronation.",
+                "16": "'The invitation clearly says, 'By Command of the King'. Harry was in the military and his allegiance is to his King. The King also happens to be his father.",
+                "17": "For all his bravado Harry knows that if he didn't appear it would be a terrible snub. He might have been cut off for ever and brand Sussex couldn't afford to lose the royal fairy dust.'",
+                "18": "She believes if Harry failed to attend it could have jeopardise their future earnings and the potential to ever get back with the royals.",
+                "19": "The royal biographer added: 'I suspect Meghan was the driving force in persuading Harry to attend.",
+                "20": "'She is smarter than him and would have realised it might mean the end of their future dreams if he didn't appear.'"
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Ad hominem",
+                    "Appeal to emotion",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Ad hominem": [
+                        6,
+                        7,
+                        10,
+                        20
+                    ],
+                    "Appeal to emotion": [
+                        12
+                    ],
+                    "Questionable conclusion": [
+                        18,
+                        20
+                    ]
+                },
+                "annotations": {
+                    "Ad hominem": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement attacks Meghan's character by implying she uses her child's birthday as an excuse to avoid ridicule.",
+                                "sentence": [
+                                    6
+                                ]
+                            },
+                            {
+                                "explanation": "The statement attacks Meghan's character by describing her as someone who makes a fuss about restaurant seating.",
+                                "sentence": [
+                                    7
+                                ]
+                            },
+                            {
+                                "explanation": "The statement attacks Meghan's character by suggesting she would play the martyr and that others would be relieved by her absence.",
+                                "sentence": [
+                                    10
+                                ]
+                            },
+                            {
+                                "explanation": "The statement attacks Harry by suggesting Meghan is smarter and implies his lack of intelligence.",
+                                "sentence": [
+                                    20
+                                ]
+                            }
+                        ]
+                    },
+                    "Appeal to emotion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement evokes emotions by focusing on Archie's missed opportunity to see the soldiers, carriages, and horses of his grandfather's armies.",
+                                "sentence": [
+                                    12
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement draws an unwarranted conclusion that Harry's failure to attend would jeopardize their future earnings and relationship with the royals.",
+                                "sentence": [
+                                    18
+                                ]
+                            },
+                            {
+                                "explanation": "The statement assumes Meghan was the driving force behind Harry's decision and that it would end their future dreams if he didn't appear.",
+                                "sentence": [
+                                    20
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 3,
+            "bias": 1.67,
+            "reliability": 28.67,
+            "word_count": 640,
+            "fallacies_per_1000_words": 4.6875,
+            "total_sentences_affected": 6,
+            "total_sentences_affected_per_1000_words": 9.375
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "title": "NBC News Admits Obama Is 'Shadow President' Serving His 'Third Term'",
+    "bias": 30,
+    "Reliability": 6,
+    "content": "1.txt"
+  },
+  {
+    "title": "Bill Gates Facing Life Behind Bars on Child Rape Charges",
+    "bias": 29.33,
+    "Reliability": 5,
+    "content": "2.txt"
+  },
+  {
+    "title": "Elon Musk: Ventilators Euthanized MILLIONS Globally, Not COVID",
+    "bias": 31.33,
+    "Reliability": 6,
+    "content": "3.txt"
+  },
+  {
+    "title": "Bill Gates Is Funding The Deforestation Of 70 Million Acres....To Reduce Global Warming",
+    "bias": 22,
+    "Reliability": 12.67,
+    "content": "4.txt"
+  },
+  {
+    "title": "Netanyahu Defies All Calls For Gaza Ceasefire",
+    "bias": 0,
+    "Reliability": 41.33,
+    "content": "5.txt"
+  },
+  {
+    "title": "Parents Face Domestic Abuse Charges For Not Using Their Child's Preferred Pronoun",
+    "bias": 17.33,
+    "Reliability": 19,
+    "content": "6.txt"
+  },
+  {
+    "title": "Nearly A Quarter of Americans Say They Know Someone Who Died From The Covid Jab",
+    "bias": 15,
+    "Reliability": 22.67,
+    "content": "7.txt"
+  },
+  {
+    "title": "Musk Issues Chilling Warning: 'We Are Sleepwalking Into WW3'",
+    "bias": 18.33,
+    "Reliability": 28,
+    "content": "8.txt"
+  },
+  {
+    "title": "Bipartisan House Lawmakers Are Demanding That Biden Drops Julian Assange Case",
+    "bias": 2,
+    "Reliability": 41,
+    "content": "9.txt"
+  },
+  {
+    "title": "Experts Warn Alex Jones Show Trial Sets Precedent for Silencing Independent Media",
+    "bias": 27.67,
+    "Reliability": 14.33,
+    "content": "10.txt"
+  },
+  {
+    "title": "Trump's 2020 Prediction Gas Prices Would Reach $7 Under Biden Comes True",
+    "bias": 19.33,
+    "Reliability": 24.33,
+    "content": "11.txt"
+  },
+  {
+    "title": "Broken Hillary Hits Rock Bottom, Now Trying To Sell Mugs Celebrating Her Failures",
+    "bias": 22,
+    "Reliability": 19,
+    "content": "12.txt"
+  },
+  {
+    "title": "Disney Sparks Outrage Following 'Woke' Minnie Mouse Makeover",
+    "bias": 15.67,
+    "Reliability": 25.33,
+    "content": "13.txt"
+  },
+  {
+    "title": "President Trump Reacts to Anti-American MAGA Hat Ban: Do NOT Buy Goodyear Tires",
+    "bias": 12.33,
+    "Reliability": 39,
+    "content": "14.txt"
+  },
+  {
+    "title": "President Trump Says Adam Schiff Should Be Arrested For Treason",
+    "bias": 22.33,
+    "Reliability": 27.33,
+    "content": "15.txt"
+  }
+]

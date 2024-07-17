@@ -1,0 +1,83 @@
+{
+    "cases": [
+        {
+            "name": "Alabama governor signs bill protecting IVF into law: 'Proud we are a pro-life, pro-family state'",
+            "source": "WSJ",
+            "sentences": {
+                "1": "Alabama Gov. Kay Ivey signed a bill into law Wednesday evening protecting in vitro fertilization (IVF) treatments after a February decision by the state Supreme Court led some fertility clinics to pause their procedures.",
+                "2": "Senate Bill 159, a bipartisan piece of legislation, was met with heavy support from state lawmakers and quickly moved through the legislature to ensure clinics could confidently resume operations for IVF patients.",
+                "3": "\"Alabama works to foster a culture of life, and that certainly includes IVF,\" Ivey said in a statement Wednesday night.",
+                "4": "\"I am pleased to sign this important, short-term measure into law so that couples in Alabama hoping and praying to be parents can grow their families through IVF.\"",
+                "5": "The law is designed to protect medical professionals from civil and criminal immunity in case of unintentional death or damage to an embryo following a ruling made by the state Supreme Court allowing three couples who lost frozen embryos during a mishap at a storage facility to file for wrongful death claims.",
+                "6": "The Justices cited language in the Alabama Constitution that allows parents to sue over the death of a minor child and said that the 1872 law \"applies to all unborn children, regardless of their location.\"",
+                "7": "Alabamians also voted in 2018 to add language recognizing the \"rights of unborn children.\"",
+                "8": "\"Unborn children are 'children' ... without exception based on developmental stage, physical location, or any other ancillary characteristics,\" Justice Jay Mitchell wrote in the ruling.",
+                "9": "Justice Greg Cook, who filed the only full dissent to the majority opinion, said a minor is not defined under the state's Wrongful Death of a Minor Act and that using the law to cover frozen embryos is stretching original intent.",
+                "10": "Ivey said she understands IVF is a \"complex issue\" and she anticipates \"there will be more work to come,\" but the priority was to \"provide the assurances\" fertility clinics needed so the ones who paused treatments could \"resume services immediately.\"",
+                "11": "\"Let me say clearly: Alabama supports growing families through IVF.",
+                "12": "From protecting the unborn to supporting IVF, Alabama is proud we are a pro-life, pro-family state,\" Ivey said.",
+                "13": "Alabama Fertility, one of the clinics that paused IVF treatments last month, said on its Instagram page Wednesday afternoon before the bill became law that it is \"ready to re-start IVF treatments as soon as tomorrow.\"",
+                "14": "The law is effective immediately and applies retroactively, excluding pending litigation."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Appeal to tradition",
+                    "Questionable conclusion"
+                ],
+                "sentences": {
+                    "Appeal to tradition": [
+                        6,
+                        7,
+                        12
+                    ],
+                    "Questionable conclusion": [
+                        3,
+                        12
+                    ]
+                },
+                "annotations": {
+                    "Appeal to tradition": {
+                        "Explanation": [
+                            {
+                                "explanation": "The argument refers to the Alabama Constitution and a 2018 vote to justify the law, implying that because these traditions exist, the law is justified without addressing current ethical or scientific debates.",
+                                "sentence": [
+                                    6,
+                                    7
+                                ]
+                            },
+                            {
+                                "explanation": "Ivey\u2019s statement that Alabama is proud to be a pro-life, pro-family state relies on the tradition of these values to support the law without engaging with contemporary counterarguments.",
+                                "sentence": [
+                                    12
+                                ]
+                            }
+                        ]
+                    },
+                    "Questionable conclusion": {
+                        "Explanation": [
+                            {
+                                "explanation": "The statement that Alabama works to foster a culture of life and that includes IVF is a questionable conclusion because it assumes that supporting IVF is inherently part of fostering a culture of life without providing evidence or reasoning for this connection.",
+                                "sentence": [
+                                    3
+                                ]
+                            },
+                            {
+                                "explanation": "The statement that Alabama is proud to be a pro-life, pro-family state as a justification for the law is a questionable conclusion because it assumes that these values inherently support the law without addressing potential conflicts or nuances.",
+                                "sentence": [
+                                    12
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 4.33,
+            "reliability": 44,
+            "word_count": 411,
+            "fallacies_per_1000_words": 4.866180048661801,
+            "total_sentences_affected": 4,
+            "total_sentences_affected_per_1000_words": 9.732360097323602
+        }
+    ]
+}

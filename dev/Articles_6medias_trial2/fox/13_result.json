@@ -1,0 +1,94 @@
+{
+    "cases": [
+        {
+            "name": "California votes to spend $6.4B on homeless crisis despite spiraling debt",
+            "source": "WSJ",
+            "sentences": {
+                "1": "A ballot measure that would require California to spend billions of dollars on the state's spiraling homeless crisis was passed by a razor-thin majority Wednesday, two weeks after residents cast their votes.",
+                "2": "Proposition 1 requires strict requirements on counties to spend on housing and drug treatment programs for homeless people, as well as allowing the state to raise a $6.4 billion bond to tackle the issue.",
+                "3": "The measure comes as the Golden State's budget debt is expected to grow to $73 billion this year, according to Bloomberg.",
+                "4": "A signature proposal by Gov. Gavin Newsom, a Democrat, the measure was approved by 50.2% of nearly 7.2 million voters, a slim majority unforeseen just a few months ago.",
+                "5": "\"This is the biggest change in decades in how California tackles homelessness and a victory for doing things radically different,\" Newsom said in a statement after the borderline vote.",
+                "6": "\"Now, counties and local officials must match the ambition of California voters.",
+                "7": "This historic reform will only succeed if we all kick into action immediately - state government and local leaders, together.\"",
+                "8": "The state will now be able to borrow $6.38 billion to build 4,350 housing units, half of which will be reserved for veterans, and add 6,800 mental health and addiction treatment beds.",
+                "9": "Counties will also be required to spend about two-thirds of funds raised from a 2004-enacted wealth tax on mental health services on housing and programs for homeless people with serious mental illnesses or substance abuse problems.",
+                "10": "The state needs some 8,000 more beds to treat mental health and addiction issues.",
+                "11": "Between $2 billion and $3 billion a year is raised from the tax, and it provides about one-third of the state's total mental health budget.",
+                "12": "Newsom's administration has already spent at least $22 billion on various programs to address the crisis over the last few years, including $3.5 billion to convert rundown motels into homeless housing.",
+                "13": "At the same time, its homeless population has ballooned to around 181,000.",
+                "14": "The measure looked sure to pass when introduced by Newsom and a group of bipartisan legislators last year.",
+                "15": "Democrats outnumber Republicans by about 2 to 1 in the state.",
+                "16": "However, it snuck through by a paper-thin majority.",
+                "17": "Proposition 1 collected more than $15.7 million, with a donor list that included a Bay Area tribe, labor unions, builders, health care providers, Uber and the California Chamber of Commerce, The New York Times reported.",
+                "18": "The only organized opposition collected a mere $1,000.",
+                "19": "Opponents, including social service providers and county officials, said the change will threaten programs that are not solely focused on housing or drug treatment but keep people from becoming homeless in the first place.",
+                "20": "Critics have also said that rural counties with far fewer homeless people per capita will be forced to divert a larger percentage of funds to housing."
+            },
+            "fallacies": {
+                "logical_fallacies": [
+                    "Questionable conclusion",
+                    "Appeal to tradition"
+                ],
+                "sentences": {
+                    "Questionable conclusion": [
+                        5,
+                        7
+                    ],
+                    "Appeal to tradition": [
+                        10,
+                        12,
+                        15
+                    ]
+                },
+                "annotations": {
+                    "QC": {
+                        "Explanation": [
+                            {
+                                "explanation": "Newsom's statement that this measure is the biggest change in decades and a victory for doing things radically different is a questionable conclusion without clear evidence backing it.",
+                                "sentence": [
+                                    5
+                                ]
+                            },
+                            {
+                                "explanation": "The statement that this reform will only succeed if everyone takes immediate action is a questionable conclusion as it assumes collective action is the only path to success.",
+                                "sentence": [
+                                    7
+                                ]
+                            }
+                        ]
+                    },
+                    "AT": {
+                        "Explanation": [
+                            {
+                                "explanation": "The need for 8,000 more beds to treat mental health and addiction issues is stated as a fact without current context or comparison, appealing to a traditional view that more beds are always needed.",
+                                "sentence": [
+                                    10
+                                ]
+                            },
+                            {
+                                "explanation": "Newsom's administration spending at least $22 billion on various programs is presented as a long-term ongoing effort without addressing its effectiveness, appealing to the tradition of continuous spending.",
+                                "sentence": [
+                                    12
+                                ]
+                            },
+                            {
+                                "explanation": "Stating that Democrats outnumber Republicans by about 2 to 1 as a reason for the measure passing is an appeal to the traditional political landscape without examining the measure itself.",
+                                "sentence": [
+                                    15
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "fallacy_count": 2,
+            "bias": 7.33,
+            "reliability": 39,
+            "word_count": 478,
+            "fallacies_per_1000_words": 4.184100418410042,
+            "total_sentences_affected": 5,
+            "total_sentences_affected_per_1000_words": 10.460251046025103
+        }
+    ]
+}

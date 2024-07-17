@@ -1,0 +1,23 @@
+{
+  "id": "chatcmpl-9m59QFIKHRTW1N8IPXH01aEWnyorr",
+  "object": "chat.completion",
+  "created": 1721246572,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Corrie's Carla saved by unlikely resident as fans work out Stephen's downfall\",\n      \"source\": \"WSJ\",\n      \"sentences\": {\n        \"1\": \"Coronation Street's Carla Connor saved by unlikely resident as fans work out Stephen's downfall\",\n        \"2\": \"Coronation Street's Carla Connor is being poisoned by murderer Stephen Reid but one unlikely friend may step in to help\",\n        \"3\": \"Coronation Street's Carla Connor has been left believing she's losing her mind as Stephen Reid secretly poisons her but fans think they've figured out how the murderer will finally get his comeuppance.\",\n        \"4\": \"Stephen Reid (Todd Boyce) has been trying to hide his murderous streak from his Weatherfield neighbours while attempting to get his hands on as much money as possible.\",\n        \"5\": \"His latest scheme has involved him spiking Carla's (Alison King) drinks with LSD to convince her and those around her that she's suffering from psychosis.\",\n        \"6\": \"Coronation Street fans will remember Carla suffered a mental breakdown previously and her friends believe she may be experiencing the same symptoms.\",\n        \"7\": \"In Wednesday's instalment, Carla kicked everyone out of the factory as the mind-altering drugs Stephen slipped into her drink kick in once again.\",\n        \"8\": \"After repeatedly shutting Stephen down in an important business meeting, the killer was shunned away to make tea and coffee.\",\n        \"9\": \"He then dropped LSD into her cup and was almost caught by Sally Metcalfe (Sally Dynevor) when she reminded him about Carla's milk preferences.\",\n        \"10\": \"Carla began to hallucinate after drinking her tea but no one seemed to make the connection that her beverage was to blame.\",\n        \"11\": \"However, a seemingly throwaway comment from Sally has led fans to predict she could be the one to seal the killer's fate.\",\n        \"12\": \"One fan urged: \\\"Wow, Peter think like Sally. She said Carla was fine before the Coffee #corrie #coronationstreet.\\\"\",\n        \"13\": \"\\\"Can they pleeeeeease hurry and make the connection between Stephen's brews and Carla's episodes #boring #Corrie,\\\" another suggested.\",\n        \"14\": \"A third asked: \\\"How is no one clicking on that Carla only goes mad when Stephen makes her a drink? And why the f**k is nothing happening about him murdering those 2 fellas?\",\n        \"15\": \"Another added: \\\"I need someone to make Carla a cup of tea and realise she's fine drinking it, then Stephen to make her a cup and realise she's gone mental #corrie,\\\" while a fifth said: \\\"Carla is eventually going to twig it's Stephen and no one will believe her.\",\n        \"16\": \"Meanwhile, it seems Stephen may have his eyes set on another victim as dodgy businessman Rufas Donahue (Steve Meo) let the killer know he suspects he's spiked Carla.\",\n        \"17\": \"Will Stephen take deadly action against Rufus before turning his attention back to Carla?\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Questionable conclusion\",\n          \"Appeal to ignorance\"\n        ],\n        \"sentences\": {\n          \"Questionable conclusion\": [\n            15\n          ],\n          \"Appeal to ignorance\": [\n            17\n          ]\n        },\n        \"annotations\": {\n          \"QC\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion that 'Carla is eventually going to twig it's Stephen and no one will believe her' is drawn without sufficient evidence.\",\n                \"sentence\": [15]\n              }\n            ]\n          },\n          \"AI\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The rhetorical question 'Will Stephen take deadly action against Rufus before turning his attention back to Carla?' is based on the assumption that something will happen without evidence.\",\n                \"sentence\": [17]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1784,
+    "completion_tokens": 848,
+    "total_tokens": 2632
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
+}
