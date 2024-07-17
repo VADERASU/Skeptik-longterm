@@ -1,17 +1,49 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Ad hominem",
-            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
-            "text": "Despite this, it has been claimed that Hall was given just 30 days to move out of the couple's mansion in Bel Air, California."
+            "type": "Ad hominem",
+            "location": "Rupert Murdoch ended marriage to Jerry Hall with brutal message of just 11 words",
+            "explanation": "The headline focuses on Murdoch's character by using the word 'brutal' rather than addressing any substantive issues related to the divorce."
         },
         {
-            "fallacy": "Faulty analogy",
-            "example": "Comparing things that are not similar in relevant respects.",
-            "text": "Murdoch, who is worth \u00c2\u00a314.5 billion, has six children - but none with Hall."
+            "type": "Appeal to emotion",
+            "location": "Friends of former supermodel Hall said she was 'blindsided' by the split, as the couple had 'never fought' and Murdoch's wife had stood by him and cared for him throughout several battles with illnesses.",
+            "explanation": "The statement evokes sympathy for Hall by highlighting her emotional state and support for Murdoch during his illnesses without discussing the reasons for the divorce."
+        },
+        {
+            "type": "Cherry Picking",
+            "location": "Despite this, it has been claimed that Hall was given just 30 days to move out of the couple's mansion in Bel Air, California.",
+            "explanation": "The article highlights the short notice given to Hall to move out but does not provide Murdoch's side of the story or any context about the circumstances leading to this decision."
+        },
+        {
+            "type": "Red Herring",
+            "location": "Murdoch, who is worth \u00a314.5 billion, has six children - but none with Hall.",
+            "explanation": "Mentioning Murdoch's wealth and the fact that he has six children with other women diverts attention from the main issue of the divorce and does not contribute to understanding why the marriage ended."
+        },
+        {
+            "type": "Appeal to authority (dubious authority)",
+            "location": "Friends of former supermodel Hall said she was 'blindsided' by the split...",
+            "explanation": "The article relies on the statements of Hall's friends, who may not be credible or have all the facts, to support the claim that she was blindsided."
+        },
+        {
+            "type": "Vagueness",
+            "location": "Almost one year on from their unexpected divorce, new claims have emerged about the brutal way in which Murdoch went about informing his wife that it was over.",
+            "explanation": "The phrase 'new claims have emerged' is vague and does not specify the source or nature of these claims, making it difficult to evaluate their credibility."
+        },
+        {
+            "type": "Who are you to talk?",
+            "location": "The divorce was finalised in August last year after which Hall was stopped from giving story ideas to writers of Succession - a show which is loosely based on the Murdoch family.",
+            "explanation": "The article implicitly criticizes Murdoch by mentioning that Hall was barred from contributing to a show based on his family, suggesting that his actions are hypocritical without directly addressing the reasons for the divorce."
+        },
+        {
+            "type": "Improper criteria",
+            "location": "The end of the couple's six-year marriage marked the 92-year-old's fourth to be dissolved.",
+            "explanation": "The mention of Murdoch's previous marriages being dissolved uses improper criteria to implicitly judge the validity of the current divorce, without providing relevant context or reasoning."
         }
     ],
-    "fallacy_count": 2,
+    "fallacy_count": 8,
     "bias": 0,
-    "reliability": 23.33
+    "reliability": 23.33,
+    "word_count": 531,
+    "fallacies_per_1000_words": 15.065913370998116
 }

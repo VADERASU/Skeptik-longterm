@@ -1,22 +1,44 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Red Herring",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "explanation": "In the text, there is a diversion from the main issue of the challenges faced in evacuating Canadians from Sudan to discussing the actions of other countries like the United States, Britain, Germany, etc., and their successful evacuation operations in Sudan. This diversion distracts from the primary concern of the Canadian evacuation efforts."
+            "type": "Appeal to Emotion",
+            "occurrence": "Mr. Yousif said he's disappointed by the treatment his family - and three other Canadian families, also in Cyprus - are receiving from Ottawa.",
+            "explanation": "This statement evokes feelings of disappointment and frustration without addressing the practical or logistical reasons for the Canadian government's actions."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "explanation": "The text mentions that Khalid Yousif and his family were airlifted to a third country, and now they are facing a huge travel bill to return to Canada. Mr. Yousif compares the treatment received from the British military, who did not charge them for evacuation, with the Canadian government, which is now charging them $10,000 for flights back to Canada. Mr. Yousif implies a causal relationship between being charged for flights and disappointing treatment by the Canadian government, which is a false cause as the two events may not be directly related."
+            "type": "Cherry Picking",
+            "occurrence": "The British did not charge the family for evacuating them from Sudan. 'The British gave us water and food - they took care of us.'",
+            "explanation": "This statement highlights the positive actions of the British while ignoring any potential reasons or constraints the Canadian government might have for charging evacuees."
         },
         {
-            "fallacy": "False Dilemma/Dichotomy",
-            "example": "Claiming you must either support or oppose a policy without considering middle ground.",
-            "explanation": "In the text, Mr. Yousif expresses disappointment with the treatment received from the Canadian government and implies that he expected them to do more. He presents a false dilemma by suggesting that the Canadian government is either delivering what they are supposed to be delivering or failing completely. This oversimplification ignores potential middle ground scenarios where the government may be making efforts but falling short of expectations."
+            "type": "Red Herring",
+            "occurrence": "Ottawa is also cautioning it will only evacuate Canadian citizens, permanent residents and their immediate family from Sudan.",
+            "explanation": "This statement shifts focus from the issue of evacuation logistics to the criteria for evacuation, sidetracking the main issue of evacuation timing and feasibility."
+        },
+        {
+            "type": "Appeal to Ignorance",
+            "occurrence": "Mr. Yousif said he's disappointed by the treatment his family... 'I was expecting the Canadian government to do more for me.'",
+            "explanation": "This implies that the Canadian government should be able to do more without providing evidence or understanding of the constraints and challenges faced."
+        },
+        {
+            "type": "Hasty Generalization",
+            "occurrence": "Mr. Yousif said he's disappointed by the treatment his family... 'I was expecting the Canadian government to do more for me.'",
+            "explanation": "Generalizing the Canadian government's overall efforts based on his personal experience without considering the broader context or efforts made for other evacuees."
+        },
+        {
+            "type": "Appeal to Authority (Dubious Authority)",
+            "occurrence": "The federal government says it will soon attempt evacuation flights out of Sudan, but can't say exactly when it might get a plane to the beleaguered East African country, citing the complications of landing during an escalating conflict.",
+            "explanation": "This implies trust in the federal government\u2019s statement without providing detailed evidence or justifications for the delays, relying on the authority of the government."
+        },
+        {
+            "type": "False Dilemma/Dichotomy",
+            "occurrence": "Ms. Sunday of Global Affairs also cautioned that Canadians in Sudan should be prepared to move quickly if they want to leave. 'There are no guarantees of any future evacuation plans past this week.'",
+            "explanation": "This presents the situation as if Canadians must either leave immediately or face the possibility of being stranded, without considering other potential plans or solutions that could arise."
         }
     ],
-    "fallacy_count": 3,
+    "fallacy_count": 7,
     "bias": 0,
-    "reliability": 43.33
+    "reliability": 43.33,
+    "word_count": 885,
+    "fallacies_per_1000_words": 7.909604519774011
 }

@@ -1,27 +1,59 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Red Herring (sidetracking)",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "location": "The article shifts the focus from the impeachment trial of Department of Homeland Security Secretary Alejandro Mayorkas and its implications to unrelated concerns such as voters' opinions on the border crisis and the political strategies of various senators."
+            "type": "Personal attack",
+            "location": "Tim Sheehy's statement",
+            "explanation": "Tim Sheehy accuses Senator Jon Tester of supporting 'the radical Left's push of open borders' instead of focusing on Tester's actions or policies regarding the border crisis."
         },
         {
-            "fallacy": "Strawman (Caricature)",
-            "example": "Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.",
-            "location": "The article misrepresents Republican senators' concerns over Sen. Jon Tester's actions during negotiations on border-related amendments as a potential issue for Tester during the Mayorkas impeachment trial."
+            "type": "Questionable conclusion",
+            "location": "Tim Sheehy's statement",
+            "explanation": "Sheehy concludes that because Tester allegedly wants to avoid a trial, he supports open borders, which is not substantiated within the context."
         },
         {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "location": "The article generalizes the potential pressure faced by vulnerable Senate Democrats based on the actions or statements of a few Republican sources and candidates, without considering a broader range of perspectives or evidence."
+            "type": "Red Herring",
+            "location": "Republican Senate sources",
+            "explanation": "The sources focus on the political implications for Democratic senators up for re-election rather than discussing the merits of the impeachment trial itself."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "location": "The article implies a causal relationship between vulnerable Senate Democrats facing pressure in the impeachment trial and the voters' concerns over the state of the border, without establishing a direct cause-and-effect link."
+            "type": "Appeal to emotion",
+            "location": "Reagan McCarthy's statement",
+            "explanation": "McCarthy appeals to the emotional impact of the 'border invasion and fentanyl crisis' to argue that Sherrod Brown should hold Mayorkas accountable."
+        },
+        {
+            "type": "Cherry Picking",
+            "location": "Fox News Poll reference",
+            "explanation": "The article highlights the 41% of voters who see the border situation as an emergency without detailing the opinions of the remaining 59%."
+        },
+        {
+            "type": "Fallacy of composition",
+            "location": "Brian Walsh's statement",
+            "explanation": "Walsh assumes that because 'the majority of voters' see the border as the most important problem, all Democratic senators will face the same level of political vulnerability."
+        },
+        {
+            "type": "Bandwagon",
+            "location": "Brian Walsh's statement",
+            "explanation": "Walsh implies that Democratic senators should side with the 'majority of voters, including independents' because it is a popular view, rather than evaluating the arguments on their merits."
+        },
+        {
+            "type": "False dilemma",
+            "location": "Brian Walsh's statement",
+            "explanation": "Walsh presents a choice between siding with their base and siding with the majority of voters, ignoring that there could be nuanced or alternative positions."
+        },
+        {
+            "type": "Appeal to authority (dubious authority)",
+            "location": "Republican strategist Brian Walsh",
+            "explanation": "Walsh is cited to support the claim of political vulnerability, but his expertise is in political strategy, not in objective analysis of voter behavior."
+        },
+        {
+            "type": "Slippery slope",
+            "location": "Romney's statement",
+            "explanation": "Romney suggests that holding a trial would set a 'terrible constitutional precedent,' implying that it will lead to negative future consequences without evidence."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 10,
     "bias": 14.33,
-    "reliability": 35.67
+    "reliability": 35.67,
+    "word_count": 1008,
+    "fallacies_per_1000_words": 9.920634920634921
 }

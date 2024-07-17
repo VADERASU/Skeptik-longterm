@@ -1,22 +1,34 @@
 {
     "logical_fallacies": [
         {
+            "fallacy": "Vagueness",
+            "location": "The current wording of the legislation is vague on how exactly the Buy American provisions of the tax credits would work, leaving it up to the White House to make more specific regulations later on.",
+            "explanation": "The statement highlights that the legislation's wording is unclear, which obscures a clear evaluation of its impact."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "location": "She said the tax credits will help Americans move toward a cleaner environment by switching to electric vehicles.",
+            "explanation": "The appeal to emotion is used to gain support for the tax credits by focusing on the positive environmental impacts rather than addressing the economic and trade concerns brought up by Canada."
+        },
+        {
+            "fallacy": "Bandwagon",
+            "location": "The electric vehicle component of the package is something the President is very personally excited about because he believes it is an industry of the future.",
+            "explanation": "The statement suggests that the policy should be supported because the President is enthusiastic about it, implying that his excitement is a reason for others to support it too."
+        },
+        {
             "fallacy": "Red Herring (sidetracking)",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "explanation": "The text shifts the focus away from the issue of Buy American provisions and tax incentives for electric vehicles to discussions on climate change, immigration, and trade irritants, which are not directly related to the original topic."
+            "location": "Despite these serious squabbles, Mr. Biden boasted about Canada-U.S. collaboration on climate change and social justice.",
+            "explanation": "This statement distracts from the main issue of trade disputes and protectionism by shifting the focus to positive collaborations on other issues."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "explanation": "There is an implied causal link between the proposed incentives for U.S.-made electric vehicles and the potential outcome of moving future production away from Canada. However, this link is not supported by evidence in the text."
-        },
-        {
-            "fallacy": "Appeal to authority (dubious authority)",
-            "example": "A celebrity endorses a drug for heart health without medical expertise.",
-            "explanation": "White House Press Secretary Jen Psaki's endorsement of the electric vehicle tax credits as beneficial is presented as an appeal to authority, where the authority may not have the relevant expertise on the economic impacts of the proposed incentives."
+            "fallacy": "Appeal to tradition",
+            "location": "While Canadians hope that the change in administrations in Washington will help revive the historic special relationship between our two countries...",
+            "explanation": "This statement appeals to the tradition of a 'historic special relationship' to argue for better treatment from the U.S., without addressing the specific current issues."
         }
     ],
-    "fallacy_count": 3,
+    "fallacy_count": 5,
     "bias": 1,
-    "reliability": 45.33
+    "reliability": 45.33,
+    "word_count": 1217,
+    "fallacies_per_1000_words": 4.108463434675432
 }

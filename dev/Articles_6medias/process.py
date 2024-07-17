@@ -3,6 +3,7 @@ import json
 import requests
 import time
 
+
 def load_api_key(file_path='../../cred.json'):
     """
     Load the API key from a JSON file.
@@ -12,7 +13,7 @@ def load_api_key(file_path='../../cred.json'):
         return creds.get('api_key')
 
 
-def send_content_to_openai(content, model="gpt-4o", debug=False):
+def send_content_to_openai(content, model="gpt-3.5-turbo-0125", debug=False):
     """
     Send content to the OpenAI API and return the response.
     """
@@ -32,7 +33,7 @@ def send_content_to_openai(content, model="gpt-4o", debug=False):
     # Craft the messages for the API request
     messages = [
         {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": f"""
+        {"role": "user", "content": """
 Logical Fallacies List:
 Personal attack: Attaching a person or group to avoid the issue.
 Example: A politician discredits an opponent by criticizing their character instead of addressing the policy.
@@ -91,8 +92,56 @@ Example: Comparing internet content regulation to book censorship without acknow
 Equivocation: Using a word in different senses within the same argument.
 Example: Arguing that "fine for parking here" means it is okay to park here because "fine" can also mean acceptable.
 Task: Identify logical fallacies in the given text using this list. Explain where the fallacy occurs and why. Output the information in the JSON format defined below.
-{content}
-        """}
+{
+  "cases": [
+    {
+      "name": "Title",
+      "source": "WSJ",
+      "sentences": {
+        "1": "sentence 1",
+        "2": "sentence 2"
+      },
+      "fallacies": {
+        "logical_fallacies": [
+          "Appeal to tradition (tradition)",
+          "Questionable conclusion"
+        ],
+        "sentences": {
+          "Appeal to tradition (tradition)": [
+            4, 5, 10
+          ],
+          "Questionable conclusion": [
+            17, 18
+          ]
+        },
+        "annotations": {
+          "CP": {
+            "Explanation": [
+              {
+                "explanation": "insert explanation here",
+                "sentence": [4, 5],
+                "link": "https://www.google.com/search?q=contrasting+view"
+              },
+              {
+                "explanation": "insert explanation here",
+                "sentence": [10]
+              }
+            ]
+          },
+          "RH": {
+            "Explanation": [
+              {
+                "explanation": "insert explanation here",
+                "sentence": [17, 18]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
+"""}
     ]
 
     payload = {
@@ -103,7 +152,8 @@ Task: Identify logical fallacies in the given text using this list. Explain wher
     }
 
     if debug:
-        print(f"Debug: Would send payload to OpenAI API: {json.dumps(payload)[:500]}...")  # Print the first 500 characters
+        print(
+            f"Debug: Would send payload to OpenAI API: {json.dumps(payload)[:500]}...")  # Print the first 500 characters
         return {"debug": "This is a debug response"}
     else:
         response = requests.post(url, headers=headers, json=payload)

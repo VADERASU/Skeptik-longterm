@@ -1,0 +1,35 @@
+{
+    "text": "Rogers CEO Joe Natale's demands rejected by board, leading to his exit",
+    "fallacies": [
+        {
+            "fallacy": "Appeal to emotion",
+            "location": "Loretta, Martha and Melinda, who voted against it, said in a statement Tuesday evening that the decision creates \"great uncertainty\" for the company, its employees and the Shaw takeover.",
+            "explanation": "This statement evokes feelings of fear and uncertainty without addressing the actual reasons or evidence for why the decision might be problematic."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "location": "Dave Fuller, the president of the company's wireless division, suggested in a court document that he would leave Rogers if Mr. Natale were no longer CEO.",
+            "explanation": "The implication is that Mr. Natale's departure will necessarily lead to other key executives leaving as well, without sufficient evidence to support this broad conclusion."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "location": "Mr. Rogers then announced plans to remove five of the company's independent directors and replace them with his own candidates. The company challenged the legality of reconstituting the board in this manner, and for about two weeks, Rogers Communications essentially had two boards, each claiming to be the legitimate one.",
+            "explanation": "The discussion about the legality of reconstituting the board sidetracks from the main issue of Mr. Natale's dismissal and the reasons behind it."
+        },
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "location": "Richard Powers, an associate professor at the University of Toronto's Rotman School of Management, said the board, which is divided, will have to \"get on the same page for that company to effectively move forward.\"",
+            "explanation": "While Richard Powers is an academic, his authority does not directly pertain to the specific internal dynamics and legal aspects of Rogers Communications, making his statement potentially less relevant."
+        },
+        {
+            "fallacy": "Ad hominem",
+            "location": "On Twitter, Martha Rogers noted on Tuesday evening that less than two weeks ago, on Nov. 5, Mr. Rogers had said that the board supports Mr. Natale as CEO. \"Guess he didn't pinky swear,\" she wrote.",
+            "explanation": "This comment attacks Mr. Rogers's credibility and character (implying dishonesty) rather than addressing the substantive issues leading to Mr. Natale's dismissal."
+        }
+    ],
+    "fallacy_count": 70,
+    "bias": 0,
+    "reliability": 45,
+    "word_count": 985,
+    "fallacies_per_1000_words": 71.06598984771574
+}

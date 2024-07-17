@@ -1,0 +1,34 @@
+{
+    "fallacies": [
+        {
+            "fallacy": "Appeal to tradition",
+            "location": "The Coronation of King Charles will be the first time in 70 years that the UK or even the world has seen such a historic spectacle.",
+            "explanation": "The statement implies the significance of the event based on its historical precedent rather than providing current relevance or necessity."
+        },
+        {
+            "fallacy": "Appeal to tradition",
+            "location": "It is the first time in recent history that an already existing crown will be used during the Coronation of a Queen Consort instead of a new one being made.",
+            "explanation": "The mention of using an old crown instead of making a new one appeals to tradition without addressing whether this is the best or most practical choice."
+        },
+        {
+            "fallacy": "Appeal to authority",
+            "location": "Dr Tessa Dunlop previously told the Mirror: 'History suggests working royals will stand out.'",
+            "explanation": "The argument relies on Dr. Tessa Dunlop's authority and historical context without providing concrete evidence or reasoning for why this should be the case."
+        },
+        {
+            "fallacy": "False dilemma",
+            "location": "Like it or not this state occasion is all about royal hierarchy.",
+            "explanation": "The statement presents a false dilemma by suggesting that the event can only be about royal hierarchy, ignoring any other possible interpretations or purposes."
+        },
+        {
+            "fallacy": "Appeal to tradition",
+            "location": "If you look at the footage of the 1953 Coronation, who was very prominent, albeit briefly? Prince Charles. He was four.",
+            "explanation": "Invoking the precedent of Prince Charles's prominence at the 1953 Coronation as a reason for inviting Archie relies on tradition rather than current circumstances or reasoning."
+        }
+    ],
+    "fallacy_count": 5,
+    "bias": 0,
+    "reliability": 41.33,
+    "word_count": 1501,
+    "fallacies_per_1000_words": 3.331112591605596
+}

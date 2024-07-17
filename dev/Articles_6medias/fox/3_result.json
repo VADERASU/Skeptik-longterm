@@ -1,22 +1,24 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Red Herring (sidetracking)",
-            "example": "Shania Twain laughed off a simple mistake made on-stage during her Las Vegas residency.",
-            "explanation": "The article starts by discussing Shania Twain's on-stage mistake as the main focus, diverting attention from potential issues or criticisms to a less significant event."
+            "fallacy": "Appeal to emotion",
+            "text": "People in the comments were impressed, as the moment was proof the 'You're Still The One' singer wasn't lip-syncing.",
+            "explanation": "The comments rely on the emotional reaction and admiration of fans to support the claim that Shania Twain is singing live, rather than providing any technical evidence or expert verification."
         },
         {
-            "fallacy": "Cherry Picking",
-            "example": "\"Oh my God, that was hilarious,\" she said into the mic following the blunder.",
-            "explanation": "The article highlights the positive reaction Shania Twain had to her mistake while ignoring any potential negative aspects or criticisms that could have been discussed."
+            "fallacy": "Bandwagon",
+            "text": "'Proof she isn't lip-syncing,' another added.",
+            "explanation": "This comment implies that because multiple fans believe Shania Twain is not lip-syncing, it must be true, appealing to the popularity of the opinion rather than factual evidence."
         },
         {
             "fallacy": "Hasty generalization",
-            "example": "\"People in the comments were impressed, as the moment was proof the 'You're Still The One' singer wasn't lip-syncing.\"",
-            "explanation": "Drawing a generalized conclusion that Shania Twain wasn't lip-syncing based solely on a positive comment from one user, which does not provide sufficient evidence to support the claim."
+            "text": "People in the comments were impressed, as the moment was proof the 'You're Still The One' singer wasn't lip-syncing.",
+            "explanation": "The conclusion that Shania Twain isn't lip-syncing is drawn from a single incident where she made a mistake on stage, which is an insufficient sample to generalize her overall performance habits."
         }
     ],
     "fallacy_count": 3,
     "bias": 0,
-    "reliability": 41
+    "reliability": 41,
+    "word_count": 288,
+    "fallacies_per_1000_words": 10.416666666666666
 }

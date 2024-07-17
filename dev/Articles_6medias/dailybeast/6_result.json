@@ -1,15 +1,35 @@
 {
-    "Logical Fallacies Identified": [
+    "text": "Anthony Fauci Responds to That House Hearing Mess Created by MTG\n\nDr. Anthony Fauci responded to Rep. Marjorie Taylor Greene's (R-GA) unhinged attacks on him earlier Monday during a House subcommittee hearing, saying it's behavior like hers\u2014in which she refused to call him \"doctor\" and demanded he be imprisoned\u2014that drives death threats.\n\nOn CNN's The Source, Fauci told anchor Kaitlan Collins that Greene's vitriolic antics were \"really quite unfortunate.\"\n\n\"The purpose of hearings is to try and figure out how we can do better so next time, if and when we are faced with a pandemic, we'd be better prepared and can benefit. If mistakes were made, we can identify them, and we try to correct them for the future,\" said Fauci, who retired from government service at the end of 2022. \"That's not what we saw today,\" he added, namechecking Greene.\n\nFauci, who in his testimony detailed some of the death threats he has received as a result of his work to combat COVID-19 in the Trump and Biden administrations, was asked by Collins if he had thought those threats would continue even after stepping down. Fauci implicated Greene for helping spur them.\n\n\"It's a pattern, Kaitlan, that whenever somebody gets up, whether it's news media\u2014Fox News does it a lot\u2014or it's somebody in the Congress who gets up and makes a public statement that I'm responsible for the deaths of x number of people because of policies or some crazy idea that I created the virus, immediately\u2014it's like clockwork\u2014the death threats go way up,\" he explained.\n\n\"So that's the reason why I'm still getting death threats\u2014when you have performances like that unusual performance by Marjorie Taylor Greene in today's hearing,\" Fauci went on. \"Those are the kind of things that drive up the death threats because there is a segment of the population out there that believe that kind of nonsense.\"",
+    "fallacies": [
         {
-            "Fallacy": "Personal attack",
-            "Explanation": "Rep. Marjorie Taylor Greene's behavior of refusing to call Dr. Anthony Fauci 'doctor' and demanding he be imprisoned instead of addressing the issues raised during the House subcommittee hearing."
+            "type": "Personal attack",
+            "location": "Dr. Anthony Fauci responded to Rep. Marjorie Taylor Greene's (R-GA) unhinged attacks on him earlier Monday",
+            "explanation": "The term 'unhinged' is a personal attack on Marjorie Taylor Greene, discrediting her behavior rather than addressing the substantive issues she raised."
         },
         {
-            "Fallacy": "Ad hominem",
-            "Explanation": "Dr. Fauci implicating Marjorie Taylor Greene for the increase in death threats he receives due to her actions and statements, rather than focusing on the substantive issues discussed during the hearing."
+            "type": "Ad hominem",
+            "location": "saying it's behavior like hers\u2014in which she refused to call him \"doctor\" and demanded he be imprisoned\u2014that drives death threats.",
+            "explanation": "This statement attacks Marjorie Taylor Greene\u2019s behavior rather than addressing any arguments or points she may have made during the hearing."
+        },
+        {
+            "type": "Appeal to emotion",
+            "location": "Fauci, who in his testimony detailed some of the death threats he has received as a result of his work to combat COVID-19 in the Trump and Biden administrations",
+            "explanation": "Detailing death threats is intended to evoke emotional sympathy for Fauci rather than addressing the substance of any criticisms made against him."
+        },
+        {
+            "type": "Red Herring",
+            "location": "\"The purpose of hearings is to try and figure out how we can do better so next time, if and when we are faced with a pandemic, we'd be better prepared and can benefit. If mistakes were made, we can identify them, and we try to correct them for the future,\" said Fauci.",
+            "explanation": "This statement diverts attention from the specifics of Greene's criticisms to a general statement about the purpose of hearings."
+        },
+        {
+            "type": "Questionable conclusion",
+            "location": "\"That's the reason why I'm still getting death threats\u2014when you have performances like that unusual performance by Marjorie Taylor Greene in today's hearing,\"",
+            "explanation": "Fauci concludes that Greene\u2019s behavior is directly responsible for his continued death threats without providing concrete evidence to support this causal link."
         }
     ],
-    "fallacy_count": 0,
+    "fallacy_count": 1863,
     "bias": -14.67,
-    "reliability": 29.33
+    "reliability": 29.33,
+    "word_count": 313,
+    "fallacies_per_1000_words": 5952.076677316294
 }

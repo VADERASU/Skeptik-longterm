@@ -1,22 +1,44 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "False Dilemma/Dichotomy",
-            "explanation": "Presenting two options as the only possibilities",
-            "example": "The text implies that the only choices are either using smartphones with all their features or using kosher phones with limited features, ignoring potential middle grounds where modified smartphones could be used with controlled access."
+            "fallacy": "Appeal to emotion",
+            "location": "Paragraph 1",
+            "explanation": "The author evokes nostalgia and personal experience as an elder millennial to set a tone for the discussion about technology addiction, instead of focusing directly on the argument about kosher phones."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "explanation": "Mistaking correlation for causation",
-            "example": "The text suggests that the success in keeping ultra-orthodox Jews off social media is solely due to using kosher phones, overlooking other factors that may contribute to this behavior."
+            "fallacy": "Cherry Picking",
+            "location": "Paragraph 8",
+            "explanation": "The author highlights the success of kosher phones in ultra-orthodox communities but does not mention the potential negative impacts on those who may need broader internet access for support or safety."
         },
         {
-            "fallacy": "Hasty Generalization",
-            "explanation": "Drawing a conclusion from a biased or small sample",
-            "example": "The text generalizes the success of kosher phones in the ultra-orthodox community without considering the diversity of reasons and outcomes within the community."
+            "fallacy": "Red Herring (sidetracking)",
+            "location": "Paragraph 10",
+            "explanation": "The discussion about Vizel's YouTube channel and her recognition by members of the ultra-orthodox community sidetracks from the main issue of whether kosher phones can cure tech addiction."
+        },
+        {
+            "fallacy": "Appeal to tradition",
+            "location": "Paragraph 3",
+            "explanation": "The argument implies that the ultra-orthodox community's resistance to technology is valid simply because it aligns with their traditional way of life, without addressing whether this tradition is effective in combating tech addiction."
+        },
+        {
+            "fallacy": "False dilemma/dichotomy",
+            "location": "Paragraph 5",
+            "explanation": "The text implies that the only two options are either using kosher phones or dealing with uncontrollable smartphone addiction, ignoring other possible solutions such as balanced tech use with mindful practices."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "location": "Paragraph 14",
+            "explanation": "The conclusion that kosher phones lead to a simpler and better lifestyle for children is drawn without sufficient evidence to support that this lifestyle is indeed better or less addictive."
+        },
+        {
+            "fallacy": "Strawman (Caricature)",
+            "location": "Paragraph 4",
+            "explanation": "The text caricatures the ultra-orthodox community's approach to technology as completely eschewing it, without acknowledging that some members still use filtered or limited technology."
         }
     ],
-    "fallacy_count": 3,
+    "fallacy_count": 7,
     "bias": 0.67,
-    "reliability": 42
+    "reliability": 42,
+    "word_count": 1151,
+    "fallacies_per_1000_words": 6.081668114682885
 }

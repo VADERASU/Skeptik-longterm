@@ -1,27 +1,35 @@
 {
-    "logical_fallacies": [
+    "text": "Kari Lake Comes Up Empty-Handed When Pressed About Arizona Election Claims\n\nWhen it comes to Kari Lake's debunked theory of widespread election fraud in her 2022 Arizona gubernatorial race, she's not even sure \"who exactly stole the election,\" she admitted Monday.\n\nDuring an interview on Arizona's KTAR News 92.3 FM, Lake's false claims were challenged by the station's legal analyst, Barry Markson.\n\n\"My question is, as you've been saying for three years, or for two years: can you tell us who stole the election from you and how they did it, and if you can't or you don't want to, that's OK, but I want to make sure the question is there in front of you,\" Markson said.\n\nA post-election lawsuit from Lake alleging election fraud was rejected in December 2022, with an Arizona court ruling that there was no \"clear and convincing evidence\" the race outcome was affected by fraud. Lake's additional legal losses extended through late last year. But that hasn't seemed to deter her.\n\n\"I don't know who exactly stole the election,\" Lake said, \"but there are a lot of people who are running elections poorly, and we've seen the result.\"\n\nA candidate for Senate in Arizona this year, Lake added: \"The elections are run poorly. They're run very poorly, and I don't know who exactly.\"\n\nAt another point in the interview, Lake tried to explain critical comments she made in 2022 about former Arizona Sen. John McCain and his supporters. But McCain's daughter, Megan, hasn't bought that Lake's remarks were made in jest.\n\n\"Guess she realized she can't become a Senator without us,\" McCain wrote on X Tuesday.",
+    "fallacies": [
         {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "explanation": "Kari Lake's statement about elections being run poorly without providing specific evidence or data is a hasty generalization. She makes a broad conclusion without sufficient support."
-        },
-        {
-            "fallacy": "Appeal to emotion",
-            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
-            "explanation": "Kari Lake's mention of elections being run poorly evokes negative emotions without presenting factual evidence, appealing to emotions rather than logic."
+            "fallacy": "Evading the Burden of Proof (EBP)",
+            "location": "Lake's statement: \"I don't know who exactly stole the election, but there are a lot of people who are running elections poorly, and we've seen the result.\"",
+            "explanation": "Lake claims that the election was stolen but does not provide any evidence or specifics to support this claim."
         },
         {
             "fallacy": "Red Herring (sidetracking)",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "explanation": "Lake's focus on elections being run poorly diverts attention from the specific question about who stole the election and how, sidetracking the discussion."
+            "location": "Lake's statement: \"The elections are run poorly. They're run very poorly, and I don't know who exactly.\"",
+            "explanation": "Lake sidetracks the issue of providing evidence for election fraud by focusing on the general claim that elections are run poorly."
         },
         {
-            "fallacy": "Improper criteria",
-            "example": "Using an arbitrary date to claim that all innovations after it are irrelevant.",
-            "explanation": "Lake's argument about elections being run poorly lacks specific criteria or relevant aspects to support her claim, invoking improper criteria."
+            "fallacy": "Appeal to Emotion",
+            "location": "Lake's statement: \"The elections are run poorly. They're run very poorly, and I don't know who exactly.\"",
+            "explanation": "Lake attempts to evoke an emotional response about the poor management of elections without providing concrete evidence of fraud."
+        },
+        {
+            "fallacy": "Ad hominem",
+            "location": "McCain's daughter's statement: \"Guess she realized she can't become a Senator without us.\"",
+            "explanation": "McCain's daughter attacks Lake's character and intentions rather than addressing the substance of Lake's remarks."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "location": "Lake's continued insistence on election fraud despite legal rejections: \"But that hasn't seemed to deter her.\"",
+            "explanation": "Lake's conclusion that the election was stolen is unwarranted given the lack of evidence and legal rulings against her claims."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 1601,
     "bias": -7.33,
-    "reliability": 33.67
+    "reliability": 33.67,
+    "word_count": 272,
+    "fallacies_per_1000_words": 5886.029411764705
 }

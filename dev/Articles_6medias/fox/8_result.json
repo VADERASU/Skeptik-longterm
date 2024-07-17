@@ -1,27 +1,54 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Appeal to Emotion",
-            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
-            "explanation": "The speaker uses emotionally charged language like 'dangerously high number' and 'great concern' to evoke fear and concern among the audience about illegal immigrants potentially influencing election outcomes. By appealing to emotions, the argument tries to sway opinions without addressing the core issue of voter eligibility."
+            "type": "Appeal to fear",
+            "location": "Johnson warned that a 'dangerously high number' of illegal immigrants are able to vote in U.S. elections and said it could even affect who wins or loses.",
+            "explanation": "The statement uses fear to support the argument by suggesting that illegal immigrants voting could drastically change election outcomes."
         },
         {
-            "fallacy": "Hasty Generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "explanation": "The speaker makes a sweeping generalization about the voting behavior of illegal immigrants without providing concrete evidence of the scale or impact of such activities. By assuming a high level of illegal voting based on conjecture rather than empirical data, the argument falls into the hasty generalization fallacy."
+            "type": "Appeal to ignorance",
+            "location": "Johnson later conceded that it's not known how many illegal immigrants or non-citizens have voted in U.S. elections, but said the bill would definitely stop any instances of it from taking place.",
+            "explanation": "Johnson argues that the bill would stop illegal voting without providing evidence of the current extent of the problem, implying that because it's not proven false, it must be true."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "explanation": "The speaker implies a causal relationship between the Biden administration's border policies and the potential for illegal immigrants to vote in U.S. elections. However, no direct link or evidence is provided to demonstrate that the border policies have led to an increase in non-citizen voting. This assumption of causation without sufficient evidence constitutes the false cause fallacy."
+            "type": "Cherry Picking",
+            "location": "Roy, meanwhile, told reporters that a majority of the American populace supports stronger voter ID protections.",
+            "explanation": "The statement highlights the majority's support for stronger voter ID protections but ignores any data or opinions to the contrary."
         },
         {
-            "fallacy": "Appeal to Tradition",
-            "example": "Insisting on a traditional remedy despite lack of scientific evidence.",
-            "explanation": "The emphasis on maintaining a voter ID system as a tradition, backed by the statement that it is supported by the majority of the American populace, without addressing the need for updated evidence or data to support the claim of non-citizen voting, falls into the appeal to tradition fallacy. The argument relies on the notion of preserving tradition rather than critically evaluating the current situation."
+            "type": "Red Herring",
+            "location": "Johnson said: 'Due to the wide open border that the Biden administration has refused to close, in fact, that they engineered to open, we now have so many non-citizens in the country...'",
+            "explanation": "Johnson shifts the focus from the issue of illegal voting to the broader and politically charged topic of border control, which is not directly related to the argument about voting."
+        },
+        {
+            "type": "Slippery Slope",
+            "location": "Johnson said: 'If only one out of 100 of those voted, they would cast hundreds of thousands of votes... It could obviously change the outcome of our elections.'",
+            "explanation": "The statement suggests that even a small number of illegal immigrants voting could lead to a drastic change in election outcomes, without evidence to support such a direct cause-and-effect relationship."
+        },
+        {
+            "type": "Vagueness",
+            "location": "Johnson said: 'We all know intuitively that a lot of illegals are voting in federal elections, but it's not been something that is easily provable.'",
+            "explanation": "Johnson uses vague language ('a lot of illegals') without providing specific evidence or data to support the claim."
+        },
+        {
+            "type": "Ad hominem",
+            "location": "Gidley said: 'It is dangerous lunacy to ignore the law and allow people who are not American citizens to vote in American elections.'",
+            "explanation": "Gidley attacks the opposing viewpoint by labeling it as 'dangerous lunacy,' which discredits the argument without addressing its substance."
+        },
+        {
+            "type": "Appeal to authority (dubious authority)",
+            "location": "Also in attendance at the press conference were former Trump administration officials Stephen Miller and Hogan Gidley, now top officials at conservative think tank America First Policy Institute.",
+            "explanation": "The presence of former Trump administration officials is used to lend credibility to the argument, despite their expertise being in politics rather than election law or voter fraud."
+        },
+        {
+            "type": "Improper criteria",
+            "location": "Roy said: 'We're here for the simple proposition supported by the vast majority of the American people, that only citizens of the United States should vote.'",
+            "explanation": "The statement uses the majority's opinion as a criterion for the correctness of the policy without addressing the legal or ethical aspects of voter ID laws."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 9,
     "bias": 14.67,
-    "reliability": 32.67
+    "reliability": 32.67,
+    "word_count": 476,
+    "fallacies_per_1000_words": 18.907563025210084
 }

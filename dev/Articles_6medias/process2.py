@@ -17,12 +17,13 @@ def process_files(base_dir):
                 for item in overview_data:
                     txt_file_name = item.get('content', '')
                     if txt_file_name:
-                        txt_file_path = os.path.join(root, dir_name, txt_file_name.replace('.txt', '_result.txt'))
-                        if os.path.isfile(txt_file_path):
-                            process_file(txt_file_path, item)
+                        txt_file_path = os.path.join(root, dir_name, txt_file_name)
+                        result_file_path = os.path.join(root, dir_name, txt_file_name.replace('.txt', '_result.txt'))
+                        if os.path.isfile(result_file_path):
+                            process_file(result_file_path, item, txt_file_path)
 
 
-def process_file(file_path, overview_item):
+def process_file(file_path, overview_item, txt_file_path):
     try:
         with open(file_path, 'r') as file:
             try:
@@ -43,13 +44,23 @@ def process_file(file_path, overview_item):
                 print(f"Error parsing content in {file_path}: {e}")
                 return
 
-            # Count the number of fallacies
-            fallacy_count = len(content_json.get('logical_fallacies', []))
+            # Identify the first key and count the length of its array value
+            first_key = list(content_json.keys())[0]
+            fallacies = content_json[first_key]
+            fallacy_count = len(fallacies)
             content_json['fallacy_count'] = fallacy_count
 
             # Add bias and reliability
             content_json['bias'] = overview_item.get('bias')
             content_json['reliability'] = overview_item.get('Reliability')
+
+            # Perform word count on the text file
+            word_count = perform_word_count(txt_file_path)
+            content_json['word_count'] = word_count
+
+            # Calculate fallacies per 1000 words
+            fallacies_per_1000_words = (fallacy_count / word_count) * 1000 if word_count != 0 else 0
+            content_json['fallacies_per_1000_words'] = fallacies_per_1000_words
 
             # Extracting the number from the filename
             base_name = os.path.basename(file_path)
@@ -62,6 +73,17 @@ def process_file(file_path, overview_item):
             print(f"Processed and saved: {output_file_path}")
     except Exception as e:
         print(f"Error processing {file_path}: {e}")
+
+
+def perform_word_count(txt_file_path):
+    try:
+        with open(txt_file_path, 'r') as txt_file:
+            text = txt_file.read()
+            words = text.split()
+            return len(words)
+    except Exception as e:
+        print(f"Error reading {txt_file_path}: {e}")
+        return 0
 
 
 # Replace 'your_directory' with the path to your directory

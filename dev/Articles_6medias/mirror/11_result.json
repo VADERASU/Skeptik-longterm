@@ -1,22 +1,44 @@
 {
-    "logical_fallacies": [
-        {
-            "fallacy": "Appeal to authority (dubious authority)",
-            "example": "A celebrity endorses a drug for heart health without medical expertise.",
-            "text": "Brits should be proud of Gary Lineker, says the refugee who the star took in."
-        },
+    "fallacies": [
         {
             "fallacy": "Appeal to emotion",
-            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
-            "text": "Gary has come forward to defend humanity. It should be a point of pride for the British public."
+            "location": "Throughout the text",
+            "explanation": "The text uses emotional stories and personal testimonials about Gary Lineker's kindness to support the argument that he is a 'defender of humanity' and that Brits should be proud of him. This evokes feelings of sympathy and pride rather than providing logical reasons."
         },
         {
             "fallacy": "Cherry Picking",
-            "example": "Highlighting positive testimonials about a product while ignoring negative reviews.",
-            "text": "He is friendly and open-minded. He loved to listen to me when I shared my story about the situation in my country and the plight of my people."
+            "location": "Throughout the text",
+            "explanation": "The text selectively highlights Gary Lineker's positive actions and personal anecdotes while ignoring any potential negative aspects or criticisms related to his stance on migrant policies."
+        },
+        {
+            "fallacy": "Ad hominem",
+            "location": "When discussing the Home Secretary's actions",
+            "explanation": "The text contrasts Lineker's actions with the Home Secretary 'trumpeting her deportation plan,' indirectly attacking her character and actions rather than addressing the policy itself."
+        },
+        {
+            "fallacy": "False Cause (FC)",
+            "location": "When Rasheed says that Lineker 'defends humanity' and 'Britain should be proud'",
+            "explanation": "The text implies that because Lineker helped Rasheed, he is a defender of humanity and therefore Britain should be proud of him. This assumes a direct causal relationship between individual acts of kindness and broader societal pride without solid evidence."
+        },
+        {
+            "fallacy": "Bandwagon",
+            "location": "When Rasheed states, 'It should be a point of pride for the British public.'",
+            "explanation": "This statement implies that because Rasheed and others view Lineker's actions positively, the entire British public should also view it as a point of pride."
+        },
+        {
+            "fallacy": "Red Herring",
+            "location": "When discussing Lineker's cooking skills and personal life",
+            "explanation": "The text diverts attention from the main issue of migrant policies to focus on Lineker's personal attributes and domestic life, which are irrelevant to the central argument."
+        },
+        {
+            "fallacy": "Improper criteria",
+            "location": "When Rasheed says 'If the institutions react so negatively against the statement of Gary, it is undemocratic and unfair.'",
+            "explanation": "The statement uses the reaction to Lineker's statement as the sole criterion for judging the institutions' democratic nature, ignoring other relevant factors that might justify their actions."
         }
     ],
-    "fallacy_count": 3,
+    "fallacy_count": 7,
     "bias": -2,
-    "reliability": 36.67
+    "reliability": 36.67,
+    "word_count": 744,
+    "fallacies_per_1000_words": 9.408602150537634
 }

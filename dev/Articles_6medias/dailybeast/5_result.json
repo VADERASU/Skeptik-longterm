@@ -1,27 +1,34 @@
 {
-    "Logical_Fallacies": [
+    "fallacies": [
         {
-            "Fallacy": "Personal attack",
-            "Example": "A politician discredits an opponent by criticizing their character instead of addressing the policy.",
-            "Explanation": "In this case, Sean Hannity from Fox News is attacking Biden's character by implying he may be taking drugs during the debate, rather than focusing on policy issues."
+            "fallacy": "Ad hominem",
+            "text": "After spending the past two nights peddling a very misleading clip that claims to show Biden freezing up, Sean Hannity's now back to the 'if Trump loses the debate, it's because Biden's on drugs' routine.",
+            "explanation": "Rather than addressing the content of the debate or the merits of Biden's or Trump's arguments, the statement attacks Biden's character by insinuating he might use drugs."
         },
         {
-            "Fallacy": "Red Herring (sidetracking)",
-            "Example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "Explanation": "Jimmy Kimmel points out how Trump agreeing to debate rules may not align with his future claims of the debate being rigged, diverting attention from the main topic."
+            "fallacy": "Appeal to emotion",
+            "text": "Hannity backed the idea that Biden should be drug-tested, and Kimmel was happy to call his bluff: 'Let's do it. Let's test the president for caffeine. Let's test Trump for Adderall and Cialis. Let's see how the tests come out.'",
+            "explanation": "The suggestion of drug testing both candidates is likely to evoke emotional reactions rather than contribute to a rational discourse on their debate performance or policies."
         },
         {
-            "Fallacy": "False Cause (FC)",
-            "Example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "Explanation": "Sean Hannity's argument that Biden may be on drugs because of his performance during the debate is a correlation fallacy as it assumes a causal relationship without evidence."
+            "fallacy": "Red Herring",
+            "text": "Kimmel mocked the very idea of Biden relying on any special stimulant drug for his big public appearances. 'I mean, who in the world is buying this idea that there's some magic debate pill you can take\u2026 It's all nuts. It's just all nuttiness.'",
+            "explanation": "By mocking the idea of a 'magic debate pill,' Kimmel diverts attention from the actual issues of the debate and the policies being discussed."
         },
         {
-            "Fallacy": "Appeal to emotion",
-            "Example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
-            "Explanation": "Jimmy Kimmel evokes emotions by questioning the credibility of the claims regarding Biden's debate performance being influenced by drugs."
+            "fallacy": "Strawman (Caricature)",
+            "text": "Kimmel showed a clip of Hannity arguing to Lara Trump this week that Biden will likely be taking some sort of drug during the debate, be it coffee or something slightly more nefarious-mirroring Trump's claim in April that Biden was 'higher than a kite' during his 2024 State of the Union address.",
+            "explanation": "By exaggerating Hannity's claims to the point of absurdity, Kimmel creates a weaker version of the argument that is easier to attack."
+        },
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "text": "Kimmel showed a clip of Hannity arguing to Lara Trump this week that Biden will likely be taking some sort of drug during the debate, be it coffee or something slightly more nefarious-mirroring Trump's claim in April that Biden was 'higher than a kite' during his 2024 State of the Union address.",
+            "explanation": "Referring to Hannity's and Trump's claims about Biden's drug use without presenting medical evidence relies on their authority rather than on factual data."
         }
     ],
-    "fallacy_count": 0,
+    "fallacy_count": 5,
     "bias": -11,
-    "reliability": 30.67
+    "reliability": 30.67,
+    "word_count": 310,
+    "fallacies_per_1000_words": 16.129032258064516
 }

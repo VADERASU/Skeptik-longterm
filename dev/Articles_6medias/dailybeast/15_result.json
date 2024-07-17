@@ -1,27 +1,49 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Strawman (Caricature)",
-            "example": "Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.",
-            "explanation": "In the given text, the description of the reality competition show 'The Traitors' as a backstabbing and horror-filled event exaggerates its true nature, creating a distorted view of the show."
+            "type": "Appeal to Emotion",
+            "example": "Ever the martyr, Peter told his fellow players, 'I tried to save you guys' as he got up from the roundtable to say his goodbye during Thursday's episode, a glum look spreading across his face.",
+            "explanation": "The description of Peter as a 'martyr' and highlighting his emotional farewell uses emotional appeal rather than logical reasoning to evoke sympathy."
         },
         {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "explanation": "The text makes a quick judgment about the character of all the participants in the show based on the actions of a few, such as labeling them as 'Traitors' and 'Faithfuls'."
+            "type": "Cherry Picking",
+            "example": "Sadly for her many, many fans, she (Phaedra Parks) was not long for this world either.",
+            "explanation": "The text highlights that Phaedra had 'many, many fans' without providing evidence or considering that she might also have detractors."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "explanation": "The text implies a causal relationship between players' actions and their outcomes in the reality show without providing concrete evidence of such causation."
+            "type": "Appeal to Authority (Dubious Authority)",
+            "example": "Survivor players have a solid track record on The Traitors U.S., and given what we've seen so far, two-time winner Sandra Diaz-Twine might just turn out to be Kate's undoing.",
+            "explanation": "This statement relies on Sandra Diaz-Twine's authority as a two-time winner of another reality show ('Survivor') to suggest she will succeed here, despite the different contexts and skill sets required."
         },
         {
-            "fallacy": "Red Herring (sidetracking)",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "explanation": "The detailed descriptions and focus on the intricate plot and character developments within the show 'The Traitors' distract from the main point of identifying logical fallacies within the text."
+            "type": "Red Herring",
+            "example": "Joey Graziadei, watch your back!",
+            "explanation": "This statement distracts from the main discussion about the game by bringing in an unrelated person (Joey Graziadei) and a non-relevant threat."
+        },
+        {
+            "type": "Vagueness",
+            "example": "To earn their prize money this week, the players faced their 'toughest mission yet.'",
+            "explanation": "The term 'toughest mission yet' is vague and lacks specific criteria or comparison to previous missions, making it difficult to evaluate the claim."
+        },
+        {
+            "type": "Hasty Generalization",
+            "example": "With John gone, C.T. is now the only male player left standing\u2014a distinction that seemed to really tickle him.",
+            "explanation": "The statement generalizes C.T.'s reaction (being 'tickled') based on limited evidence without considering other possible feelings or reactions he might have."
+        },
+        {
+            "type": "Equivocation",
+            "example": "C.T. did not hide his frustration with M.J. for casting the deciding vote to send Peter home. When she tried to explain her reasoning, he responded with a curt, 'Whatever helps you justify it.'",
+            "explanation": "The word 'justify' is used ambiguously here. C.T. uses it in a dismissive sense, implying M.J.'s reasoning is invalid, while M.J. might have meant it as a legitimate explanation."
+        },
+        {
+            "type": "Bandwagon",
+            "example": "If social media posts from the Traitors fandom are any indication, his Bachelor-like comparison isn't too far off the mark.",
+            "explanation": "This statement uses the popularity of social media opinions to support the comparison, implying it's valid because many people believe it."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 8,
     "bias": 0,
-    "reliability": 33.67
+    "reliability": 33.67,
+    "word_count": 1142,
+    "fallacies_per_1000_words": 7.005253940455342
 }

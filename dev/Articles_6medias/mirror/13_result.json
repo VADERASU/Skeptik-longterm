@@ -1,17 +1,39 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
             "fallacy": "Appeal to authority (dubious authority)",
-            "example": "A celebrity endorses a drug for heart health without medical expertise.",
-            "line": "Jordan James, CEO of Unlockd PR said: 'It certainly wouldn't come as a major surprise if they were snubbed given their current status within the Royal Family and the ensuing drama.'"
+            "location": "Jordan James, CEO of Unlockd PR said: 'It certainly wouldn't come as a major surprise if they were snubbed given their current status within the Royal Family and the ensuing drama.'",
+            "explanation": "Jordan James is a PR expert, not an authority on the Met Gala guest list decisions. His opinion does not constitute reliable evidence."
         },
         {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "line": "'The Duke and Duchess of Sussex were also no-shows at this year's Oscars, with Jordan saying there seems to have been a 'shift' in how they're presenting themselves.'"
+            "fallacy": "Appeal to tradition",
+            "location": "The annual fundraising gala is set to be 'Hollywood's most prestigious red carpet event', but the Duke and Duchess of Sussex 'aren't likely to attend'.",
+            "explanation": "The text implies that because the Met Gala is a prestigious event, the Duke and Duchess of Sussex are unlikely to attend due to their current status, relying on traditional views of prestige and social standing."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "location": "Jordan said if Meghan and Harry do manage to get an invite to the Met Gala, it could 'boost their public perception in America'.",
+            "explanation": "The statement tries to evoke feelings about public perception and reputation, rather than presenting factual evidence about the likelihood of their attendance."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "location": "Harry and Meghan aren't the only ones at risk of not being invited to the Met Gala, with the Kardashian family said to have been cut from the guest list as Vogue editor Anna Wintour 'cracks down' on who can attend.",
+            "explanation": "This shifts the focus from Harry and Meghan's potential attendance to the Kardashians' situation, which is irrelevant to the original issue."
+        },
+        {
+            "fallacy": "Cherry Picking",
+            "location": "Kim Kardashian stole the show at the Met Gala last year as she rocked up in Marilyn Monroe's iconic gold dress.",
+            "explanation": "Highlighting Kim Kardashian's notable attendance last year while omitting any negative aspects or other less notable attendees."
+        },
+        {
+            "fallacy": "Equivocation",
+            "location": "Jordan said if Meghan and Harry do manage to get an invite to the Met Gala, it could 'boost their public perception in America'. However, he said they're likely to turn down an invite if they do receive one.",
+            "explanation": "The statement uses 'invite' in two different senses: as a potential boost to public perception and as something they might decline, creating ambiguity."
         }
     ],
-    "fallacy_count": 2,
+    "fallacy_count": 6,
     "bias": 0,
-    "reliability": 27.33
+    "reliability": 27.33,
+    "word_count": 420,
+    "fallacies_per_1000_words": 14.285714285714285
 }

@@ -1,32 +1,49 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "text": "Musk responded by arguing that those people died because of the ventilators and not Covid. 'Yeah. So, in fact, I actually posted about that,' Musk said. 'I called doctors in Wuhan and said, 'What are the biggest mistakes that you made on the first wave?' ... 'I'm like, 'Yeah, but I do make spaceships with life support systems.''",
+            "explanation": "Elon Musk is using his experience in making spaceships with life support systems to lend authority to his claims about medical treatments, despite lacking medical expertise."
+        },
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "text": "The comments from Musk, while demonized by the corporate media, are also corroborated by other experts. In a post on X, Dr. Joseph Mercola wrote about 'The COVID hospital death trap.'",
+            "explanation": "Dr. Joseph Mercola is presented as an authority supporting Musk\u2019s claims, despite his controversial standing in the medical community and lack of consensus among medical experts."
+        },
+        {
+            "fallacy": "Appeal to ignorance",
+            "text": "Concerns have been mounting for some time that doctors around the globe were misusing mechanical ventilators for Covid patients due to the financial incentives they had in killing off vast swathes of the population.",
+            "explanation": "This statement implies that because there is no definitive proof against the misuse of ventilators for financial incentives, it must be true."
+        },
+        {
+            "fallacy": "Cherry Picking",
+            "text": "'76.4% of COVID-19 patients (aged 18 to 65) in New York City who were placed on ventilators died.' 'Among patients over age 65 who were vented, the mortality rate was 97.2%.'",
+            "explanation": "The argument highlights specific mortality rates without providing the broader context of overall survival rates or considering other factors that might contribute to these statistics."
+        },
+        {
+            "fallacy": "Hasty generalization",
+            "text": "'80% of the people they put on ventilators died,' Joe Rogan told Musk during a podcast interview this week.",
+            "explanation": "This statement generalizes that ventilators were the main cause of death based on a specific percentage without considering other factors or broader data."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "text": "Musk responded by arguing that those people died because of the ventilators and not Covid.",
+            "explanation": "The conclusion that ventilators caused deaths, rather than COVID-19, is drawn without sufficient evidence or consideration of other medical opinions."
+        },
         {
             "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "text": "Elon Musk claiming that the majority of deaths during the pandemic were caused by ventilators and not COVID itself."
+            "text": "'It's possible many of these deaths were the result of being placed on mechanical ventilation.'",
+            "explanation": "This statement implies a causation between being put on ventilators and dying, without adequate evidence to prove that the ventilators were the direct cause of death."
         },
         {
-            "fallacy": "Post Hoc (PH)",
-            "example": "Believing a lucky charm caused winning a game.",
-            "text": "The argument that putting COVID-19 patients on ventilators caused their deaths because they were placed on ventilators before dying."
-        },
-        {
-            "fallacy": "Hasty Generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "text": "The statement that most COVID-19 patients placed on ventilators died, without considering other factors."
-        },
-        {
-            "fallacy": "Faulty Analogy",
-            "example": "Comparing internet content regulation to book censorship without acknowledging differences.",
-            "text": "Comparing the use of ventilators for COVID-19 patients with a death sentence without considering the medical context."
-        },
-        {
-            "fallacy": "Red Herring",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "text": "Distracting from the main issue of COVID-19 deaths by focusing on the use of ventilators as the cause."
+            "fallacy": "Red Herring (sidetracking)",
+            "text": "'Now, they wouldn't let you try ivermectin, but they were more than willing to put you on the vent where you had a 90% fatality rate. You tell me that they didn't notice?' he insisted.",
+            "explanation": "The argument shifts focus from the effectiveness of ventilators to the use of alternative treatments like ivermectin, which is a separate issue."
         }
     ],
-    "fallacy_count": 5,
+    "fallacy_count": 8,
     "bias": 31.33,
-    "reliability": 6
+    "reliability": 6,
+    "word_count": 739,
+    "fallacies_per_1000_words": 10.825439783491206
 }

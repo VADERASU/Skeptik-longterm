@@ -1,22 +1,39 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Red Herring (sidetracking)",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "fallacy_location": "Public Safety Minister Marco Mendicino sidetracked from addressing the specific concerns about the delay in launching the foreign-interference office by emphasizing the ongoing work and the need for Parliament to pass the budget bill."
+            "type": "Vagueness",
+            "location": "Mendicino's statement",
+            "explanation": "Mendicino stated that the work has already started and they want to get the office up and running 'as soon as possible' without offering any specifics on a timeline."
         },
         {
-            "fallacy": "Appeal to tradition",
-            "example": "Insisting on a traditional remedy despite lack of scientific evidence.",
-            "fallacy_location": "Bloc Qu\u00e9b\u00e9cois MP Marie-H\u00e9l\u00e8ne Gaudreau's argument that policy changes should have already been made based on the allegations of Chinese interference in Canadian federal elections due to the passage of time."
+            "type": "Evading the Burden of Proof (EBP)",
+            "location": "Mendicino's justification",
+            "explanation": "Mendicino claimed the office's launch is contingent on Parliament passing the budget bill without providing evidence or specific reasons why this is the case."
         },
         {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "fallacy_location": "Marie-H\u00e9l\u00e8ne Gaudreau's assertion that laws should have been strengthened to avoid interference based on expert testimony six months ago, without considering the complexity and time required for policy changes."
+            "type": "Red Herring (sidetracking)",
+            "location": "Mendicino's response",
+            "explanation": "When asked about the foreign-interference office, Mendicino talked about other actions his government has pledged to pursue, which diverts attention from the specific question about the timeline."
+        },
+        {
+            "type": "Cherry Picking",
+            "location": "Mendicino's testimony",
+            "explanation": "Mendicino emphasized the $56 million earmarked in the budget for measures to combat foreign interference, but did not address the specific concerns about the delay in launching the office or the action plan."
+        },
+        {
+            "type": "Appeal to emotion",
+            "location": "Mendicino's statement about diaspora communities",
+            "explanation": "Mendicino claimed that some in diaspora communities have avoided taking part out of concern of 'being targeted,' which evokes emotional concerns without addressing the specifics of the registry's implementation."
+        },
+        {
+            "type": "Red Herring (sidetracking)",
+            "location": "Mendicino's statement about the registry",
+            "explanation": "Mendicino shifted the focus to the complexities of creating a registry and concerns about stigmatization, sidetracking from the central issue of the delay in launching the foreign-interference office."
         }
     ],
-    "fallacy_count": 3,
+    "fallacy_count": 6,
     "bias": 0,
-    "reliability": 42.33
+    "reliability": 42.33,
+    "word_count": 693,
+    "fallacies_per_1000_words": 8.658008658008658
 }

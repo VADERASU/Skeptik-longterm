@@ -1,31 +1,87 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
+        {
+            "fallacy": "Personal attack",
+            "location": "Title",
+            "text": "NBC's Ronna McDaniel meltdown: Falsehoods and debunked narratives MSNBC promoted on its 'sacred airwaves'",
+            "explanation": "The title uses loaded language like 'meltdown' and 'falsehoods and debunked narratives' to discredit MSNBC instead of focusing on the specific arguments or issues."
+        },
         {
             "fallacy": "Ad hominem",
-            "example": "In the various diatribes against McDaniel, she was characterized as dishonest and labeled an 'election denier' over her actions on behalf of former President Trump over his claims of a rigged 2020 race, as well as her own remarks that it was unfair."
+            "location": "Paragraph 1",
+            "text": "A mob at MSNBC got its wishes this week and helped ensure new colleague Ronna McDaniel would be ousted from the network.",
+            "explanation": "The term 'mob' is used to attack the character of MSNBC staff rather than addressing the reasons for McDaniel's ousting."
         },
         {
-            "fallacy": "Red Herring (sidetracking)",
-            "example": "Below are some of MSNBC's most memorable falsehoods that have appeared on its 'sacred airwaves.' The Russia collusion hoax"
+            "fallacy": "Appeal to tradition",
+            "location": "Paragraph 3",
+            "text": "One MSNBC host suggested McDaniel wasn't worthy of the network's 'sacred airwaves.'",
+            "explanation": "The term 'sacred airwaves' implies that MSNBC's platform is traditionally prestigious and should not be sullied, without addressing the merits of McDaniel's inclusion."
+        },
+        {
+            "fallacy": "Red Herring",
+            "location": "Paragraph 4",
+            "text": "NBC News, either wittingly or unwittingly, is teaching election deniers that what they can do stretches well beyond appearing on our air and interviews to peddle lies about the sanctity and integrity of our elections, which Ronna McDaniel did on yesterday's 'Meet the Press'\u2026 and they can do that as one of us, as badge-carrying employees of NBC News, as paid contributors to our sacred airwaves.",
+            "explanation": "This statement shifts the focus from McDaniel's actions to a broader accusation against NBC News, diverting attention from the specific issue."
+        },
+        {
+            "fallacy": "Tu Quoque (Who are you to talk?)",
+            "location": "Paragraph 5",
+            "text": "Except prominent MSNBC figures have repeatedly committed the exact sin they persecuted McDaniel for over, and over, and over again.",
+            "explanation": "The argument suggests that because MSNBC figures have committed similar actions, they have no right to criticize McDaniel, rather than addressing whether the criticism is valid."
+        },
+        {
+            "fallacy": "Cherry Picking",
+            "location": "Paragraphs 6-20",
+            "text": "Below are some of MSNBC's most memorable falsehoods that have appeared on its 'sacred airwaves.'",
+            "explanation": "The selection of specific instances of alleged falsehoods is used to criticize MSNBC while ignoring potentially vast amounts of accurate reporting."
+        },
+        {
+            "fallacy": "Red Herring",
+            "location": "Sections on 'The Russia collusion hoax', 'The Hunter Biden laptop is Russian disinformation', 'Jussie Smollett's hate crime hoax', 'The smearing of Covington teen Nicholas Sandmann', 'Relentless attacks against Kyle Rittenhouse', 'The so-called whipping of Haitian migrants at the border', 'Joy Reid's hacked blog'",
+            "text": "Various sections citing different controversies and alleged falsehoods by MSNBC.",
+            "explanation": "The extensive focus on various controversies serves to divert attention from the specific issue of McDaniel's ousting from NBC."
+        },
+        {
+            "fallacy": "Bandwagon",
+            "location": "Section on 'Jussie Smollett's hate crime hoax'",
+            "text": "MSNBC jumped on the bandwagon in automatically believing disgraced actor Jussie Smollett, who staged his own hate crime.",
+            "explanation": "The term 'jumped on the bandwagon' suggests that MSNBC believed Smollett to conform to popular opinion without addressing the evidence or rationale behind their coverage."
         },
         {
             "fallacy": "False Cause (FC)",
-            "example": "Like the vast majority of legacy news organizations, MSNBC was quick to dismiss the bombshell revelations of Hunter Biden's laptop during the 2020 election as 'Russian disinformation.'"
+            "location": "Section on 'The Russia collusion hoax'",
+            "text": "Much of the Trump presidency was plagued by the Russia collusion narrative that ultimately withered on the vine.",
+            "explanation": "The statement suggests a direct cause-and-effect relationship between the Russia collusion narrative and the troubles of Trump's presidency, without substantiating the causal link."
         },
         {
-            "fallacy": "Hasty generalization",
-            "example": "During the 2020 unrest in Kenosha, Wis., following the police-involved shooting of Jacob Blake, 17-year-old Kyle Rittenhouse fatally shot two people and injured a third person while acting in self-defense. He was later found not guilty following a dramatic trial that received national attention."
+            "fallacy": "Questionable conclusion",
+            "location": "Section on 'The Hunter Biden laptop is Russian disinformation'",
+            "text": "It wasn't until May 2022 that NBC News verified the authenticity of the laptop.",
+            "explanation": "The conclusion that NBC News's initial dismissal was entirely unwarranted is drawn without considering the context and the information available at the time."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "One of the biggest controversies of 2021 was the false narrative that Border Patrol agents were 'whipping' Haitian migrants at the southern border."
+            "fallacy": "Appeal to emotion",
+            "location": "Section on 'The smearing of Covington teen Nicholas Sandmann'",
+            "text": "Another hoax from 2019 involved the smear campaign leveled at a group of students from Kentucky's Covington Catholic High School who had visited Washington D.C. for the annual March for Life.",
+            "explanation": "The narrative evokes emotional responses by focusing on the perceived victimization of the students, without addressing the broader context or the media's reasoning."
         },
         {
-            "fallacy": "Equivocation",
-            "example": "In 2017, it was unearthed that Joy Reid had written a series of homophobic blog posts from 2007-2009, years before she became an MSNBC darling."
+            "fallacy": "Slippery slope",
+            "location": "Section on 'Relentless attacks against Kyle Rittenhouse'",
+            "text": "MSNBC contributor Jason Johnson compared Rittenhouse to a 'school shooter.' 'He's a 17-year-old kid! He shouldn't have had a gun. He crossed state lines to supposedly protect property? No. He was going out to shoot people,' Johnson exclaimed. 'Kyle Rittenhouse is the enemy!'",
+            "explanation": "The statement implies that Rittenhouse's actions will inevitably lead to broader violence, without substantiating this progression."
+        },
+        {
+            "fallacy": "Begging the question",
+            "location": "Section on 'Joy Reid's hacked blog'",
+            "text": "Reid doubled down on her blatant falsehood during an on-air address on her MSNBC show while still issuing an apology to the LGBTQ community.",
+            "explanation": "The assertion that Reid's claim was a 'blatant falsehood' assumes its truth without providing evidence, thus using the conclusion as its own premise."
         }
     ],
-    "fallacy_count": 6,
+    "fallacy_count": 13,
     "bias": 22.33,
-    "reliability": 22.67
+    "reliability": 22.67,
+    "word_count": 2188,
+    "fallacies_per_1000_words": 5.941499085923217
 }

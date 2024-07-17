@@ -1,27 +1,49 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Appeal to emotion",
-            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
-            "text": "Sahar Tartak told Fox News Digital that violence was bound to happen, as the university has refused to intervene for fear of escalation - which in turn, enables violence to escalate. She said no administrators were at the protest, nor were campus police given instructions to disband it when things turned violent. \"If students continue pushing the envelope, I knew this was going to happen, I just didn't expect it to be me,\" Tartak said. \"I think it's important to understand the violence is at the core of this movement. It's about violence against Jewish people. It's about violence against the West.\""
+            "type": "Red Herring",
+            "location": "Paragraph 3",
+            "explanation": "The mention of the memorial to a Palestinian terrorist and the mock F-16 is used to sidetrack from the main issue of the alleged assault."
         },
         {
-            "fallacy": "Strawman (Caricature)",
-            "example": "Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.",
-            "text": "Sahar decried the protests as \"mob violence.\" \"So what's going to happen, God forbid, more students get beat up, more of nothing happens, and then in a couple of years, these gangsters take over the universities,\" she said. \"Allowing them to push the envelope is so dangerous. I am lucky that guy's flag wasn't pointy at the end.\""
+            "type": "Appeal to Emotion",
+            "location": "Paragraph 4",
+            "explanation": "The phrase 'chanting slogans like: \"There is one solution, intifada revolution.\"' is used to evoke emotional reactions without addressing the core issue."
         },
         {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "text": "Sahar Tartak mentioned that the protesters formed a circle around her, chanting incendiary slogans and taunting her. \"One of the students, whose face was covered in a keffiyeh, took a Palestinian flag that he was holding, waved it in my face and hit my left eye,\" Tartak said."
+            "type": "Appeal to Emotion",
+            "location": "Paragraph 15",
+            "explanation": "The statement 'It's about violence against Jewish people. It's about violence against the West.' is intended to evoke fear and sympathy rather than provide a logical argument."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "text": "Sahar Tartak stated that the violence was bound to happen because the university refused to intervene for fear of escalation, enabling violence to escalate."
+            "type": "Slippery Slope",
+            "location": "Paragraph 16",
+            "explanation": "The claim that 'in a couple of years, these gangsters take over the universities' suggests an extreme outcome without sufficient evidence to support it."
+        },
+        {
+            "type": "Hasty Generalization",
+            "location": "Paragraph 15",
+            "explanation": "The statement 'I think it's important to understand the violence is at the core of this movement' generalizes the actions of a few individuals to the entire movement without sufficient evidence."
+        },
+        {
+            "type": "Questionable Conclusion",
+            "location": "Paragraph 15",
+            "explanation": "The conclusion that 'violence is at the core of this movement' is drawn without adequately addressing other possible explanations or evidence."
+        },
+        {
+            "type": "Cherry Picking",
+            "location": "Paragraph 23",
+            "explanation": "The report highlights the disputed figures from Gaza's Hamas-run Health Ministry without discussing the context or credibility of the sources."
+        },
+        {
+            "type": "False Cause",
+            "location": "Paragraph 22",
+            "explanation": "The sentence 'Such demonstrations have exploded across college campuses in recent months out of protest at Israel's offensive in Gaza, which in turn is a reaction to Hamas' Oct. 7 assault on Israel' assumes a direct causation without considering other potential factors."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 8,
     "bias": 18,
-    "reliability": 16.33
+    "reliability": 16.33,
+    "word_count": 820,
+    "fallacies_per_1000_words": 9.75609756097561
 }

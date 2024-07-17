@@ -1,32 +1,49 @@
 {
-    "Logical_Fallacies": [
+    "fallacies": [
         {
-            "Fallacy": "Ad hominem",
-            "Explanation": "Attacking the person (President Biden) rather than his argument or actions.",
-            "Example": "Republicans deriding President Biden based on his age and physical movements instead of addressing his policies or decisions."
+            "type": "Personal attack",
+            "occurred_at": "Republicans, who have sought to make the president's advanced age an issue in the 2024 election, were quick to deride the president. The White House did not immediately respond to a request for comment.",
+            "explanation": "The passage focuses on President Biden's age rather than addressing his policies or actions, aiming to discredit him based on his age."
         },
         {
-            "Fallacy": "Appeal to tradition",
-            "Explanation": "Arguing that President Biden's age impacts his ability to govern based on historical norms of younger presidents.",
-            "Example": "Critics suggesting Biden is declining in old age and cannot handle the responsibilities of the presidency due to his age."
+            "type": "Ad hominem",
+            "occurred_at": "\"Lights are on but no one's home,\" former President Trump's campaign posted.",
+            "explanation": "This comment attacks President Biden's mental state rather than addressing any specific policy or action."
         },
         {
-            "Fallacy": "Hasty generalization",
-            "Explanation": "Drawing a conclusion about President Biden's mental acuity based on a few isolated incidents.",
-            "Example": "Criticizing President Biden's mental acuity based on a limited number of verbal missteps or moments of freezing."
+            "type": "Hasty generalization",
+            "occurred_at": "Critics say Biden is declining in his old age and can't handle the responsibilities of the presidency.",
+            "explanation": "This statement generalizes President Biden's ability to handle his responsibilities based on a few instances, without considering his overall performance."
         },
         {
-            "Fallacy": "Post Hoc (PH)",
-            "Explanation": "Assuming that President Biden's age causes his alleged lack of clarity or memory issues.",
-            "Example": "Implying that President Biden's age is directly responsible for his verbal missteps or confusion without considering other factors."
+            "type": "Cherry Picking",
+            "occurred_at": "Last week, the Wall Street Journal published a report detailing instances in which the president has demonstrated a lack of clarity in private meetings with staff and members of Congress.",
+            "explanation": "The passage focuses on selected instances of Biden's lack of clarity, ignoring any instances where he may have shown competence."
         },
         {
-            "Fallacy": "False cause (FC)",
-            "Explanation": "Mistaking correlation (President Biden's age) for causation (alleged decline in mental acuity).",
-            "Example": "Asserting that President Biden's advanced age is the cause of his supposed decline in cognitive abilities without concrete evidence linking the two."
+            "type": "Appeal to emotion",
+            "occurred_at": "Earlier this year, a report from Biden's own Department of Justice's special counsel called him an \"elderly man with a poor memory\" at the end of an investigation into his mishandling of classified documents dating back to his Senate tenure, which ultimately saved him from having charges brought against him by Special Counsel Robert Hur.",
+            "explanation": "This statement aims to evoke an emotional response by highlighting Biden's age and memory issues, rather than providing a logical argument."
+        },
+        {
+            "type": "Strawman (Caricature)",
+            "occurred_at": "In May, Biden seemed to have a break with reality when he confused the timing of the COVID pandemic by a factor of years when he said, \"And when I was vice president, things were kind of bad during the pandemic, and, what happened was Barack said to me: 'Go to Detroit \u2014 and help fix it.'\" The pandemic happened years after Biden's time as vice president.",
+            "explanation": "The passage caricatures Biden's verbal mistake as a significant mental lapse, potentially exaggerating its importance."
+        },
+        {
+            "type": "False Cause (FC)",
+            "occurred_at": "Biden has been prone to gaffes going back to when he was vice president, but the frequency and nature of his verbal missteps in recent years appear to be more significant.",
+            "explanation": "This statement implies a causal relationship between Biden's age and his verbal gaffes without sufficient evidence to support this causation."
+        },
+        {
+            "type": "Red Herring (sidetracking)",
+            "occurred_at": "The incident echoed two occasions last year when Senate Minority Leader Mitch McConnell, R-Ky. froze in front of reporters at the Capitol and at an event in Covington, Kentucky.",
+            "explanation": "The passage shifts the focus to Mitch McConnell's similar incidents, sidetracking from the main discussion about President Biden."
         }
     ],
-    "fallacy_count": 0,
+    "fallacy_count": 8,
     "bias": 13.33,
-    "reliability": 23.67
+    "reliability": 23.67,
+    "word_count": 709,
+    "fallacies_per_1000_words": 11.283497884344147
 }

@@ -1,0 +1,20 @@
+{
+    "text": "Flood-damaged Vancouver, southern B.C. railways expected to remain impassable for days\n\nThe railways that link Vancouver and the southern part of British Columbia with the rest of the country are expected to remain flood-damaged and impassable for days.\n\nRail lines owned by Canadian National Railway Co. and Canadian Pacific Railway Ltd. run along the Fraser River, which spilled its banks and cut off roads, bridges and tracks in this week's heavy rain and flooding.\n\nMathieu Gaudreault, a CN spokesperson, said crews are making progress on repairing the railway, but he declined to estimate when the tracks would open.\n\n\"Traffic through southern B.C., northbound and eastbound traffic from Vancouver, as well as inbound traffic to Vancouver from east/north of Kamloops are still affected by the situation,\" Mr. Gaudreault said.\n\nCP's tracks between Spence's Bridge and Falls Creek are blocked as a result of flood damage in several sections, said Salem Woodrow, a CP spokesperson. The washouts have halted freight on CP's busiest rail corridor, which links Vancouver's port with shippers of grain, consumer goods and other products.\n\n\"There is no time estimate for when service will resume,\" Ms. Woodrow said.\n\nB.C. declared a state of emergency on Wednesday after the record rainfall damaged thousands of homes and cut off supply lines. At least one person has died. Some roadways have reopened as the water recedes, but the damage to key transport routes will take days to repair.\n\n\"CP has deployed crews and equipment to the region, and CP engineering teams are working to repair the damaged rail corridor as quickly as possible where safe to do so,\" Ms. Woodrow said.\n\nWork to repair the washed-out tracks is being slowed by three sinkholes that have formed beneath CN's railway.\n\nWalter Spracklin, a Royal Bank of Canada stock analyst, said CN executives told him the railway will not be repaired before this weekend and could be out until next week.\n\nIn a note to clients, Mr. Spracklin said the loss of key routes will reduce cargo volumes and drive up costs and capital expenses for both railways, but will have little - if any - impact on the companies' share prices.\n\nCP and CN's share prices are down by 3 per cent and less than 1 per cent, respectively, this week.\n\nClimate Scientist and Professor Simon Donner explains what the phenomenon 'atmospheric river' is and why the one that hit Western Canada dumped record breaking amounts of rain in the Lower Mainland of British Columbia.",
+    "fallacies": [
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "occurrence": "Climate Scientist and Professor Simon Donner explains what the phenomenon 'atmospheric river' is and why the one that hit Western Canada dumped record breaking amounts of rain in the Lower Mainland of British Columbia.",
+            "explanation": "While Climate Scientist and Professor Simon Donner is likely a credible authority on climate science, the context of his explanation is used to support the narrative of the article without providing direct evidence linking the phenomenon to the specific impacts described. This may be seen as an appeal to authority without presenting the detailed scientific data for evaluation."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "occurrence": "Climate Scientist and Professor Simon Donner explains what the phenomenon 'atmospheric river' is and why the one that hit Western Canada dumped record breaking amounts of rain in the Lower Mainland of British Columbia.",
+            "explanation": "Introducing an explanation of the 'atmospheric river' phenomenon sidetracks from the main issue of flood damage and its impacts on the railway system. It shifts focus from the immediate problem of infrastructure damage and repair timelines to a broader scientific discussion."
+        }
+    ],
+    "fallacy_count": 2499,
+    "bias": 0,
+    "reliability": 49.33,
+    "word_count": 412,
+    "fallacies_per_1000_words": 6065.533980582524
+}

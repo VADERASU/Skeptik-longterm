@@ -13,11 +13,11 @@ with open('combined_results.json', 'r') as file:
 # Extract the relevant fields
 extracted_data = []
 for item in data:
-    if isinstance(item, dict) and 'bias' in item and 'reliability' in item and 'fallacy_count' in item:
+    if isinstance(item, dict) and 'bias' in item and 'reliability' in item and 'fallacies_per_1000_words' in item:
         extracted_data.append({
             'bias': item['bias'],
             'reliability': item['reliability'],
-            'fallacy_count': item['fallacy_count']
+            'fallacies_per_1000_words': item['fallacies_per_1000_words']
         })
 
 # Convert the extracted data into a DataFrame
@@ -26,9 +26,18 @@ df = pd.DataFrame(extracted_data)
 # Drop any rows with missing values
 df.dropna(inplace=True)
 
+# Calculate mean, median, and mode of fallacies per 1000 words
+mean_fallacies = df['fallacies_per_1000_words'].mean()
+median_fallacies = df['fallacies_per_1000_words'].median()
+mode_fallacies = df['fallacies_per_1000_words'].mode()[0]
+
+print(f"Mean of Fallacies per 1000 Words: {mean_fallacies}")
+print(f"Median of Fallacies per 1000 Words: {median_fallacies}")
+print(f"Mode of Fallacies per 1000 Words: {mode_fallacies}")
+
 # Split the data into features and target
 X = df[['bias', 'reliability']]
-y = df['fallacy_count']
+y = df['fallacies_per_1000_words']
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -50,13 +59,13 @@ print(f"R^2 Score: {r2}")
 # Plot the results
 plt.figure(figsize=(10, 6))
 
-# Plot actual vs predicted fallacy count
+# Plot actual vs predicted fallacies per 1000 words
 plt.subplot(1, 2, 1)
 plt.scatter(y_test, y_pred)
 plt.plot([y.min(), y.max()], [y.min(), y.max()], '--', color='red', linewidth=2)
-plt.xlabel('Actual Fallacy Count')
-plt.ylabel('Predicted Fallacy Count')
-plt.title('Actual vs Predicted Fallacy Count')
+plt.xlabel('Actual Fallacies per 1000 Words')
+plt.ylabel('Predicted Fallacies per 1000 Words')
+plt.title('Actual vs Predicted Fallacies per 1000 Words')
 
 # Plot residuals
 plt.subplot(1, 2, 2)

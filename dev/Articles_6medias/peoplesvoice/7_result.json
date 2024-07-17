@@ -1,27 +1,50 @@
 {
-    "logical_fallacies": [
+    "text": "Nearly A Quarter of Americans Say They Know Someone Who Died From The Covid Jab",
+    "fallacies": [
         {
-            "fallacy": "Hasty generalization",
-            "statement": "Nearly a quarter of Americans believe they know someone who died from side effects of the COVID-19 vaccine.",
-            "explanation": "The statement generalizes the belief of a quarter of Americans based on a small sample size without considering the diversity and size of the American population."
+            "fallacy": "Appeal to emotion",
+            "location": "Title",
+            "explanation": "The phrase 'Covid Jab' is emotionally charged and derogatory, aiming to evoke fear and distrust without providing evidence."
         },
         {
-            "fallacy": "Hasty generalization",
-            "statement": "A notable 42% of respondents expressed that they would 'likely' join a major class-action lawsuit against big pharma if one were to file a lawsuit concerning vaccine side effects.",
-            "explanation": "This statement generalizes the willingness of respondents to join a lawsuit without providing a detailed analysis of the reasons behind their willingness or considering the complexity of legal matters."
+            "fallacy": "Cherry Picking",
+            "location": "First paragraph",
+            "explanation": "The text highlights the 24% who know someone who died from the vaccine but does not give context or evidence to support this claim, ignoring the 69% who do not know anyone who died."
         },
         {
-            "fallacy": "False Cause",
-            "statement": "Adults under 40 are less likely to know someone who died from the virus but are more inclined to join a lawsuit against pharmaceutical companies for vaccine side effects.",
-            "explanation": "The statement implies a causal relationship between knowing someone who died from the virus and the inclination to join a lawsuit without providing evidence of a direct connection."
+            "fallacy": "Hasty Generalization",
+            "location": "First paragraph",
+            "explanation": "The conclusion that a significant number of people have died from the vaccine is based on a survey without considering broader scientific evidence or the validity of the respondents' claims."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "location": "Third paragraph",
+            "explanation": "The text implies that because a survey found 24% of respondents believe they know someone who died from the vaccine, this belief is representative of factual data, which is not substantiated."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "location": "Fourth paragraph",
+            "explanation": "The mention of a class-action lawsuit evokes fear and distrust towards vaccine manufacturers without providing evidence for widespread harm."
+        },
+        {
+            "fallacy": "Cherry Picking",
+            "location": "Fifth paragraph",
+            "explanation": "Highlighting the percentage of people willing to join a lawsuit without addressing whether these claims are based on verified information."
+        },
+        {
+            "fallacy": "Improper criteria",
+            "location": "Seventh paragraph",
+            "explanation": "The demographic differences are used to imply causality between race and likelihood of knowing someone who died from vaccine side effects without addressing underlying factors or providing context."
         },
         {
             "fallacy": "Faulty analogy",
-            "statement": "Racial differences were also evident in the survey results. While 43% of white respondents said they know someone who died from the COVID-19 virus, this number rises to 52% for black respondents and 57% for other minorities.",
-            "explanation": "The comparison of racial differences in knowing someone who died from the virus without considering underlying factors or historical context can be seen as a faulty analogy."
+            "location": "Seventh paragraph",
+            "explanation": "Comparing the likelihood of knowing someone who died from the virus to knowing someone who died from vaccine side effects without acknowledging the differences in the nature and scale of these events."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 79,
     "bias": 15,
-    "reliability": 22.67
+    "reliability": 22.67,
+    "word_count": 358,
+    "fallacies_per_1000_words": 220.6703910614525
 }

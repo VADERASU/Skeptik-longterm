@@ -1,22 +1,39 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Strawman (Caricature)",
-            "example": "Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.",
-            "explanation": "Teck rejected Glencore's proposals as non-starters with flawed structure and material risk identified by their board. Glencore is thought to be preparing an improved offer, but the text does not provide evidence that Teck is opposed to a takeover in general or against engaging in negotiations."
+            "fallacy": "Appeal to authority (dubious authority)",
+            "location": "Angus Aitken quote",
+            "text": "\"Whoever has been buying has deep pockets, it appears,\" he said. \"[Those] people are potentially helpful to the Glencore transaction.\"",
+            "explanation": "Angus Aitken's statement relies on the assumption that the individuals buying shares have deep pockets and would be helpful to Glencore's transaction without substantiating why their financial status or influence is relevant to the success of the transaction."
         },
         {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "explanation": "The article states that hedge funds are buying into Teck, suggesting a bidding war may occur. However, it is a hasty generalization to imply that all hedge funds are buying in with the intent to influence a takeover or merger attempt. The motivations of individual investors may vary."
+            "fallacy": "Bandwagon",
+            "location": "Hedge funds section",
+            "text": "The heavy volumes in recent days suggest that hedge funds are piling in and consider Teck to be \"in play.\"",
+            "explanation": "The argument implies that because hedge funds are buying shares, the investment must be wise or that Teck is a good target for takeover, without providing specific reasons or evidence for this conclusion."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "explanation": "The text mentions heavy trading volumes and hedge funds buying into Teck, implying that these actions are directly related to Glencore's bid. However, the increase in trading volumes and hedge fund activity does not necessarily prove causation or a direct link to Glencore's bid. Other market factors could also be at play."
+            "fallacy": "Appeal to ignorance",
+            "location": "Rival bids section",
+            "text": "It is not known yet if Glencore would face rival bids for Teck. None of the Glencore's global competitors - Vale SA, BHP Group Ltd., Rio Tinto Group and Anglo American PLC - has so far expressed interest in owning Teck, at least publicly.",
+            "explanation": "The text suggests that because no other companies have publicly expressed interest, there might not be any rival bids, which is an appeal to ignorance as it assumes lack of evidence is evidence of absence."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "location": "Teck's B shares section",
+            "text": "Teck investors are clearly expecting a higher bid from Glencore and perhaps a bidding war.",
+            "explanation": "The conclusion that investors are expecting a higher bid and a possible bidding war is drawn from the increased share price and trading volumes, which may not necessarily indicate expectations of a higher bid or a bidding war without additional supporting evidence."
+        },
+        {
+            "fallacy": "Cherry Picking",
+            "location": "Teck's B shares performance",
+            "text": "On Thursday, Teck's B shares closed up 1.2 per cent on the Toronto Stock Exchange, having gained 36 per cent over the past year and giving the company a market value of $32.3-billion.",
+            "explanation": "The text highlights the positive performance of Teck's B shares, ignoring any potential negative aspects or broader context that could provide a more balanced view of the company's overall performance."
         }
     ],
-    "fallacy_count": 3,
+    "fallacy_count": 5,
     "bias": 0,
-    "reliability": 41
+    "reliability": 41,
+    "word_count": 834,
+    "fallacies_per_1000_words": 5.995203836930456
 }

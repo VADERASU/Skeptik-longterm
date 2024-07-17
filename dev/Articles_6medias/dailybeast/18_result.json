@@ -1,22 +1,45 @@
 {
-    "logical_fallacies": [
+    "text": "Donald Trump's Cash Crunch Just Got Much, Much Worse",
+    "fallacies": [
+        {
+            "fallacy": "Appeal to emotion",
+            "location": "Title",
+            "explanation": "The title uses dramatic language ('Much, Much Worse') to evoke an emotional response rather than providing a factual description."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "location": "Paragraph 2",
+            "explanation": "The focus shifts from Trump's legal and financial troubles to his primary challenger Nikki Haley's fundraising success."
+        },
+        {
+            "fallacy": "Strawman (Caricature)",
+            "location": "Paragraph 8",
+            "explanation": "The text implies that Trump\u2019s financial strain is solely due to his legal issues and campaign expenses, without considering other potential factors."
+        },
+        {
+            "fallacy": "Cherry Picking",
+            "location": "Paragraphs 3 and 4",
+            "explanation": "The text highlights the low fundraising numbers for Trump's PACs in January without discussing overall trends or previous months' performance."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "location": "Paragraph 13",
+            "explanation": "The description of Trump's 'self-interested maneuvering' and its impact on the GOP is framed to evoke a negative emotional response."
+        },
         {
             "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "explanation": "In the text, there is a hasty generalization when it implies that all of Trump's donors' funds are being consumed by legal troubles, based on the specific incidents mentioned in the article. This generalization overlooks other potential sources of fundraising and financial matters."
+            "location": "Paragraph 7",
+            "explanation": "Concluding that 'MAGA PAC might very well be in danger of bottoming out' based on a single financial transfer without more comprehensive financial analysis."
         },
         {
-            "fallacy": "Post hoc (PH)",
-            "example": "Assuming that because one event followed another, the first caused the second.",
-            "explanation": "The text suggests a post hoc fallacy by implying that Trump's legal troubles are directly causing his financial strain without considering other factors that could contribute to his cash crunch, such as mismanagement or other expenses."
-        },
-        {
-            "fallacy": "False dilemma/dichotomy",
-            "example": "Presenting two options as the only possibilities.",
-            "explanation": "There is a false dilemma presented when the text portrays Trump's financial situation as solely dependent on legal troubles and implies that his donors' funds are primarily directed towards legal bills, neglecting the possibility of other financial strategies or fundraising efforts."
+            "fallacy": "Questionable conclusion",
+            "location": "Paragraph 12",
+            "explanation": "The claim that Trump's choice to pass his legal costs on to his donors is 'threatening to derail the GOP's national fundraising efforts' is speculative and not substantiated with concrete evidence."
         }
     ],
-    "fallacy_count": 3,
+    "fallacy_count": 52,
     "bias": -5,
-    "reliability": 44.33
+    "reliability": 44.33,
+    "word_count": 881,
+    "fallacies_per_1000_words": 59.02383654937571
 }

@@ -1,27 +1,34 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "False dilemma/dichotomy",
-            "example": "Claiming you must either support or oppose a policy without considering middle ground.",
-            "text": "The White House on Thursday said it was concerned by the ceasefire violations, adding that the situation could worsen at any moment and urging U.S. citizens to leave within 24 to 48 hours."
+            "fallacy": "Appeal to emotion",
+            "text": "Even as we sit here, almost everywhere you can hear gunshots. We are not safe here.",
+            "explanation": "This statement uses the fear and emotions of being unsafe to highlight the critical situation, potentially avoiding a deeper analysis of the causes and solutions to the conflict."
         },
         {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "text": "The Sudan Doctors' Union said 60 of 86 hospitals in conflict zones had stopped operating."
+            "fallacy": "Appeal to emotion",
+            "text": "As some female students could be heard crying in the background.",
+            "explanation": "This statement evokes the emotional distress and suffering of students to underscore the severity of the situation, without addressing the broader context or potential solutions."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "text": "The conflict has limited food distribution in the vast nation, Africa's third largest, where a third of the 46 million people were already reliant on humanitarian aid."
+            "fallacy": "Cherry Picking",
+            "text": "The army claims it controls most of Sudan's regions and is defeating a large RSF deployment in Khartoum where some residential areas have turned into war zones.",
+            "explanation": "The army's claim of controlling most regions and defeating RSF may be highlighting favorable outcomes while not addressing ongoing violence and instability, thus ignoring contradictory evidence of continuous conflict."
         },
         {
             "fallacy": "Red Herring (sidetracking)",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "text": "Frictions had been building for months between Sudan's army and the RSF, whose 2021 coup came two years after a popular uprising toppled long-ruling Islamist autocrat Omar al-Bashir."
+            "text": "The White House on Thursday said it was concerned by the ceasefire violations, adding that the situation could worsen at any moment and urging U.S. citizens to leave within 24 to 48 hours.",
+            "explanation": "This shifts the focus from the core issue of the conflict and ceasefire to the evacuation of U.S. citizens, sidetracking the discussion from the main problem."
+        },
+        {
+            "fallacy": "Begging the question",
+            "text": "Frictions had been building for months between Sudan's army and the RSF, whose 2021 coup came two years after a popular uprising toppled long-ruling Islamist autocrat Omar al-Bashir.",
+            "explanation": "The statement assumes that the frictions between the army and RSF are solely due to the 2021 coup without providing evidence or exploring other potential causes for these frictions."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 5,
     "bias": 0,
-    "reliability": 44
+    "reliability": 44,
+    "word_count": 759,
+    "fallacies_per_1000_words": 6.587615283267457
 }

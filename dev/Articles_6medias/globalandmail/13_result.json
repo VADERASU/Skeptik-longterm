@@ -1,0 +1,34 @@
+{
+    "fallacies": [
+        {
+            "type": "Strawman",
+            "location": "Paragraph 4",
+            "explanation": "The TDSB's rejection of the book is portrayed as an attack on the role of defence lawyers in general, rather than a specific concern about Ms. Henein's involvement in a high-profile case. This distorts the TDSB's likely more nuanced position into a more easily attackable stance."
+        },
+        {
+            "type": "Red Herring",
+            "location": "Paragraph 5",
+            "explanation": "The discussion shifts from the specific issue of the book club and Ms. Henein's representation of Ghomeshi to a general defense of the importance of defence lawyers. This diverts from the specific controversy to a broader topic."
+        },
+        {
+            "type": "Appeal to Emotion",
+            "location": "Paragraph 7",
+            "explanation": "The argument uses emotional language about the potential negative impact on women and girls considering a career in law to bolster the argument, rather than focusing purely on the rational aspects of the TDSB's decision."
+        },
+        {
+            "type": "Cherry Picking",
+            "location": "Paragraph 9",
+            "explanation": "The argument highlights the importance and challenges of defence lawyers while ignoring any potential valid concerns the TDSB might have had about the appropriateness of the book for students."
+        },
+        {
+            "type": "False Dilemma",
+            "location": "Paragraph 10",
+            "explanation": "The argument suggests that the TDSB's decision is either to support the role of defence lawyers or to denigrate them, without considering that there might be a middle ground or other reasons for their decision."
+        }
+    ],
+    "fallacy_count": 5,
+    "bias": 1,
+    "reliability": 33.67,
+    "word_count": 840,
+    "fallacies_per_1000_words": 5.952380952380952
+}

@@ -1,31 +1,35 @@
 {
-    "logical_fallacies": [
+    "text": "Why Teck Resources' proposed split never made much sense and shareholders shot it down",
+    "fallacies": [
         {
-            "fallacy": "False Dilemma/Dichotomy",
-            "example": "Presenting two options as the only possibilities.",
-            "location": "The article presents the split of Teck Resources Ltd. as the only option, failing to consider other alternatives such as selling off large stakes in the coal business or a full-blown sale of the division.",
-            "explanation": "The article frames the split as the only solution, ignoring other viable alternatives available to Teck Resources Ltd."
+            "fallacy": "Appeal to emotion",
+            "location": "Chief executive Jonathan Price used grandiose words, pitching it as the creation of 'two great, sustainable companies, set up for success.'",
+            "explanation": "The use of 'grandiose words' appeals to emotions rather than providing substantive evidence."
         },
         {
-            "fallacy": "Hasty Generalization",
-            "example": "Drawing a conclusion from a biased or small sample.",
-            "location": "The article generalizes that investors were more ESG conscious and is the reason for the low share prices of resource companies.",
-            "explanation": "The article jumps to a conclusion that investors were primarily ESG conscious without providing substantial evidence or considering other factors that could have influenced share prices."
+            "fallacy": "Vagueness",
+            "location": "Mr. Price explained on a conference call, shareholders are all for the coal divestment, just not the one Teck took years to craft with the expensive assistance of seven investment banks.",
+            "explanation": "The phrase 'just not the one Teck took years to craft' is vague and does not specify why shareholders rejected the proposal."
         },
         {
-            "fallacy": "Red Herring (Sidetracking)",
-            "example": "Sidetracking by raising an irrelevant issue.",
-            "location": "The article mentions the historical context of Teck's share prices before the split proposal.",
-            "explanation": "The historical context of share prices is not directly relevant to the logical fallacies related to the split proposal discussed in the article."
+            "fallacy": "Cherry Picking",
+            "location": "Before the pandemic, the share prices of so many resource companies were in the dumps because investors were more ESG conscious. At the start of 2020, Teck's shares were trading around $20 a share, roughly one-third of their current price.",
+            "explanation": "This highlights favorable data (current share price) while ignoring other potential negative factors that may have influenced share prices."
         },
         {
-            "fallacy": "Divide & Conquer",
-            "example": "Drawing irrelevant distinctions or obscuring meaningful ones.",
-            "location": "The article creates distinctions between Teck's coal division and other strategic alternatives without evaluating the meaningfulness of these distinctions.",
-            "explanation": "The article focuses on distinctions between strategic alternatives without clarifying the significance of these distinctions in evaluating the proposed split."
+            "fallacy": "Improper criteria",
+            "location": "Management also said it shot down the other options because of concerns about 'viability, value, execution risk and failure to meet Teck's strategic goals,' according to filings.",
+            "explanation": "The criteria of 'viability, value, execution risk and failure to meet Teck's strategic goals' are not specified, making it unclear how these criteria were applied."
+        },
+        {
+            "fallacy": "Strawman (Caricature)",
+            "location": "The only problem: It wasn't true. This wasn't really a spinout. It was more like shuffling deck chairs, and shareholders saw through it.",
+            "explanation": "This misrepresents Teck's proposal by simplifying it to 'shuffling deck chairs,' which is a weakened version of the actual proposal."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 86,
     "bias": 0,
-    "reliability": 40.67
+    "reliability": 40.67,
+    "word_count": 776,
+    "fallacies_per_1000_words": 110.82474226804123
 }

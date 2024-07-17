@@ -1,27 +1,49 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
         {
-            "fallacy": "Ad hominem",
-            "example": "Dismissing someone's opinion on economic policy because they belong to a different political party.",
-            "location": "Criticism of Biden's mental acuity based on his age and skepticism from voters and Republican lawmakers."
+            "type": "Ad hominem",
+            "location": "Title and throughout the text",
+            "explanation": "The article repeatedly focuses on personal attacks on President Biden's mental acuity rather than addressing his policies or actions substantively."
         },
         {
-            "fallacy": "Red Herring (Sidetracking)",
-            "example": "Shifting the debate on climate change to economic costs without addressing environmental impacts.",
-            "location": "Focus on Biden's age and skepticism instead of addressing his policy decisions or actions."
+            "type": "Cherry Picking",
+            "location": "Description of videos posted by RNC",
+            "explanation": "The RNC videos highlight specific moments that portray President Biden negatively, ignoring any positive or neutral moments from the event."
         },
         {
-            "fallacy": "Hasty Generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "location": "Generalizing Biden's mental acuity based on limited interactions and biased opinions."
+            "type": "Appeal to authority (dubious authority)",
+            "location": "Mention of RNC research division",
+            "explanation": "The RNC research division is presented as an authority on Biden's mental state, despite being a partisan group with a vested interest in discrediting him."
         },
         {
-            "fallacy": "Appeal to Emotion",
-            "example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
-            "location": "Using emotional language and anecdotes to suggest Biden is unfit for office."
+            "type": "Who are you to talk?",
+            "location": "Andrew Bates' response",
+            "explanation": "Bates' response focuses on criticizing the RNC's attacks on Biden for trivial matters like petting a dog or liking ice cream, rather than addressing the substantive criticisms about his mental acuity."
+        },
+        {
+            "type": "Red Herring (sidetracking)",
+            "location": "Andrew Bates' response",
+            "explanation": "Bates sidetracks the issue by discussing the RNC's attacks on trivial matters, diverting attention from the main issue of Biden's cognitive abilities."
+        },
+        {
+            "type": "Appeal to emotion",
+            "location": "Description of Biden's interactions with veterans",
+            "explanation": "The article evokes emotional responses by depicting Biden in situations that are meant to make him appear confused or out of touch, aiming to undermine his credibility without substantive evidence."
+        },
+        {
+            "type": "Hasty generalization",
+            "location": "General statement about skepticism from voters and lawmakers",
+            "explanation": "The article generalizes skepticism about Biden's mental acuity based on selective interviews and anecdotal evidence without comprehensive data."
+        },
+        {
+            "type": "Questionable conclusion",
+            "location": "Conclusion about Biden's ability to do his job",
+            "explanation": "The article concludes that Biden's age and mental acuity are significant issues based on selective and potentially biased sources, without considering a broader range of evidence."
         }
     ],
-    "fallacy_count": 4,
+    "fallacy_count": 8,
     "bias": 12,
-    "reliability": 25.67
+    "reliability": 25.67,
+    "word_count": 577,
+    "fallacies_per_1000_words": 13.86481802426343
 }

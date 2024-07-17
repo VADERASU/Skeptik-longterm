@@ -1,27 +1,54 @@
 {
-    "Logical Fallacies": [
+    "fallacies": [
         {
-            "Fallacy": "Personal attack",
-            "Example": "A politician discredits an opponent by criticizing their character instead of addressing the policy.",
-            "Explanation": "Trump criticizes immigrants by associating them with negative traits like being from jails, prisons, mental institutions, and terrorists, rather than discussing the actual issues related to immigration."
+            "fallacy": "Personal attack",
+            "occurrence": "Monolingual former President Donald Trump lashed out Thursday at immigrants to the United States who, as he put it, 'don't speak languages.'",
+            "explanation": "The term 'monolingual' is used to attack Trump's personal characteristic rather than addressing the substance of his argument."
         },
         {
-            "Fallacy": "Appeal to emotion",
-            "Example": "Arguing against war by focusing on emotional stories of soldiers without addressing political implications.",
-            "Explanation": "Trump's statement evokes fear and negative emotions by portraying immigrants as bringing 'tremendous problems, including medical problems,' without providing factual evidence to support his claims."
+            "fallacy": "Red Herring (sidetracking)",
+            "occurrence": "'They're coming from jails, and they're coming from prisons, and they're coming from mental institutions, and they're coming from insane asylums, and they're terrorists. They're being let into our country, and it's horrible,' said Trump.",
+            "explanation": "Trump shifts the focus from the issue of immigration management to an emotional and fear-inducing depiction of where immigrants are supposedly coming from, without providing evidence."
         },
         {
-            "Fallacy": "Hasty generalization",
-            "Example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "Explanation": "Trump generalizes immigrants who 'don't speak languages' as a homogenous group with negative attributes, such as being from jails, prisons, mental institutions, and terrorists, without considering the diversity and individual backgrounds of immigrants."
+            "fallacy": "Appeal to emotion",
+            "occurrence": "'They're coming from jails, and they're coming from prisons, and they're coming from mental institutions, and they're coming from insane asylums, and they're terrorists. They're being let into our country, and it's horrible,'",
+            "explanation": "Trump's statement aims to evoke fear and anxiety about immigrants by highlighting negative and extreme sources without addressing the broader context or evidence."
         },
         {
-            "Fallacy": "False Cause (FC)",
-            "Example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "Explanation": "Trump implies a causal relationship between immigrants not speaking languages and bringing 'tremendous problems, including medical problems,' without providing any evidence or logical connection between the two."
+            "fallacy": "Cherry Picking",
+            "occurrence": "'They're coming from jails, and they're coming from prisons, and they're coming from mental institutions, and they're coming from insane asylums, and they're terrorists.'",
+            "explanation": "Trump selectively highlights extreme and negative examples of immigrants without acknowledging the broader spectrum of immigrant backgrounds."
+        },
+        {
+            "fallacy": "Appeal to ignorance",
+            "occurrence": "'Nobody can explain to me how allowing millions of people from places unknown, from countries unknown, who don't speak languages\u2014we have languages coming into our country\u2014we have nobody that even speaks those languages. They're truly foreign languages. Nobody speaks them,'",
+            "explanation": "Trump suggests that because nobody has provided a satisfactory explanation to him, his negative view on immigration is justified."
+        },
+        {
+            "fallacy": "Evading the Burden of Proof (EBP)",
+            "occurrence": "'Nobody can explain to me how allowing millions of people from places unknown, from countries unknown, who don't speak languages\u2014we have languages coming into our country\u2014we have nobody that even speaks those languages. They're truly foreign languages. Nobody speaks them,'",
+            "explanation": "Trump makes broad claims about immigrants and languages without providing evidence or data to support his assertions."
+        },
+        {
+            "fallacy": "Questionable conclusion",
+            "occurrence": "'And they're pouring into our country, and they're bringing with them tremendous problems, including medical problems, as you know.'",
+            "explanation": "Trump concludes that immigrants are causing 'tremendous problems, including medical problems' without presenting specific evidence or data to substantiate this claim."
+        },
+        {
+            "fallacy": "Begging the question",
+            "occurrence": "'They're coming from jails, and they're coming from prisons, and they're coming from mental institutions, and they're coming from insane asylums, and they're terrorists. They're being let into our country, and it's horrible,'",
+            "explanation": "Trump assumes that immigrants are primarily from prisons, mental institutions, etc., to argue they are harmful, without providing evidence for the assumption."
+        },
+        {
+            "fallacy": "Appeal to authority (dubious authority)",
+            "occurrence": "'This, I've looked into this; it seems to be just conjured out of thin air. It's nonsense.'",
+            "explanation": "Daniel Dale dismisses Trump's claims by asserting his own investigation without providing detailed evidence or citing credible sources."
         }
     ],
-    "fallacy_count": 0,
+    "fallacy_count": 9,
     "bias": -10,
-    "reliability": 35
+    "reliability": 35,
+    "word_count": 325,
+    "fallacies_per_1000_words": 27.692307692307693
 }

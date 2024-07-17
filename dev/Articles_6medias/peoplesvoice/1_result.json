@@ -1,22 +1,39 @@
 {
-    "logical_fallacies": [
+    "fallacies": [
+        {
+            "fallacy": "Strawman (Caricature)",
+            "location": "NBC News has admitted that Barack Obama has been secretly operating as America's 'shadow President' for the last three years, illegally serving a third term in the White House.",
+            "explanation": "This statement misrepresents the actual situation by exaggerating Obama's involvement to make it seem as if he is illegally serving a third term, which is not supported by the evidence provided."
+        },
+        {
+            "fallacy": "Appeal to emotion",
+            "location": "heightening concerns the ex-President is actually the secret commander-in-chief with his former VP at the helm",
+            "explanation": "The language used aims to provoke fear and suspicion without providing substantial evidence to support the claim."
+        },
+        {
+            "fallacy": "Cherry Picking",
+            "location": "\"WASHINGTON \u2014 Former President Barack Obama quietly advised the White House over the past five months on its strategy to address artificial intelligence, engaging behind the scenes with tech companies and holding Zoom meetings with top West Wing aides at President Joe Biden's request, according to aides to both men.\"",
+            "explanation": "The text selectively highlights Obama's involvement in AI strategy without mentioning the broader context or other advisors' contributions."
+        },
+        {
+            "fallacy": "Red Herring (sidetracking)",
+            "location": "Recall that in 2020, Obama admitted he'd \"be fine\" with feeding lines from his basement to a frontman or stand-in through an earpiece.",
+            "explanation": "This statement diverts from the main issue of Obama's current involvement in policy advice by bringing up an unrelated and hypothetical scenario from 2020."
+        },
         {
             "fallacy": "Appeal to authority (dubious authority)",
-            "example": "A celebrity endorses a drug for heart health without medical expertise.",
-            "explanation": "The article presents Infowars.com as the source of the report, which is known for spreading conspiracy theories and misinformation. Infowars is considered a dubious authority, and relying on it for factual claims can be fallacious."
+            "location": "Infowars.com reports: Social media swiftly criticized the news, with many asserting it proved what has long been claimed about Biden's presidency - that it essentially serves as Obama's third term, a cunning circumvention of the US Constitution.",
+            "explanation": "The argument relies on claims made by social media users and Infowars, which are not qualified authorities on the matter."
         },
         {
-            "fallacy": "False Cause (FC)",
-            "example": "Asserting ice cream consumption causes drowning because both increase in summer.",
-            "explanation": "The article implies a causal link between Obama's advisory role on AI development and the claim that he is secretly operating as a 'shadow President,' serving a third term. The increase in ice cream consumption in summer does not cause drowning, just as Obama advising on AI development does not automatically make him the 'shadow President.'"
-        },
-        {
-            "fallacy": "Hasty generalization",
-            "example": "Concluding all dogs are aggressive based on encountering a few aggressive dogs.",
-            "explanation": "The article jumps to the conclusion that Biden's presidency essentially serves as Obama's third term based on the reported advisory role Obama had in shaping AI policy. This conclusion is a hasty generalization as it oversimplifies the situation by drawing a broad conclusion from a specific, limited set of circumstances."
+            "fallacy": "Slippery slope",
+            "location": "a cunning circumvention of the US Constitution",
+            "explanation": "The statement implies that Obama's advice to Biden is a step towards undermining the Constitution, without providing evidence that this will lead to such an extreme outcome."
         }
     ],
-    "fallacy_count": 3,
+    "fallacy_count": 6,
     "bias": 30,
-    "reliability": 6
+    "reliability": 6,
+    "word_count": 241,
+    "fallacies_per_1000_words": 24.896265560165972
 }
