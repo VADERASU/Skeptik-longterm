@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lj0EKAr8DUL23Bey1KqWMGqDHgpI",
+  "id": "chatcmpl-9lkAMF6pQBin8xyueQadFMB0VR9LR",
   "object": "chat.completion",
-  "created": 1721161434,
-  "model": "gpt-3.5-turbo-0125",
+  "created": 1721165906,
+  "model": "gpt-4o-2024-05-13",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Red Herring (sidetracking)\",\n            \"example\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\",\n            \"explanation\": \"The article shifts focus from Shania Twain's on-stage blunder to her pre-show routine and exercise regimen, diverting attention from the main topic.\"\n        },\n        {\n            \"fallacy\": \"Cherry Picking\",\n            \"example\": \"Highlighting positive testimonials about a product while ignoring negative reviews.\",\n            \"explanation\": \"The comments highlighted in the article only focus on praising Shania Twain's live singing performance, ignoring any potential criticism or negative aspects.\"\n        },\n        {\n            \"fallacy\": \"Appeal to authority (dubious authority)\",\n            \"example\": \"A fan in the audience captured the moment on video.\",\n            \"explanation\": \"Using a fan's video as proof of Shania Twain's live singing performance could be considered a dubious authority, as the fan may not have musical expertise or credibility in evaluating professional performances.\"\n        }\n    ]\n}\n```"
+        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"text\": \"People in the comments were impressed, as the moment was proof the 'You're Still The One' singer wasn't lip-syncing.\",\n      \"explanation\": \"The comments rely on the emotional reaction and admiration of fans to support the claim that Shania Twain is singing live, rather than providing any technical evidence or expert verification.\"\n    },\n    {\n      \"fallacy\": \"Bandwagon\",\n      \"text\": \"'Proof she isn't lip-syncing,' another added.\",\n      \"explanation\": \"This comment implies that because multiple fans believe Shania Twain is not lip-syncing, it must be true, appealing to the popularity of the opinion rather than factual evidence.\"\n    },\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"text\": \"People in the comments were impressed, as the moment was proof the 'You're Still The One' singer wasn't lip-syncing.\",\n      \"explanation\": \"The conclusion that Shania Twain isn't lip-syncing is drawn from a single incident where she made a mistake on stage, which is an insufficient sample to generalize her overall performance habits.\"\n    }\n  ]\n}\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1371,
-    "completion_tokens": 236,
-    "total_tokens": 1607
+    "prompt_tokens": 1351,
+    "completion_tokens": 254,
+    "total_tokens": 1605
   },
-  "system_fingerprint": null
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

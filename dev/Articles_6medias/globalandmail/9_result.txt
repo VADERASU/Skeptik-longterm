@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56320, Requested 4096. Please try again in 416ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lk3hlJ94PcnE18LkWtb6SXkGphGv",
+  "object": "chat.completion",
+  "created": 1721165493,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"type\": \"Appeal to Emotion\",\n      \"occurrence\": \"Mr. Yousif said he's disappointed by the treatment his family - and three other Canadian families, also in Cyprus - are receiving from Ottawa.\",\n      \"explanation\": \"This statement evokes feelings of disappointment and frustration without addressing the practical or logistical reasons for the Canadian government's actions.\"\n    },\n    {\n      \"type\": \"Cherry Picking\",\n      \"occurrence\": \"The British did not charge the family for evacuating them from Sudan. 'The British gave us water and food - they took care of us.'\",\n      \"explanation\": \"This statement highlights the positive actions of the British while ignoring any potential reasons or constraints the Canadian government might have for charging evacuees.\"\n    },\n    {\n      \"type\": \"Red Herring\",\n      \"occurrence\": \"Ottawa is also cautioning it will only evacuate Canadian citizens, permanent residents and their immediate family from Sudan.\",\n      \"explanation\": \"This statement shifts focus from the issue of evacuation logistics to the criteria for evacuation, sidetracking the main issue of evacuation timing and feasibility.\"\n    },\n    {\n      \"type\": \"Appeal to Ignorance\",\n      \"occurrence\": \"Mr. Yousif said he's disappointed by the treatment his family... 'I was expecting the Canadian government to do more for me.'\",\n      \"explanation\": \"This implies that the Canadian government should be able to do more without providing evidence or understanding of the constraints and challenges faced.\"\n    },\n    {\n      \"type\": \"Hasty Generalization\",\n      \"occurrence\": \"Mr. Yousif said he's disappointed by the treatment his family... 'I was expecting the Canadian government to do more for me.'\",\n      \"explanation\": \"Generalizing the Canadian government's overall efforts based on his personal experience without considering the broader context or efforts made for other evacuees.\"\n    },\n    {\n      \"type\": \"Appeal to Authority (Dubious Authority)\",\n      \"occurrence\": \"The federal government says it will soon attempt evacuation flights out of Sudan, but can't say exactly when it might get a plane to the beleaguered East African country, citing the complications of landing during an escalating conflict.\",\n      \"explanation\": \"This implies trust in the federal government\u2019s statement without providing detailed evidence or justifications for the delays, relying on the authority of the government.\"\n    },\n    {\n      \"type\": \"False Dilemma/Dichotomy\",\n      \"occurrence\": \"Ms. Sunday of Global Affairs also cautioned that Canadians in Sudan should be prepared to move quickly if they want to leave. 'There are no guarantees of any future evacuation plans past this week.'\",\n      \"explanation\": \"This presents the situation as if Canadians must either leave immediately or face the possibility of being stranded, without considering other potential plans or solutions that could arise.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2107,
+    "completion_tokens": 608,
+    "total_tokens": 2715
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 57572, Requested 4096. Please try again in 1.668s. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lk1srE3tQhizkh0msPWw4JprxT3R",
+  "object": "chat.completion",
+  "created": 1721165380,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"type\": \"Personal attack\",\n      \"occurrence\": \"Conservative MP Michelle Remple Garner compared the minister's explanation to the excuse that the 'dog ate my homework.'\",\n      \"explanation\": \"Remple Garner criticizes Sajjan's explanation by comparing it to a clich\u00e9d, often ridiculed excuse rather than addressing the specifics of Sajjan's claim.\"\n    },\n    {\n      \"type\": \"Appeal to emotion\",\n      \"occurrence\": \"The response 'I didn't check my email' was preposterous, she said after the meeting, criticizing what she described as a lack of oversight and fairness in the process.\",\n      \"explanation\": \"Remple Garner's use of the word 'preposterous' and her overall tone aim to evoke a sense of outrage rather than providing a logical argument against Sajjan's explanation.\"\n    },\n    {\n      \"type\": \"Red Herring (sidetracking)\",\n      \"occurrence\": \"Sajjan told the committee he was so busy at the time he didn't have time to check his inbox. 'During the time of the evacuation, I really didn't have the time to be able to check my emails,' Sajjan told reporters after his committee appearance.\",\n      \"explanation\": \"Sajjan's explanation about being busy and not checking emails sidetracks the issue of whether he was aware of the unauthorized travel documents.\"\n    },\n    {\n      \"type\": \"Questionable conclusion\",\n      \"occurrence\": \"NDP immigration critic Jenny Kwan said that at the end of the day, the minister is responsible for the actions of his chief of staff.\",\n      \"explanation\": \"Kwan concludes that Sajjan is responsible for Young's actions without considering whether Sajjan had the ability to oversee all actions during the chaotic period.\"\n    },\n    {\n      \"type\": \"Improper criteria\",\n      \"occurrence\": \"'I am dismayed with the minister's comments and a little bit in shock at the level of, frankly, incompetence, if that's how he operated,' Kwan said.\",\n      \"explanation\": \"Kwan's statement implies that Sajjan's explanation automatically indicates incompetence, ignoring other possible factors such as the chaotic situation in Afghanistan.\"\n    },\n    {\n      \"type\": \"Appeal to ignorance\",\n      \"occurrence\": \"This testimony is going to be critical in terms of understanding exactly what happened, if there was authorization, why he undertook this and if he actually did it to begin with,' Remple Garner said after the meeting.\",\n      \"explanation\": \"Remple Garner implies that because there is no clear evidence yet, it is critical to assume wrongdoing until proven otherwise.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1806,
+    "completion_tokens": 565,
+    "total_tokens": 2371
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 57149, Requested 4096. Please try again in 1.245s. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lk2hROmDr7pL5pHhgO0sPeHNngas",
+  "object": "chat.completion",
+  "created": 1721165431,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"text\": \"StateView issued a fuller statement Tuesday addressing 'rumours and speculation around the solvency of the organization,' stressing it was not declaring bankruptcy.\",\n      \"explanation\": \"StateView's statement aims to evoke feelings of reassurance and stability among stakeholders and the public by addressing 'rumours and speculation' and stressing that they are not declaring bankruptcy, rather than focusing on the factual details of their financial situation.\"\n    },\n    {\n      \"fallacy\": \"Obfuscation/distraction\",\n      \"text\": \"StateView also said Mr. Ciccone, the CFO, has been relieved of his position in the company.\",\n      \"explanation\": \"Mentioning the dismissal of Mr. Ciccone may serve as a distraction from the more pressing issue of the alleged cheque-kiting scheme and the financial repercussions, diverting attention to a personnel change.\"\n    },\n    {\n      \"fallacy\": \"Cherry Picking\",\n      \"text\": \"StateView's website says it has completed construction on nine projects since its founding, and the Home Construction Regulatory Authority's registry shows it has 279 completed units, including 28 handed over in 2023.\",\n      \"explanation\": \"StateView highlights their completed projects and regulatory compliance to paint a positive image, while potentially downplaying or ignoring the ongoing financial issues and allegations of fraud.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"text\": \"StateView has faced significant disruptions in its treasury functions at its current financial institution, which has unfortunately resulted in StateView's liquidity being constrained.\",\n      \"explanation\": \"This statement sidetracks from the allegations of fraudulent activities by focusing on 'disruptions in its treasury functions' and liquidity issues, rather than directly addressing the core allegations of cheque-kiting and fraud.\"\n    },\n    {\n      \"fallacy\": \"Evading the Burden of Proof (EBP)\",\n      \"text\": \"StateView intends to complete all projects currently under construction and is actively working with our partners to move forward with as many projects as possible while also recognizing the position of our lenders.\",\n      \"explanation\": \"StateView claims they will complete all projects and are working with partners without providing concrete evidence or a detailed plan on how they will overcome the financial and legal challenges they are currently facing.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1879,
+    "completion_tokens": 501,
+    "total_tokens": 2380
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

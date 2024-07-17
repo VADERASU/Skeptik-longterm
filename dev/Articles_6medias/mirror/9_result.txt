@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 55905, Requested 4096. Please try again in 1ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lkFdRCJGgC4Z7oDWObS23mXCdZTZ",
+  "object": "chat.completion",
+  "created": 1721166233,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to tradition\",\n      \"location\": \"The Coronation of King Charles will be the first time in 70 years that the UK or even the world has seen such a historic spectacle.\",\n      \"explanation\": \"The statement implies the significance of the event based on its historical precedent rather than providing current relevance or necessity.\"\n    },\n    {\n      \"fallacy\": \"Appeal to tradition\",\n      \"location\": \"It is the first time in recent history that an already existing crown will be used during the Coronation of a Queen Consort instead of a new one being made.\",\n      \"explanation\": \"The mention of using an old crown instead of making a new one appeals to tradition without addressing whether this is the best or most practical choice.\"\n    },\n    {\n      \"fallacy\": \"Appeal to authority\",\n      \"location\": \"Dr Tessa Dunlop previously told the Mirror: 'History suggests working royals will stand out.'\",\n      \"explanation\": \"The argument relies on Dr. Tessa Dunlop's authority and historical context without providing concrete evidence or reasoning for why this should be the case.\"\n    },\n    {\n      \"fallacy\": \"False dilemma\",\n      \"location\": \"Like it or not this state occasion is all about royal hierarchy.\",\n      \"explanation\": \"The statement presents a false dilemma by suggesting that the event can only be about royal hierarchy, ignoring any other possible interpretations or purposes.\"\n    },\n    {\n      \"fallacy\": \"Appeal to tradition\",\n      \"location\": \"If you look at the footage of the 1953 Coronation, who was very prominent, albeit briefly? Prince Charles. He was four.\",\n      \"explanation\": \"Invoking the precedent of Prince Charles's prominence at the 1953 Coronation as a reason for inviting Archie relies on tradition rather than current circumstances or reasoning.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2749,
+    "completion_tokens": 403,
+    "total_tokens": 3152
+  },
+  "system_fingerprint": "fp_298125635f"
 }

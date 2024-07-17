@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 57281, Requested 4096. Please try again in 1.377s. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lkDvWYMfmn1dKYHoU5jBE9P7XfN5",
+  "object": "chat.completion",
+  "created": 1721166127,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"type\": \"Appeal to emotion\",\n      \"location\": \"Paragraph 1\",\n      \"explanation\": \"The text emphasizes McIlroy's 'heartbreaker' loss and 'crushing defeat,' appealing to the reader's emotions rather than focusing on factual reporting.\"\n    },\n    {\n      \"type\": \"Cherry Picking\",\n      \"location\": \"Paragraph 10\",\n      \"explanation\": \"The source attributes McIlroy's decision to call off the divorce to financial motives, ignoring McIlroy's own statements about family values and resolving differences.\"\n    },\n    {\n      \"type\": \"Appeal to authority (dubious authority)\",\n      \"location\": \"Paragraph 10\",\n      \"explanation\": \"The text relies on unnamed sources and tabloids like the Daily Mail for insights into McIlroy\u2019s motives, which may not be credible authorities on his personal decisions.\"\n    },\n    {\n      \"type\": \"Red Herring\",\n      \"location\": \"Paragraph 8\",\n      \"explanation\": \"The mention of McIlroy's fortune and projected earnings diverts attention from the main issue of his decision to call off the divorce.\"\n    },\n    {\n      \"type\": \"Appeal to emotion\",\n      \"location\": \"Paragraph 14\",\n      \"explanation\": \"The description of McIlroy as a 'doting dad with strong family values' aims to evoke positive feelings without contributing to the logical analysis of the situation.\"\n    },\n    {\n      \"type\": \"Post Hoc (PH)\",\n      \"location\": \"Paragraph 17\",\n      \"explanation\": \"The text suggests that secret meetings and Stoll's refusal to meet with a lawyer directly led to the repair of the marriage, without sufficient evidence to prove causation.\"\n    },\n    {\n      \"type\": \"Questionable conclusion\",\n      \"location\": \"Paragraph 20\",\n      \"explanation\": \"The statement 'McIlroy was inches from ending his 10-year wait for another victory on the major stage' draws a dramatic conclusion from a single event, which may not fully represent his overall career trajectory.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1929,
+    "completion_tokens": 446,
+    "total_tokens": 2375
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

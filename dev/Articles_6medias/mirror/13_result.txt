@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 58093, Requested 4096. Please try again in 2.189s. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lkGYeuvfLdcBj6fzWOV0fdfyXC1q",
+  "object": "chat.completion",
+  "created": 1721166290,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to authority (dubious authority)\",\n      \"location\": \"Jordan James, CEO of Unlockd PR said: 'It certainly wouldn't come as a major surprise if they were snubbed given their current status within the Royal Family and the ensuing drama.'\",\n      \"explanation\": \"Jordan James is a PR expert, not an authority on the Met Gala guest list decisions. His opinion does not constitute reliable evidence.\"\n    },\n    {\n      \"fallacy\": \"Appeal to tradition\",\n      \"location\": \"The annual fundraising gala is set to be 'Hollywood's most prestigious red carpet event', but the Duke and Duchess of Sussex 'aren't likely to attend'.\",\n      \"explanation\": \"The text implies that because the Met Gala is a prestigious event, the Duke and Duchess of Sussex are unlikely to attend due to their current status, relying on traditional views of prestige and social standing.\"\n    },\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"location\": \"Jordan said if Meghan and Harry do manage to get an invite to the Met Gala, it could 'boost their public perception in America'.\",\n      \"explanation\": \"The statement tries to evoke feelings about public perception and reputation, rather than presenting factual evidence about the likelihood of their attendance.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"location\": \"Harry and Meghan aren't the only ones at risk of not being invited to the Met Gala, with the Kardashian family said to have been cut from the guest list as Vogue editor Anna Wintour 'cracks down' on who can attend.\",\n      \"explanation\": \"This shifts the focus from Harry and Meghan's potential attendance to the Kardashians' situation, which is irrelevant to the original issue.\"\n    },\n    {\n      \"fallacy\": \"Cherry Picking\",\n      \"location\": \"Kim Kardashian stole the show at the Met Gala last year as she rocked up in Marilyn Monroe's iconic gold dress.\",\n      \"explanation\": \"Highlighting Kim Kardashian's notable attendance last year while omitting any negative aspects or other less notable attendees.\"\n    },\n    {\n      \"fallacy\": \"Equivocation\",\n      \"location\": \"Jordan said if Meghan and Harry do manage to get an invite to the Met Gala, it could 'boost their public perception in America'. However, he said they're likely to turn down an invite if they do receive one.\",\n      \"explanation\": \"The statement uses 'invite' in two different senses: as a potential boost to public perception and as something they might decline, creating ambiguity.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1497,
+    "completion_tokens": 552,
+    "total_tokens": 2049
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

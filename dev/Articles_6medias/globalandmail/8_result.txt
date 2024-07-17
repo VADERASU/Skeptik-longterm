@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56534, Requested 4096. Please try again in 630ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lk3TUnax6aSNWWKiDySOT2xdssBw",
+  "object": "chat.completion",
+  "created": 1721165479,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to authority (dubious authority)\",\n      \"location\": \"Angus Aitken quote\",\n      \"text\": \"\\\"Whoever has been buying has deep pockets, it appears,\\\" he said. \\\"[Those] people are potentially helpful to the Glencore transaction.\\\"\",\n      \"explanation\": \"Angus Aitken's statement relies on the assumption that the individuals buying shares have deep pockets and would be helpful to Glencore's transaction without substantiating why their financial status or influence is relevant to the success of the transaction.\"\n    },\n    {\n      \"fallacy\": \"Bandwagon\",\n      \"location\": \"Hedge funds section\",\n      \"text\": \"The heavy volumes in recent days suggest that hedge funds are piling in and consider Teck to be \\\"in play.\\\"\",\n      \"explanation\": \"The argument implies that because hedge funds are buying shares, the investment must be wise or that Teck is a good target for takeover, without providing specific reasons or evidence for this conclusion.\"\n    },\n    {\n      \"fallacy\": \"Appeal to ignorance\",\n      \"location\": \"Rival bids section\",\n      \"text\": \"It is not known yet if Glencore would face rival bids for Teck. None of the Glencore's global competitors - Vale SA, BHP Group Ltd., Rio Tinto Group and Anglo American PLC - has so far expressed interest in owning Teck, at least publicly.\",\n      \"explanation\": \"The text suggests that because no other companies have publicly expressed interest, there might not be any rival bids, which is an appeal to ignorance as it assumes lack of evidence is evidence of absence.\"\n    },\n    {\n      \"fallacy\": \"Questionable conclusion\",\n      \"location\": \"Teck's B shares section\",\n      \"text\": \"Teck investors are clearly expecting a higher bid from Glencore and perhaps a bidding war.\",\n      \"explanation\": \"The conclusion that investors are expecting a higher bid and a possible bidding war is drawn from the increased share price and trading volumes, which may not necessarily indicate expectations of a higher bid or a bidding war without additional supporting evidence.\"\n    },\n    {\n      \"fallacy\": \"Cherry Picking\",\n      \"location\": \"Teck's B shares performance\",\n      \"text\": \"On Thursday, Teck's B shares closed up 1.2 per cent on the Toronto Stock Exchange, having gained 36 per cent over the past year and giving the company a market value of $32.3-billion.\",\n      \"explanation\": \"The text highlights the positive performance of Teck's B shares, ignoring any potential negative aspects or broader context that could provide a more balanced view of the company's overall performance.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2056,
+    "completion_tokens": 578,
+    "total_tokens": 2634
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

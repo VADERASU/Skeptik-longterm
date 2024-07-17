@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56596, Requested 4096. Please try again in 692ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lkEWUl7x4huu0oNaYolPTbNigXaH",
+  "object": "chat.completion",
+  "created": 1721166164,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"text\": \"Russians tried to blast RAF jet packed with 30 Brits out of sky, leaked docs say\",\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"explanation\": \"The headline evokes fear and alarm by emphasizing that the RAF jet was 'packed with 30 Brits,' potentially to elicit an emotional response rather than focusing on the factual details of the incident.\"\n    }\n  ]\n},\n{\n  \"text\": \"If a Russian missile had taken down the Rivet Joint, the UK and its Nato allies may have been compelled to go to war.\",\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Slippery slope\",\n      \"explanation\": \"This statement suggests that the shooting down of the Rivet Joint would inevitably lead to war, which is a progression of events that may not necessarily follow.\"\n    }\n  ]\n},\n{\n  \"text\": \"An MoD official told The Sun: 'A significant proportion of the content of these reports is untrue, manipulated, or both.'\",\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Vagueness\",\n      \"explanation\": \"The MoD official's statement is vague and does not specify which parts of the reports are untrue or manipulated, making it difficult to evaluate the accuracy of the claims.\"\n    }\n  ]\n},\n{\n  \"text\": \"We strongly caution against anybody taking the veracity of these claims at face value and would also advise them to take time to question the source and purpose of such leaks.\",\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to authority (dubious authority)\",\n      \"explanation\": \"The statement relies on the authority of the MoD without providing concrete evidence to refute the claims made in the leaked documents.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1578,
+    "completion_tokens": 388,
+    "total_tokens": 1966
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

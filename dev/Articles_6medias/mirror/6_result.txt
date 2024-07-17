@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 56520, Requested 4096. Please try again in 616ms. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lkEx05NpwddjDqpVhQIp1I9vCGUG",
+  "object": "chat.completion",
+  "created": 1721166191,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n[\n    {\n        \"fallacy\": \"Strawman (Caricature)\",\n        \"location\": \"Paragraph 6\",\n        \"explanation\": \"The statement 'However pathetic when you have a team of helpers, Meghan can still use the excuse of Archie's 4th birthday to avoid crossing the Atlantic to be ridiculed' misrepresents Meghan's potential reasons for not attending. It caricatures her decision as merely avoiding ridicule, rather than considering other possible legitimate reasons.\"\n    },\n    {\n        \"fallacy\": \"Appeal to emotion\",\n        \"location\": \"Paragraph 10\",\n        \"explanation\": \"The claim 'Certainly, the rest of Harry's family especially Kate and William will be delighted she is not there. King Charles and Queen Camilla will also be mighty relieved' is designed to evoke emotional responses from the audience rather than provide logical reasons for Meghan's absence.\"\n    },\n    {\n        \"fallacy\": \"Begging the question\",\n        \"location\": \"Paragraph 13\",\n        \"explanation\": \"The statement 'For all his bravado Harry knows that if he didn't appear it would be a terrible snub' assumes the premise that not attending the coronation would indeed be a snub without addressing other possible interpretations of his absence.\"\n    },\n    {\n        \"fallacy\": \"Questionable conclusion\",\n        \"location\": \"Paragraph 15\",\n        \"explanation\": \"The conclusion 'She believes if Harry failed to attend it could have jeopardise their future earnings and the potential to ever get back with the royals' is drawn without sufficient evidence and relies on speculative reasoning.\"\n    },\n    {\n        \"fallacy\": \"Ad hominem\",\n        \"location\": \"Paragraph 6\",\n        \"explanation\": \"The phrase 'For a girl who makes a huge fuss about which table she has in a restaurant it would be a terrible insult not to have one of the top seats at the coronation ceremony' attacks Meghan's character rather than focusing on her reasons for not attending.\"\n    }\n]\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1757,
+    "completion_tokens": 418,
+    "total_tokens": 2175
+  },
+  "system_fingerprint": "fp_298125635f"
 }

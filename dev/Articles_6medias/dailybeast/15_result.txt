@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lizfNuLOlvim0GwdqhQoaXnMNaC3",
+  "id": "chatcmpl-9lkL9W3IkeYDk2MVqIx1N0oKREf6Z",
   "object": "chat.completion",
-  "created": 1721161399,
-  "model": "gpt-3.5-turbo-0125",
+  "created": 1721166575,
+  "model": "gpt-4o-2024-05-13",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n    \"logical_fallacies\": [\n        {\n            \"fallacy\": \"Appeal to authority (dubious authority)\",\n            \"example\": \"Celebrity endorsement of a drug without medical expertise\",\n            \"line\": \"A celebrity endorses a drug for heart health without medical expertise.\"\n        },\n        {\n            \"fallacy\": \"Appeal to tradition\",\n            \"example\": \"Insisting on a traditional remedy despite lack of scientific evidence\",\n            \"line\": \"Insisting on a traditional remedy despite lack of scientific evidence.\"\n        },\n        {\n            \"fallacy\": \"Appeal to ignorance\",\n            \"example\": \"Claiming ghosts exist because no one has proven they do not\",\n            \"line\": \"Claiming ghosts exist because no one has proven they do not.\"\n        },\n        {\n            \"fallacy\": \"False Cause (FC)\",\n            \"example\": \"Asserting ice cream consumption causes drowning because both increase in summer\",\n            \"line\": \"Asserting ice cream consumption causes drowning because both increase in summer.\"\n        },\n        {\n            \"fallacy\": \"Hasty generalization\",\n            \"example\": \"Concluding all dogs are aggressive based on a few aggressive dogs\",\n            \"line\": \"Concluding all dogs are aggressive based on encountering a few aggressive dogs.\"\n        }\n    ]\n}\n```"
+        "content": "```json\n{\n    \"fallacies\": [\n        {\n            \"type\": \"Appeal to Emotion\",\n            \"example\": \"Ever the martyr, Peter told his fellow players, 'I tried to save you guys' as he got up from the roundtable to say his goodbye during Thursday's episode, a glum look spreading across his face.\",\n            \"explanation\": \"The description of Peter as a 'martyr' and highlighting his emotional farewell uses emotional appeal rather than logical reasoning to evoke sympathy.\"\n        },\n        {\n            \"type\": \"Cherry Picking\",\n            \"example\": \"Sadly for her many, many fans, she (Phaedra Parks) was not long for this world either.\",\n            \"explanation\": \"The text highlights that Phaedra had 'many, many fans' without providing evidence or considering that she might also have detractors.\"\n        },\n        {\n            \"type\": \"Appeal to Authority (Dubious Authority)\",\n            \"example\": \"Survivor players have a solid track record on The Traitors U.S., and given what we've seen so far, two-time winner Sandra Diaz-Twine might just turn out to be Kate's undoing.\",\n            \"explanation\": \"This statement relies on Sandra Diaz-Twine's authority as a two-time winner of another reality show ('Survivor') to suggest she will succeed here, despite the different contexts and skill sets required.\"\n        },\n        {\n            \"type\": \"Red Herring\",\n            \"example\": \"Joey Graziadei, watch your back!\",\n            \"explanation\": \"This statement distracts from the main discussion about the game by bringing in an unrelated person (Joey Graziadei) and a non-relevant threat.\"\n        },\n        {\n            \"type\": \"Vagueness\",\n            \"example\": \"To earn their prize money this week, the players faced their 'toughest mission yet.'\",\n            \"explanation\": \"The term 'toughest mission yet' is vague and lacks specific criteria or comparison to previous missions, making it difficult to evaluate the claim.\"\n        },\n        {\n            \"type\": \"Hasty Generalization\",\n            \"example\": \"With John gone, C.T. is now the only male player left standing\u2014a distinction that seemed to really tickle him.\",\n            \"explanation\": \"The statement generalizes C.T.'s reaction (being 'tickled') based on limited evidence without considering other possible feelings or reactions he might have.\"\n        },\n        {\n            \"type\": \"Equivocation\",\n            \"example\": \"C.T. did not hide his frustration with M.J. for casting the deciding vote to send Peter home. When she tried to explain her reasoning, he responded with a curt, 'Whatever helps you justify it.'\",\n            \"explanation\": \"The word 'justify' is used ambiguously here. C.T. uses it in a dismissive sense, implying M.J.'s reasoning is invalid, while M.J. might have meant it as a legitimate explanation.\"\n        },\n        {\n            \"type\": \"Bandwagon\",\n            \"example\": \"If social media posts from the Traitors fandom are any indication, his Bachelor-like comparison isn't too far off the mark.\",\n            \"explanation\": \"This statement uses the popularity of social media opinions to support the comparison, implying it's valid because many people believe it.\"\n        }\n    ]\n}\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 2570,
-    "completion_tokens": 272,
-    "total_tokens": 2842
+    "prompt_tokens": 2515,
+    "completion_tokens": 696,
+    "total_tokens": 3211
   },
-  "system_fingerprint": null
+  "system_fingerprint": "fp_c4e5b6fa31"
 }

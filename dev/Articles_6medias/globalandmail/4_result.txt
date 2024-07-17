@@ -1,8 +1,23 @@
 {
-  "error": {
-    "message": "Rate limit reached for gpt-3.5-turbo-0125 in organization org-4tUimnbYujE8opuzg7FoHJEl on tokens per min (TPM): Limit 60000, Used 57356, Requested 4096. Please try again in 1.452s. Visit https://platform.openai.com/account/rate-limits to learn more.",
-    "type": "tokens",
-    "param": null,
-    "code": "rate_limit_exceeded"
-  }
+  "id": "chatcmpl-9lk2KF0J83Qiux5UXv4N952p9Lh9P",
+  "object": "chat.completion",
+  "created": 1721165408,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"type\": \"Red Herring\",\n      \"location\": \"Foreign Affairs Minister M\u00e9lanie Joly's statement\",\n      \"text\": \"Joly pushed back against that criticism, saying Canadian officials have been seized with the issue at a time of multiple international crises. 'There are many hot spots in the world, and there are many hot spots particularly in Africa.'\",\n      \"explanation\": \"Instead of addressing the specific criticism about the timing of the evacuation, Joly diverts attention to the broader context of multiple international crises.\"\n    },\n    {\n      \"type\": \"Appeal to Emotion\",\n      \"location\": \"Defence Minister Anita Anand's statement\",\n      \"text\": \"'This is very good news, and I thank our Canadian Armed Forces personnel for their hard work to make this happen,' Anand said.\",\n      \"explanation\": \"Anand's statement emphasizes gratitude and the hard work of the personnel, which evokes positive emotions rather than addressing the specific operational details.\"\n    },\n    {\n      \"type\": \"Cherry Picking\",\n      \"location\": \"Critics' accusations\",\n      \"text\": \"A growing chorus of critics is asking why it took the federal government until the end of the week to kick the evacuation into gear.\",\n      \"explanation\": \"Critics focus on the delayed start of the evacuation without acknowledging the complexities and the multiple crises that may have influenced the timing.\"\n    },\n    {\n      \"type\": \"Appeal to Tradition\",\n      \"location\": \"General narrative on government's actions\",\n      \"text\": \"A senior defence official, speaking on background at a technical briefing Thursday, said military and Global Affairs officials began meeting on Sudan 12 days ago.\",\n      \"explanation\": \"The statement implies that the traditional bureaucratic process and meetings justify the timing without directly addressing the criticism of delay.\"\n    },\n    {\n      \"type\": \"Evading the Burden of Proof (EBP)\",\n      \"location\": \"Anand's statement about the aircraft\",\n      \"text\": \"Federal officials said it's the only transport aircraft suited for the mission because the runway at the military airport 30 kilometres from Khartoum is getting 'pretty chewed up' by the flights coming and going.\",\n      \"explanation\": \"The statement asserts that the CC-130 Hercules aircraft is the only suitable option without providing detailed evidence or technical specifications to support the claim.\"\n    }\n  ]\n}\n```"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1960,
+    "completion_tokens": 499,
+    "total_tokens": 2459
+  },
+  "system_fingerprint": "fp_c4e5b6fa31"
 }
