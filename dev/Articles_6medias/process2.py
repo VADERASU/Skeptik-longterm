@@ -44,23 +44,23 @@ def process_file(file_path, overview_item, txt_file_path):
                 print(f"Error parsing content in {file_path}: {e}")
                 return
 
-            # Identify the first key and count the length of its array value
-            first_key = list(content_json.keys())[0]
-            fallacies = content_json[first_key]
-            fallacy_count = len(fallacies)
-            content_json['fallacy_count'] = fallacy_count
+            cases = content_json.get('cases', [])
+            for case in cases:
+                fallacies = case.get('fallacies', {}).get('logical_fallacies', [])
+                fallacy_count = len(fallacies)
+                case['fallacy_count'] = fallacy_count
 
-            # Add bias and reliability
-            content_json['bias'] = overview_item.get('bias')
-            content_json['reliability'] = overview_item.get('Reliability')
+                # Add bias and reliability
+                case['bias'] = overview_item.get('bias')
+                case['reliability'] = overview_item.get('Reliability')
 
-            # Perform word count on the text file
-            word_count = perform_word_count(txt_file_path)
-            content_json['word_count'] = word_count
+                # Perform word count on the text file
+                word_count = perform_word_count(txt_file_path)
+                case['word_count'] = word_count
 
-            # Calculate fallacies per 1000 words
-            fallacies_per_1000_words = (fallacy_count / word_count) * 1000 if word_count != 0 else 0
-            content_json['fallacies_per_1000_words'] = fallacies_per_1000_words
+                # Calculate fallacies per 1000 words
+                fallacies_per_1000_words = (fallacy_count / word_count) * 1000 if word_count != 0 else 0
+                case['fallacies_per_1000_words'] = fallacies_per_1000_words
 
             # Extracting the number from the filename
             base_name = os.path.basename(file_path)
