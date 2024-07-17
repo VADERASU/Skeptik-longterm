@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lkK1EEJJdikGj24qki6zAnuLYN5D",
+  "id": "chatcmpl-9m3cmBft3PU6Ua5eOF5ZBkgoPYxji",
   "object": "chat.completion",
-  "created": 1721166505,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240704,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"type\": \"Personal Attack\",\n      \"location\": \"Paragraph 7\",\n      \"explanation\": \"Trump dismisses Mitt Romney by calling him a 'RINO' (Republican In Name Only) instead of addressing Romney's political positions.\"\n    },\n    {\n      \"type\": \"Ad Hominem\",\n      \"location\": \"Paragraph 7\",\n      \"explanation\": \"Trump attacks Romney's character by labeling him a 'RINO' rather than addressing his arguments or actions.\"\n    },\n    {\n      \"type\": \"Appeal to Emotion\",\n      \"location\": \"Paragraph 9\",\n      \"explanation\": \"Trump describes Biden as 'angry and crazy' to evoke an emotional reaction rather than providing a logical critique of Biden's speech.\"\n    },\n    {\n      \"type\": \"Strawman (Caricature)\",\n      \"location\": \"Paragraph 7\",\n      \"explanation\": \"Trump misrepresents Mitt Romney's opposition to his 2024 candidacy as something trivial by calling him a 'RINO' instead of addressing Romney's actual reasons.\"\n    }\n  ]\n}\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Logical Fallacies in Political Debates\",\n      \"source\": \"Debate Night News\",\n      \"sentences\": {\n        \"1\": \"During the debate, the candidate resorted to ad hominem attacks instead of addressing the opponent's arguments.\",\n        \"2\": \"The audience was left confused as the politician kept diverting attention from the main issues.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Ad hominem\",\n          \"Obfuscation/distraction\"\n        ],\n        \"sentences\": {\n          \"Ad hominem\": [\n            1\n          ],\n          \"Obfuscation/distraction\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate attacked the opponent's character instead of engaging with their arguments, diverting attention from the actual issues at hand.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.logicalfallacies.info/relevance/ad-hominem/\"\n              }\n            ]\n          },\n          \"Obfuscation/distraction\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The politician deliberately diverted attention away from the main issues by confusing the audience and not addressing the core arguments.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1401,
-    "completion_tokens": 240,
-    "total_tokens": 1641
+    "prompt_tokens": 1251,
+    "completion_tokens": 305,
+    "total_tokens": 1556
   },
-  "system_fingerprint": "fp_c4e5b6fa31"
+  "system_fingerprint": null
 }

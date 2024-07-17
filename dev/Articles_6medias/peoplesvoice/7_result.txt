@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lk7JAqMmlVEVT0iUJuaN3ZCcSUBk",
+  "id": "chatcmpl-9m3T91RCgRytAbRVaC8oSlAH6aBEo",
   "object": "chat.completion",
-  "created": 1721165717,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240107,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"text\": \"Nearly A Quarter of Americans Say They Know Someone Who Died From The Covid Jab\",\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"location\": \"Title\",\n      \"explanation\": \"The phrase 'Covid Jab' is emotionally charged and derogatory, aiming to evoke fear and distrust without providing evidence.\"\n    },\n    {\n      \"fallacy\": \"Cherry Picking\",\n      \"location\": \"First paragraph\",\n      \"explanation\": \"The text highlights the 24% who know someone who died from the vaccine but does not give context or evidence to support this claim, ignoring the 69% who do not know anyone who died.\"\n    },\n    {\n      \"fallacy\": \"Hasty Generalization\",\n      \"location\": \"First paragraph\",\n      \"explanation\": \"The conclusion that a significant number of people have died from the vaccine is based on a survey without considering broader scientific evidence or the validity of the respondents' claims.\"\n    },\n    {\n      \"fallacy\": \"Questionable conclusion\",\n      \"location\": \"Third paragraph\",\n      \"explanation\": \"The text implies that because a survey found 24% of respondents believe they know someone who died from the vaccine, this belief is representative of factual data, which is not substantiated.\"\n    },\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"location\": \"Fourth paragraph\",\n      \"explanation\": \"The mention of a class-action lawsuit evokes fear and distrust towards vaccine manufacturers without providing evidence for widespread harm.\"\n    },\n    {\n      \"fallacy\": \"Cherry Picking\",\n      \"location\": \"Fifth paragraph\",\n      \"explanation\": \"Highlighting the percentage of people willing to join a lawsuit without addressing whether these claims are based on verified information.\"\n    },\n    {\n      \"fallacy\": \"Improper criteria\",\n      \"location\": \"Seventh paragraph\",\n      \"explanation\": \"The demographic differences are used to imply causality between race and likelihood of knowing someone who died from vaccine side effects without addressing underlying factors or providing context.\"\n    },\n    {\n      \"fallacy\": \"Faulty analogy\",\n      \"location\": \"Seventh paragraph\",\n      \"explanation\": \"Comparing the likelihood of knowing someone who died from the virus to knowing someone who died from vaccine side effects without acknowledging the differences in the nature and scale of these events.\"\n    }\n  ]\n}\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate\",\n      \"source\": \"Debate Night News\",\n      \"sentences\": {\n        \"1\": \"During the debate, Candidate A criticized Candidate B's personal life instead of addressing their proposed economic policies.\",\n        \"2\": \"Candidate A dismissed Candidate B's argument on healthcare reform by attacking Candidate B's character.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Personal attack\",\n          \"Ad hominem\"\n        ],\n        \"sentences\": {\n          \"Personal attack\": [\n            1\n          ],\n          \"Ad hominem\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Personal attack\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Candidate A's criticism of Candidate B's personal life is a personal attack aimed at discrediting Candidate B instead of addressing the policy issues.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=personal+attack+fallacy\"\n              }\n            ]\n          },\n          \"Ad hominem\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Candidate A's attack on Candidate B's character rather than engaging with their argument on healthcare reform is an ad hominem fallacy.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    },\n    {\n      \"name\": \"Climate Change Discussion\",\n      \"source\": \"Eco-Friendly Gazette\",\n      \"sentences\": {\n        \"1\": \"A renowned climate scientist, known for extensive research on global warming, faces criticism for owning multiple gas-guzzling vehicles.\",\n        \"2\": \"Despite the scientist's credentials, some skeptics dismiss their advice on carbon emissions reduction.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Who are you to talk?\",\n          \"Appeal to authority (dubious authority)\"\n        ],\n        \"sentences\": {\n          \"Who are you to talk?\": [\n            1\n          ],\n          \"Appeal to authority (dubious authority)\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Who are you to talk?\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Critics using the scientist's ownership of gas-guzzling vehicles to discredit their advice on carbon emissions reduction is a 'Who are you to talk?' fallacy.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Appeal to authority (dubious authority)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Skeptics dismissing the scientist's advice despite their credentials is an 'Appeal to authority (dubious authority)' fallacy.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}  \n"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1448,
-    "completion_tokens": 502,
-    "total_tokens": 1950
+    "prompt_tokens": 1251,
+    "completion_tokens": 601,
+    "total_tokens": 1852
   },
-  "system_fingerprint": "fp_5e997b69d8"
+  "system_fingerprint": null
 }

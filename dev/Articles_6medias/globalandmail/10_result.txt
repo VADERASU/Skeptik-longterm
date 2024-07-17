@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lk3w125CzWPa15VbSGe1DQ5VykNN",
+  "id": "chatcmpl-9m3QvGYEDarUCqC7hXyFC7zA1Wnzt",
   "object": "chat.completion",
-  "created": 1721165508,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721239969,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"text\": \"Why Teck Resources' proposed split never made much sense and shareholders shot it down\",\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"location\": \"Chief executive Jonathan Price used grandiose words, pitching it as the creation of 'two great, sustainable companies, set up for success.'\",\n      \"explanation\": \"The use of 'grandiose words' appeals to emotions rather than providing substantive evidence.\"\n    },\n    {\n      \"fallacy\": \"Vagueness\",\n      \"location\": \"Mr. Price explained on a conference call, shareholders are all for the coal divestment, just not the one Teck took years to craft with the expensive assistance of seven investment banks.\",\n      \"explanation\": \"The phrase 'just not the one Teck took years to craft' is vague and does not specify why shareholders rejected the proposal.\"\n    },\n    {\n      \"fallacy\": \"Cherry Picking\",\n      \"location\": \"Before the pandemic, the share prices of so many resource companies were in the dumps because investors were more ESG conscious. At the start of 2020, Teck's shares were trading around $20 a share, roughly one-third of their current price.\",\n      \"explanation\": \"This highlights favorable data (current share price) while ignoring other potential negative factors that may have influenced share prices.\"\n    },\n    {\n      \"fallacy\": \"Improper criteria\",\n      \"location\": \"Management also said it shot down the other options because of concerns about 'viability, value, execution risk and failure to meet Teck's strategic goals,' according to filings.\",\n      \"explanation\": \"The criteria of 'viability, value, execution risk and failure to meet Teck's strategic goals' are not specified, making it unclear how these criteria were applied.\"\n    },\n    {\n      \"fallacy\": \"Strawman (Caricature)\",\n      \"location\": \"The only problem: It wasn't true. This wasn't really a spinout. It was more like shuffling deck chairs, and shareholders saw through it.\",\n      \"explanation\": \"This misrepresents Teck's proposal by simplifying it to 'shuffling deck chairs,' which is a weakened version of the actual proposal.\"\n    }\n  ]\n}\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Healthcare\",\n      \"source\": \"Debate Night News\",\n      \"sentences\": {\n        \"1\": \"During the debate, Candidate A misrepresented Candidate B's proposal for universal healthcare, claiming it would lead to a government-controlled system.\",\n        \"2\": \"Candidate A then shifted the discussion to economic costs without addressing the potential benefits of universal healthcare.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Strawman (Caricature)\",\n          \"Red Herring (sidetracking)\"\n        ],\n        \"sentences\": {\n          \"Strawman (Caricature)\": [\n            1\n          ],\n          \"Red Herring (sidetracking)\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Strawman (Caricature)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Candidate A distorted Candidate B's argument on universal healthcare to attack a weakened version, misrepresenting it as advocating for a government-controlled system.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.logicalfallacies.info/strawman/\"\n              }\n            ]\n          },\n          \"Red Herring (sidetracking)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Candidate A diverted the discussion from the topic of universal healthcare to economic costs, which was an irrelevant issue in the context of the debate.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1951,
-    "completion_tokens": 475,
-    "total_tokens": 2426
+    "prompt_tokens": 1251,
+    "completion_tokens": 327,
+    "total_tokens": 1578
   },
-  "system_fingerprint": "fp_c4e5b6fa31"
+  "system_fingerprint": null
 }

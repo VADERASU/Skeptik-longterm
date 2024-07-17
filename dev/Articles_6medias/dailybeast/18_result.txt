@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lkMT26DxkXTkUeM3ONBR0rMIF7Gv",
+  "id": "chatcmpl-9m3eWC8InkKX2ioEP5gIoV0qKVd6E",
   "object": "chat.completion",
-  "created": 1721166657,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240812,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"text\": \"Donald Trump's Cash Crunch Just Got Much, Much Worse\",\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"location\": \"Title\",\n      \"explanation\": \"The title uses dramatic language ('Much, Much Worse') to evoke an emotional response rather than providing a factual description.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"location\": \"Paragraph 2\",\n      \"explanation\": \"The focus shifts from Trump's legal and financial troubles to his primary challenger Nikki Haley's fundraising success.\"\n    },\n    {\n      \"fallacy\": \"Strawman (Caricature)\",\n      \"location\": \"Paragraph 8\",\n      \"explanation\": \"The text implies that Trump\u2019s financial strain is solely due to his legal issues and campaign expenses, without considering other potential factors.\"\n    },\n    {\n      \"fallacy\": \"Cherry Picking\",\n      \"location\": \"Paragraphs 3 and 4\",\n      \"explanation\": \"The text highlights the low fundraising numbers for Trump's PACs in January without discussing overall trends or previous months' performance.\"\n    },\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"location\": \"Paragraph 13\",\n      \"explanation\": \"The description of Trump's 'self-interested maneuvering' and its impact on the GOP is framed to evoke a negative emotional response.\"\n    },\n    {\n      \"fallacy\": \"Hasty generalization\",\n      \"location\": \"Paragraph 7\",\n      \"explanation\": \"Concluding that 'MAGA PAC might very well be in danger of bottoming out' based on a single financial transfer without more comprehensive financial analysis.\"\n    },\n    {\n      \"fallacy\": \"Questionable conclusion\",\n      \"location\": \"Paragraph 12\",\n      \"explanation\": \"The claim that Trump's choice to pass his legal costs on to his donors is 'threatening to derail the GOP's national fundraising efforts' is speculative and not substantiated with concrete evidence.\"\n    }\n  ]\n}\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Sample Text\",\n      \"source\": \"Sample Source\",\n      \"sentences\": {\n        \"1\": \"Logical Fallacies List:\",\n        \"2\": \"Personal attack: Attaching a person or group to avoid the issue.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Hasty generalization\",\n          \"False Cause (FC)\"\n        ],\n        \"sentences\": {\n          \"Hasty generalization\": [\n            36\n          ],\n          \"False Cause (FC)\": [\n            38\n          ]\n        },\n        \"annotations\": {\n          \"Hasty generalization\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The conclusion that all dogs are aggressive is drawn from a small sample of aggressive dogs and applied to all dogs.\",\n                \"sentence\": [36],\n                \"link\": \"https://www.google.com/search?q=hasty+generalization\"\n              }\n            ]\n          },\n          \"False Cause (FC)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The assertion that ice cream consumption causes drowning is a false cause fallacy because correlation does not prove causation.\",\n                \"sentence\": [38]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 2097,
-    "completion_tokens": 429,
-    "total_tokens": 2526
+    "prompt_tokens": 1251,
+    "completion_tokens": 277,
+    "total_tokens": 1528
   },
-  "system_fingerprint": "fp_c4e5b6fa31"
+  "system_fingerprint": null
 }

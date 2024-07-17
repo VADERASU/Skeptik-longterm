@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lkMtwqln1qiCzjxpH6D9GpZE2Xa3",
+  "id": "chatcmpl-9m3eq5q2JmDNfycJ9SrgMbgffWEov",
   "object": "chat.completion",
-  "created": 1721166683,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240832,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"text\": \"Jimmy Kimmel on Tuesday had one question at the top of his mind: \\\"Did anyone else get sued by George Santos this weekend?\\\"\",\n  \"fallacy\": \"Red Herring (sidetracking)\",\n  \"explanation\": \"Kimmel's question diverts attention from the actual legal issues to a humorous and irrelevant point about others getting sued.\"\n},\n{\n  \"text\": \"\\\"George Santos\u2014a man Republicans kicked out of congress for being a fraud\u2014is suing me for fraud!\\\"\",\n  \"fallacy\": \"Ad hominem\",\n  \"explanation\": \"Kimmel attacks Santos' character by highlighting his expulsion from Congress for fraud instead of addressing the legal merits of the lawsuit.\"\n},\n{\n  \"text\": \"\\\"because we did a nice thing. We supported him by ordering his Cameo videos.\\\"\",\n  \"fallacy\": \"Appeal to emotion\",\n  \"explanation\": \"Kimmel tries to evoke sympathy by portraying the prank as a supportive act, which is irrelevant to the legal argument.\"\n},\n{\n  \"text\": \"\\\"This is like being sued for paternity by Nick Cannon,\\\"\",\n  \"fallacy\": \"Faulty analogy\",\n  \"explanation\": \"Kimmel compares the lawsuit to a hypothetical paternity suit by Nick Cannon, which is not a relevant comparison to the legal issues at hand.\"\n},\n{\n  \"text\": \"Kimmel's opinion on the matter\u2014which has now escalated to a request for $750,000 plus damages\u2014does not seem to have changed.\",\n  \"fallacy\": \"Who are you to talk?\",\n  \"explanation\": \"The text suggests dismissing Santos' lawsuit because of his past fraudulent behavior, implying that someone with such a background has no right to sue for fraud.\"\n}\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Healthcare\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"Misrepresenting a proposal for universal healthcare as advocating for a government-controlled system.\",\n        \"2\": \"Highlighting positive testimonials about a product while ignoring negative reviews.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Strawman (Caricature)\",\n          \"Cherry Picking\"\n        ],\n        \"sentences\": {\n          \"Strawman (Caricature)\": [\n            1\n          ],\n          \"Cherry Picking\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Strawman (Caricature)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"In this statement, the opponent's argument for universal healthcare is distorted by portraying it as advocating for a more extreme government-controlled system, creating a weaker version to attack.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=strawman+fallacy\"\n              }\n            ]\n          },\n          \"Cherry Picking\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"This sentence showcases the fallacy of cherry-picking by selectively highlighting positive testimonials about a product while disregarding negative reviews, thus presenting a biased view.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1450,
-    "completion_tokens": 366,
-    "total_tokens": 1816
+    "prompt_tokens": 1251,
+    "completion_tokens": 316,
+    "total_tokens": 1567
   },
-  "system_fingerprint": "fp_c4e5b6fa31"
+  "system_fingerprint": null
 }

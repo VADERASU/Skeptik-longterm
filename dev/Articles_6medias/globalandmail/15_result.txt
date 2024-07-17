@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lk549VrEM0K59j2ZkmduJDRKtUwk",
+  "id": "chatcmpl-9m3RzbxG8O1zttjmOcqMwVGRKtpFO",
   "object": "chat.completion",
-  "created": 1721165578,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240035,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"logical_fallacies\": [\n    {\n      \"fallacy\": \"Vagueness\",\n      \"location\": \"The current wording of the legislation is vague on how exactly the Buy American provisions of the tax credits would work, leaving it up to the White House to make more specific regulations later on.\",\n      \"explanation\": \"The statement highlights that the legislation's wording is unclear, which obscures a clear evaluation of its impact.\"\n    },\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"location\": \"She said the tax credits will help Americans move toward a cleaner environment by switching to electric vehicles.\",\n      \"explanation\": \"The appeal to emotion is used to gain support for the tax credits by focusing on the positive environmental impacts rather than addressing the economic and trade concerns brought up by Canada.\"\n    },\n    {\n      \"fallacy\": \"Bandwagon\",\n      \"location\": \"The electric vehicle component of the package is something the President is very personally excited about because he believes it is an industry of the future.\",\n      \"explanation\": \"The statement suggests that the policy should be supported because the President is enthusiastic about it, implying that his excitement is a reason for others to support it too.\"\n    },\n    {\n      \"fallacy\": \"Red Herring (sidetracking)\",\n      \"location\": \"Despite these serious squabbles, Mr. Biden boasted about Canada-U.S. collaboration on climate change and social justice.\",\n      \"explanation\": \"This statement distracts from the main issue of trade disputes and protectionism by shifting the focus to positive collaborations on other issues.\"\n    },\n    {\n      \"fallacy\": \"Appeal to tradition\",\n      \"location\": \"While Canadians hope that the change in administrations in Washington will help revive the historic special relationship between our two countries...\",\n      \"explanation\": \"This statement appeals to the tradition of a 'historic special relationship' to argue for better treatment from the U.S., without addressing the specific current issues.\"\n    }\n  ]\n}\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Climate Change Debate\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"Ignoring climate change advice from a scientist with a high carbon footprint.\",\n        \"2\": \"Shifting the debate on climate change to economic costs without addressing environmental impacts.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Who are you to talk? (Practice what you preach)\",\n          \"Red Herring (sidetracking)\"\n        ],\n        \"sentences\": {\n          \"Who are you to talk? (Practice what you preach)\": [\n            1\n          ],\n          \"Red Herring (sidetracking)\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Who are you to talk? (Practice what you preach)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"This fallacy occurs when someone dismisses an argument because the person presenting it does not follow their own advice.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=practice+what+you+preach+fallacy\"\n              }\n            ]\n          },\n          \"Red Herring (sidetracking)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"This fallacy involves diverting attention from the main issue by introducing an irrelevant topic.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n} \n"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 2463,
-    "completion_tokens": 417,
-    "total_tokens": 2880
+    "prompt_tokens": 1251,
+    "completion_tokens": 313,
+    "total_tokens": 1564
   },
-  "system_fingerprint": "fp_400f27fa1f"
+  "system_fingerprint": null
 }

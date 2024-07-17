@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lkFOAnxFhwAIBwK15O5Tm3PoAKzI",
+  "id": "chatcmpl-9m3YVztK5wPnWDCK5ZrJAWAlRUZZu",
   "object": "chat.completion",
-  "created": 1721166218,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240439,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"text\": \"Urgent warning of super contagious 'Last Of Us' black fungus with 60% mortality\",\n  \"fallacy\": {\n    \"type\": \"Appeal to emotion\",\n    \"explanation\": \"The phrase 'super contagious 'Last Of Us' black fungus with 60% mortality' evokes fear by drawing a comparison to a fictional, catastrophic scenario from the video game 'The Last Of Us' and highlighting a high mortality rate without addressing scientific or public health nuances.\"\n  }\n},\n{\n  \"text\": \"Cases of Candida auris, better known as C auris, has risen rapidly over recent months which has sparked fears of another killer disease following the start of the coronavirus pandemic in 2020\",\n  \"fallacy\": {\n    \"type\": \"Slippery slope\",\n    \"explanation\": \"The text suggests that the increase in C auris cases could lead to another killer disease like the coronavirus pandemic. This implies an inevitable progression from rising cases to a pandemic without sufficient evidence.\"\n  }\n},\n{\n  \"text\": \"The fungus is thought to have a death-rate of 60 per cent of the people it infects.\",\n  \"fallacy\": {\n    \"type\": \"Cherry Picking\",\n    \"explanation\": \"The text highlights a high mortality rate without providing context on how this rate was determined, the population it affects, or other relevant factors that could give a more balanced view.\"\n  }\n},\n{\n  \"text\": \"It has been suggested by some experts that this is due to the changing climate which is ideal for the fungus.\",\n  \"fallacy\": {\n    \"type\": \"Appeal to authority (dubious authority)\",\n    \"explanation\": \"The phrase 'suggested by some experts' is vague and does not specify who these experts are, thereby relying on an unclear authority to support the argument.\"\n  }\n},\n{\n  \"text\": \"Fungal infections caused 7,000 deaths in the US in 2021, according to the CDC, with 1.5 million deaths worldwide.\",\n  \"fallacy\": {\n    \"type\": \"Improper criteria\",\n    \"explanation\": \"The text combines statistics of all fungal infections with those specifically caused by C auris, which can mislead readers by conflating different data sets without clarifying the relevant details.\"\n  }\n},\n{\n  \"text\": \"The main symptoms of the deadly fungus are fever and chills which do not improve. It can cause different kinds of infection and it is thought that the number of C auris cases may be underestimated in the study as screening for the fungus is not uniformly conducted across the country.\",\n  \"fallacy\": {\n    \"type\": \"Appeal to ignorance\",\n    \"explanation\": \"The text suggests that the number of C auris cases may be underestimated due to inconsistent screening, implying that the situation might be worse than reported without concrete evidence.\"\n  }\n}\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Climate Change Debate\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"Ignoring climate change advice from a scientist with a high carbon footprint.\",\n        \"2\": \"Arguing against war by focusing on emotional stories of soldiers without addressing political implications.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Who are you to talk? (hypocrisy)\",\n          \"Appeal to emotion\"\n        ],\n        \"sentences\": {\n          \"Who are you to talk? (hypocrisy)\": [\n            1\n          ],\n          \"Appeal to emotion\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Who are you to talk?\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"This fallacy occurs in the sentence where the argument against climate change advice is dismissed due to the scientist's high carbon footprint, suggesting hypocrisy as a reason to reject the advice.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Appeal to emotion\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"In this sentence, the argument against war relies on emotional stories of soldiers to garner support without addressing the broader political implications, appealing to emotions rather than reason.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1624,
-    "completion_tokens": 600,
-    "total_tokens": 2224
+    "prompt_tokens": 1251,
+    "completion_tokens": 297,
+    "total_tokens": 1548
   },
-  "system_fingerprint": "fp_c4e5b6fa31"
+  "system_fingerprint": null
 }

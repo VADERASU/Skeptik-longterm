@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lk49mjcyAikItusPWNSNsuIUfyfA",
+  "id": "chatcmpl-9m3R53g2aXLiZl1fjfJCOdnR7VJUq",
   "object": "chat.completion",
-  "created": 1721165521,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721239979,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"type\": \"Appeal to emotion\",\n      \"location\": \"Title\",\n      \"explanation\": \"The title 'Seven stats to amaze and depress all who own a house or hope to own' aims to evoke emotional reactions (amazement and depression) rather than providing a balanced, factual introduction to the statistics.\"\n    },\n    {\n      \"type\": \"Vagueness\",\n      \"location\": \"Paragraph 1\",\n      \"explanation\": \"The phrase 'Housing is hot - again' is vague and does not provide specific information about the housing market's condition.\"\n    },\n    {\n      \"type\": \"Cherry Picking\",\n      \"location\": \"Paragraph 3\",\n      \"explanation\": \"The focus on cities with average resale home prices nearing $1-million highlights extreme cases while ignoring areas where housing prices may be stable or declining.\"\n    },\n    {\n      \"type\": \"Hasty Generalization\",\n      \"location\": \"Paragraph 4\",\n      \"explanation\": \"The increase in home prices in the Yukon is used to suggest a broader trend ('Could this be British Columbia's rising price trend spreading north?'), but it is based on limited data and specific regional conditions.\"\n    },\n    {\n      \"type\": \"Improper criteria\",\n      \"location\": \"Paragraph 5\",\n      \"explanation\": \"Comparing the $207,100 price increase in Barrie to the cost of a house in Moose Jaw is an improper criterion because it ignores significant differences in regional housing markets and living conditions.\"\n    },\n    {\n      \"type\": \"Red Herring\",\n      \"location\": \"Paragraph 5\",\n      \"explanation\": \"The mention of commute details from Barrie to Toronto (90 minutes each way by train) is irrelevant to the discussion about housing prices and serves as a distraction.\"\n    },\n    {\n      \"type\": \"Questionable conclusion\",\n      \"location\": \"Paragraph 7\",\n      \"explanation\": \"The article suggests that federal Liberal promises to improve housing affordability will stimulate demand and prices, but this conclusion is drawn without comprehensive evidence or analysis.\"\n    },\n    {\n      \"type\": \"False Cause (FC)\",\n      \"location\": \"Paragraph 9\",\n      \"explanation\": \"An odd partnership between New Brunswick and Ontario is suggested based on house price growth, implying a direct causal relationship without sufficient evidence linking the two phenomena.\"\n    },\n    {\n      \"type\": \"Appeal to authority (dubious authority)\",\n      \"location\": \"Paragraph 10\",\n      \"explanation\": \"LifeWorks, an HR consulting firm, is cited for projecting average annual pay increases, but the connection between this projection and housing market trends is not clearly established, making the authority dubious in this context.\"\n    }\n  ]\n}\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"During the debate, instead of addressing the opponent's proposed healthcare policy, the candidate attacked their character and personal life.\",\n        \"2\": \"The audience started chanting 'Who are you to talk?' when a politician criticized another for not following through on their promises.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Personal attack\",\n          \"Who are you to talk?\"\n        ],\n        \"sentences\": {\n          \"Personal attack\": [\n            1\n          ],\n          \"Who are you to talk?\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Personal attack\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate avoided addressing the opponent's proposed healthcare policy and instead attacked their character and personal life, which is a personal attack fallacy.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.yourlogicalfallacyis.com/ad-hominem\"\n              }\n            ]\n          },\n          \"Who are you to talk?\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The audience dismissed the politician's criticism by questioning their own adherence to promises, falling into the 'Who are you to talk?' fallacy.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1908,
-    "completion_tokens": 574,
-    "total_tokens": 2482
+    "prompt_tokens": 1251,
+    "completion_tokens": 316,
+    "total_tokens": 1567
   },
-  "system_fingerprint": "fp_c4e5b6fa31"
+  "system_fingerprint": null
 }

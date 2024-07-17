@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lkHX6qSR0WOD0uCizfsRIW9daLyD",
+  "id": "chatcmpl-9m3b2Py2UrfmwPlUHyC5HCuofKdXC",
   "object": "chat.completion",
-  "created": 1721166351,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240596,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"text\": \"We now know the martini Timberlake was drinking the night of his arrest for driving while intoxicated is 'equivalent to a double of just about any other cocktail.'\",\n  \"fallacy\": \"Appeal to authority (dubious authority)\",\n  \"explanation\": \"The statement relies on the opinion of a cocktail blogger to assert the strength of the martini without providing any scientific or expert validation on the equivalency of alcohol content.\"\n},\n{\n  \"text\": \"One insider told Page Six that the arresting officer 'was so young that he didn't even know' who Timberlake was.\",\n  \"fallacy\": \"Ad hominem\",\n  \"explanation\": \"This statement attempts to discredit the arresting officer by focusing on his age and lack of recognition of Timberlake, rather than addressing the validity of the arrest or the evidence involved.\"\n},\n{\n  \"text\": \"He appeared intoxicated, his breath smelled strongly of alcohol, and he had bloodshot, glassy eyes, according to a criminal complaint, which also states he didn't pass field sobriety tests.\",\n  \"fallacy\": \"Cherry Picking\",\n  \"explanation\": \"The statement highlights specific observations that suggest Timberlake's intoxication but does not consider other possible factors or evidence that could influence these observations (e.g., medical conditions, fatigue).\"\n},\n{\n  \"text\": \"The Vesper\u2014invented by author Ian Fleming for his fictional James Bond and named after sultry double-agent Vesper Lynd\u2014is made of a wine-based aperitif Lillet Blanc, Tanqueray gin, and Grey Goose vodka, shaken over ice.\",\n  \"fallacy\": \"Red Herring (sidetracking)\",\n  \"explanation\": \"This detailed description of the Vesper martini and its origin serves as a distraction from the core issue of Timberlake's alleged DUI.\"\n},\n{\n  \"text\": \"The 'Cry Me A River' singer is charged with driving while intoxicated and was released without bail on Tuesday. He pleaded not guilty.\",\n  \"fallacy\": \"Appeal to emotion\",\n  \"explanation\": \"The statement highlights Timberlake's identity as a famous singer ('Cry Me A River' singer) to evoke sympathy or bias, rather than focusing on the legal proceedings and evidence.\"\n},\n{\n  \"text\": \"Timberlake, who is in the middle of his 'The Forget Tomorrow World Tour,' told police he was following his friends home.\",\n  \"fallacy\": \"Red Herring (sidetracking)\",\n  \"explanation\": \"Mentioning Timberlake's world tour serves to sidetrack from the issue of his alleged DUI, possibly to evoke sympathy or admiration.\"\n},\n{\n  \"text\": \"Meanwhile, the American Hotel's owner says Timberlake is welcome back anytime. Ted Conklin told TMZ the former boy-band heartthrob was a 'great guest and a nice guy' and insisted that he was not over-served at the establishment.\",\n  \"fallacy\": \"Appeal to authority (dubious authority)\",\n  \"explanation\": \"The hotel owner's opinion on Timberlake being a 'great guest and a nice guy' is used to suggest he wasn't over-served, despite lacking any objective evidence or expertise in determining alcohol service limits.\"\n}\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate\",\n      \"source\": \"Debate Night News\",\n      \"sentences\": {\n        \"1\": \"The candidate attacked their opponent's personal life instead of discussing the proposed policies.\",\n        \"2\": \"When questioned about the budget plan, the senator diverted the conversation to foreign policy.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Personal attack\",\n          \"Obfuscation/distraction\"\n        ],\n        \"sentences\": {\n          \"Personal attack\": [\n            1\n          ],\n          \"Obfuscation/distraction\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Personal attack\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The candidate used a personal attack to avoid addressing the opponent's policies directly.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.logicallyfallacious.com/logicalfallacies/Ad-Hominem-Abusive\"\n              }\n            ]\n          },\n          \"Obfuscation/distraction\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The senator diverted the conversation away from the budget plan, focusing on foreign policy instead.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1702,
-    "completion_tokens": 671,
-    "total_tokens": 2373
+    "prompt_tokens": 1251,
+    "completion_tokens": 278,
+    "total_tokens": 1529
   },
-  "system_fingerprint": "fp_c4e5b6fa31"
+  "system_fingerprint": null
 }

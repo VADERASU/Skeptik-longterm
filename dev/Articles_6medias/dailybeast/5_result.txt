@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lkI8lW27Tpg4X1GMHJvG6zcO17US",
+  "id": "chatcmpl-9m3bUFjBXed3maAmc2Z5RzGwyPMgp",
   "object": "chat.completion",
-  "created": 1721166388,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240624,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Ad hominem\",\n      \"text\": \"After spending the past two nights peddling a very misleading clip that claims to show Biden freezing up, Sean Hannity's now back to the 'if Trump loses the debate, it's because Biden's on drugs' routine.\",\n      \"explanation\": \"Rather than addressing the content of the debate or the merits of Biden's or Trump's arguments, the statement attacks Biden's character by insinuating he might use drugs.\"\n    },\n    {\n      \"fallacy\": \"Appeal to emotion\",\n      \"text\": \"Hannity backed the idea that Biden should be drug-tested, and Kimmel was happy to call his bluff: 'Let's do it. Let's test the president for caffeine. Let's test Trump for Adderall and Cialis. Let's see how the tests come out.'\",\n      \"explanation\": \"The suggestion of drug testing both candidates is likely to evoke emotional reactions rather than contribute to a rational discourse on their debate performance or policies.\"\n    },\n    {\n      \"fallacy\": \"Red Herring\",\n      \"text\": \"Kimmel mocked the very idea of Biden relying on any special stimulant drug for his big public appearances. 'I mean, who in the world is buying this idea that there's some magic debate pill you can take\u2026 It's all nuts. It's just all nuttiness.'\",\n      \"explanation\": \"By mocking the idea of a 'magic debate pill,' Kimmel diverts attention from the actual issues of the debate and the policies being discussed.\"\n    },\n    {\n      \"fallacy\": \"Strawman (Caricature)\",\n      \"text\": \"Kimmel showed a clip of Hannity arguing to Lara Trump this week that Biden will likely be taking some sort of drug during the debate, be it coffee or something slightly more nefarious-mirroring Trump's claim in April that Biden was 'higher than a kite' during his 2024 State of the Union address.\",\n      \"explanation\": \"By exaggerating Hannity's claims to the point of absurdity, Kimmel creates a weaker version of the argument that is easier to attack.\"\n    },\n    {\n      \"fallacy\": \"Appeal to authority (dubious authority)\",\n      \"text\": \"Kimmel showed a clip of Hannity arguing to Lara Trump this week that Biden will likely be taking some sort of drug during the debate, be it coffee or something slightly more nefarious-mirroring Trump's claim in April that Biden was 'higher than a kite' during his 2024 State of the Union address.\",\n      \"explanation\": \"Referring to Hannity's and Trump's claims about Biden's drug use without presenting medical evidence relies on their authority rather than on factual data.\"\n    }\n  ]\n}\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Climate Change Debate\",\n      \"source\": \"NY Times\",\n      \"sentences\": {\n        \"1\": \"A scientist with a high carbon footprint is ignored when giving advice on climate change.\",\n        \"2\": \"The politician shifts the debate to economic costs without addressing environmental impacts.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Who are you to talk? (Practicing what you preach)\",\n          \"Red Herring (sidetracking)\"\n        ],\n        \"sentences\": {\n          \"Who are you to talk? (Practicing what you preach)\": [\n            1\n          ],\n          \"Red Herring (sidetracking)\": [\n            2\n          ]\n        },\n        \"annotations\": {\n          \"Who are you to talk? (Practicing what you preach)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"The fallacy occurs in sentence 1 where the argument against the scientist's advice on climate change is rejected based on the scientist's high carbon footprint.\",\n                \"sentence\": [1]\n              }\n            ]\n          },\n          \"Red Herring (sidetracking)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"In sentences 2, the politician diverts attention from the main issue of environmental impacts by focusing on economic costs.\",\n                \"sentence\": [2]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1373,
-    "completion_tokens": 575,
-    "total_tokens": 1948
+    "prompt_tokens": 1251,
+    "completion_tokens": 309,
+    "total_tokens": 1560
   },
-  "system_fingerprint": "fp_298125635f"
+  "system_fingerprint": null
 }

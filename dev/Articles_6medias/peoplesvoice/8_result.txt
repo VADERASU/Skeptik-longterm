@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lk7YigJWxYx5qCxjGU1aEXheOZV5",
+  "id": "chatcmpl-9m3TJ7faEyvlReHUqfFXs8mzAVs4w",
   "object": "chat.completion",
-  "created": 1721165732,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240117,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"fallacy\": \"Appeal to Emotion\",\n      \"location\": \"Headline and throughout the text\",\n      \"explanation\": \"The headline 'Musk Issues Chilling Warning: We Are Sleepwalking Into WW3' and phrases like 'sleepwalking into World War Three' and 'civilizational risk' are designed to evoke fear and urgency without providing concrete evidence or reasoning.\"\n    },\n    {\n      \"fallacy\": \"Red Herring\",\n      \"location\": \"Discussion with Vivek Ramaswamy\",\n      \"explanation\": \"Musk shifts the discussion from specific geopolitical events and decisions to a general criticism of 'one foolish decision after another' without addressing specific policies or actions directly.\"\n    },\n    {\n      \"fallacy\": \"Ad Hominem\",\n      \"location\": \"Reference to Joe Biden\",\n      \"explanation\": \"Musk's statement about world leaders like Joe Biden making 'one foolish decision after another' attacks the character and decision-making of the leaders without addressing specific actions or policies.\"\n    },\n    {\n      \"fallacy\": \"Questionable Conclusion\",\n      \"location\": \"Statement about predictions\",\n      \"explanation\": \"Musk implies that because some predictions have not come true, other predictions (presumably about global conflict) will also not come true. This is a hasty and unwarranted generalization.\"\n    },\n    {\n      \"fallacy\": \"Slippery Slope\",\n      \"location\": \"Prospect of a global fight\",\n      \"explanation\": \"Musk suggests that the alliance of Iran, China, and Russia would inevitably lead to a catastrophic global war without explaining the intermediary steps or considering alternative outcomes.\"\n    },\n    {\n      \"fallacy\": \"Appeal to Authority (Dubious Authority)\",\n      \"location\": \"Reference to Tucker Carlson\",\n      \"explanation\": \"The article mentions Tucker Carlson's warning about America being dragged into war to lend credibility to the argument. However, Carlson is a news anchor, not a geopolitical expert.\"\n    }\n  ]\n}\n```"
+        "content": "```json\n{\n  \"cases\": [\n    {\n      \"name\": \"Sample Text\",\n      \"source\": \"Sample Source\",\n      \"sentences\": {\n        \"1\": \"Example sentence 1.\",\n        \"2\": \"Example sentence 2.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Logical Fallacy 1\",\n          \"Logical Fallacy 2\"\n        ],\n        \"sentences\": {\n          \"Logical Fallacy 1\": [\n            1, 2\n          ],\n          \"Logical Fallacy 2\": [\n            3, 4\n          ]\n        },\n        \"annotations\": {\n          \"Logical Fallacy 1\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Insert explanation here.\",\n                \"sentence\": [1, 2],\n                \"link\": \"https://www.examplelink.com\"\n              }\n            ]\n          },\n          \"Logical Fallacy 2\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Insert explanation here.\",\n                \"sentence\": [3, 4]\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}\n```\n```"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1318,
-    "completion_tokens": 427,
-    "total_tokens": 1745
+    "prompt_tokens": 1251,
+    "completion_tokens": 244,
+    "total_tokens": 1495
   },
-  "system_fingerprint": "fp_dd932ca5d1"
+  "system_fingerprint": null
 }

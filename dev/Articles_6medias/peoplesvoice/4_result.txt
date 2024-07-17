@@ -1,23 +1,23 @@
 {
-  "id": "chatcmpl-9lk6MqG4yqf4pU2Esl7SIhgPJlQA7",
+  "id": "chatcmpl-9m3SfF0k2oUc7gKlUlthT1IaKZ7NB",
   "object": "chat.completion",
-  "created": 1721165658,
-  "model": "gpt-4o-2024-05-13",
+  "created": 1721240077,
+  "model": "gpt-3.5-turbo-0125",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "```json\n{\n  \"fallacies\": [\n    {\n      \"type\": \"Personal attack\",\n      \"location\": \"Title and throughout the article\",\n      \"explanation\": \"The article attacks Bill Gates' character and motives rather than addressing the specifics of his plan to reduce global warming.\"\n    },\n    {\n      \"type\": \"Ad hominem\",\n      \"location\": \"Anthropogenic Climate Change is a Fraud section\",\n      \"explanation\": \"The article dismisses the credibility of scientists who support the idea of anthropogenic climate change by labeling them as 'corporately funded' without addressing the evidence they present.\"\n    },\n    {\n      \"type\": \"Cherry Picking\",\n      \"location\": \"Anthropogenic Climate Change is a Fraud section\",\n      \"explanation\": \"The article selectively uses the Climategate incident and an article from Forbes to argue that climate change is a fraud, ignoring the vast body of scientific evidence supporting it.\"\n    },\n    {\n      \"type\": \"Appeal to emotion\",\n      \"location\": \"Bill Gates Plans to Cut Down Trees section\",\n      \"explanation\": \"The article uses emotionally charged language like 'destroy and capitalise on the natural world' to evoke a negative emotional response against Bill Gates and the investors.\"\n    },\n    {\n      \"type\": \"Red Herring\",\n      \"location\": \"Expose-news reports section\",\n      \"explanation\": \"The article diverts attention from the main topic of carbon dioxide reduction to the issue of carbon offsets, which is a separate but related issue.\"\n    },\n    {\n      \"type\": \"False Cause\",\n      \"location\": \"Expose-news reports section\",\n      \"explanation\": \"The article implies that the primary motive for cutting down trees is to profit from carbon offsets without providing evidence that this is the sole or primary reason.\"\n    },\n    {\n      \"type\": \"Begging the question\",\n      \"location\": \"Anthropogenic Climate Change is a Fraud section\",\n      \"explanation\": \"The article assumes that anthropogenic climate change is a fraud and uses this as a basis to argue that scientists supporting it are not credible.\"\n    },\n    {\n      \"type\": \"Hasty Generalization\",\n      \"location\": \"Anthropogenic Climate Change is a Fraud section\",\n      \"explanation\": \"The article concludes that all scientists supporting anthropogenic climate change are part of a fraud based on a few selectively chosen incidents like Climategate.\"\n    },\n    {\n      \"type\": \"Improper criteria\",\n      \"location\": \"Anthropogenic Climate Change is a Fraud section\",\n      \"explanation\": \"The article dismisses the credibility of scientists based on their funding sources rather than the quality and evidence of their scientific work.\"\n    },\n    {\n      \"type\": \"Slippery slope\",\n      \"location\": \"Throughout the article\",\n      \"explanation\": \"The article suggests that cutting down trees for carbon reduction will inevitably lead to environmental destruction and profiteering, without showing a causal link.\"\n    }\n  ]\n}\n```"
+        "content": "{\n  \"cases\": [\n    {\n      \"name\": \"Political Debate on Healthcare\",\n      \"source\": \"CNN\",\n      \"sentences\": {\n        \"1\": \"During a televised debate on healthcare policy, Candidate A misrepresented Candidate B's proposal for universal healthcare as advocating for a government-controlled system.\",\n        \"2\": \"Candidate B countered by highlighting the benefits of a universal healthcare system and the importance of accessible healthcare for all citizens.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Strawman (Caricature)\"\n        ],\n        \"sentences\": {\n          \"Strawman (Caricature)\": [\n            1\n          ]\n        },\n        \"annotations\": {\n          \"Strawman (Caricature)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Candidate A distorted Candidate B's argument by misrepresenting the proposal for universal healthcare as advocating for a government-controlled system, creating a weakened version to attack.\",\n                \"sentence\": [1],\n                \"link\": \"https://www.google.com/search?q=strawman+fallacy\"\n              }\n            ]\n          }\n        }\n      }\n    },\n    {\n      \"name\": \"Economic Policy Discussion\",\n      \"source\": \"BBC\",\n      \"sentences\": {\n        \"1\": \"In a panel discussion on economic policy, Expert X claimed that a new tax reform would lead to economic growth without providing any substantial evidence to support the claim.\",\n        \"2\": \"Expert Y, a renowned economist, questioned the validity of Expert X's argument and requested data to back up the assertion.\"\n      },\n      \"fallacies\": {\n        \"logical_fallacies\": [\n          \"Evading the Burden of Proof (EBP)\"\n        ],\n        \"sentences\": {\n          \"Evading the Burden of Proof (EBP)\": [\n            1\n          ]\n        },\n        \"annotations\": {\n          \"Evading the Burden of Proof (EBP)\": {\n            \"Explanation\": [\n              {\n                \"explanation\": \"Expert X made a claim about the economic impact of a new tax reform without providing any evidence to support the assertion, thereby evading the burden of proof.\",\n                \"sentence\": [1],\n                \"link\": \"\"\n              }\n            ]\n          }\n        }\n      }\n    }\n  ]\n}"
       },
       "logprobs": null,
       "finish_reason": "stop"
     }
   ],
   "usage": {
-    "prompt_tokens": 1904,
-    "completion_tokens": 614,
-    "total_tokens": 2518
+    "prompt_tokens": 1251,
+    "completion_tokens": 479,
+    "total_tokens": 1730
   },
-  "system_fingerprint": "fp_c4e5b6fa31"
+  "system_fingerprint": null
 }
