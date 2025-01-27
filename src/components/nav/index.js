@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import { Select, Button } from "antd";
 
-export function NavBar ({setSelectedCase, activeArticle}) {
+export function NavBar ({caselist, setSelectedCase, activeArticle}) {
     
     return(
         <>
@@ -14,14 +14,10 @@ export function NavBar ({setSelectedCase, activeArticle}) {
             <Select 
                 defaultValue={0}
                 size="small"
-                options={[
-                    {value: 0, label: "Case 1"},
-                    {value: 1, label: "Case 2"},
-                    {value: 2, label: "Case 3", disabled: false,}
-                ]}
+                options={caselist}
                 onChange={e=>setSelectedCase(e)}
                 style={{
-                    width: 200,
+                    width: 600,
                     float: 'left',
                     marginTop: 10
                 }}

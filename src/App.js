@@ -99,13 +99,19 @@ function App() {
     setImageFlag(false);
   },[selectedCase]);
 
-//console.log(fallacyChatList);
+  //console.log(caseArticle.cases.map(e=>e.title));
+
   return (
     <div className="App">
       <Layout className="mainContainer">
       <Header style={{height: 40}}>
         <NavBar
-          selectedCase={selectedCase}
+          caselist={caseArticle.cases.map((e, i)=>{
+            return {
+              value: i,
+              label: e.title
+            };
+          })}
           setSelectedCase={setSelectedCase}
           activeArticle={caseArticle.cases[selectedCase]}
         />

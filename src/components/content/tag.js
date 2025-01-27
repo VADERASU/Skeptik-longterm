@@ -77,7 +77,7 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
             user_content: textAreaValue
         };
         // chat with llm
-        //llmchat(msg, ftype, textAreaValue);
+        llmchat(msg, ftype, textAreaValue);
      };
 
      const handleLevel3Change = (ftype) => {
