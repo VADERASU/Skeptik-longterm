@@ -957,133 +957,91 @@
             "name": "Former CDC Director Makes Stunning Admission On COVID Vaccines",
             "source": "",
             "fallacies": {
-              "logical_fallacies": ["HG", "RH", "FAUT", "FC", "ST", "CP"],
+              "logical_fallacies": ["CP", "FAUT", "RH", "HG"],
               "sentences": { 
-                    "HG": [1, 23, 29],
-                    "RH": [17, 18, 25, 26],
-                    "FAUT": [19, 20],
-                    "FC": [23, 30],
-                    "ST": [11, 24],
-                    "CP": [19, 22]
+                "CP": [19, 20, 21],
+                "FAUT": [14, 15],
+                "RH": [27, 28],
+                "HG": [46, 47]
               },
               "annotations": {
-               "HG": {
+                "CP": {
                         "L1": [
                             {
-                                "explanation": "The article generalizes that vaccines were unnecessary for younger adults and middle-aged adults without presenting broad scientific evidence to support such a conclusion.",
-                                "sentence": [23, 29]
+                                "explanation": "The article selectively highlights vaccine side effects without considering broader evidence, creating a misleading impression of their frequency and severity.",
+                                "sentence": [19, 20, 21]
                             }
                         ],
                         "L2": [
                             {
-                                "explanation": "This is a hasty generalization because the conclusion that vaccines were unnecessary for younger adults and middle-aged adults is based on anecdotal observations rather than a comprehensive analysis of all relevant data.",
-                                "sentence": [23, 29]
+                                "explanation": "By focusing only on vaccine side effects without presenting statistical context, the article engages in cherry-picking. According to extensive research, vaccine side effects exist but are rare compared to the risks posed by COVID-19 itself. The omission of this comparison misleads readers into thinking the risks outweigh the benefits.",
+                                "sentence": [19, 20, 21]
                             }
                         ],
                         "L3": [
                             {
-                                "explanation": "Generalizations based on selective data can mislead the audience. Proper evaluation of vaccine efficacy should involve thorough analysis of diverse studies and population data.",
-                                "sentence": [23, 29]
-                            }
-                        ]
-                    },
-                    "RH": {
-                        "L1": [
-                            {
-                                "explanation": "The article diverts attention from vaccine policy to criticize Dr. Anthony Fauci and public health agencies without directly addressing the claims about vaccine safety.",
-                                "sentence": [17, 18, 25, 26]
-                            }
-                        ],
-                        "L2": [
-                            {
-                                "explanation": "This is a red herring fallacy because the focus shifts to attacking Dr. Fauci's character and past decisions rather than discussing the evidence for or against the vaccine policies in question.",
-                                "sentence": [17, 18, 25, 26]
-                            }
-                        ],
-                        "L3": [
-                            {
-                                "explanation": "Red herring fallacies detract from the central argument by introducing irrelevant criticisms or personal attacks. The article should focus on evaluating the vaccine policies and their evidence rather than targeting individuals like Dr. Fauci.",
-                                "sentence": [17, 18, 25, 26]
+                                "explanation": "This fallacy can misinform readers about the relative safety of vaccines. In public health, risk assessment relies on data from large-scale studies. For instance, the CDC and WHO have extensively documented that severe vaccine side effects occur in a small fraction of cases compared to the millions who were protected from severe illness and death. Misrepresenting this balance may contribute to vaccine hesitancy, which could have severe public health consequences.",
+                                "sentence": [19, 20, 21]
                             }
                         ]
                     },
                     "FAUT": {
                         "L1": [
                             {
-                                "explanation": "Dr. Redfield and others are presented as credible figures warning about vaccine side effects, but the article fails to cite peer-reviewed studies or specific data to substantiate these claims.",
-                                "sentence": [7, 19, 20]
+                                "explanation": "The article dismisses Redfield’s expertise by labeling his past statements as 'insane' without acknowledging his credentials or scientific context.",
+                                "sentence": [14, 15]
                             }
                         ],
                         "L2": [
                             {
-                                "explanation": "This is a false authority fallacy because the statements rely on the perceived authority of Dr. Redfield without providing supporting evidence. Authority figures' claims should always be backed by scientific research and data.",
-                                "sentence": [7, 19, 20]
+                                "explanation": "Calling Redfield’s statement 'insane' without engaging in a scientific rebuttal is an example of false authority. While his stance may be debatable, experts frequently re-evaluate public health recommendations as new data emerges. Dismissing expert opinions without evidence discredits scientific discourse and contributes to misinformation.",
+                                "sentence": [14, 15]
                             }
                         ],
                         "L3": [
                             {
-                                "explanation": "Citing authority figures without adequate supporting evidence can mislead the audience. Credibility must be established through peer-reviewed studies and consensus among experts in the field.",
-                                "sentence": [7, 19, 20]
+                                "explanation": "False authority is dangerous because it promotes skepticism of scientific expertise without valid reasoning. If Redfield’s statement about masks was incorrect, the appropriate response would be to present counter-evidence rather than name-calling. Critical discussions should be based on peer-reviewed research rather than rhetorical dismissal.",
+                                "sentence": [14, 15]
                             }
                         ]
                     },
-                    "FC": {
+                    "RH": {
                         "L1": [
                             {
-                                "explanation": "The article assumes that vaccines were unnecessary for younger adults and middle-aged adults because they didn't prevent infection or transmission, conflating these observations with causation.",
-                                "sentence": [23, 30]
+                                "explanation": "The article shifts focus from Redfield's admissions to discrediting mitigation measures, which is irrelevant to the main argument.",
+                                "sentence": [27, 28]
                             }
                         ],
                         "L2": [
                             {
-                                "explanation": "This is a false cause fallacy because it attributes the lack of necessity for vaccines solely to their inability to prevent transmission, ignoring their documented benefits in reducing severe illness and death.",
-                                "sentence": [23, 30]
+                                "explanation": "Instead of directly addressing Redfield’s change in position, the article introduces a red herring by attacking pandemic mitigation strategies. The effectiveness of masking and social distancing is a separate debate from Redfield’s vaccine statements, and conflating them distracts from the core discussion.",
+                                "sentence": [27, 28]
                             }
                         ],
                         "L3": [
                             {
-                                "explanation": "Correlation does not imply causation. Vaccines can still provide significant benefits, such as preventing severe illness and hospitalization, even if they do not fully prevent transmission. Oversimplifying their role leads to misleading conclusions.",
-                                "sentence": [23, 30]
+                                "explanation": "Red herring fallacies can mislead audiences by diverting their attention from the main issue. If the goal is to evaluate Redfield’s admissions about vaccines, discussing the effectiveness of masks and social distancing serves only to shift blame rather than engage with the topic at hand.",
+                                "sentence": [27, 28]
                             }
                         ]
                     },
-                    "ST": {
+                    "HG": {
                         "L1": [
                             {
-                                "explanation": "The article misrepresents the CDC's initial recommendations as entirely ignoring nuances such as risk by age group, which distorts their original messaging and simplifies the complexity of public health guidance.",
-                                "sentence": [11, 24]
+                                "explanation": "The article generalizes that all experts and media were wrong about COVID measures, ignoring the complexity of public health decisions.",
+                                "sentence": [46, 47]
                             }
                         ],
                         "L2": [
                             {
-                                "explanation": "This is a strawman fallacy because the article oversimplifies and distorts the CDC's guidance by suggesting it was entirely wrong or inappropriate, without addressing the underlying evidence or reasoning behind the recommendations.",
-                                "sentence": [11, 24]
+                                "explanation": "The claim that 'experts and media were wrong' is a hasty generalization. While mistakes were made, public health decisions were based on the best available data at the time. Science is an evolving process, and broad accusations ignore the nuance of policy-making under crisis conditions.",
+                                "sentence": [46, 47]
                             }
                         ],
                         "L3": [
                             {
-                                "explanation": "Misrepresenting arguments or recommendations leads to unfair criticism and prevents constructive evaluation. The CDC's guidance considered various factors, and oversimplifying them does not allow for a balanced discussion.",
-                                "sentence": [11, 24]
-                            }
-                        ]
-                    },
-                    "CP": {
-                        "L1": [
-                            {
-                                "explanation": "The article selectively highlights vaccine side effects and anecdotal reports from Dr. Redfield while ignoring the broader body of evidence demonstrating vaccine safety and effectiveness.",
-                                "sentence": [19, 22]
-                            }
-                        ],
-                        "L2": [
-                            {
-                                "explanation": "Cherry-picking occurs when the article focuses on negative anecdotal reports while omitting large-scale studies and data showing vaccines' safety and benefits. This creates a skewed narrative that does not represent the full context.",
-                                "sentence": [19, 22]
-                            }
-                        ],
-                        "L3": [
-                            {
-                                "explanation": "Cherry-picking evidence misleads readers by ignoring the broader consensus and data supporting vaccine safety. Evaluating vaccines requires considering the full scope of studies and real-world data, not just isolated claims or anecdotes.",
-                                "sentence": [19, 22]
+                                "explanation": "Hasty generalizations contribute to distrust in institutions. While skepticism is healthy, it should be based on specific critiques rather than broad-stroke condemnations. Evaluating public health policies requires understanding the trade-offs, limitations, and evolving nature of scientific knowledge.",
+                                "sentence": [46, 47]
                             }
                         ]
                     }
@@ -1095,115 +1053,136 @@
             "name": "Do Large Solar Power Plants Act as 'Tornado Incubators'?",
             "source": "",
             "fallacies": {
-              "logical_fallacies": ["FAUT", "MOSS", "FC", "HG", "RH"],
+              "logical_fallacies": ["FAUT", "CP", "FC", "ST", "RH", "VAG"],
               "sentences": { 
-                    "FAUT": [7, 9],
-                    "MOSS": [13, 14, 20],
-                    "FC": [14],
-                    "HG": [3, 24],
-                    "RH": [24, 26]
+                "FAUT": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+                "CP": [3, 4, 22, 41, 42, 63, 64],
+                "FC": [3, 41, 42, 63, 64],
+                "ST": [63, 64, 65, 66],
+                "RH": [75, 76, 77],
+                "VAG": [83, 84, 85]
               },
               "annotations": {
-                  "FAUT": {
-                        "L1": [
-                            {
-                                "explanation": "The author of the original post claims to be a retired aerospace engineer, but no evidence supports their identity or credentials, and even if true, these qualifications do not establish expertise on solar energy or meteorology.",
-                                "sentence": [7, 9]
-                            }
-                        ],
-                        "L2": [
-                            {
-                                "explanation": "This is a false authority fallacy because the author appeals to their credentials as an aerospace engineer to support claims about solar farms and weather patterns, despite no evidence of expertise in relevant fields like meteorology or renewable energy.",
-                                "sentence": [7, 9]
-                            }
-                        ],
-                        "L3": [
-                            {
-                                "explanation": "Citing irrelevant qualifications to support scientific claims is misleading. Expertise in one field, like aerospace engineering, does not validate statements about unrelated topics such as weather effects of solar farms. Properly credentialed experts in meteorology or environmental science should be consulted instead.",
-                                "sentence": [7, 9]
-                            }
-                        ]
-                    },
-                    "MOSS": {
-                        "L1": [
-                            {
-                                "explanation": "The post misrepresents scientific phenomena, such as black-body radiation, to draw unsupported conclusions about solar farms causing weather extremes.",
-                                "sentence": [13, 14, 20]
-                            }
-                        ],
-                        "L2": [
-                            {
-                                "explanation": "The misuse of scientific concepts like black-body radiation and heat island effects creates a misleading narrative about solar farms. Black-body radiation describes thermal emissions from hot objects and has no direct bearing on the claims made about solar farms exacerbating weather.",
-                                "sentence": [13, 14, 20]
-                            }
-                        ],
-                        "L3": [
-                            {
-                                "explanation": "Misrepresenting scientific phenomena can lead to confusion and misinformation. Proper understanding of concepts like black-body radiation and heat islands is essential before applying them to arguments about solar farms or climate impacts.",
-                                "sentence": [13, 14, 20]
-                            }
-                        ]
-                    },
-                    "FC": {
-                        "L1": [
-                            {
-                                "explanation": "The claim that solar farms create tornadoes and thunderstorms assumes causation between heat emitted by solar panels and severe weather events, without providing evidence for such a connection.",
-                                "sentence": [14]
-                            }
-                        ],
-                        "L2": [
-                            {
-                                "explanation": "This is a false cause fallacy because the post incorrectly attributes tornado formation to localized heat emitted by solar farms, ignoring the actual factors like atmospheric instability and vertical wind shear required for tornado formation.",
-                                "sentence": [14]
-                            }
-                        ],
-                        "L3": [
-                            {
-                                "explanation": "Causation claims must be backed by strong evidence. Severe weather events like tornadoes require specific atmospheric conditions, and localized heat from solar farms is insufficient to create these phenomena.",
-                                "sentence": [14]
-                            }
-                        ]
-                    },
-                    "HG": {
-                        "L1": [
-                            {
-                                "explanation": "The claim that 'green energy does not exist' is a sweeping generalization that dismisses the extensive scientific evidence and technological advancements supporting renewable energy.",
-                                "sentence": [24]
-                            }
-                        ],
-                        "L2": [
-                            {
-                                "explanation": "This is a hasty generalization because the author makes a broad claim about green energy being ineffective or nonexistent without addressing the well-documented successes of solar, wind, and other renewable energy technologies.",
-                                "sentence": [24]
-                            }
-                        ],
-                        "L3": [
-                            {
-                                "explanation": "Generalizing about green energy's validity undermines credible discussions about renewable solutions to climate change. The claim ignores the vast body of evidence demonstrating the feasibility and effectiveness of technologies like solar and wind energy.",
-                                "sentence": [24]
-                            }
-                        ]
-                    },
-                    "RH": {
-                        "L1": [
-                            {
-                                "explanation": "The statement about 'dirty money' flowing into corrupt pockets distracts from the main argument about solar farms and weather impacts, introducing an unrelated critique of green energy funding.",
-                                "sentence": [24, 26]
-                            }
-                        ],
-                        "L2": [
-                            {
-                                "explanation": "This is a red herring fallacy because the post shifts focus to accusing green energy proponents of corruption, rather than providing evidence to support its claims about solar farms causing weather extremes.",
-                                "sentence": [24, 26]
-                            }
-                        ],
-                        "L3": [
-                            {
-                                "explanation": "Distractions like accusations of corruption derail discussions about scientific claims. To engage in meaningful debate, it's important to address the evidence and avoid irrelevant attacks on motives or funding sources.",
-                                "sentence": [24, 26]
-                            }
-                        ]
-                    }
+                "FAUT": {
+                    "L1": [
+                        {
+                            "explanation": "The author claims expertise in aerospace engineering and uses this as credibility for making claims about solar energy. However, expertise in aerospace engineering does not make one an authority on the effects of solar farms on weather patterns.",
+                            "sentence": [8, 9, 10, 11, 12, 13, 14, 15, 16]
+                        }
+                    ],
+                    "L2": [
+                        {
+                            "explanation": "This fallacy arises because the author presents credentials unrelated to climate science or meteorology to establish credibility on the topic of solar energy. While aerospace engineering is a rigorous field, it does not entail expertise in climate science, meteorology, or solar energy. Citing unrelated credentials is a form of false authority designed to mislead the audience.",
+                            "sentence": [8, 9, 10, 11, 12, 13, 14, 15, 16]
+                        }
+                    ],
+                    "L3": [
+                        {
+                            "explanation": "False authority is a common fallacy in misinformation. In this case, the author strategically lists impressive but unrelated qualifications to imply credibility on solar energy and weather effects. Readers unfamiliar with logical fallacies may assume that a ‘rocket scientist’ must be an expert on all things scientific, which is not true.",
+                            "sentence": [8, 9, 10, 11, 12, 13, 14, 15, 16]
+                        }
+                    ]
+                },
+                "CP": {
+                    "L1": [
+                        {
+                            "explanation": "The post selectively presents scientific facts about solar panels while ignoring broader research. While solar panels do absorb heat, the post omits evidence that shows their contribution to temperature changes is minor and does not support the claim that they cause tornadoes.",
+                            "sentence": [3, 4, 22, 41, 42, 63, 64]
+                        }
+                    ],
+                    "L2": [
+                        {
+                            "explanation": "Cherry-picking occurs when selective evidence is presented while ignoring contradictory data. The post highlights that solar panels absorb heat but omits research that contradicts the claim that this would lead to tornadoes. The omitted evidence includes scientific studies demonstrating that tornado formation depends on large-scale atmospheric conditions rather than localized heating effects.",
+                            "sentence": [3, 4, 22, 41, 42, 63, 64]
+                        }
+                    ],
+                    "L3": [
+                        {
+                            "explanation": "Cherry-picking is a key strategy in misinformation, where isolated facts are used to construct misleading narratives. In this case, the post takes true statements about heat absorption and manipulates them to suggest an unfounded conclusion about tornado formation. Recognizing cherry-picking helps readers critically evaluate scientific claims.",
+                            "sentence": [3, 4, 22, 41, 42, 63, 64]
+                        }
+                    ]
+                },
+                "FC": {
+                    "L1": [
+                        {
+                            "explanation": "The claim that solar farms ‘act as tornado incubators’ falsely assumes a causal relationship between localized heat absorption and tornado formation without supporting evidence.",
+                            "sentence": [3, 41, 42, 63, 64]
+                        }
+                    ],
+                    "L2": [
+                        {
+                            "explanation": "False cause fallacies occur when correlation is mistaken for causation. The post suggests that because solar farms absorb heat, they must be causing tornadoes. However, meteorological research attributes tornadoes to large-scale weather patterns and atmospheric instability, not localized heat absorption.",
+                            "sentence": [3, 41, 42, 63, 64]
+                        }
+                    ],
+                    "L3": [
+                        {
+                            "explanation": "The false cause fallacy is a fundamental error in reasoning that often leads to misinformation. It is important to recognize that just because two phenomena occur together (solar panels and heat absorption), one does not necessarily cause the other (tornado formation). Scientific research should be consulted before drawing such conclusions.",
+                            "sentence": [3, 41, 42, 63, 64]
+                        }
+                    ]
+                },
+                "ST": {
+                    "L1": [
+                        {
+                            "explanation": "The post misrepresents the argument in favor of solar energy by suggesting that proponents ignore potential downsides, when in reality, researchers actively study ways to mitigate heat island effects.",
+                            "sentence": [63, 64, 65, 66]
+                        }
+                    ],
+                    "L2": [
+                        {
+                            "explanation": "The strawman fallacy occurs when an argument is distorted to make it easier to attack. In this case, the post presents an oversimplified version of the case for solar energy, implying that scientists and policymakers overlook environmental concerns. However, studies exist on minimizing the heat impact of solar farms, which the post ignores.",
+                            "sentence": [63, 64, 65, 66]
+                        }
+                    ],
+                    "L3": [
+                        {
+                            "explanation": "The strawman fallacy is often used to dismiss opposing viewpoints unfairly. Here, the post falsely claims that green energy advocates ignore its environmental impacts, even though research and mitigation strategies exist. Recognizing strawman arguments is crucial to identifying misinformation.",
+                            "sentence": [63, 64, 65, 66]
+                        }
+                    ]
+                },
+                "RH": {
+                    "L1": [
+                        {
+                            "explanation": "The post diverts attention from scientific discussions about solar energy by shifting focus to corruption and financial motives, which are unrelated to the claim about tornado formation.",
+                            "sentence": [75, 76, 77]
+                        }
+                    ],
+                    "L2": [
+                        {
+                            "explanation": "A red herring fallacy is present when an argument is sidetracked by an unrelated issue. Here, the post shifts from discussing solar energy’s environmental effects to making vague accusations about financial corruption, distracting from the scientific analysis of tornado formation.",
+                            "sentence": [75, 76, 77]
+                        }
+                    ],
+                    "L3": [
+                        {
+                            "explanation": "Red herrings are a common tactic in misinformation, used to shift attention from weak arguments. The claim about corruption does not refute the scientific consensus on green energy’s benefits and environmental impact mitigation efforts. Recognizing red herrings helps avoid being misled by emotional distractions.",
+                            "sentence": [75, 76, 77]
+                        }
+                    ]
+                },
+                "VAG": {
+                    "L1": [
+                        {
+                            "explanation": "The phrase ‘there is no such thing as green energy’ is vague and misleading, ignoring the established scientific definition and advancements in renewable energy.",
+                            "sentence": [83, 84, 85]
+                        }
+                    ],
+                    "L2": [
+                        {
+                            "explanation": "Vagueness is used to mislead readers by making broad, unspecific claims that cannot be easily refuted. The claim that ‘green energy does not exist’ is vague and unsupported, dismissing decades of research and successful implementation of renewable energy solutions.",
+                            "sentence": [83, 84, 85]
+                        }
+                    ],
+                    "L3": [
+                        {
+                            "explanation": "Vagueness in misinformation allows broad, unsubstantiated claims to spread without accountability. By refusing to define ‘green energy,’ the post avoids engagement with concrete evidence and existing technological advancements. Recognizing vague language helps critically evaluate misleading arguments.",
+                            "sentence": [83, 84, 85]
+                        }
+                    ]
+                }
               }
             },
             "text_chart_linkage": null

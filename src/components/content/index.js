@@ -232,7 +232,9 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
         <Typography>
             <Row>
                 {/** Article content */}
-                <Col span={12}>
+                <Col span={12} style={{
+                            minHeight: 800
+                        }}>
                     <Row>
                         <Col span={24}><Title id="title" key="title">{newscase.title}</Title></Col>
                         {/*<Col span={24}><blockquote id="subtitle" key="subtitle">{newscase["sub-title"]}</blockquote></Col>*/}
