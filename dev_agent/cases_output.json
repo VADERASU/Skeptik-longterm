@@ -1,0 +1,1932 @@
+{
+  "cases": [
+    {
+      "name": "Greenland's Melting Ice Is No Cause for Climate-Change Panic",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Cherry Picking",
+          "Sidetracking (Red Herring)",
+          "Questionable Authority (Appeal to Authority)"
+        ],
+        "sentences": {
+          "Cherry Picking": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "Sidetracking (Red Herring)": [
+            9,
+            10,
+            11
+          ],
+          "Questionable Authority (Appeal to Authority)": [
+            18
+          ]
+        },
+        "annotations": {
+          "Cherry Picking": {
+            "L1": [
+              {
+                "explanation": "These sentences use Cherry Picking by selectively presenting data that downplays the impact of Greenland's ice loss while ignoring broader scientific consensus and data that may contradict this view.",
+                "sentence": [
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing on specific data points and ignoring the broader context or other scientific findings, the argument misleads readers about the overall impact and causes of Greenland's ice loss.",
+                "sentence": [
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should consider the full range of scientific data and consensus on Greenland's ice loss, including reports from reputable scientific organizations, to form a balanced understanding.",
+                "sentence": [
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              }
+            ]
+          },
+          "Sidetracking (Red Herring)": {
+            "L1": [
+              {
+                "explanation": "These sentences use Sidetracking (Red Herring) by shifting the focus from the scientific consensus on climate change to the variability of natural cycles, which does not directly address the human impact on climate change.",
+                "sentence": [
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By introducing the topic of natural cycles, the argument diverts attention from the primary issue of human-induced climate change, misleading readers about the main causes of ice loss.",
+                "sentence": [
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should focus on the main argument regarding human-induced climate change and consider how natural cycles and human activities interact, rather than viewing them as mutually exclusive.",
+                "sentence": [
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ]
+          },
+          "Questionable Authority (Appeal to Authority)": {
+            "L1": [
+              {
+                "explanation": "This sentence uses Questionable Authority (Appeal to Authority) by relying on Mr. Koonin's credentials to lend weight to the argument without addressing the scientific consensus.",
+                "sentence": [
+                  18
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By emphasizing Mr. Koonin's credentials, the argument may mislead readers into accepting his views as authoritative without critically evaluating the scientific evidence.",
+                "sentence": [
+                  18
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should critically evaluate the evidence presented and consider the broader scientific consensus, rather than relying solely on the authority of a single expert.",
+                "sentence": [
+                  18
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "How the Iowa caucuses are changing in 2024",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Cherry Picking",
+          "Assertion (Evading the Burden of Proof, EBP)"
+        ],
+        "sentences": {
+          "Cherry Picking": [
+            16
+          ],
+          "Assertion (Evading the Burden of Proof, EBP)": [
+            24
+          ]
+        },
+        "annotations": {
+          "Cherry Picking": {
+            "L1": [
+              {
+                "explanation": "Sentence 16 uses Cherry Picking by highlighting the low attendance in 2016 without acknowledging other factors or years that might show different trends.",
+                "sentence": [
+                  16
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing only on the low attendance in 2016, the argument misleads readers about the overall effectiveness or popularity of the caucus system by ignoring other data points.",
+                "sentence": [
+                  16
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should consider additional data from other years and factors influencing attendance to evaluate the effectiveness of the caucus system more comprehensively.",
+                "sentence": [
+                  16
+                ]
+              }
+            ]
+          },
+          "Assertion (Evading the Burden of Proof, EBP)": {
+            "L1": [
+              {
+                "explanation": "Sentence 24 uses Assertion (Evading the Burden of Proof, EBP) by claiming that Republicans in Iowa remain committed to their system without providing evidence to support this claim.",
+                "sentence": [
+                  24
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By making an unsupported claim about the commitment of Republicans to the caucus system, the argument misleads readers by not providing evidence or data to substantiate this assertion.",
+                "sentence": [
+                  24
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should look for evidence or data that supports the claim of commitment to the caucus system, such as surveys or statements from Republican officials.",
+                "sentence": [
+                  24
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "The Medical Profession Implodes",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Attacking the Messenger?",
+          "Baffling with BS?",
+          "Smoke & Mirrors?",
+          "Wait, What?",
+          "Divide & Conquer?"
+        ],
+        "sentences": {
+          "Attacking the Messenger?": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "Baffling with BS?": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "Smoke & Mirrors?": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "Wait, What?": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "Divide & Conquer?": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        "annotations": {
+          "Attacking the Messenger?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Kill the Messenger (Ad Hominem) by attacking physicians' credibility and judgment instead of addressing their arguments or actions directly.",
+                "sentence": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing on the perceived failings of physicians, the argument misleads readers about the validity of medical practices related to COVID by undermining trust in medical professionals.",
+                "sentence": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should evaluate the arguments about COVID-related medical practices based on evidence and reasoning, rather than the perceived character or judgment of physicians.",
+                "sentence": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ]
+          },
+          "Baffling with BS?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Sidetracking (Red Herring) by introducing irrelevant issues such as personal anecdotes and generalized criticisms of physicians to divert attention from the main topic of COVID-related medical practices.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By introducing irrelevant topics, the argument misleads readers by shifting focus away from the evidence and reasoning related to COVID treatments and vaccines.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should focus on the specific claims and evidence related to COVID practices, rather than being distracted by unrelated criticisms or anecdotes.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ]
+          },
+          "Smoke & Mirrors?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Questionable Authority (Appeal to Authority) by implying that the writer's personal experiences and observations are sufficient to challenge established medical practices without providing substantial evidence.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By relying on personal authority, the argument misleads readers by suggesting that anecdotal evidence is as valid as scientific research and consensus.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should seek out peer-reviewed studies and expert consensus when evaluating claims about medical practices, rather than relying on individual anecdotes.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ]
+          },
+          "Wait, What?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Overgeneralization (Hasty Generalization) by drawing broad conclusions about the medical profession's response to COVID based on limited examples and personal observations.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By generalizing from limited examples, the argument misleads readers by suggesting that all or most physicians lack critical thinking skills regarding COVID without sufficient evidence.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should consider a wide range of evidence and perspectives before concluding about the medical profession's response to COVID.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ]
+          },
+          "Divide & Conquer?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Dubious Separation (False Dilemma / Dichotomy) by presenting the situation as a choice between accepting government narratives or exercising independent critical thinking, ignoring other possibilities.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By presenting a false dichotomy, the argument misleads readers by oversimplifying the complex issue of medical decision-making during the pandemic.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should recognize that there are multiple factors and perspectives involved in medical decision-making and that it is not simply a matter of following or rejecting government guidelines.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "It's not just Trump-supporters who are resisting the COVID vaccine",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Attacking the Messenger?",
+          "Baffling with BS?",
+          "Assertion (Evading the Burden of Proof, EBP)",
+          "Smoke & Mirrors?",
+          "Wait, What?"
+        ],
+        "sentences": {
+          "Attacking the Messenger?": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "Baffling with BS?": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "Assertion (Evading the Burden of Proof, EBP)": [
+            3
+          ],
+          "Smoke & Mirrors?": [
+            16,
+            17,
+            18
+          ],
+          "Wait, What?": [
+            2,
+            4
+          ]
+        },
+        "annotations": {
+          "Attacking the Messenger?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Kill the Messenger (Ad Hominem) by attacking the credibility of public health officials and social media outlets instead of addressing their arguments.",
+                "sentence": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing on the alleged dishonesty and bias of these entities, the argument misleads readers about the validity of their positions on COVID-related issues.",
+                "sentence": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should evaluate the arguments of public health officials and social media based on evidence and logic, not the perceived character or past actions of these entities.",
+                "sentence": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              }
+            ]
+          },
+          "Baffling with BS?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Sidetracking (Red Herring) by introducing unrelated issues about social media and political figures to distract from the discussion about vaccine hesitancy.",
+                "sentence": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By diverting attention to issues of misinformation and political bias, the argument misleads readers about the central issue of vaccine hesitancy.",
+                "sentence": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should focus on the specific arguments and evidence related to vaccine hesitancy rather than being sidetracked by unrelated political issues.",
+                "sentence": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              }
+            ]
+          },
+          "Assertion (Evading the Burden of Proof, EBP)": {
+            "L1": [
+              {
+                "explanation": "This sentence uses Assertion (Evading the Burden of Proof) by claiming the public is misled about vaccine hesitancy without providing supporting evidence.",
+                "sentence": [
+                  3
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By making an unsupported claim, the argument shifts the burden of proof to the reader, misleading them about the prevalence of misinformation.",
+                "sentence": [
+                  3
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should seek evidence supporting claims about public perception and misinformation rather than accepting assertions without proof.",
+                "sentence": [
+                  3
+                ]
+              }
+            ]
+          },
+          "Smoke & Mirrors?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Questionable Authority (Appeal to Authority) by invoking Khrushchev's prediction and historical references to support claims about current events without relevant evidence.",
+                "sentence": [
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By relying on historical figures and events without clear relevance, the argument misleads readers about the current state of media and political influence.",
+                "sentence": [
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should critically evaluate the relevance and applicability of historical references to contemporary issues, seeking direct evidence of current claims.",
+                "sentence": [
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ]
+          },
+          "Wait, What?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Overgeneralization (Hasty Generalization) by suggesting that the vaccination rate among federal health officials reflects broader public sentiment without sufficient evidence.",
+                "sentence": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By generalizing from a specific group to the entire public, the argument misleads readers about the complexity of vaccine hesitancy.",
+                "sentence": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should consider a wider range of data and factors influencing vaccine hesitancy rather than assuming one group's behavior represents the whole.",
+                "sentence": [
+                  2,
+                  4
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "Vaccine ratios vs. Wuhan Virus ratios",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Cherry Picking",
+          "Assertion (Evading the Burden of Proof, EBP)"
+        ],
+        "sentences": {
+          "Cherry Picking": [
+            4,
+            5
+          ],
+          "Assertion (Evading the Burden of Proof, EBP)": [
+            6,
+            7
+          ]
+        },
+        "annotations": {
+          "Cherry Picking": {
+            "L1": [
+              {
+                "explanation": "These sentences use Cherry Picking by selectively presenting data on death rates without considering broader context or other relevant statistics.",
+                "sentence": [
+                  4,
+                  5
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing only on specific low death rates, the argument misleads readers about the overall risk and the rationale for public health measures.",
+                "sentence": [
+                  4,
+                  5
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should consider the full range of data, including infection rates, long-term effects, and the role of vaccines in reducing transmission, to evaluate the necessity of health measures.",
+                "sentence": [
+                  4,
+                  5
+                ]
+              }
+            ]
+          },
+          "Assertion (Evading the Burden of Proof, EBP)": {
+            "L1": [
+              {
+                "explanation": "These sentences use Assertion by claiming that school boards and public health officials ignore data without providing evidence for this claim.",
+                "sentence": [
+                  6,
+                  7
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By making unsupported claims about the actions of officials, the argument misleads readers into accepting a conclusion without evidence.",
+                "sentence": [
+                  6,
+                  7
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should seek evidence supporting claims about officials' actions and consider the reasons provided by health authorities for their recommendations.",
+                "sentence": [
+                  6,
+                  7
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "Mandatory coronavirus vaccination looming on the horizon",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Attacking the Messenger?",
+          "Baffling with BS?",
+          "Smoke & Mirrors?",
+          "Wait, What?"
+        ],
+        "sentences": {
+          "Attacking the Messenger?": [
+            19,
+            20
+          ],
+          "Baffling with BS?": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "Smoke & Mirrors?": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "Wait, What?": [
+            8,
+            9,
+            10
+          ]
+        },
+        "annotations": {
+          "Attacking the Messenger?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Kill the Messenger (Ad Hominem) by attacking Dr. Anthony Fauci and others instead of addressing their arguments.",
+                "sentence": [
+                  19,
+                  20
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing on personal attacks, the argument misleads readers about the validity of the arguments presented by Fauci and others.",
+                "sentence": [
+                  19,
+                  20
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should evaluate the arguments based on evidence and reasoning rather than personal attacks.",
+                "sentence": [
+                  19,
+                  20
+                ]
+              }
+            ]
+          },
+          "Baffling with BS?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Sidetracking (Red Herring) by introducing irrelevant comparisons and issues to divert attention from the main argument.",
+                "sentence": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By introducing unrelated topics, the argument misleads readers about the central issue of vaccine mandates.",
+                "sentence": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should focus on the core argument and evaluate it based on relevant evidence and reasoning.",
+                "sentence": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ]
+          },
+          "Smoke & Mirrors?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Questionable Authority (Appeal to Authority) by relying on Mike Adams, a controversial figure, as a primary source.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By appealing to a questionable authority, the argument misleads readers about the credibility of the information presented.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should verify claims with credible sources and evaluate the evidence independently.",
+                "sentence": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ]
+          },
+          "Wait, What?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Overgeneralization (Hasty Generalization) by drawing broad conclusions about vaccine mandates from limited evidence.",
+                "sentence": [
+                  8,
+                  9,
+                  10
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By generalizing from insufficient evidence, the argument misleads readers about the likelihood and implications of mandatory vaccination.",
+                "sentence": [
+                  8,
+                  9,
+                  10
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should seek comprehensive evidence before accepting broad claims about policy implications.",
+                "sentence": [
+                  8,
+                  9,
+                  10
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "Anti-vaccine website falsely claims Covid jabs behind cancer uptick",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Cherry Picking",
+          "Questionable Authority",
+          "Assertion (Evading the Burden of Proof, EBP)"
+        ],
+        "sentences": {
+          "Cherry Picking": [
+            12,
+            13,
+            14
+          ],
+          "Questionable Authority": [
+            6,
+            7,
+            8
+          ],
+          "Assertion (Evading the Burden of Proof, EBP)": [
+            1,
+            19,
+            20
+          ]
+        },
+        "annotations": {
+          "Cherry Picking": {
+            "L1": [
+              {
+                "explanation": "These sentences use Cherry Picking by selectively presenting VAERS data to suggest a causal link between Covid-19 vaccines and cancer without considering the broader context or the nature of VAERS data.",
+                "sentence": [
+                  12,
+                  13,
+                  14
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing on specific data points from VAERS without acknowledging its limitations, the argument misleads readers about the validity of the claim that Covid-19 vaccines cause cancer.",
+                "sentence": [
+                  12,
+                  13,
+                  14
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should evaluate the full context of VAERS data, including its purpose and limitations, and seek corroborating evidence from peer-reviewed studies to assess claims of causality.",
+                "sentence": [
+                  12,
+                  13,
+                  14
+                ]
+              }
+            ]
+          },
+          "Questionable Authority": {
+            "L1": [
+              {
+                "explanation": "These sentences use Questionable Authority by citing The Exposé, a source known for spreading misinformation, as a credible authority on vaccine safety.",
+                "sentence": [
+                  6,
+                  7,
+                  8
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By presenting The Exposé as a reliable source, the argument misleads readers about the credibility and accuracy of the information regarding vaccine safety.",
+                "sentence": [
+                  6,
+                  7,
+                  8
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should critically evaluate the credibility of sources and rely on information from established public health organizations and peer-reviewed research.",
+                "sentence": [
+                  6,
+                  7,
+                  8
+                ]
+              }
+            ]
+          },
+          "Assertion (Evading the Burden of Proof, EBP)": {
+            "L1": [
+              {
+                "explanation": "These sentences use Assertion (Evading the Burden of Proof) by making claims about the safety and efficacy of Covid-19 vaccines without providing supporting evidence.",
+                "sentence": [
+                  1,
+                  19,
+                  20
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By asserting claims without evidence, the argument shifts the burden of proof onto the reader, misleading them into accepting the claims without critical evaluation.",
+                "sentence": [
+                  1,
+                  19,
+                  20
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should demand evidence for claims made about vaccine safety and efficacy, and verify such claims against scientific research and expert consensus.",
+                "sentence": [
+                  1,
+                  19,
+                  20
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "Study Finds 'Significant Increase' In Cancer Mortality After 3rd COVID Dose",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Questionable Authority",
+          "Cherry Picking",
+          "Assertion"
+        ],
+        "sentences": {
+          "Questionable Authority": [
+            3,
+            6
+          ],
+          "Cherry Picking": [
+            1,
+            5
+          ],
+          "Assertion": [
+            4,
+            9
+          ]
+        },
+        "annotations": {
+          "Questionable Authority": {
+            "L1": [
+              {
+                "explanation": "These sentences use Questionable Authority by relying on Dr. McCullough's statements without establishing his expertise or the validity of his claims.",
+                "sentence": [
+                  3,
+                  6
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By presenting Dr. McCullough as an authority without verifying his credentials or the scientific consensus, the argument misleads readers about the reliability of the claims regarding vaccine safety.",
+                "sentence": [
+                  3,
+                  6
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should verify the credentials of the cited authority and seek corroboration from multiple experts and peer-reviewed studies to assess the validity of the claims.",
+                "sentence": [
+                  3,
+                  6
+                ]
+              }
+            ]
+          },
+          "Cherry Picking": {
+            "L1": [
+              {
+                "explanation": "These sentences use Cherry Picking by highlighting data from Japan that suggests an increase in cancer deaths post-vaccination while ignoring other data that may contradict this trend.",
+                "sentence": [
+                  1,
+                  5
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing only on data that supports the claim of increased cancer mortality, the argument misleads readers by omitting broader context or contradictory evidence.",
+                "sentence": [
+                  1,
+                  5
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should seek comprehensive data and consider studies from multiple sources to understand the full scope of the issue and avoid conclusions based on selective evidence.",
+                "sentence": [
+                  1,
+                  5
+                ]
+              }
+            ]
+          },
+          "Assertion": {
+            "L1": [
+              {
+                "explanation": "These sentences use Assertion by making claims about vaccine data censorship and the extent of vaccine complications without providing supporting evidence.",
+                "sentence": [
+                  4,
+                  9
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By making unsupported claims, the argument shifts the burden of proof to the reader, potentially leading to acceptance of the claims without critical evaluation.",
+                "sentence": [
+                  4,
+                  9
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should demand evidence for claims made and critically evaluate whether the evidence provided is sufficient to support the conclusions drawn.",
+                "sentence": [
+                  4,
+                  9
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "Former CDC Director Makes Stunning Admission On COVID Vaccines",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Attacking the Messenger?",
+          "Baffling with BS?",
+          "Assertion (Evading the Burden of Proof, EBP)",
+          "Wait, What?"
+        ],
+        "sentences": {
+          "Attacking the Messenger?": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "Baffling with BS?": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "Assertion (Evading the Burden of Proof, EBP)": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "Wait, What?": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        },
+        "annotations": {
+          "Attacking the Messenger?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Kill the Messenger (Ad Hominem) by attacking Dr. Redfield's past actions and statements instead of evaluating the current argument.",
+                "sentence": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing on Redfield's past actions and perceived failures, the argument misleads readers about the validity of his current statements.",
+                "sentence": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should separate the evaluation of Redfield's past actions from the assessment of his current claims, focusing on the evidence and reasoning he presents now.",
+                "sentence": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              }
+            ]
+          },
+          "Baffling with BS?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Sidetracking (Red Herring) by focusing on the shift in media narrative and past statements rather than addressing the core issue of vaccine efficacy and safety.",
+                "sentence": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By emphasizing the change in narrative and past oversights, the argument diverts attention from the current evidence and discussion about vaccine safety.",
+                "sentence": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should focus on the current evidence and discussions about vaccine safety and efficacy, rather than being sidetracked by past narratives.",
+                "sentence": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              }
+            ]
+          },
+          "Assertion (Evading the Burden of Proof, EBP)": {
+            "L1": [
+              {
+                "explanation": "These sentences use Assertion (Evading the Burden of Proof) by claiming that vaccines were unnecessary for most people without providing supporting evidence.",
+                "sentence": [
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By making claims about vaccine necessity without evidence, the argument shifts the burden of proof to the reader, misleading them about the validity of the statement.",
+                "sentence": [
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should seek evidence and data supporting claims about vaccine necessity and efficacy, rather than accepting assertions without proof.",
+                "sentence": [
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ]
+              }
+            ]
+          },
+          "Wait, What?": {
+            "L1": [
+              {
+                "explanation": "These sentences use Overgeneralization (Hasty Generalization) by concluding that vaccines were unnecessary for most people based on limited evidence or anecdotal claims.",
+                "sentence": [
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By generalizing from limited evidence, the argument misleads readers about the broader efficacy and necessity of vaccines for different age groups.",
+                "sentence": [
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should evaluate claims about vaccine necessity by considering a wide range of evidence and studies, rather than relying on generalized statements.",
+                "sentence": [
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    },
+    {
+      "name": "Do Large Solar Power Plants Act as 'Tornado Incubators'?",
+      "source": "WSJ",
+      "fallacies": {
+        "logical_fallacies": [
+          "Questionable Authority (Appeal to Authority)",
+          "Assertion (Evading the Burden of Proof, EBP)",
+          "Overgeneralization (Hasty Generalization)",
+          "Caricature (Strawman)"
+        ],
+        "sentences": {
+          "Questionable Authority (Appeal to Authority)": [
+            8,
+            9
+          ],
+          "Assertion (Evading the Burden of Proof, EBP)": [
+            11,
+            12
+          ],
+          "Overgeneralization (Hasty Generalization)": [
+            16,
+            17
+          ],
+          "Caricature (Strawman)": [
+            44,
+            45
+          ]
+        },
+        "annotations": {
+          "Questionable Authority (Appeal to Authority)": {
+            "L1": [
+              {
+                "explanation": "These sentences use Questionable Authority by emphasizing the author's credentials in aerospace engineering, which are not directly relevant to expertise in solar energy or meteorology.",
+                "sentence": [
+                  8,
+                  9
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By focusing on the author's unrelated credentials, the argument misleads readers into accepting the author's claims about solar energy and weather without relevant expertise.",
+                "sentence": [
+                  8,
+                  9
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should evaluate claims based on relevant expertise and evidence, rather than unrelated credentials.",
+                "sentence": [
+                  8,
+                  9
+                ]
+              }
+            ]
+          },
+          "Assertion (Evading the Burden of Proof, EBP)": {
+            "L1": [
+              {
+                "explanation": "These sentences use Assertion by making claims about solar farms becoming 'thunderstorm and tornado incubators and magnets' without providing substantial evidence.",
+                "sentence": [
+                  11,
+                  12
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By asserting claims without evidence, the argument shifts the burden of proof to the reader to disprove the claims, rather than providing supporting evidence.",
+                "sentence": [
+                  11,
+                  12
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should seek evidence and scientific consensus on the effects of solar farms on weather before accepting such claims.",
+                "sentence": [
+                  11,
+                  12
+                ]
+              }
+            ]
+          },
+          "Overgeneralization (Hasty Generalization)": {
+            "L1": [
+              {
+                "explanation": "These sentences use Overgeneralization by suggesting that because solar panels radiate heat, they will necessarily cause severe weather phenomena.",
+                "sentence": [
+                  16,
+                  17
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By generalizing from the fact that solar panels radiate heat to the conclusion that they cause severe weather, the argument overlooks other factors and evidence.",
+                "sentence": [
+                  16,
+                  17
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should consider the complexity of weather systems and the multitude of factors involved in storm formation before accepting such generalizations.",
+                "sentence": [
+                  16,
+                  17
+                ]
+              }
+            ]
+          },
+          "Caricature (Strawman)": {
+            "L1": [
+              {
+                "explanation": "These sentences use Caricature by misrepresenting the position of climate change advocates as pushing solutions worse than the problems.",
+                "sentence": [
+                  44,
+                  45
+                ]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By distorting the position of climate change advocates, the argument misleads readers about the nature and intent of proposed environmental solutions.",
+                "sentence": [
+                  44,
+                  45
+                ]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should seek to understand the actual positions and evidence presented by climate change advocates rather than accepting distorted representations.",
+                "sentence": [
+                  44,
+                  45
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    }
+  ]
+}

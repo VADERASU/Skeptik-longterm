@@ -66,8 +66,8 @@
             "explanation": "Using emotionally charged language or imagery instead of logical reasoning."
         },
         "FAUT":{
-            "name": "Improper Criteria",
-            "group": "(Un)Intentional Diversion of Attention",
+            "name": "Appeal to Authority",
+            "group": "Improper Criteria",
             "color": "#e7298a",
             "rgbBG": "rgb(221 52 151/0.1)",
             "rgbBD": "rgb(221 52 151/0.6)",
