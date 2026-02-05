@@ -28,3 +28,8 @@ yarn-error.log*
 #API keys
 cred.json
 .github/
+
+# Ignore Claude-related files and PDFs
+claude*
+**/claude*
+*.pdfs

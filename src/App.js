@@ -7,6 +7,7 @@ import './styles/App.css';
 /** React components */
 import { NavBar } from "./components/nav";
 import { NewsContent } from "./components/content";
+import { ArticleGazeTracker, getReadingMetrics } from "./components/gaze";
 
 /** Cases */
 import caseArticle from './data/case.json';
@@ -21,6 +22,8 @@ function App() {
   const [fallacyChatList, setFallacyChatList] = useState([]);
   const [imageFlag, setImageFlag] = useState(false);
   const [taglist, setTagList] = useState([]);
+  const [gazeEnabled, setGazeEnabled] = useState(true);
+  const [gazeMetrics, setGazeMetrics] = useState(null);
 
   const { Header, Content } = Layout;
   const activeArticle = caseArticle.cases[selectedCase];
@@ -37,26 +40,30 @@ function App() {
     Object.keys(config).forEach(key=>config[key].chatList = []);
 
     activeFallacyCase.fallacies.logical_fallacies.forEach(e=>{
+      // Skip if fallacy type doesn't exist in config
+      if (!config[e]) {
+        console.warn(`Fallacy type "${e}" not found in config, skipping`);
+        return;
+      }
+      const annotations = activeFallacyCase.fallacies.annotations[e];
+      if (!annotations) return;
+
       /** !!! THIS PART NEED TO BE UPDATED AFTER PROMPT UPDATEING !!! */
-      const L1Link = activeFallacyCase.fallacies.annotations[e].L1[0].link !== undefined ? 
-      activeFallacyCase.fallacies.annotations[e].L1[0].link : "";
-      const L2Link = activeFallacyCase.fallacies.annotations[e].L2[0].link !== undefined ? 
-      activeFallacyCase.fallacies.annotations[e].L2[0].link : "";
-      const L3Link = activeFallacyCase.fallacies.annotations[e].L3[0].link !== undefined ? 
-      activeFallacyCase.fallacies.annotations[e].L3[0].link : "";
-      //console.log(L1Link);
+      const L1Link = annotations.L1?.[0]?.link || "";
+      const L2Link = annotations.L2?.[0]?.link || "";
+      const L3Link = annotations.L3?.[0]?.link || "";
       const chatList = [
         {
           role: "assistant",
-          content: activeFallacyCase.fallacies.annotations[e].L1[0].explanation,
+          content: annotations.L1?.[0]?.explanation || "",
           link: L1Link
         },{
           role: "assistant",
-          content: activeFallacyCase.fallacies.annotations[e].L2[0].explanation,
+          content: annotations.L2?.[0]?.explanation || "",
           link: L2Link
         },{
           role: "assistant",
-          content: activeFallacyCase.fallacies.annotations[e].L3[0].explanation,
+          content: annotations.L3?.[0]?.explanation || "",
           link: L3Link
         }
       ];
@@ -68,9 +75,17 @@ function App() {
     });
 
     activeFallacyCase.text_chart_linkage !== null && activeFallacyCase.text_chart_linkage.fallacies.forEach(e=>{
-      const L1annotation = activeFallacyCase.text_chart_linkage.annotations[e].L1;
-      const L2annotation = activeFallacyCase.text_chart_linkage.annotations[e].L2;
-      const L3annotation = activeFallacyCase.text_chart_linkage.annotations[e].L3;
+      // Skip if fallacy type doesn't exist in config
+      if (!config[e]) {
+        console.warn(`Fallacy type "${e}" not found in config, skipping`);
+        return;
+      }
+      const annotations = activeFallacyCase.text_chart_linkage.annotations[e];
+      if (!annotations) return;
+
+      const L1annotation = annotations.L1;
+      const L2annotation = annotations.L2;
+      const L3annotation = annotations.L3;
       const chatList = [
         {
           role: "assistant",
@@ -87,8 +102,8 @@ function App() {
       config[e].level = 'L1';
       config[e].open = false;
       config[e].fsource = "chart";
-      config[e].reason = activeFallacyCase.text_chart_linkage.annotations[e].reason;
-      config[e].range = activeFallacyCase.text_chart_linkage.annotations[e].range;
+      config[e].reason = annotations.reason;
+      config[e].range = annotations.range;
       setFallacyChatList(config);
     });
 
@@ -98,6 +113,28 @@ function App() {
     initConfig();
     setImageFlag(false);
   },[selectedCase]);
+
+  // Gaze tracking callbacks
+  const handleSentenceGaze = useCallback((data) => {
+    console.log('Looking at sentence:', data.sentenceIndex, 'in paragraph:', data.paragraphIndex);
+  }, []);
+
+  const handleParagraphGaze = useCallback((data) => {
+    console.log('Looking at paragraph:', data.paragraphIndex);
+  }, []);
+
+  const handleFallacyGaze = useCallback((data) => {
+    console.log('Looking at fallacy:', data.fallacyType);
+  }, []);
+
+  const handleGazeMetrics = useCallback((metrics) => {
+    setGazeMetrics(metrics);
+    // Log reading metrics every 10 seconds
+    if (metrics.gazeSequence.length % 600 === 0) {
+      const summary = getReadingMetrics(metrics);
+      console.log('Reading metrics:', summary);
+    }
+  }, []);
 
   //console.log(caseArticle.cases.map(e=>e.title));
 
@@ -117,21 +154,30 @@ function App() {
         />
       </Header>
       <Content className='vastContainer' style={newStyle}>
-        <Row>
-          <Col span={20} offset={4}>
-            <NewsContent 
-              selectedCase={selectedCase}
-              newscase={activeArticle}
-              activeFallacyCase={activeFallacyCase}
-              errSentence={errSentence}
-              setErrSentence={setErrSentence}
-              fallacyChatList={fallacyChatList}
-              setFallacyChatList={setFallacyChatList}
-              imageFlag={imageFlag}
-              setImageFlag={setImageFlag}
-            />
-          </Col>
-        </Row>
+        <ArticleGazeTracker
+          enabled={gazeEnabled}
+          showOverlay={true}
+          onSentenceGaze={handleSentenceGaze}
+          onParagraphGaze={handleParagraphGaze}
+          onFallacyGaze={handleFallacyGaze}
+          onGazeMetrics={handleGazeMetrics}
+        >
+          <Row>
+            <Col span={20} offset={4}>
+              <NewsContent
+                selectedCase={selectedCase}
+                newscase={activeArticle}
+                activeFallacyCase={activeFallacyCase}
+                errSentence={errSentence}
+                setErrSentence={setErrSentence}
+                fallacyChatList={fallacyChatList}
+                setFallacyChatList={setFallacyChatList}
+                imageFlag={imageFlag}
+                setImageFlag={setImageFlag}
+              />
+            </Col>
+          </Row>
+        </ArticleGazeTracker>
       </Content>
      </Layout>
      <Spin tip="Detecting Fallacies..." spinning={(imageFlag || selectedCase === 2) ? false : true} fullscreen />

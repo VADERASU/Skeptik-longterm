@@ -88,10 +88,12 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
 };
 
   const replaceOriginalImage = useCallback(() => {
+    if (!canvasRef.current) return;
     const ctx = canvasRef.current.getContext("2d");
     const img = new Image();
     img.src = imgSrc;
     img.onload = (e) => {
+      if (!canvasRef.current) return;
       canvasRef.current.width = domWidth;
       canvasRef.current.height = domHeight;
       //console.log(e.currentTarget, e.currentTarget.naturalWidth);
@@ -153,40 +155,44 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
       <div id="canvas_container">
         <div id="canvas_overlay">
           {(imageFlag && tagdom.length>0) && tagdom.map((e,i)=>{
-            const fallacyName = fallacyChatList[e].name;
-            const fallacyColor = fallacyChatList[e].color;
-            const fallacyIntroduction = fallacyChatList[e].explanation;
-            const freason = fallacyChatList[e].reason;
-            const frange = fallacyChatList[e].range;
-            //console.log(fallacyName, fallacyChatList[e].open);
+            const fallacyData = fallacyChatList[e];
+            // Skip if fallacy not in config
+            if (!fallacyData) return null;
+            const fallacyName = fallacyData.name;
+            const fallacyColor = fallacyData.color;
+            const fallacyIntroduction = fallacyData.explanation;
+            const freason = fallacyData.reason;
+            const frange = fallacyData.range;
+            if (!frange) return null;
+            //console.log(fallacyName, fallacyData.open);
             const eWidth = frange[1]*scaleFactor - frange[0]*scaleFactor;
             const eHeight = 270; //360 -> 315
             //const etop = i%2===0 ? 50 : 25;
-            const inlineStyle = !fallacyChatList[e].open ? css`
+            const inlineStyle = !fallacyData.open ? css`
             border: 2px dashed;
             border-color: ${fallacyColor};
             border-radius: .25rem;
             cursor: pointer;
             &:hover {
                 border: 3px solid;
-                background-color: ${fallacyChatList[e].rgbBG};
-                border-color: ${fallacyChatList[e].rgbBD};
+                background-color: ${fallacyData.rgbBG};
+                border-color: ${fallacyData.rgbBD};
             }
             ` : css`
             border: 3px solid;
             border-color: ${fallacyColor};
             border-radius: .25rem;
             cursor: pointer;
-            background-color: ${fallacyChatList[e].rgbBG};
-            border-color: ${fallacyChatList[e].rgbBD};
+            background-color: ${fallacyData.rgbBG};
+            border-color: ${fallacyData.rgbBD};
             `;
             const fallacyExplanationPopContent = (
               <div style={{
                   width: 200
               }}><Space direction="vertical" size="small">
                   <Text>{fallacyIntroduction}</Text>
-                  {fallacyChatList[e].wiki !== "" && 
-                  <Link href={fallacyChatList[e].wiki} target="_blank">
+                  {fallacyData.wiki !== "" &&
+                  <Link href={fallacyData.wiki} target="_blank">
                       Read more...
                   </Link>}
                   <Link href={"https://duckduckgo.com/?q="+fallacyName} target="_blank">
@@ -232,7 +238,7 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
                       overflow: 'auto',
                   }}
                   >
-                      <Text><b>Chart-text Linkage: </b>{fallacyChatList[e].reason}</Text>
+                      <Text><b>Chart-text Linkage: </b>{fallacyData.reason}</Text>
                       <Divider style={{marginTop: 5, marginBottom: 2}} />
                       <List
                           size="small"
@@ -253,43 +259,43 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
                           }}
                       />
                       {
-                          fallacyChatList[e].level==="L1" && 
+                          fallacyData.level==="L1" &&
                           <Divider plain style={{marginTop: 2}}>
                               <Space size="small">
                                   Show
-                              <Button 
-                                  type="dashed" 
-                                  size="small" 
+                              <Button
+                                  type="dashed"
+                                  size="small"
                                   onClick={()=>handleLevelChange(e,'L2')}>
                                   more &#8744;
                               </Button>
                               explanation
-                              </Space> 
+                              </Space>
                           </Divider>
                       }
                       {
-                          fallacyChatList[e].level==="L2" && 
+                          fallacyData.level==="L2" &&
                           <Divider plain style={{marginTop: 2}}>
                               <Space size="small">
                               Show
-                              <Button 
-                                  type="dashed" 
-                                  size="small" 
+                              <Button
+                                  type="dashed"
+                                  size="small"
                                   onClick={()=>handleLevelChange(e,'L3')}>
                                   more &#8744;
                               </Button>
-                              <Button 
-                                  type="dashed" 
-                                  size="small" 
+                              <Button
+                                  type="dashed"
+                                  size="small"
                                   onClick={()=>handleLevelChange(e,'L1')}>
                                   less &#8743;
                               </Button>
                               explanation
-                              </Space>  
+                              </Space>
                           </Divider>
                       }
                       {
-                          fallacyChatList[e].level==="L3" && 
+                          fallacyData.level==="L3" && 
                           <>
                           <Divider plain style={{marginTop: 2}}>
                               

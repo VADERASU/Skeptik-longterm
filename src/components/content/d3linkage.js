@@ -36,14 +36,18 @@ export function Linkage ({paragraphNodes, fallacyNodes, offsetYfnode, linkage,
         .attr('cy', (d)=>d.y-30) //d.y-30
         .attr('r', (d)=>{
             let radius = 3;
-            d.fallacy.forEach(f=>fallacyChatList[f].open && (radius = 8));
+            d.fallacy.forEach(f => {
+                if (fallacyChatList[f]?.open) radius = 8;
+            });
             return radius;
         }) //3
         .attr("class", "node")
         .attr("id", (d) => d.id)
         .attr('fill', (d)=>{
             let ncolor = '#fff';
-            d.fallacy.forEach(f=>fallacyChatList[f].open && (ncolor = fallacyChatList[f].color));
+            d.fallacy.forEach(f => {
+                if (fallacyChatList[f]?.open) ncolor = fallacyChatList[f].color;
+            });
             return ncolor;
         })
         .attr('stroke', 'grey');
@@ -60,9 +64,9 @@ export function Linkage ({paragraphNodes, fallacyNodes, offsetYfnode, linkage,
         .attr('r', 4)
         .attr("class", "node")
         .attr("id", (d) => d.id)
-        .attr('fill', (d)=>fallacyChatList[d.fallacy].color)
+        .attr('fill', (d)=>fallacyChatList[d.fallacy]?.color || '#ccc')
         .attr('stroke', 'grey')
-        .attr('opacity', (d)=>fallacyChatList[d.fallacy].open ? 1 : 0.4);
+        .attr('opacity', (d)=>fallacyChatList[d.fallacy]?.open ? 1 : 0.4);
 
         const links = rootGroup.append('g')
         .selectAll('fallacyLinks')
@@ -78,23 +82,14 @@ export function Linkage ({paragraphNodes, fallacyNodes, offsetYfnode, linkage,
             return(d3.linkHorizontal()(link));
         })
         .attr("fill", "none")
-        .attr('stroke', d=>fallacyChatList[d.fallacy].color)
+        .attr('stroke', d=>fallacyChatList[d.fallacy]?.color || '#ccc')
         .attr('stroke-width', (d)=>{
             let swidth = 1;
-            fallacyChatList[d.fallacy].open && (swidth = 3);
+            if (fallacyChatList[d.fallacy]?.open) swidth = 3;
             return swidth;
         })
         .attr('stroke-opacity', (d)=>{
-            /*let npos = d.link.target[1]-30; //60 - linkageContainer
-            let offsetTop = npos+60 - offsetYfnode;
-            let offsetBottom = npos+60 - window.innerHeight - offsetYfnode;
-            //console.log('offsetTop', offsetTop);
-            if(offsetTop>window.innerHeight || offsetTop<0){
-                return .2;
-            }else{
-                return 1;
-            }*/
-            return fallacyChatList[d.fallacy].open ? 1 : 0.3;
+            return fallacyChatList[d.fallacy]?.open ? 1 : 0.3;
         });
 
 

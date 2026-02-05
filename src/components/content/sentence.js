@@ -34,10 +34,20 @@ paragraphID, setClickSentence}){
                     >{s.sentence} </Text>
                 );
             }else if(s.fallacy.length === 1){
-                const fallacyName = fallacyChatList[s.fallacy[0]].name;
-                const fallacyColor = fallacyChatList[s.fallacy[0]].color;
+                const fallacyData = fallacyChatList[s.fallacy[0]];
+                // Skip if fallacy type not in config
+                if (!fallacyData) {
+                    return(
+                        <Text
+                            id={i+"-news-sentence-"+paragraphID}
+                            key={i+"-news-sentence-"+paragraphID}
+                        >{s.sentence} </Text>
+                    );
+                }
+                const fallacyName = fallacyData.name;
+                const fallacyColor = fallacyData.color;
                 const fallacyAbbrev = s.fallacy[0];
-                const open = fallacyChatList[fallacyAbbrev].open;
+                const open = fallacyData.open;
                 const inlineStyle = !open ? css`
                 padding-top: 1.5px;
                 padding-bottom: 1.5px;
@@ -49,8 +59,8 @@ paragraphID, setClickSentence}){
                 border-radius: .25rem;
                 cursor: pointer;
                 &:hover {
-                    background-color: ${fallacyChatList[s.fallacy[0]].rgbBG};
-                    border-color: ${fallacyChatList[s.fallacy[0]].rgbBD};
+                    background-color: ${fallacyData.rgbBG};
+                    border-color: ${fallacyData.rgbBD};
                 }
                 ` : css`
                 padding-top: 1.5px;
@@ -62,47 +72,64 @@ paragraphID, setClickSentence}){
                 border-width: 0 0 2px 0;
                 border-radius: .25rem;
                 cursor: pointer;
-                background-color: ${fallacyChatList[s.fallacy[0]].rgbBG};
-                border-color: ${fallacyChatList[s.fallacy[0]].rgbBD};
+                background-color: ${fallacyData.rgbBG};
+                border-color: ${fallacyData.rgbBD};
                 `
                 //console.log(open);
                 return(
                     <Tooltip title="click to see the detailed explanation" key={"Tootip"+i+paragraphID}>
                     <span id={i+"-news-sentence-"+paragraphID}
                     key={i+"-news-sentence-"+paragraphID}
+                    data-fallacy={s.fallacy[0]}
+                    data-sentence-index={s.index}
+                    data-paragraph-index={paragraphID}
                     onClick={e=>handleSentenceClick(paragraphID, s.fallacy[0])}
                     className={
                         cx(inlineStyle)
                     }>
-                        {s.sentence} 
+                        {s.sentence}
                     </span>
-                    </Tooltip> 
+                    </Tooltip>
                 );
             }else{
-                const fallacyColor = s.fallacy.map(fa=>fallacyChatList[fa].color);
-                const activeFallacy = s.fallacy.filter(fa=>fallacyChatList[fa].open === true);
+                // Filter to only fallacies that exist in config
+                const validFallacies = s.fallacy.filter(fa => fallacyChatList[fa]);
+                if (validFallacies.length === 0) {
+                    return(
+                        <Text
+                            id={i+"-news-sentence-"+paragraphID}
+                            key={i+"-news-sentence-"+paragraphID}
+                        >{s.sentence} </Text>
+                    );
+                }
+                const fallacyColor = validFallacies.map(fa=>fallacyChatList[fa]?.color || '#ccc');
+                const activeFallacy = validFallacies.filter(fa=>fallacyChatList[fa]?.open === true);
                 //console.log(activeFallacy);
-                const inlineStyle = activeFallacy.length>0 ? css`
+                const activeData = activeFallacy.length > 0 ? fallacyChatList[activeFallacy[0]] : null;
+                const inlineStyle = activeData ? css`
                     border-bottom: 2px solid ${fallacyColor[0]};
                     box-shadow:
                     0 2px 0 0px white,
-                    0 5px 0 -1px ${fallacyColor[1]};
-                    background-color: ${fallacyChatList[activeFallacy[0]].rgbBG};
-                    border-color: ${fallacyChatList[activeFallacy[0]].rgbBD};
+                    0 5px 0 -1px ${fallacyColor[1] || fallacyColor[0]};
+                    background-color: ${activeData.rgbBG};
+                    border-color: ${activeData.rgbBD};
                 `  : css`
                     border-bottom: 2px solid ${fallacyColor[0]};
                     box-shadow:
                     0 2px 0 0px white,
-                    0 5px 0 -1px ${fallacyColor[1]};
+                    0 5px 0 -1px ${fallacyColor[1] || fallacyColor[0]};
                 `;
                 return(
                 <Tooltip title="click the tag to see the explanation" key={"Tootip"+i+paragraphID}>
-                    <span 
-                    id={"news-sentence-"+paragraphID+i}
-                    key={"news-sentence-"+paragraphID+i}
+                    <span
+                    id={i+"-news-sentence-"+paragraphID}
+                    key={i+"-news-sentence-"+paragraphID}
+                    data-fallacy={validFallacies.join(',')}
+                    data-sentence-index={s.index}
+                    data-paragraph-index={paragraphID}
                     className={cx(inlineStyle)}
                     >
-                        {s.sentence} 
+                        {s.sentence}
                     </span>
                 </Tooltip>
                 );

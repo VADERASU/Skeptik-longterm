@@ -194,10 +194,16 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
     return(
             <>
             {fallacyNodes.map((e,i)=>{
-                const fallacyName = fallacyChatList[e.fallacy].name;
-                const fallacyColor = fallacyChatList[e.fallacy].color;
-                const fallacyIntroduction = fallacyChatList[e.fallacy].explanation;
-                const ifopen = fallacyChatList[e.fallacy].open;
+                const fallacyData = fallacyChatList[e.fallacy];
+                // Skip if fallacy not in config
+                if (!fallacyData) {
+                    console.warn(`Fallacy "${e.fallacy}" not found in config`);
+                    return null;
+                }
+                const fallacyName = fallacyData.name;
+                const fallacyColor = fallacyData.color;
+                const fallacyIntroduction = fallacyData.explanation;
+                const ifopen = fallacyData.open;
                 //console.log("ifopen", ifopen);
                 const ftype = e.type[0]; // Now there is no duplicates between chart and text fallacies
                 const fallacyExplanationPopContent = (
@@ -205,8 +211,8 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                         width: 150
                     }}><Space direction="vertical" size="small">
                         <Text>{fallacyIntroduction}</Text>
-                        {fallacyChatList[e.fallacy].wiki !== "" && 
-                        <Link href={fallacyChatList[e.fallacy].wiki} target="_blank">
+                        {fallacyData.wiki !== "" &&
+                        <Link href={fallacyData.wiki} target="_blank">
                             Read more...
                         </Link>}
                         <Link href={"https://duckduckgo.com/?q="+fallacyName} target="_blank">
@@ -256,9 +262,9 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                             overflow: 'auto',
                         }}
                         >
-                            {fallacyChatList[e.fallacy].fsource === "chart" && 
+                            {fallacyData.fsource === "chart" &&
                             <>
-                            <Text><b>Chart-text Linkage: </b>{fallacyChatList[e.fallacy].reason}</Text>
+                            <Text><b>Chart-text Linkage: </b>{fallacyData.reason}</Text>
                             <Divider style={{marginTop: 5, marginBottom: 2}} />
                             </>
                             
@@ -289,43 +295,43 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                                 }}
                             />
                             {
-                                fallacyChatList[e.fallacy].level==="L1" && 
+                                fallacyData.level==="L1" &&
                                 <Divider plain style={{marginTop: 2}}>
                                     <Space size="small">
                                         Show
-                                    <Button 
-                                        type="dashed" 
-                                        size="small" 
+                                    <Button
+                                        type="dashed"
+                                        size="small"
                                         onClick={()=>handleLevelChange(e.fallacy,'L2')}>
                                         more &#8744;
                                     </Button>
                                     explanation
-                                    </Space> 
+                                    </Space>
                                 </Divider>
                             }
                             {
-                                fallacyChatList[e.fallacy].level==="L2" && 
+                                fallacyData.level==="L2" &&
                                 <Divider plain style={{marginTop: 2}}>
                                     <Space size="small">
                                     Show
-                                    <Button 
-                                        type="dashed" 
-                                        size="small" 
+                                    <Button
+                                        type="dashed"
+                                        size="small"
                                         onClick={()=>handleLevelChange(e.fallacy,'L3')}>
                                         more &#8744;
                                     </Button>
-                                    <Button 
-                                        type="dashed" 
-                                        size="small" 
+                                    <Button
+                                        type="dashed"
+                                        size="small"
                                         onClick={()=>handleLevelChange(e.fallacy,'L1')}>
                                         less &#8743;
                                     </Button>
                                     explanation
-                                    </Space>  
+                                    </Space>
                                 </Divider>
                             }
                             {
-                                fallacyChatList[e.fallacy].level==="L3" && 
+                                fallacyData.level==="L3" && 
                                 <>
                                 <Divider plain style={{marginTop: 2}}>
                                     
