@@ -20,6 +20,7 @@ import argparse
 import json
 import sys
 import os
+import re
 from pathlib import Path
 
 try:
@@ -55,6 +56,36 @@ def load_case_json():
         return json.load(f)
 
 
+def split_into_sentences(text):
+    """
+    Split text into sentences using the EXACT same logic as the frontend.
+    Frontend regex: /([.?!(.\))])\s*(?=[A-Z])/g
+
+    This matches the JavaScript: e.text.replace(/([.?!(.\))])\s*(?=[A-Z])/g, "$1|").split("|")
+    """
+    # Replicate the frontend's replace + split approach exactly
+    # The regex matches: . ? ! ( ) followed by optional whitespace and capital letter
+    pattern = r'([.?!()])\s*(?=[A-Z])'
+
+    # Replace with delimiter like frontend does
+    marked = re.sub(pattern, r'\1|', text)
+    sentences = marked.split('|')
+
+    return [s.strip() for s in sentences if s.strip()]
+
+
+def split_paragraphs_into_sentences(paragraphs):
+    """
+    Split each paragraph into sentences, preserving paragraph boundaries.
+    Each paragraph always starts a new sentence.
+    """
+    all_sentences = []
+    for para in paragraphs:
+        para_sentences = split_into_sentences(para)
+        all_sentences.extend(para_sentences)
+    return all_sentences
+
+
 def extract_article_text(case):
     """Extract full article text from a case's content array."""
     paragraphs = []
@@ -63,6 +94,26 @@ def extract_article_text(case):
         if text:
             paragraphs.append(text)
     return '\n\n'.join(paragraphs)
+
+
+def extract_numbered_sentences(case):
+    """
+    Extract article text and split into numbered sentences.
+    Returns tuple: (numbered_text, sentence_count)
+    """
+    paragraphs = []
+    for content_block in case.get('content', []):
+        text = content_block.get('text', '')
+        if text:
+            paragraphs.append(text)
+
+    sentences = split_paragraphs_into_sentences(paragraphs)
+
+    numbered_lines = []
+    for i, sentence in enumerate(sentences, 1):
+        numbered_lines.append(f"[{i}] {sentence}")
+
+    return '\n'.join(numbered_lines), len(sentences)
 
 
 def analyze_article(client: OpenAI, article_text: str, title: str, source: str, model: str) -> dict:
@@ -127,6 +178,8 @@ Examples:
     parser.add_argument("--output", "-o", help="Output file (prints to stdout if not provided)")
     parser.add_argument("--source", "-s", default="Article", help="Source name (default: 'Article')")
     parser.add_argument("--model", "-m", default=MODEL, help=f"OpenAI model (default: {MODEL})")
+    parser.add_argument("--prompt-only", "-p", action="store_true",
+                        help="Output the prompt for manual use in ChatGPT (no API call)")
 
     args = parser.parse_args()
 
@@ -148,13 +201,15 @@ Examples:
         print("Use --list to see available cases", file=sys.stderr)
         sys.exit(1)
 
-    # Check API key
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        print("Error: OPENAI_API_KEY environment variable not set", file=sys.stderr)
-        sys.exit(1)
-
-    client = OpenAI(api_key=api_key)
+    # Prompt-only mode doesn't need API key
+    if not args.prompt_only:
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            print("Error: OPENAI_API_KEY environment variable not set", file=sys.stderr)
+            sys.exit(1)
+        client = OpenAI(api_key=api_key)
+    else:
+        client = None
 
     # Determine which cases to analyze
     if args.all:
@@ -175,10 +230,22 @@ Examples:
         print(f"Analyzing case [{idx}]: {title}", file=sys.stderr)
         print(f"{'='*60}", file=sys.stderr)
 
-        article_text = extract_article_text(case)
-        print(f"  Text length: {len(article_text)} characters", file=sys.stderr)
+        numbered_text, sentence_count = extract_numbered_sentences(case)
+        print(f"  Text length: {len(numbered_text)} characters", file=sys.stderr)
+        print(f"  Sentence count: {sentence_count}", file=sys.stderr)
 
-        result = analyze_article(client, article_text, title, args.source, args.model)
+        # Prompt-only mode: print prompt and continue
+        if args.prompt_only:
+            prompt = build_analysis_prompt(numbered_text, title, args.source)
+            print(f"\n{'='*60}", file=sys.stderr)
+            print("COPY THE PROMPT BELOW INTO CHATGPT:", file=sys.stderr)
+            print(f"{'='*60}\n", file=sys.stderr)
+            print(prompt)
+            print(f"\n{'='*60}", file=sys.stderr)
+            print("After getting the response, save the JSON to cases.json", file=sys.stderr)
+            continue
+
+        result = analyze_article(client, numbered_text, title, args.source, args.model)
 
         if result and 'cases' in result and len(result['cases']) > 0:
             case_result = result['cases'][0]

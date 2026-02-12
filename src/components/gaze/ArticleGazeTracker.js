@@ -67,14 +67,16 @@ export function ArticleGazeTracker({
             lastElementRef.current = currentId;
             enterTimeRef.current = now;
 
-            // Add to gaze sequence
+            // Add to gaze sequence (keep last 10000 points for user studies)
             setGazeMetrics(prev => ({
                 ...prev,
                 gazeSequence: [...prev.gazeSequence, {
                     elementId: currentId,
                     timestamp: now,
-                    position: screenPos
-                }].slice(-500), // Keep last 500 gaze points
+                    position: screenPos,
+                    scrollY: window.scrollY,
+                    scrollX: window.scrollX
+                }].slice(-10000),
                 currentFocus: currentId
             }));
         }

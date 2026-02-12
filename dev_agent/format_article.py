@@ -50,22 +50,22 @@ MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
 FORMAT_PROMPT = """You are a text formatter. Your task is to convert raw article text into a structured JSON format.
 
 Given the article text below, create a JSON object with this exact structure:
-{
+{{
     "title": "Article Title",
     "sub-title": "",
     "content": [
-        {
+        {{
             "id": 1,
             "hasImage": false,
             "text": "First paragraph text..."
-        },
-        {
+        }},
+        {{
             "id": 2,
             "hasImage": false,
             "text": "Second paragraph text..."
-        }
+        }}
     ]
-}
+}}
 
 Rules:
 1. Split the text into logical paragraphs (each paragraph becomes a content item)

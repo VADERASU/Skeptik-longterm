@@ -17,6 +17,7 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
   const [domWidth, setDomWidth] = useState(800); //900
   const [domHeight, setDomHeight] = useState(332); //432
   const [scaleFactor, setScaleFactor] = useState(0);
+  const [actualHeight, setActualHeight] = useState(332); // Actual rendered image height
   const [tagdom, setTagdom] = useState([]);
   const [chatList, setChatList] = useState([]);
   const [textAreaValue, setTextAreaValue] = useState("");
@@ -94,17 +95,18 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
     img.src = imgSrc;
     img.onload = (e) => {
       if (!canvasRef.current) return;
-      canvasRef.current.width = domWidth;
-      canvasRef.current.height = domHeight;
-      //console.log(e.currentTarget, e.currentTarget.naturalWidth);
       const imgNaturalWidth = e.currentTarget.naturalWidth;
       const imgNaturalHeight = e.currentTarget.naturalHeight;
-      const scale_factor = Math.min(domWidth / imgNaturalWidth, domHeight / imgNaturalHeight);
-      const newWidth = imgNaturalWidth * scale_factor;
+      // Scale to fit width while maintaining aspect ratio
+      const scale_factor = domWidth / imgNaturalWidth;
+      const newWidth = domWidth;
       const newHeight = imgNaturalHeight * scale_factor;
+      // Update canvas dimensions to match scaled image
+      canvasRef.current.width = newWidth;
+      canvasRef.current.height = newHeight;
       ctx.drawImage(img, 0, 0, newWidth, newHeight);
-      //console.log('Image Canvas created!');
       setScaleFactor(scale_factor);
+      setActualHeight(newHeight);
     };
   },[imgSrc]);
 
@@ -151,7 +153,7 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
   },[imgSrc]);
 //console.log("imageFlag", imageFlag);
     return(
-      <div style={{height: domHeight, marginBottom: 10}}>
+      <div style={{height: actualHeight, marginBottom: 10}}>
       <div id="canvas_container">
         <div id="canvas_overlay">
           {(imageFlag && tagdom.length>0) && tagdom.map((e,i)=>{
@@ -165,8 +167,9 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
             const frange = fallacyData.range;
             if (!frange) return null;
             //console.log(fallacyName, fallacyData.open);
-            const eWidth = frange[1]*scaleFactor - frange[0]*scaleFactor;
-            const eHeight = 270; //360 -> 315
+            // Use full image width instead of scaled range
+            const eWidth = domWidth - 10;
+            const eHeight = actualHeight - 10; // Use actual image height minus small padding
             //const etop = i%2===0 ? 50 : 25;
             const inlineStyle = !fallacyData.open ? css`
             border: 2px dashed;
@@ -341,50 +344,50 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
                 style={{
                   position: "absolute",
                   //backgroundColor: fallacyColor,
-                  top: 25,
-                  left: frange[0]*scaleFactor,
+                  top: 5,
+                  left: 5,
                 }}
-                
+
                 key={"overlay-div-"+i}
               >
-                {i%2===0 && 
+                {i%2===0 &&
                 <Space.Compact direction="vertical" >
                   <Space.Compact>
-                  {/*<Popover 
-                        content={popContent} 
-                        placement="right" 
+                  {/*<Popover
+                        content={popContent}
+                        placement="right"
                         trigger="click"
                         open={open[i]}
                         onOpenChange={()=>handleOpenChange(e, i)}
                     >
-                  <Tag 
-                  color={fallacyColor} 
+                  <Tag
+                  color={fallacyColor}
                   className={cx('underline_minimap', css`
                     cursor: pointer;
                     height: 20px;
                     font-size: 11px;
                   `)}
-                  >   
+                  >
                   <b>{fallacyName}</b>
                 </Tag>
                 </Popover>
                 <FundViewOutlined style={{fontSize: 20}} />*/}
                   </Space.Compact>
-                <div 
+                <div
                 onClick={de=>handleSentenceClick(paragraphID, e)}
                 className={cx(inlineStyle)} style={{
                   width: eWidth,
-                  height: eHeight+25
+                  height: eHeight
                 }}></div>
                 </Space.Compact>}
 
-                {i%2!==0 && 
+                {i%2!==0 &&
                 <Space.Compact direction="vertical" >
                 <div
                 onClick={de=>handleSentenceClick(paragraphID, e)}
                 className={cx(inlineStyle)} style={{
                   width: eWidth,
-                  height: eHeight+25
+                  height: eHeight
                 }}></div>
                   {/*<Space.Compact>
                   <Popover 

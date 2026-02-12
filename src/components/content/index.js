@@ -19,7 +19,8 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
         p_index: null,
         fallacy: null
     });
-    const [sidebarWidth, setSidebarWidth] = useState(630);
+    const [sidebarWidth, setSidebarWidth] = useState(Math.min(630, window.innerWidth * 0.35));
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [paragraphNodes, setParagraphNodes] = useState([]);
     const [fallacyNodes, setFallacyNodes] = useState([]);
     //const [fposFlag, setFposFlag] = useState(false);
@@ -100,11 +101,15 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
 
     //generate fallacy nodes
     const createParagraphNodes = useCallback(()=>{
+        // Skip if sidebar is not shown (refs won't exist)
+        if (windowWidth < 900) return;
+
         const pnodeList = [];
         const fnodeList = [];
         console.log("errSentence", errSentence);
         newscase.content.forEach((e,i)=>{
             const pid = getRef('paragraph-'+i);
+            if (!pid || !pid.current) return;
             const windowPosition = window.scrollY;
             const nodePosition = pid.current.getBoundingClientRect().top;
             
@@ -147,7 +152,7 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
         setParagraphNodes(pnodeList);
         setFallacyNodes(newfnodeList);
         setLinkage(linklist);
-    },[errSentence]);
+    },[errSentence, windowWidth]);
 
     const createLinkage = (pnodeList, fnodeList) => {
         const linkList = [];
@@ -174,10 +179,20 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
         /** CAREFUL! The text fallacies cannot be the same with image fallacies now!!! */
         const text_fallacies = activeFallacyCase.fallacies.logical_fallacies;
         const chart_fallacies = activeFallacyCase.text_chart_linkage !== null ? activeFallacyCase.text_chart_linkage.fallacies : [];
-        const linkContainerRef = getRef('linkageContainer').current.getBoundingClientRect();
-        const id1 = getRef('paragraph-0').current.getBoundingClientRect();
+
+        // Guard for refs when sidebar is hidden
+        const linkageContainerRefObj = getRef('linkageContainer');
+        const paragraphRefObj = getRef('paragraph-0');
+        if (!linkageContainerRefObj?.current || !paragraphRefObj?.current) {
+            return [];
+        }
+
+        const linkContainerRef = linkageContainerRefObj.current.getBoundingClientRect();
+        const id1 = paragraphRefObj.current.getBoundingClientRect();
         const offsetX = linkContainerRef.right - id1.right;
-        const fallacyContainer = getRef("fallacyContainer").current.getBoundingClientRect();
+        const fallacyContainerRef = getRef("fallacyContainer");
+        if (!fallacyContainerRef?.current) return [];
+        const fallacyContainer = fallacyContainerRef.current.getBoundingClientRect();
         const offsetY_ = fallacyContainer.top - linkContainerRef.top;
         //console.log(linkContainerRef.top, fallacyContainer.top)
         const marginV = 50;
@@ -216,23 +231,47 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
     }, [selectedCase]);
 
     useEffect(() => {
-        // Get ref for specific ID 
+        // Get ref for specific ID
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
       }, [selectedCase]);
 
+    // Handle window resize for responsive layout
+    useEffect(() => {
+        const handleResize = () => {
+            const newWidth = window.innerWidth;
+            setWindowWidth(newWidth);
+            // Calculate sidebar width: use 35% of window or max 630px, min 300px
+            const calculatedWidth = Math.max(300, Math.min(630, newWidth * 0.35));
+            setSidebarWidth(calculatedWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+        // Call once on mount to set initial values
+        handleResize();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     useEffect(()=>{
         createParagraphNodes();
         //createFallacyNodes();
-    },[errSentence]);
+    },[errSentence, windowWidth]);
+
+    // Calculate responsive column spans
+    const articleSpan = windowWidth < 1200 ? (windowWidth < 900 ? 24 : 16) : 12;
+    const sidebarSpan = windowWidth < 1200 ? (windowWidth < 900 ? 0 : 8) : 12;
+    const showSidebar = windowWidth >= 900;
 
     return(
         <Typography>
             <Row>
                 {/** Article content */}
-                <Col span={12} style={{
+                <Col span={articleSpan} style={{
                             minHeight: 800
                         }}>
                     <Row>
@@ -286,9 +325,9 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                     </Row>
                 </Col>
                 {/** Tags and svg linkages */}
-                <Col span={12}>
+                {showSidebar && <Col span={sidebarSpan}>
                     <div
-                        ref={setRef('linkageContainer')} 
+                        ref={setRef('linkageContainer')}
                         className={cx(css`
                             width: calc(100% - ${sidebarWidth}px);
                             /*background-color: lightgrey;*/
@@ -305,7 +344,7 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                     </div>
                 <div style={{
                     //display: "flex",
-                    width: 630,
+                    width: sidebarWidth,
                     //height: 100,
                     //boxShadow: "0px 0px 5px 2px #1677FF, 0px 0px 0px 2px rgba(255, 255, 255, 0.19) inset",
                     alignItems: "left",
@@ -315,6 +354,7 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                     top: 170, //170
                     bottom: 50,
                     right: 20,
+                    overflowY: "auto",
                 }}>
                     <div
                         ref={setRef("fallacyContainer")}
@@ -334,7 +374,7 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                     />
                     </div>
                 </div>
-                </Col>
+                </Col>}
             </Row>
                 
         </Typography>

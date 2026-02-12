@@ -159,7 +159,10 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
     const generateTags = useCallback(()=>{
         let openList = [];
         fallacyNodes.forEach(e=>{openList.push(false)});
-        open.length === 0 && setOpen(openList);
+        // Always reset open array when fallacyNodes changes (e.g., switching cases)
+        if (open.length !== fallacyNodes.length) {
+            setOpen(openList);
+        }
         //console.log(paragraphID, openList);
     },[fallacyNodes]);
 
@@ -384,9 +387,9 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                     <Tooltip key={"fdiv-tooltip-"+e.id} title={
                         fallacyName === "Improper Criteria" && "This passage may attempt to deal with an issue by invoking aspects that aren't relevant or ignoring ones that are. Click for an explanation."
                         }>
-                    <Tag 
+                    <Tag
                     key={"ftag-"+e.id}
-                    color={fallacyColor} 
+                    color={fallacyColor}
                     className={cx('underline_minimap', css`
                         cursor: pointer;
                         top: ${e.top}px;

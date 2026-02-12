@@ -9,7 +9,7 @@ SYSTEM_PROMPT = """You are a critical reasoning and logic expert. Your task is t
 
 Core Instructions
 
-Number each sentence in the passage starting from 1.
+The text has been PRE-NUMBERED with sentence numbers in brackets like [1], [2], etc. Use ONLY these provided numbers when referencing sentences. Do NOT renumber the sentences yourself.
 
 Identify all instances of misleading reasoning.
 
@@ -19,9 +19,11 @@ Do NOT use lower-level fallacy names as labels.
 
 Within explanations, explicitly name the relevant LOWER-LEVEL fallacy.
 
-Assign each label to the exact sentence numbers where it occurs.
+Use the exact sentence numbers shown in brackets [N] for the "sentences" and "sentence" fields.
 
 For each label, provide explanations at three levels (L1, L2, L3).
+
+IMPORTANT: In the explanation text, do NOT reference sentence numbers (e.g., do NOT write "Sentence 3 uses..." or "Sentences 1-2 commit..."). Instead, write explanations that describe the fallacy directly without numbering. The sentence numbers go in the "sentence" array field, not in the explanation text.
 
 Do not assume a fallacy is present unless clearly supported by the reasoning.
 
@@ -69,16 +71,16 @@ Lower-level fallacies: Lying with Statistics (Failure to Account for Statistical
 
 Explanation Levels (REQUIRED)
 
-Each label must include all three levels.
+Each label must include all three levels. Do NOT reference sentence numbers in the explanation text.
 
 L1 – Identification
-Identify the specific lower-level fallacy being used and explain why the sentence(s) fit it.
+Identify the specific lower-level fallacy being used and explain why the text exhibits it. Do not mention sentence numbers.
 
 L2 – Analysis
-Explain how the fallacy misleads the reader (omissions, distortions, framing effects, misuse of evidence).
+Explain how the fallacy misleads the reader (omissions, distortions, framing effects, misuse of evidence). Do not mention sentence numbers.
 
 L3 – Correction / Guidance
-Explain how a reader should evaluate or correct the reasoning, including what evidence or reasoning would lead to a sounder conclusion.
+Explain how a reader should evaluate or correct the reasoning, including what evidence or reasoning would lead to a sounder conclusion. Do not mention sentence numbers.
 
 Output Format (STRICT)
 
@@ -101,19 +103,19 @@ OUTPUT_SCHEMA = """{
           "ATM": {
             "L1": [
               {
-                "explanation": "These sentences use [LOWER-LEVEL FALLACY NAME e.g. Ad Hominem] by [SPECIFIC REASONING].",
+                "explanation": "This passage uses [LOWER-LEVEL FALLACY NAME e.g. Ad Hominem] by [SPECIFIC REASONING]. (Do NOT mention sentence numbers here)",
                 "sentence": [1, 2]
               }
             ],
             "L2": [
               {
-                "explanation": "By [MECHANISM], the argument misleads readers about [WHAT IS DISTORTED].",
+                "explanation": "By [MECHANISM], the argument misleads readers about [WHAT IS DISTORTED]. (Do NOT mention sentence numbers here)",
                 "sentence": [1, 2]
               }
             ],
             "L3": [
               {
-                "explanation": "Readers should [GUIDANCE ON EVALUATING/CORRECTING THE REASONING].",
+                "explanation": "Readers should [GUIDANCE ON EVALUATING/CORRECTING THE REASONING]. (Do NOT mention sentence numbers here)",
                 "sentence": [1, 2]
               }
             ]

@@ -8,6 +8,8 @@ import './styles/App.css';
 import { NavBar } from "./components/nav";
 import { NewsContent } from "./components/content";
 import { ArticleGazeTracker, getReadingMetrics } from "./components/gaze";
+import { SplashScreen } from "./components/SplashScreen";
+import { StudyDataExporter } from "./components/StudyDataExporter";
 
 /** Cases */
 import caseArticle from './data/case.json';
@@ -24,6 +26,8 @@ function App() {
   const [taglist, setTagList] = useState([]);
   const [gazeEnabled, setGazeEnabled] = useState(true);
   const [gazeMetrics, setGazeMetrics] = useState(null);
+  const [splashComplete, setSplashComplete] = useState(false);
+  const [showGazeOverlay, setShowGazeOverlay] = useState(false);
 
   const { Header, Content } = Layout;
   const activeArticle = caseArticle.cases[selectedCase];
@@ -138,6 +142,17 @@ function App() {
 
   //console.log(caseArticle.cases.map(e=>e.title));
 
+  if (!splashComplete) {
+    return (
+      <div className="App">
+        <SplashScreen onComplete={(settings) => {
+          setShowGazeOverlay(settings?.showGazeOverlay ?? false);
+          setSplashComplete(true);
+        }} />
+      </div>
+    );
+  }
+
   return (
     <div className="App">
       <Layout className="mainContainer">
@@ -156,7 +171,7 @@ function App() {
       <Content className='vastContainer' style={newStyle}>
         <ArticleGazeTracker
           enabled={gazeEnabled}
-          showOverlay={true}
+          showOverlay={showGazeOverlay}
           onSentenceGaze={handleSentenceGaze}
           onParagraphGaze={handleParagraphGaze}
           onFallacyGaze={handleFallacyGaze}
@@ -181,6 +196,15 @@ function App() {
       </Content>
      </Layout>
      <Spin tip="Detecting Fallacies..." spinning={(imageFlag || selectedCase === 2) ? false : true} fullscreen />
+     <StudyDataExporter
+       gazeMetrics={gazeMetrics}
+       articleInfo={{
+         title: activeArticle?.title,
+         source: activeFallacyCase?.source
+       }}
+       fallacyChatList={fallacyChatList}
+       enabled={splashComplete}
+     />
     </div>
   );
 }

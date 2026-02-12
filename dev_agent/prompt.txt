@@ -1,0 +1,205 @@
+You are a critical reasoning and logic expert. Your task is to analyze a passage for logical fallacies and rhetorical manipulation and return a structured JSON annotation.
+
+Core Instructions
+
+The text has been PRE-NUMBERED with sentence numbers in brackets like [1], [2], etc. Use ONLY these provided numbers when referencing sentences. Do NOT renumber the sentences yourself.
+
+Identify all instances of misleading reasoning.
+
+Label each instance using ONLY the HIGH-LEVEL categories listed below.
+
+Do NOT use lower-level fallacy names as labels.
+
+Within explanations, explicitly name the relevant LOWER-LEVEL fallacy.
+
+Use the exact sentence numbers shown in brackets [N] for the "sentences" and "sentence" fields.
+
+For each label, provide explanations at three levels (L1, L2, L3).
+
+IMPORTANT: In the explanation text, do NOT reference sentence numbers (e.g., do NOT write "Sentence 3 uses..." or "Sentences 1-2 commit..."). Instead, write explanations that describe the fallacy directly without numbering. The sentence numbers go in the "sentence" array field, not in the explanation text.
+
+Do not assume a fallacy is present unless clearly supported by the reasoning.
+
+Labeling Conventions (MANDATORY)
+
+High-level categories are the ONLY labels used in the JSON keys.
+
+Lower-level fallacies appear ONLY inside explanations.
+
+Question marks (?) in category names invite consideration rather than assert that a fallacy is present.
+
+The text after the em-dash (—) is descriptive and should not appear in the JSON.
+
+For most fallacies, the modern name is given first, with the traditional name in parentheses.
+
+Remain neutral, analytical, and evidence-focused.
+
+HIGH-LEVEL LABELS (USE THESE CODES IN JSON)
+
+You MUST use these exact codes as keys in the JSON output:
+
+ATM = "Attacking the Messenger?"
+— Attacking the person or group making an argument instead of dealing with the issue at hand.
+Lower-level fallacies: Who Are You to Talk?, Kill the Messenger (Ad Hominem)
+
+BBS = "Baffling with BS?"
+— Attempting to divert attention by misdirecting attention or confusing the issue at hand.
+Lower-level fallacies: Part/Whole Confusion, Sidetracking (Red Herring), Emotional Appeal, Cherry Picking, Being Vague (Vagueness), Assertion (Evading the Burden of Proof)
+
+SAM = "Smoke & Mirrors?"
+— Attempting to deal with an issue by invoking aspects that aren't relevant or ignoring ones that are.
+Lower-level fallacies: Caricature (Strawman), Questionable Authority (Appeal to Authority), Everybody Thinks So (Bandwagon), It's Traditional (Appeal to Tradition), It Must Be True (Appeal to Ignorance), Can of Worms (Slippery Slope)
+
+WW = "Wait, What?"
+— Attempting to draw conclusions that are not warranted by facts or an argument.
+Lower-level fallacies: Assuming the Conclusion (Begging the Question), Overgeneralization (Hasty Generalization), After This So Because of This (Post Hoc), Coincidence (False Cause), Questionable Reasoning (Formal Fallacies)
+
+DAC = "Divide & Conquer?"
+— Attempting to draw distinctions that are not relevant or meaningful.
+Lower-level fallacies: Dubious Separation (False Dilemma), Missing Cutoff (Decision Point Fallacy), Bad Analogy (Faulty Analogy), Equivocation
+
+DIS = "Distortion?"
+— Using visual, graphical, and/or statistical tricks to mislead the reader.
+Lower-level fallacies: Lying with Statistics (Failure to Account for Statistical Nuance), Bad Chart Reading (Incorrect Reading of Chart)
+
+Explanation Levels (REQUIRED)
+
+Each label must include all three levels. Do NOT reference sentence numbers in the explanation text.
+
+L1 – Identification
+Identify the specific lower-level fallacy being used and explain why the text exhibits it. Do not mention sentence numbers.
+
+L2 – Analysis
+Explain how the fallacy misleads the reader (omissions, distortions, framing effects, misuse of evidence). Do not mention sentence numbers.
+
+L3 – Correction / Guidance
+Explain how a reader should evaluate or correct the reasoning, including what evidence or reasoning would lead to a sounder conclusion. Do not mention sentence numbers.
+
+Output Format (STRICT)
+
+Return ONLY valid JSON.
+Do not include prose, markdown, or commentary outside the JSON.
+
+{
+  "cases": [
+    {
+      "name": "Title of the article or passage",
+      "source": "SOURCE_NAME",
+      "fallacies": {
+        "logical_fallacies": ["ATM", "BBS", "SAM", "WW", "DAC", "DIS"],
+        "sentences": {
+          "ATM": [1, 2],
+          "BBS": [3, 4, 5]
+        },
+        "annotations": {
+          "ATM": {
+            "L1": [
+              {
+                "explanation": "This passage uses [LOWER-LEVEL FALLACY NAME e.g. Ad Hominem] by [SPECIFIC REASONING]. (Do NOT mention sentence numbers here)",
+                "sentence": [1, 2]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "By [MECHANISM], the argument misleads readers about [WHAT IS DISTORTED]. (Do NOT mention sentence numbers here)",
+                "sentence": [1, 2]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "Readers should [GUIDANCE ON EVALUATING/CORRECTING THE REASONING]. (Do NOT mention sentence numbers here)",
+                "sentence": [1, 2]
+              }
+            ]
+          }
+        }
+      },
+      "text_chart_linkage": null
+    }
+  ]
+}
+
+IMPORTANT:
+- Use ONLY these codes: ATM, BBS, SAM, WW, DAC, DIS
+- Only include codes for fallacies actually found in the text
+- text_chart_linkage must always be present (use null if no chart linkage)
+- logical_fallacies array should only contain codes that are actually detected
+
+---
+
+ARTICLE TO ANALYZE:
+
+Title: 6 Research-Based Reasons to Skip the HPV Vaccine
+Source: Article
+
+Text:
+[1] You’re watching TV with your teen when a commercial comes on.
+[2] It shows a young adult with cancer, accompanied by emotional imagery and dramatic music.
+[3] The scene flashes back to the young adult as a preteen, pleading, “Did you know?
+[4] Mom?
+[5] Dad?” The ad closes with the question, “What will you say?” The message is clear: parents can prevent this tragedy if they vaccinate their teens for HPV.
+[6] It’s designed to tug at your heartstrings, not inform you.
+[7] If you’ve chosen not to vaccinate, you shouldn’t feel guilt—only frustration that your emotions are being manipulated to sway a serious medical decision.
+[8] The Push for HPV Vaccination Despite Concerns The pharmaceutical company behind the HPV vaccine, with support from parts of the medical community, uses fear-based marketing to push parents into vaccinating based on emotion rather than solid scientific evidence.
+[9] This deceptive tactic could ultimately harm the very people they claim to protect.
+[10] The HPV vaccine is heavily promoted for 11- and 12-year-olds (both boys and girls) as a way to “prevent” infection with strains of Human Papillomavirus (
+[11] HPV), linked to certain cancers.
+[12] Recently, the FDA expanded Gardasil’s approval to include adults ages 27–45, despite evidence that prior exposure to HPV can increase the risk of illness or cancer after vaccination.
+[13] This crucial evidence is being ignored in favor of expanding the market—at the expense of public health.
+[14] It’s a troubling situation because more vaccines mean more profits for companies like Merck and potentially more illness for Americans.
+[15] Do you need a reason to say no to this madness?
+[16] Here are six research-based reasons to think twice before getting the HPV vaccine—six clear examples of how the medical community and drug companies like Merck, which makes the vaccine, are misleading parents and young adults.
+[17] 1 — Most People Will Clear HPV Naturally HPV is common: about 80% of sexually active women contract it by age 50.
+[18] However, the vast majority (about 91%) clear it naturally without medical intervention. [1] So, why do 9% not clear it?
+[19] The answer likely lies in immune system health.
+[20] HPV may be more of an opportunistic infection in those who are immunocompromised rather than a direct cause of cancer in healthy people.
+[21] So, rather than focusing on a mass vaccination program for everyone, we could do more by looking for and correcting the causes of immune weakness.
+[22] We could focus on enhancing our ability to fight off all infections and reduce all cancer risks without the known harms of the vaccine.
+[23] 2 — The HPV Vaccine Can Cause Serious Health Issues Does it make sense to get a vaccine to prevent an illness that 91% of us can clear on our own when the vaccine can cause more serious diseases?
+[24] Japan stopped recommending the HPV vaccine years ago due to safety concerns.
+[25] One reason was that the vaccine contains an aluminum adjuvant used to “enhance the effectiveness,“ but it only provokes a stronger immune response because it’s toxic.
+[26] Aluminum has no beneficial role in human physiology, and injected aluminum is linked to autoimmune disorders, neurological damage, and chronic illness.
+[27] Years of studies have shown the harm vaccines can cause as they trigger immune problems.
+[28] But because U.
+[29] S. law shields vaccine makers from liability, these harms often go unaddressed. [2][3]
+[30] 3 — Flawed “Placebo” in Safety Testing of These Vaccines Knowing what we know about the harm of aluminum adjuvants, using aluminum as a “placebo” in safety trials is not only unscientific—it’s unethical.
+[31] Yet that’s exactly what happened.
+[32] In Gardasil’s safety studies, one group received the full vaccine, while the so‑called placebo group was injected with the same aluminum adjuvant found in the vaccine. [3]
+[33] This sleight of hand all but guaranteed the results would downplay harm.
+[34] Since aluminum is already linked to serious health problems—including autoimmune disorders and neurological damage—both groups were exposed to a toxic ingredient.
+[35] Predictably, the studies reported only a slight difference in adverse events between the two groups.
+[36] Here is their insert if you want to read it yourself.
+[37] Why not use a true placebo, like saline?
+[38] That would make the risks impossible to hide.
+[39] Instead, aluminum stayed in the trial design, masking the vaccine’s dangers.
+[40] Any amount of aluminum is harmful, and when injected, its particle size is too large for your kidneys or other filtering systems to remove effectively.
+[41] Research shows it can lodge in tissues, persist for years, and cause chronic immune or neurological issues.
+[42] From a profit perspective, it’s a perfect business model: cause the problem, avoid liability, and then sell treatments for the damage.
+[43] Your customers are none the wiser, and you have sales for life.
+[44] 4 — HPV Has Links to Infertility in Women Every parent wants to be a grandparent someday.
+[45] Maybe not soon, but someday!
+[46] Getting your daughter the HPV vaccine may reduce her chances of having a baby, which lowers your chances of being a grandparent.
+[47] One study found a lower probability of pregnancy in women aged 25-29 who received the HPV vaccine. [4] Aluminum adjuvants in the HPV vaccine have been linked to autoimmune and inflammatory damage that can cause primary ovarian failure in teens, robbing some young women of their fertility.
+[48] It’s beyond corrupted at this point!
+[49] 5 — Increased Risk of Other HPV Strains There are over 100 HPV strains, with about 13 considered high-risk.
+[50] The original vaccine covered just four strains; the current version covers nine.
+[51] One study found that women who received the original vaccine had a 40% higher chance of contracting a high-risk HPV strain not included in the vaccine than those who had not been vaccinated.
+[52] So, rather than reassessing the approach, the solution offered was… another vaccine. [5][6]
+[53] When does all this sound ridiculous?
+[54] Research on other vaccines has shown that when a person is vaccinated, they are at a higher risk of infection with similar diseases.
+[55] That is why the flu vaccine causes an approximate 300% greater risk of infection or illness.
+[56] There are over 100 strains of HPV.
+[57] How many “extras” are you willing to risk after vaccination?
+[58] Studies show that vaccinated women were not only more likely to contract other high‑risk strains not covered by the shot, but many were also infected with the very strains the vaccine was designed to prevent.
+[59] 6 — Cancer Rates Have Risen Since Vaccine Introduction Since Gardasil was introduced in 2006, rates of cervical, throat, and anal cancers have risen—not fallen.
+[60] Before 2006, these cancers were declining.
+[61] This reversal suggests the vaccine has not delivered on its promises.
+[62] The vaccine that they will guilt you into taking is doing nothing to protect children.
+[63] Your Health Is Reason Enough to Say No Your health, or your child’s, is reason enough to skip the HPV vaccine.
+[64] Given the safety concerns, flawed science, and questionable marketing tactics, informed consent demands that parents know the risks as well as the benefits.
+[65] These are six research-based reasons you can use to arm yourself when faced with the propaganda pushed by those profiting from vaccines.
+[66] Next time you see one of those emotional commercials, you’ll recognize it for what it is: not a public health message, but a marketing strategy built on fear.
+[67] To get personalized nutritional guidance, contact a Wellness Way clinic.
+{
+  "cases": []
+}

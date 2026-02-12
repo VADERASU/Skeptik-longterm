@@ -1,285 +1,64 @@
 {
     "FallacyType":{
-        "PA": {
-            "name": "Personal Attack",
-            "group": "Personal Attack",
+        "ATM": {
+            "name": "Attacking the Messenger?",
+            "group": "Attacking the Messenger?",
             "color": "#e41a1c",
             "rgbBG": "rgb(228 26 28 / 0.1)",
             "rgbBD": "rgb(228 26 28 / 0.6)",
             "wiki": "https://en.wikipedia.org/wiki/Ad_hominem",
-            "explanation": "Attacking the character, traits, or circumstances of a speaker instead of addressing their argument."
+            "explanation": "Attacking the person or group making an argument instead of dealing with the issue at hand.",
+            "lowerLevel": ["Who Are You to Talk?", "Kill the Messenger (Ad Hominem)"]
         },
-        "TUQ": {
-                "name": "Who Are You to Talk? (Tu Quoque)",
-                "group": "Personal Attack",
-                "color": "#e41a1c",
-                "rgbBG": "rgb(228 26 28 / 0.1)",
-                "rgbBD": "rgb(228 26 28 / 0.6)",
-                "wiki": "https://en.wikipedia.org/wiki/Tu_quoque",
-                "explanation": "Rejecting an argument by pointing out that the speaker does not follow their own advice or principles."
-                },
-        "AH": {
-                "name": "Ad Hominem",
-                "group": "Personal Attack",
-                "color": "#e41a1c",
-                "rgbBG": "rgb(228 26 28 / 0.1)",
-                "rgbBD": "rgb(228 26 28 / 0.6)",
-                "wiki": "https://en.wikipedia.org/wiki/Ad_hominem",
-                "explanation": "Dismissing an argument based on the speaker’s identity, group membership, or personal attributes rather than its merits."
-                }
-    ,
-        "EBP":{
-            "name": "Evading the Burden of Proof",
-            "color": "#1b9e77",
-            "rgbBG": "rgb(51 160 44/0.1)",
-            "rgbBD": "rgb(51 160 44/0.6)",
-            "group": "Evading the Burden of Proof",
-            "wiki": "https://en.wikipedia.org/wiki/Burden_of_proof_(philosophy)",
-            "explanation": "This fallacy occurs when someone makes a claim but refuses to provide evidence to support it, shifting the burden of proof to others"
-        },
-        "ST":{
-            "name": "Strawman",
+        "BBS": {
+            "name": "Baffling with BS?",
+            "group": "Baffling with BS?",
             "color": "#e7298a",
-            "rgbBG": "rgb(221 52 151/0.1)",
-            "rgbBD": "rgb(221 52 151/0.6)",
-            "group": "(Un)Intentional Diversion of Attention",
-            "wiki": "https://en.wikipedia.org/wiki/Straw_man",
-            "explanation": "This involves misrepresenting someone's argument to make it easier to attack or refute than the original argument"
-        },
-        
-        "FCD": {
-            "name": "Fallacy of Composition / Division",
-            "group": "Obfuscation / Distraction",
-            "color": "#e7298a",
-            "rgbBG": "rgb(221 52 151/0.1)",
-            "rgbBD": "rgb(221 52 151/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Fallacy_of_composition",
-            "explanation": "Assuming what is true of a part must be true of the whole, or vice versa."
-        },
-        "AEM": {
-            "name": "Appeal to Emotion",
-            "group": "Obfuscation / Distraction",
-            "color": "#e7298a",
-            "rgbBG": "rgb(221 52 151/0.1)",
-            "rgbBD": "rgb(221 52 151/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Appeal_to_emotion",
-            "explanation": "Using emotionally charged language or imagery instead of logical reasoning."
-        },
-        "FAUT":{
-            "name": "Appeal to Authority",
-            "group": "Improper Criteria",
-            "color": "#e7298a",
-            "rgbBG": "rgb(221 52 151/0.1)",
-            "rgbBD": "rgb(221 52 151/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Argument_from_authority",
-            "explanation": "This fallacy is citing an authority on a topic who is not actually an expert in that field"
-        },
-        "BW": {
-            "name": "Bandwagon",
-            "group": "Improper Criteria",
-            "color": "#66a61e",
-            "rgbBG": "rgb(102 166 30/0.1)",
-            "rgbBD": "rgb(102 166 30/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Argumentum_ad_populum",
-            "explanation": "Arguing that a claim is true because many people believe it."
-        },
-        "AT": {
-            "name": "Appeal to Tradition",
-            "group": "Improper Criteria",
-            "color": "#66a61e",
-            "rgbBG": "rgb(102 166 30/0.1)",
-            "rgbBD": "rgb(102 166 30/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Appeal_to_tradition",
-            "explanation": "Claiming something is correct or good because it has been done for a long time."
-        },
-        "AI": {
-            "name": "Appeal to Ignorance",
-            "group": "Improper Criteria",
-            "color": "#66a61e",
-            "rgbBG": "rgb(102 166 30/0.1)",
-            "rgbBD": "rgb(102 166 30/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Argument_from_ignorance",
-            "explanation": "Arguing a claim is true because it has not been proven false, or vice versa."
-        },
-        "SS": {
-            "name": "Slippery Slope",
-            "group": "Improper Criteria",
-            "color": "#66a61e",
-            "rgbBG": "rgb(102 166 30/0.1)",
-            "rgbBD": "rgb(102 166 30/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Slippery_slope",
-            "explanation": "Claiming a small first step will inevitably lead to extreme and undesirable outcomes."
-        },
-        "RH":{
-            "name": "Red Herring",
-            "group": "(Un)Intentional Diversion of Attention",
-            "color": "#e7298a",
-            "rgbBG": "rgb(221 52 151/0.1)",
-            "rgbBD": "rgb(221 52 151/0.6)",
+            "rgbBG": "rgb(231 41 138 / 0.1)",
+            "rgbBD": "rgb(231 41 138 / 0.6)",
             "wiki": "https://en.wikipedia.org/wiki/Red_herring",
-            "explanation": "This fallacy involves diverting attention from the real issue by introducing an irrelevant topic"
+            "explanation": "Attempting to divert attention by misdirecting attention or confusing the issue at hand.",
+            "lowerLevel": ["Part/Whole Confusion", "Sidetracking (Red Herring)", "Emotional Appeal", "Cherry Picking", "Being Vague (Vagueness)", "Assertion (Evading the Burden of Proof)"]
         },
-        "BTQ": {
-            "name": "Begging the Question",
-            "group": "Questionable Conclusion",
-            "color": "#d95f02",
-            "rgbBG": "rgb(217 95 2/0.1)",
-            "rgbBD": "rgb(217 95 2/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Begging_the_question",
-            "explanation": "Assuming the truth of the conclusion within the premises of the argument."
-        },
-        "FF": {
-            "name": "Formal Fallacy",
-            "group": "Questionable Conclusion",
-            "color": "#d95f02",
-            "rgbBG": "rgb(217 95 2/0.1)",
-            "rgbBD": "rgb(217 95 2/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Formal_fallacy",
-            "explanation": "An error in logical structure that makes the argument invalid."
-        },
-        "CP":{
-            "name": "Cherry Picking",
-            "group": "(Un)Intentional Diversion of Attention",
-            "color": "#e7298a",
-            "rgbBG": "rgb(221 52 151/0.1)",
-            "rgbBD": "rgb(221 52 151/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Cherry_picking",
-            "explanation": "Selectively presenting evidence that supports one's argument while ignoring evidence that contradicts it"
-        },
-        "FA":{
-            "name": "False Analogy",
-            "group": "Argument Schemes at Play",
-            "color": "#d95f02",
-            "rgbBG": "rgb(217 95 2/0.1)",
-            "rgbBD": "rgb(217 95 2/0.6)",
-            "wiki": "https://simple.wikipedia.org/wiki/False_analogy",
-            "explanation": "Making a misleading comparison between two things that are not truly comparable"
-        },
-        "HG":{
-            "name": "Hasty Generalization",
-            "group": "Argument Schemes at Play",
-            "color": "#d95f02",
-            "rgbBG": "rgb(217 95 2/0.1)",
-            "rgbBD": "rgb(217 95 2/0.6)",
-            "wiki": "https://en.m.wikipedia.org/wiki/Faulty_generalization#Hasty_generalization",
-            "explanation": "Making a generalized statement based on a small or unrepresentative sample"
-        },
-        "PH":{
-            "name": "Post Hoc",
-            "group": "Argument Schemes at Play",
-            "color": "#d95f02",
-            "rgbBG": "rgb(217 95 2/0.1)",
-            "rgbBD": "rgb(217 95 2/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc",
-            "explanation": "Assuming that because one event followed another, the first event caused the second"
-        },
-        "FC":{
-            "name": "False Cause",
-            "group": "Argument Schemes at Play",
-            "color": "#d95f02",
-            "rgbBG": "rgb(217 95 2/0.1)",
-            "rgbBD": "rgb(217 95 2/0.6)",
-            "wiki": "",
-            "explanation": "Mistaking correlation for causation, assuming that because two events occur together, one causes the other"
-        },
-        "VAG":{
-            "name": "Vagueness",
-            "group": "Language Used",
-            "color": "#7570b3",
-            "rgbBG": "rgb(117 112 179/0.1)",
-            "rgbBD": "rgb(117 112 179/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Vagueness",
-            "explanation": "Using imprecise, unclear, or ambiguous language in an argument"
-        },
-        "FD": {
-            "name": "False Dilemma",
-            "group": "Divide & Conquer",
-            "color": "#7570b3",
-            "rgbBG": "rgb(117 112 179/0.1)",
-            "rgbBD": "rgb(117 112 179/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/False_dilemma",
-            "explanation": "Presenting only two options when more possibilities exist."
-        },
-        "DPF": {
-            "name": "Decision Point Fallacy",
-            "group": "Divide & Conquer",
-            "color": "#7570b3",
-            "rgbBG": "rgb(117 112 179/0.1)",
-            "rgbBD": "rgb(117 112 179/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Sorites_paradox",
-            "explanation": "Claiming no distinction exists because no precise cutoff can be identified."
-        },
-        "EQ": {
-            "name": "Equivocation",
-            "group": "Divide & Conquer",
-            "color": "#7570b3",
-            "rgbBG": "rgb(117 112 179/0.1)",
-            "rgbBD": "rgb(117 112 179/0.6)",
-            "wiki": "https://en.wikipedia.org/wiki/Equivocation",
-            "explanation": "Using a word in multiple senses within the same argument to mislead."
-        },
-        "SAT":{
-            "name": "Setting an Arbitrary Threshold",
-            "group": "Setting an Arbitrary Threshold",
+        "SAM": {
+            "name": "Smoke & Mirrors?",
+            "group": "Smoke & Mirrors?",
             "color": "#66a61e",
-            "rgbBG": "rgb(102 166 30/0.1)",
-            "rgbBD": "rgb(102 166 30/0.6)",
-            "wiki": "",
-            "explanation": "This fallacy occurs when an arbitrary standard is set to judge a phenomenon, without considering the broader context or implications"
+            "rgbBG": "rgb(102 166 30 / 0.1)",
+            "rgbBD": "rgb(102 166 30 / 0.6)",
+            "wiki": "https://en.wikipedia.org/wiki/Straw_man",
+            "explanation": "Attempting to deal with an issue by invoking aspects that aren't relevant or ignoring ones that are.",
+            "lowerLevel": ["Caricature (Strawman)", "Questionable Authority (Appeal to Authority)", "Everybody Thinks So (Bandwagon)", "It's Traditional (Appeal to Tradition)", "It Must Be True (Appeal to Ignorance)", "Can of Worms (Slippery Slope)"]
         },
-        "IDV":{
-            "name": "Issues with Data Validity",
-            "group": "Issues with Data Validity",
-            "color": "#e6ab02",
-            "rgbBG": "rgb(230 171 2/0.1)",
-            "rgbBD": "rgb(230 171 2/0.6)",
-            "wiki": "",
-            "explanation": "This fallacy arises when there are concerns about the accuracy and consistency of data, which are either exaggerated or ignored to support a preconceived notion"
+        "WW": {
+            "name": "Wait, What?",
+            "group": "Wait, What?",
+            "color": "#d95f02",
+            "rgbBG": "rgb(217 95 2 / 0.1)",
+            "rgbBD": "rgb(217 95 2 / 0.6)",
+            "wiki": "https://en.wikipedia.org/wiki/Begging_the_question",
+            "explanation": "Attempting to draw conclusions that are not warranted by facts or an argument.",
+            "lowerLevel": ["Assuming the Conclusion (Begging the Question)", "Overgeneralization (Hasty Generalization)", "After This So Because of This (Post Hoc)", "Coincidence (False Cause)", "Questionable Reasoning (Formal Fallacies)"]
         },
-        "FASN":{
-            "name": "Failure to Account for Statistical Nuance",
-            "group": "Failure to Account for Statistical Nuance",
+        "DAC": {
+            "name": "Divide & Conquer?",
+            "group": "Divide & Conquer?",
+            "color": "#7570b3",
+            "rgbBG": "rgb(117 112 179 / 0.1)",
+            "rgbBD": "rgb(117 112 179 / 0.6)",
+            "wiki": "https://en.wikipedia.org/wiki/False_dilemma",
+            "explanation": "Attempting to draw distinctions that are not relevant or meaningful.",
+            "lowerLevel": ["Dubious Separation (False Dilemma)", "Missing Cutoff (Decision Point Fallacy)", "Bad Analogy (Faulty Analogy)", "Equivocation"]
+        },
+        "DIS": {
+            "name": "Distortion?",
+            "group": "Distortion?",
             "color": "#a6761d",
-            "rgbBG": "rgb(166 118 29/0.1)",
-            "rgbBD": "rgb(166 118 29/0.6)",
-            "wiki": "",
-            "explanation": "This occurs when crucial statistical details are overlooked or simplified in an argument, leading to misleading conclusions"
-        },
-        "MOSS":{
-            "name": "Misrepresentation of Scientific Studies",
-            "group": "Misrepresentation of Scientific Studies",
-            "color": "#a6cee3",
-            "rgbBG": "rgb(166 206 227/0.1)",
-            "rgbBD": "rgb(166 206 227/0.6)",
-            "wiki": "",
-            "explanation": "This involves exaggerating the significance of certain scientific findings that align with one's beliefs or outright rejecting scientific authority in favor of personal anecdotes or pseudo-science"
-        },
-         "PM": {
-            "name": "Priming Message",
-            "group": "Other Rhetorical Devices",
-            "color": "#bdbdbd",
-            "rgbBG": "rgb(189 189 189 / 0.1)",
-            "rgbBD": "rgb(189 189 189 / 0.6)",
-            "wiki": "",
-            "explanation": "Introducing biased framing early to shape how readers interpret subsequent information."
-        },
-        "TL": {
-            "name": "Toxic Language",
-            "group": "Other Rhetorical Devices",
-            "color": "#bdbdbd",
-            "rgbBG": "rgb(189 189 189 / 0.1)",
-            "rgbBD": "rgb(189 189 189 / 0.6)",
-            "wiki": "",
-            "explanation": "Using hostile, inflammatory, or demeaning language to provoke emotional reactions."
-        },
-        "GT": {
-            "name": "Groupthink Language",
-            "group": "Other Rhetorical Devices",
-            "color": "#bdbdbd",
-            "rgbBG": "rgb(189 189 189 / 0.1)",
-            "rgbBD": "rgb(189 189 189 / 0.6)",
-            "wiki": "",
-            "explanation": "Assigning readers to a group identity and asserting how that group thinks or should think."
+            "rgbBG": "rgb(166 118 29 / 0.1)",
+            "rgbBD": "rgb(166 118 29 / 0.6)",
+            "wiki": "https://en.wikipedia.org/wiki/Misleading_graph",
+            "explanation": "Using visual, graphical, and/or statistical tricks to mislead the reader.",
+            "lowerLevel": ["Lying with Statistics (Failure to Account for Statistical Nuance)", "Bad Chart Reading (Incorrect Reading of Chart)"]
         }
     }
 }

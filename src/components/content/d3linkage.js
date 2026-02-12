@@ -8,7 +8,7 @@ export function Linkage ({paragraphNodes, fallacyNodes, offsetYfnode, linkage,
         const {scrollWidth, scrollHeight} = canvasRef.current;
         const offsetY = canvasRef.current.getBoundingClientRect().top; //60, 170
         //const offsetFnodeY = 22;
-        //console.log('scrollY', offsetYfnode, 'scrollHeight', window.innerHeight);
+        //console.log('D3 Drawing - paragraphNodes:', paragraphNodes.length, 'fallacyNodes:', fallacyNodes.length, 'linkage:', linkage.length);
         let dimensions = {
             width: scrollWidth,
             height: scrollHeight,
@@ -106,11 +106,12 @@ export function Linkage ({paragraphNodes, fallacyNodes, offsetYfnode, linkage,
     },[fallacyNodes, paragraphNodes, offsetYfnode, fallacyChatList]);
     
     return(
-        <div ref={canvasRef} style={{height: "100%"}}>
+        <div ref={canvasRef} style={{height: "100%", minHeight: "800px"}}>
             <svg
             style={{
                 width: '100%',
-                height: '100%'
+                height: '100%',
+                overflow: 'visible'
             }}
             >
                 <g id="root-group"/>
