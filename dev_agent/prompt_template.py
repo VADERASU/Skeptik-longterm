@@ -11,7 +11,27 @@ Core Instructions
 
 The text has been PRE-NUMBERED with sentence numbers in brackets like [1], [2], etc. Use ONLY these provided numbers when referencing sentences. Do NOT renumber the sentences yourself.
 
-Identify all instances of misleading reasoning.
+Identify instances of misleading reasoning.
+
+CRITICAL: Assign each sentence to AT MOST ONE fallacy category. If a sentence could fit multiple categories, choose the SINGLE MOST APPLICABLE one. This ensures clean, unambiguous annotations. A sentence should never appear in multiple category lists.
+
+GROUPING RULE (STRICTLY ENFORCED):
+1. CONSECUTIVE sentences with the same HIGH-LEVEL category = EXACTLY ONE instance
+2. NON-CONSECUTIVE sentences = SEPARATE instances (one tag per continuous passage)
+
+WHAT IS CONSECUTIVE: Sentences are consecutive if their numbers follow each other without gaps.
+- [3, 4, 5] = consecutive (one instance)
+- [3, 5] = NOT consecutive (gap at 4) = should be TWO separate instances [3] and [5]
+- [3, 4, 5] and [12, 13] = TWO separate instances (gap between 5 and 12)
+
+STRICT REQUIREMENTS:
+- If sentences 15 AND 16 both have BBS, they MUST be ONE instance: [15, 16]
+- If sentences 6 AND 15 both have BBS but 7-14 don't, they MUST be TWO instances: [6] and [15]
+- NEVER create [6] and [15, 16] as separate instances if 6 is isolated - that's correct
+- NEVER create [15] and [16] as separate instances - they're consecutive so merge them
+- Different sub-fallacies (Assertion vs Emotional Appeal) do NOT justify splitting consecutive sentences
+
+Each instance gets ONE combined L1/L2/L3 explanation that may mention multiple sub-fallacies if the passage exhibits several.
 
 Label each instance using ONLY the HIGH-LEVEL categories listed below.
 
@@ -41,6 +61,8 @@ For most fallacies, the modern name is given first, with the traditional name in
 
 Remain neutral, analytical, and evidence-focused.
 
+LANGUAGE REQUIREMENT: Use qualified, tentative language in ALL explanations. Instead of asserting "This passage uses..." write "This passage may use..." or "This passage appears to use...". This acknowledges uncertainty and invites critical thinking rather than presenting the analysis as definitive.
+
 HIGH-LEVEL LABELS (USE THESE CODES IN JSON)
 
 You MUST use these exact codes as keys in the JSON output:
@@ -68,6 +90,12 @@ Lower-level fallacies: Dubious Separation (False Dilemma), Missing Cutoff (Decis
 DIS = "Distortion?"
 — Using visual, graphical, and/or statistical tricks to mislead the reader.
 Lower-level fallacies: Lying with Statistics (Failure to Account for Statistical Nuance), Bad Chart Reading (Incorrect Reading of Chart)
+
+CHART HANDLING RULE:
+- If the article contains NO charts/images: Include DIS in regular annotations if text-only statistical distortion is present.
+- If the article CONTAINS charts/images: DO NOT include DIS in regular annotations at all. Set "text_chart_linkage": null. DIS will be handled in a separate step to link charts with text.
+
+For this prompt, assume there are NO charts unless told otherwise. If you are told "THIS ARTICLE HAS CHARTS", then EXCLUDE DIS entirely from your output.
 
 Explanation Levels (REQUIRED)
 
@@ -97,26 +125,58 @@ OUTPUT_SCHEMA = """{
         "logical_fallacies": ["ATM", "BBS", "SAM", "WW", "DAC", "DIS"],
         "sentences": {
           "ATM": [1, 2],
-          "BBS": [3, 4, 5]
+          "BBS": [3, 4, 5, 12, 13]
         },
         "annotations": {
           "ATM": {
             "L1": [
               {
-                "explanation": "This passage uses [LOWER-LEVEL FALLACY NAME e.g. Ad Hominem] by [SPECIFIC REASONING]. (Do NOT mention sentence numbers here)",
+                "explanation": "This passage may use [LOWER-LEVEL FALLACY NAME] by [SPECIFIC REASONING].",
                 "sentence": [1, 2]
               }
             ],
             "L2": [
               {
-                "explanation": "By [MECHANISM], the argument misleads readers about [WHAT IS DISTORTED]. (Do NOT mention sentence numbers here)",
+                "explanation": "By [MECHANISM], the argument may mislead readers about [WHAT IS DISTORTED].",
                 "sentence": [1, 2]
               }
             ],
             "L3": [
               {
-                "explanation": "Readers should [GUIDANCE ON EVALUATING/CORRECTING THE REASONING]. (Do NOT mention sentence numbers here)",
+                "explanation": "Readers should [GUIDANCE ON EVALUATING/CORRECTING THE REASONING].",
                 "sentence": [1, 2]
+              }
+            ]
+          },
+          "BBS": {
+            "L1": [
+              {
+                "explanation": "First instance: This passage may use Cherry Picking by selectively presenting data and Emotional Appeal by urging readers to share...",
+                "sentence": [3, 4, 5, 6, 7]
+              },
+              {
+                "explanation": "Second instance: This passage may use Vagueness by citing unspecified studies...",
+                "sentence": [20, 21]
+              }
+            ],
+            "L2": [
+              {
+                "explanation": "First instance explanation for L2...",
+                "sentence": [3, 4, 5, 6, 7]
+              },
+              {
+                "explanation": "Second instance explanation for L2...",
+                "sentence": [20, 21]
+              }
+            ],
+            "L3": [
+              {
+                "explanation": "First instance guidance...",
+                "sentence": [3, 4, 5, 6, 7]
+              },
+              {
+                "explanation": "Second instance guidance...",
+                "sentence": [20, 21]
               }
             ]
           }
@@ -131,7 +191,18 @@ IMPORTANT:
 - Use ONLY these codes: ATM, BBS, SAM, WW, DAC, DIS
 - Only include codes for fallacies actually found in the text
 - text_chart_linkage must always be present (use null if no chart linkage)
-- logical_fallacies array should only contain codes that are actually detected"""
+- logical_fallacies array should only contain codes that are actually detected
+- Each sentence number should appear in AT MOST ONE category's sentence list
+
+CONSECUTIVE GROUPING (MANDATORY):
+- Consecutive sentences (e.g., 15,16,17) with same category = ONE instance [15,16,17]
+- Non-consecutive (e.g., 6 and 15) = SEPARATE instances [6] and [15]
+- WRONG: [6], [15], [16,17] for BBS → should be [6] and [15,16,17]
+- WRONG: [15] and [16,17] separately → should be merged into [15,16,17]
+- Each L1/L2/L3 array has ONE object per continuous passage (not per sentence)
+
+- Use qualified language ("may use", "appears to") in all explanations
+- Each annotation instance must have its own SPECIFIC explanation for that particular passage"""
 
 
 # High-level category codes for the app
@@ -145,7 +216,7 @@ CATEGORY_CODES = {
 }
 
 
-def build_analysis_prompt(article_text: str, title: str, source: str) -> str:
+def build_analysis_prompt(article_text: str, title: str, source: str, has_charts: bool = False) -> str:
     """
     Build the complete prompt for fallacy analysis.
 
@@ -153,16 +224,27 @@ def build_analysis_prompt(article_text: str, title: str, source: str) -> str:
         article_text: The article text to analyze
         title: Article title
         source: Source of the article (e.g., "WSJ")
+        has_charts: Whether the article contains charts/images (DIS will be excluded)
 
     Returns:
         Complete prompt string
     """
+    chart_instruction = ""
+    if has_charts:
+        chart_instruction = """
+
+⚠️ THIS ARTICLE HAS CHARTS/IMAGES ⚠️
+DO NOT include DIS (Distortion) in your analysis. DIS will be handled separately in a second step for chart-text linkage.
+Only analyze for: ATM, BBS, SAM, WW, DAC
+Set "text_chart_linkage": null in your output.
+"""
+
     return f"""{SYSTEM_PROMPT}
 
 {OUTPUT_SCHEMA}
 
 ---
-
+{chart_instruction}
 ARTICLE TO ANALYZE:
 
 Title: {title}

@@ -1,0 +1,85 @@
+{
+  "aoi_definitions": {
+    "default": [
+      {
+        "name": "Fallacy Highlighted Text",
+        "category": "fallacy_text",
+        "description": "Text segments marked as containing logical fallacies",
+        "element_patterns": ["news-sentence"],
+        "requires_fallacy_attribute": true
+      },
+      {
+        "name": "Regular Article Text",
+        "category": "regular_text",
+        "description": "Non-annotated text content in the article",
+        "element_patterns": ["news-sentence"],
+        "requires_fallacy_attribute": false
+      },
+      {
+        "name": "Fallacy Tags/Labels",
+        "category": "fallacy_tag",
+        "description": "Sidebar tags showing fallacy type names",
+        "element_patterns": ["tag", "minimap", "fnode"]
+      },
+      {
+        "name": "Charts and Images",
+        "category": "chart",
+        "description": "Visual content including charts with data distortion annotations",
+        "element_patterns": ["fallacy-image", "chart", "canvas"]
+      }
+    ],
+    "by_fallacy_type": [
+      {
+        "name": "BBS - Bad Bad Science",
+        "category": "fallacy_BBS",
+        "fallacy_code": "BBS",
+        "element_patterns": ["BBS"]
+      },
+      {
+        "name": "DIS - Distortion",
+        "category": "fallacy_DIS",
+        "fallacy_code": "DIS",
+        "element_patterns": ["DIS", "chart"]
+      },
+      {
+        "name": "OOL - Overloading",
+        "category": "fallacy_OOL",
+        "fallacy_code": "OOL",
+        "element_patterns": ["OOL"]
+      },
+      {
+        "name": "RED - Reduction",
+        "category": "fallacy_RED",
+        "fallacy_code": "RED",
+        "element_patterns": ["RED"]
+      },
+      {
+        "name": "AUT - False Authority",
+        "category": "fallacy_AUT",
+        "fallacy_code": "AUT",
+        "element_patterns": ["AUT"]
+      },
+      {
+        "name": "EMO - Emotional Appeal",
+        "category": "fallacy_EMO",
+        "fallacy_code": "EMO",
+        "element_patterns": ["EMO"]
+      }
+    ]
+  },
+  "fixation_parameters": {
+    "fixation_radius_px": 50,
+    "min_fixation_duration_ms": 100,
+    "description": "Fixation detection: gaze must stay within radius for minimum duration"
+  },
+  "metrics_description": {
+    "fixation_count": "Number of fixations within the AOI",
+    "total_dwell_time_ms": "Total time spent looking at the AOI",
+    "mean_fixation_duration_ms": "Average duration of individual fixations",
+    "first_fixation_time_ms": "Time from session start to first fixation on AOI",
+    "revisits": "Number of times gaze returned to AOI after leaving",
+    "dwell_proportion": "Proportion of total viewing time spent on AOI",
+    "fixation_proportion": "Proportion of total fixations on AOI",
+    "fallacy_to_regular_ratio": "Ratio of time on fallacy content vs regular text"
+  }
+}

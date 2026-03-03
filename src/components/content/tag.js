@@ -134,8 +134,44 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
     };
 
     const sentenceClicked = useCallback(()=>{
+        if (!clickSentence.fallacy) return;
+
+        // Find the instance that contains the clicked sentence
+        let foundMatch = false;
         fallacyNodes.forEach((tag, index)=>{
-            if(clickSentence.fallacy===tag.fallacy){
+            if (foundMatch) return;  // Only open first matching instance
+
+            const instanceKey = tag.instanceKey;
+            const fallacyData = fallacyChatList[instanceKey];
+            if (!fallacyData) return;
+
+            // Check if this is a chart click with specific instanceKey
+            if (clickSentence.isChart && clickSentence.instanceKey) {
+                if (instanceKey === clickSentence.instanceKey) {
+                    foundMatch = true;
+                    const nextopen = open.map((o,i)=>{
+                        if(i === index) return !o;
+                        return o;
+                    });
+                    setOpen(nextopen);
+                    setFallacyChatList({
+                        ...fallacyChatList,
+                        [instanceKey]: {
+                            ...fallacyChatList[instanceKey],
+                            open: nextopen[index]
+                        }
+                    });
+                }
+                return;
+            }
+
+            // Check if this instance's fallacy code matches AND contains the clicked sentence
+            const fallacyMatches = clickSentence.fallacy === tag.fallacy;
+            const sentenceMatches = clickSentence.sentenceIndex &&
+                fallacyData.sentences?.includes(clickSentence.sentenceIndex);
+
+            if (fallacyMatches && sentenceMatches) {
+                foundMatch = true;
                 const nextopen = open.map((o,i)=>{
                     if(i === index){
                         return !o;
@@ -143,18 +179,17 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                         return o;
                     }
                 });
-                //console.log("sentence", clickSentence.fallacy, nextopen);
                 setOpen(nextopen);
                 setFallacyChatList({
                     ...fallacyChatList,
-                    [tag.fallacy]: {
-                        ...fallacyChatList[tag.fallacy],
+                    [instanceKey]: {
+                        ...fallacyChatList[instanceKey],
                         open: nextopen[index]
                     }
                 });
             }
         });
-    },[clickSentence]);
+    },[clickSentence, fallacyNodes, fallacyChatList, open]);
 
     const generateTags = useCallback(()=>{
         let openList = [];
@@ -197,18 +232,19 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
     return(
             <>
             {fallacyNodes.map((e,i)=>{
-                const fallacyData = fallacyChatList[e.fallacy];
-                // Skip if fallacy not in config
+                // Use instanceKey (e.g., "BBS_0") to get instance-specific data
+                const instanceKey = e.instanceKey;
+                const fallacyData = fallacyChatList[instanceKey];
+                // Skip if instance not in config
                 if (!fallacyData) {
-                    console.warn(`Fallacy "${e.fallacy}" not found in config`);
+                    console.warn(`Instance "${instanceKey}" not found in config`);
                     return null;
                 }
                 const fallacyName = fallacyData.name;
                 const fallacyColor = fallacyData.color;
                 const fallacyIntroduction = fallacyData.explanation;
                 const ifopen = fallacyData.open;
-                //console.log("ifopen", ifopen);
-                const ftype = e.type[0]; // Now there is no duplicates between chart and text fallacies
+                const ftype = e.type[0];
                 const fallacyExplanationPopContent = (
                     <div style={{
                         width: 150
@@ -245,9 +281,9 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                                     </Tooltip>
                                     <Tooltip title="Chat with LLM for further information">
                                         <Button
-                                            style={{padding: 2, height: "27px"}} 
+                                            style={{padding: 2, height: "27px"}}
                                             icon={<MessageOutlined style={{ fontSize: '12px' }} />}
-                                            onClick={()=>handleLevelChange(e.fallacy,'L3')}
+                                            onClick={()=>handleLevelChange(instanceKey,'L3')}
                                         />
                                     </Tooltip>
                                     <Tooltip title="Pin the window">
@@ -274,7 +310,7 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                             }
                             <List
                                 size="small"
-                                dataSource={chatList[e.fallacy].chatList}
+                                dataSource={chatList[instanceKey]?.chatList || []}
                                 renderItem={(item, index)=>{
                                     //console.log(item.link);
                                     return <List.Item>
@@ -305,7 +341,7 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                                     <Button
                                         type="dashed"
                                         size="small"
-                                        onClick={()=>handleLevelChange(e.fallacy,'L2')}>
+                                        onClick={()=>handleLevelChange(instanceKey,'L2')}>
                                         more &#8744;
                                     </Button>
                                     explanation
@@ -320,13 +356,13 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                                     <Button
                                         type="dashed"
                                         size="small"
-                                        onClick={()=>handleLevelChange(e.fallacy,'L3')}>
+                                        onClick={()=>handleLevelChange(instanceKey,'L3')}>
                                         more &#8744;
                                     </Button>
                                     <Button
                                         type="dashed"
                                         size="small"
-                                        onClick={()=>handleLevelChange(e.fallacy,'L1')}>
+                                        onClick={()=>handleLevelChange(instanceKey,'L1')}>
                                         less &#8743;
                                     </Button>
                                     explanation
@@ -341,7 +377,7 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                                     <Button 
                                         type="dashed" 
                                         size="small" 
-                                        onClick={()=>handleLevelChange(e.fallacy,'L2')}>
+                                        onClick={()=>handleLevelChange(instanceKey,'L2')}>
                                         less &#8743;
                                     </Button>
                                     
@@ -363,10 +399,10 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                                         onChange={(v)=>handleTextAreaValueChange(v)}
                                         //onPressEnter={(value)=>handleLevel3Change(value, e)}
                                     />
-                                    <Button 
-                                    size="small" 
+                                    <Button
+                                    size="small"
                                     type="primary"
-                                    onClick={()=>handleLevel3Change(e.fallacy)}
+                                    onClick={()=>handleLevel3Change(instanceKey)}
                                     >Submit</Button>
                                     </Space>
                                 </> 
@@ -375,14 +411,44 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                     </div>
                 );
                 return (
-                    <div key={"fdiv-"+e.id}>
-                    <Popover 
-                        key={"fallacyTagPop-"+e.id} 
-                        content={popContent} 
-                        placement="right" 
+                    <div
+                        key={"fdiv-"+e.id}
+                        style={{
+                            position: 'absolute',
+                            top: e.top,
+                            left: 0,
+                            zIndex: ifopen ? 10 : 1,
+                            display: 'flex',
+                            alignItems: 'center',
+                        }}
+                    >
+                    {/* Connector line and dot */}
+                    <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        marginRight: 0,
+                    }}>
+                        <div style={{
+                            width: 8,
+                            height: 8,
+                            borderRadius: '50%',
+                            backgroundColor: fallacyColor,
+                            opacity: ifopen ? 1 : 0.6,
+                        }}/>
+                        <div style={{
+                            width: 40,
+                            height: 2,
+                            backgroundColor: fallacyColor,
+                            opacity: ifopen ? 1 : 0.6,
+                        }}/>
+                    </div>
+                    <Popover
+                        key={"fallacyTagPop-"+e.id}
+                        content={popContent}
+                        placement="right"
                         trigger="click"
                         open={open[i]}
-                        onOpenChange={()=>handleOpenChange(e.fallacy, i)}
+                        onOpenChange={()=>handleOpenChange(instanceKey, i)}
                     >
                     <Tooltip key={"fdiv-tooltip-"+e.id} title={
                         fallacyName === "Improper Criteria" && "This passage may attempt to deal with an issue by invoking aspects that aren't relevant or ignoring ones that are. Click for an explanation."
@@ -392,20 +458,10 @@ export function FallacyTag({fallacyChatList, setFallacyChatList,
                     color={fallacyColor}
                     className={cx('underline_minimap', css`
                         cursor: pointer;
-                        top: ${e.top}px;
-                        opacity: ${ifopen ? 1 : 0.4};
-                        /*max-width: 110px;*/
+                        opacity: ${ifopen ? 1 : 0.6};
                     `)}
-                    //onClick={ee=>console.log(ee.target.outerText)}
-                    >   
-                        <b 
-                            style={{
-                                //wordWrap: "break-word", 
-                                //whiteSpace: "pre-wrap"
-                            }}
-                        >
-                            {fallacyName}
-                        </b>
+                    >
+                        <b>{fallacyName}</b>
                     </Tag>
                     </Tooltip>
                     </Popover>

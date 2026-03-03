@@ -28,6 +28,7 @@ function App() {
   const [gazeMetrics, setGazeMetrics] = useState(null);
   const [splashComplete, setSplashComplete] = useState(false);
   const [showGazeOverlay, setShowGazeOverlay] = useState(false);
+  const [hideAnnotations, setHideAnnotations] = useState(false);
 
   const { Header, Content } = Layout;
   const activeArticle = caseArticle.cases[selectedCase];
@@ -39,83 +40,161 @@ function App() {
     padding: 20
   };
 
+  // Helper to check if two sentence arrays are consecutive
+  const areConsecutive = (sentences1, sentences2) => {
+    if (!sentences1?.length || !sentences2?.length) return false;
+    const max1 = Math.max(...sentences1);
+    const min2 = Math.min(...sentences2);
+    return max1 + 1 === min2;
+  };
+
+  // Merge consecutive instances in annotations
+  const mergeConsecutiveInstances = (annotations) => {
+    if (!annotations?.L1?.length) return annotations;
+
+    const merged = { L1: [], L2: [], L3: [] };
+    const instances = [...annotations.L1].sort((a, b) =>
+      Math.min(...(a.sentence || [999])) - Math.min(...(b.sentence || [999]))
+    );
+
+    let i = 0;
+    while (i < instances.length) {
+      let currentSentences = [...(instances[i].sentence || [])];
+      let currentL1 = instances[i].explanation || "";
+      let currentL2 = annotations.L2?.[i]?.explanation || "";
+      let currentL3 = annotations.L3?.[i]?.explanation || "";
+      let currentLink = instances[i].link || "";
+
+      // Look ahead and merge consecutive
+      let j = i + 1;
+      while (j < instances.length && areConsecutive(currentSentences, instances[j].sentence)) {
+        currentSentences = [...currentSentences, ...(instances[j].sentence || [])];
+        // Append explanations
+        const nextL1 = instances[j].explanation || "";
+        const nextL2 = annotations.L2?.[j]?.explanation || "";
+        const nextL3 = annotations.L3?.[j]?.explanation || "";
+        if (nextL1) currentL1 += " " + nextL1;
+        if (nextL2) currentL2 += " " + nextL2;
+        if (nextL3) currentL3 += " " + nextL3;
+        j++;
+      }
+
+      merged.L1.push({ explanation: currentL1, sentence: currentSentences.sort((a,b) => a-b), link: currentLink });
+      merged.L2.push({ explanation: currentL2, sentence: currentSentences.sort((a,b) => a-b) });
+      merged.L3.push({ explanation: currentL3, sentence: currentSentences.sort((a,b) => a-b) });
+      i = j;
+    }
+
+    return merged;
+  };
+
   const initConfig = useCallback(()=>{
-    const config = JSON.parse(JSON.stringify(fallacyList.FallacyType));
-    Object.keys(config).forEach(key=>config[key].chatList = []);
+    const baseConfig = JSON.parse(JSON.stringify(fallacyList.FallacyType));
+    const config = {};
 
-    activeFallacyCase.fallacies.logical_fallacies.forEach(e=>{
-      // Skip if fallacy type doesn't exist in config
-      if (!config[e]) {
-        console.warn(`Fallacy type "${e}" not found in config, skipping`);
+    // Create instance-based config entries (e.g., "BBS_0", "BBS_1" for multiple instances)
+    activeFallacyCase.fallacies.logical_fallacies.forEach(fallacyCode => {
+      // Skip if fallacy type doesn't exist in base config
+      if (!baseConfig[fallacyCode]) {
+        console.warn(`Fallacy type "${fallacyCode}" not found in config, skipping`);
         return;
       }
-      const annotations = activeFallacyCase.fallacies.annotations[e];
-      if (!annotations) return;
+      const rawAnnotations = activeFallacyCase.fallacies.annotations[fallacyCode];
+      if (!rawAnnotations) return;
 
-      /** !!! THIS PART NEED TO BE UPDATED AFTER PROMPT UPDATEING !!! */
-      const L1Link = annotations.L1?.[0]?.link || "";
-      const L2Link = annotations.L2?.[0]?.link || "";
-      const L3Link = annotations.L3?.[0]?.link || "";
-      const chatList = [
-        {
-          role: "assistant",
-          content: annotations.L1?.[0]?.explanation || "",
-          link: L1Link
-        },{
-          role: "assistant",
-          content: annotations.L2?.[0]?.explanation || "",
-          link: L2Link
-        },{
-          role: "assistant",
-          content: annotations.L3?.[0]?.explanation || "",
-          link: L3Link
-        }
-      ];
-      config[e].chatList = chatList;
-      config[e].level = 'L1';
-      config[e].open = false;
-      config[e].fsource = "text";
-      setFallacyChatList(config);
-    });
+      // Merge consecutive instances automatically
+      const annotations = mergeConsecutiveInstances(rawAnnotations);
 
-    activeFallacyCase.text_chart_linkage !== null && activeFallacyCase.text_chart_linkage.fallacies.forEach(e=>{
-      // Skip if fallacy type doesn't exist in config
-      if (!config[e]) {
-        console.warn(`Fallacy type "${e}" not found in config, skipping`);
-        return;
+      // Get the number of instances (from L1 array length)
+      const numInstances = annotations.L1?.length || 1;
+
+      // Create a config entry for each instance
+      for (let i = 0; i < numInstances; i++) {
+        const instanceKey = `${fallacyCode}_${i}`;
+        const L1Link = annotations.L1?.[i]?.link || "";
+        const L2Link = annotations.L2?.[i]?.link || "";
+        const L3Link = annotations.L3?.[i]?.link || "";
+        const sentences = annotations.L1?.[i]?.sentence || [];
+
+        const chatList = [
+          {
+            role: "assistant",
+            content: annotations.L1?.[i]?.explanation || "",
+            link: L1Link
+          },{
+            role: "assistant",
+            content: annotations.L2?.[i]?.explanation || "",
+            link: L2Link
+          },{
+            role: "assistant",
+            content: annotations.L3?.[i]?.explanation || "",
+            link: L3Link
+          }
+        ];
+
+        config[instanceKey] = {
+          ...baseConfig[fallacyCode],
+          chatList: chatList,
+          level: 'L1',
+          open: false,
+          fsource: "text",
+          fallacyCode: fallacyCode,  // Original code for styling
+          instanceIndex: i,
+          sentences: sentences  // Which sentences this instance covers
+        };
       }
-      const annotations = activeFallacyCase.text_chart_linkage.annotations[e];
-      if (!annotations) return;
-
-      const L1annotation = annotations.L1;
-      const L2annotation = annotations.L2;
-      const L3annotation = annotations.L3;
-      const chatList = [
-        {
-          role: "assistant",
-          content: L1annotation
-        },{
-          role: "assistant",
-          content: L2annotation
-        },{
-          role: "assistant",
-          content: L3annotation
-        }
-      ];
-      config[e].chatList = chatList;
-      config[e].level = 'L1';
-      config[e].open = false;
-      config[e].fsource = "chart";
-      config[e].reason = annotations.reason;
-      config[e].range = annotations.range;
-      setFallacyChatList(config);
     });
 
+    setFallacyChatList(config);
+
+    // Handle chart fallacies
+    if (activeFallacyCase.text_chart_linkage !== null) {
+      activeFallacyCase.text_chart_linkage.fallacies.forEach(fallacyCode => {
+        if (!baseConfig[fallacyCode]) {
+          console.warn(`Fallacy type "${fallacyCode}" not found in config, skipping`);
+          return;
+        }
+        const annotations = activeFallacyCase.text_chart_linkage.annotations[fallacyCode];
+        if (!annotations) return;
+
+        // Get sentences for this chart fallacy
+        const chartSentences = activeFallacyCase.text_chart_linkage.sentences?.[fallacyCode] || [];
+
+        // Chart fallacies use a different structure (not arrays)
+        const instanceKey = `${fallacyCode}_chart`;
+        const chatList = [
+          { role: "assistant", content: annotations.L1 || "" },
+          { role: "assistant", content: annotations.L2 || "" },
+          { role: "assistant", content: annotations.L3 || "" }
+        ];
+
+        config[instanceKey] = {
+          ...baseConfig[fallacyCode],
+          chatList: chatList,
+          level: 'L1',
+          open: false,
+          fsource: "chart",
+          fallacyCode: fallacyCode,
+          instanceIndex: 'chart',
+          reason: annotations.reason,
+          range: annotations.range,
+          sentences: chartSentences
+        };
+      });
+    }
+
+    setFallacyChatList(config);
   },[selectedCase]);
 
   useEffect(()=>{
     initConfig();
-    setImageFlag(false);
+    // Set imageFlag true if case has text_chart_linkage (for image highlighting)
+    // Otherwise set false and let OCR set it later
+    if (activeFallacyCase?.text_chart_linkage !== null) {
+      setImageFlag(true);
+    } else {
+      setImageFlag(false);
+    }
   },[selectedCase]);
 
   // Gaze tracking callbacks
@@ -147,6 +226,7 @@ function App() {
       <div className="App">
         <SplashScreen onComplete={(settings) => {
           setShowGazeOverlay(settings?.showGazeOverlay ?? false);
+          setHideAnnotations(settings?.hideAnnotations ?? false);
           setSplashComplete(true);
         }} />
       </div>
@@ -189,6 +269,7 @@ function App() {
                 setFallacyChatList={setFallacyChatList}
                 imageFlag={imageFlag}
                 setImageFlag={setImageFlag}
+                hideAnnotations={hideAnnotations}
               />
             </Col>
           </Row>

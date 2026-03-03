@@ -10,8 +10,8 @@ import { FallacyImage } from "./image";
 import { Linkage } from "./d3linkage";
 import merge from "../../utilities";
 
-export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSentence, 
-    setErrSentence, fallacyChatList, setFallacyChatList, imageFlag, setImageFlag}) {
+export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSentence,
+    setErrSentence, fallacyChatList, setFallacyChatList, imageFlag, setImageFlag, hideAnnotations}) {
     const [getRef, setRef] =  useDynamicRefs();
     //const [scrollPosition, setScrollPosition] = useState(0);
     const [imgOcr, setImgOcr] = useState(null);
@@ -107,22 +107,25 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
         const pnodeList = [];
         const fnodeList = [];
         console.log("errSentence", errSentence);
+        // Get all chart fallacies from text_chart_linkage (if exists)
+        const chartFallacies = activeFallacyCase?.text_chart_linkage?.fallacies || [];
+
         newscase.content.forEach((e,i)=>{
             const pid = getRef('paragraph-'+i);
             if (!pid || !pid.current) return;
             const windowPosition = window.scrollY;
             const nodePosition = pid.current.getBoundingClientRect().top;
-            
+
             const pnode = {
-                id: "pnode_"+i, 
-                fallacy: [], 
-                x: 1, //change x-position accordingly 
+                id: "pnode_"+i,
+                fallacy: [],
+                x: 1, //change x-position accordingly
                 y: nodePosition+windowPosition
             };
             const imgnode = {
-                id: "imgnode_"+i, 
-                fallacy: [], 
-                x: 1, //change x-position accordingly 
+                id: "imgnode_"+i,
+                fallacy: [],
+                x: 1, //change x-position accordingly
                 y: null
             };
             errSentence.forEach(ee=>{
@@ -134,25 +137,30 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                             !fnodeList.includes(eee) && fnodeList.push(eee);
                         });
                     }
-                    if(ee.chartSource.length>0){
-                        const imageID = getRef('fallacy-image');
-                        const imagePosition = imageID.current.getBoundingClientRect().top;
-                        imgnode.fallacy = merge(imgnode.fallacy, ee.chartSource);
-                        imgnode.y = imagePosition+windowPosition+150
-                    }
                 }
             });
+
+            // For paragraphs with images, link to ALL chart fallacies
+            if (e.hasImage && chartFallacies.length > 0) {
+                const imageID = getRef('fallacy-image-'+i);
+                if (imageID?.current) {
+                    const imagePosition = imageID.current.getBoundingClientRect().top;
+                    imgnode.fallacy = [...chartFallacies];
+                    imgnode.y = imagePosition + windowPosition + 150;
+                }
+            }
+
             pnode.fallacy.length>0 && pnodeList.push(pnode);
             imgnode.fallacy.length>0 && pnodeList.push(imgnode);
         });
         console.log("pnode", pnodeList);
-        // generate fallacy tags and nodes
-        const newfnodeList = createFallacyNodes(fnodeList);
+        // generate fallacy tags and nodes from instance-based fallacyChatList
+        const newfnodeList = createFallacyNodes();
         const linklist = createLinkage(pnodeList, newfnodeList);
         setParagraphNodes(pnodeList);
         setFallacyNodes(newfnodeList);
         setLinkage(linklist);
-    },[errSentence, windowWidth]);
+    },[errSentence, windowWidth, fallacyChatList, activeFallacyCase, newscase]);
 
     const createLinkage = (pnodeList, fnodeList) => {
         const linkList = [];
@@ -175,11 +183,7 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
         return(linkList);
     };
 
-    const createFallacyNodes = (fnodeList)=> {
-        /** CAREFUL! The text fallacies cannot be the same with image fallacies now!!! */
-        const text_fallacies = activeFallacyCase.fallacies.logical_fallacies;
-        const chart_fallacies = activeFallacyCase.text_chart_linkage !== null ? activeFallacyCase.text_chart_linkage.fallacies : [];
-
+    const createFallacyNodes = ()=> {
         // Guard for refs when sidebar is hidden
         const linkageContainerRefObj = getRef('linkageContainer');
         const paragraphRefObj = getRef('paragraph-0');
@@ -193,27 +197,114 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
         const fallacyContainerRef = getRef("fallacyContainer");
         if (!fallacyContainerRef?.current) return [];
         const fallacyContainer = fallacyContainerRef.current.getBoundingClientRect();
-        const offsetY_ = fallacyContainer.top - linkContainerRef.top;
-        //console.log(linkContainerRef.top, fallacyContainer.top)
-        const marginV = 50;
-        const domheight = 22;
-        //console.log("fallacyContainer", fallacyContainer);
-        const newfnodeList = fnodeList.map((e,i)=>{
-            const type = [];
-            text_fallacies.includes(e) && type.push("text");
-            chart_fallacies.includes(e) && type.push("chart");
+
+        // Create nodes from fallacyChatList (which now has instance-based keys like "BBS_0", "BBS_1")
+        const newfnodeList = [];
+        let nodeIndex = 0;
+
+        Object.keys(fallacyChatList).forEach(instanceKey => {
+            const instance = fallacyChatList[instanceKey];
+            if (!instance || !instance.sentences) return;
+
+            const fallacyCode = instance.fallacyCode;
+            const sentences = instance.sentences;
+            const isChart = instance.fsource === "chart";
+
+            // Find the first sentence element for this instance
+            let sentenceY = 0;
+            let absoluteY = 0;
+
+            if (isChart) {
+                // Chart fallacy - create one tag per image
+                // Find all image refs and create a fnode for each
+                for (let imgIdx = 0; imgIdx < newscase.content.length; imgIdx++) {
+                    if (!newscase.content[imgIdx].hasImage) continue;
+
+                    const fallacyImageRef = getRef('fallacy-image-' + imgIdx);
+                    if (fallacyImageRef?.current) {
+                        const imageRect = fallacyImageRef.current.getBoundingClientRect();
+                        const imgSentenceY = imageRect.top - fallacyContainer.top;
+                        const imgAbsoluteY = imageRect.top + window.scrollY;
+
+                        const fnode = {
+                            id: "fnode_" + instanceKey + "_img" + imgIdx,
+                            instanceKey: instanceKey,  // Same instanceKey for all (e.g., "DIS_chart")
+                            fallacy: fallacyCode,
+                            type: ["chart"],
+                            top: imgSentenceY,
+                            x: offsetX - 10,
+                            y: imgAbsoluteY,
+                            sentences: sentences,
+                            imageIndex: imgIdx
+                        };
+                        newfnodeList.push(fnode);
+                        nodeIndex++;
+                    }
+                }
+                // Skip the normal fnode creation below for chart fallacies
+                return;
+            } else if (sentences.length > 0) {
+                // Text fallacy - find sentence element by its index
+                const firstSentenceIndex = sentences[0];
+                // Search for elements with matching sentence index in data attributes
+                const allSentences = document.querySelectorAll(`[data-sentence-index]`);
+                let sentenceEl = null;
+                allSentences.forEach(el => {
+                    if (parseInt(el.dataset.sentenceIndex) === firstSentenceIndex - 1) {
+                        sentenceEl = el;
+                    }
+                });
+
+                if (sentenceEl) {
+                    const sentenceRect = sentenceEl.getBoundingClientRect();
+                    sentenceY = sentenceRect.top - fallacyContainer.top;
+                    absoluteY = sentenceRect.top + window.scrollY;
+                } else {
+                    // Fallback: use fallacy code to find any matching element
+                    const fallbackEl = document.querySelector(`[data-fallacy*="${fallacyCode}"]`);
+                    if (fallbackEl) {
+                        const sentenceRect = fallbackEl.getBoundingClientRect();
+                        sentenceY = sentenceRect.top - fallacyContainer.top;
+                        absoluteY = sentenceRect.top + window.scrollY;
+                    } else {
+                        sentenceY = 70 * nodeIndex + 8;
+                        absoluteY = fallacyContainer.top + sentenceY + window.scrollY;
+                    }
+                }
+            } else {
+                // No sentences - use stacked position
+                sentenceY = 70 * nodeIndex + 8;
+                absoluteY = fallacyContainer.top + sentenceY + window.scrollY;
+            }
+
             const fnode = {
-                id: "fnode_"+e,
-                fallacy: e,
-                type: type,
-                top: (marginV+domheight)*i+8,
-                x: offsetX-10,//offset-10, //change x-position accordingly 
-                y: offsetY_ + (marginV+domheight+22.7)*i + 8 //top position
-            }; 
-            return fnode;
+                id: "fnode_" + instanceKey,
+                instanceKey: instanceKey,  // e.g., "BBS_0", "BBS_1"
+                fallacy: fallacyCode,       // Original code for styling
+                type: isChart ? ["chart"] : ["text"],
+                top: sentenceY,
+                x: offsetX - 10,
+                y: absoluteY,
+                sentences: sentences
+            };
+            newfnodeList.push(fnode);
+            nodeIndex++;
         });
-        //console.log("newfnodeList", newfnodeList);
-        return(newfnodeList);
+
+        // Sort by Y position so tags appear in reading order
+        newfnodeList.sort((a, b) => a.top - b.top);
+
+        // Add minimum spacing between tags to prevent overlap
+        const MIN_TAG_SPACING = 35; // Minimum pixels between tags
+        for (let i = 1; i < newfnodeList.length; i++) {
+            const prevTag = newfnodeList[i - 1];
+            const currTag = newfnodeList[i];
+            if (currTag.top - prevTag.top < MIN_TAG_SPACING) {
+                currTag.top = prevTag.top + MIN_TAG_SPACING;
+            }
+        }
+
+        return newfnodeList;
     };
 
     const handleScroll = () => {
@@ -258,14 +349,17 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
     }, []);
 
     useEffect(()=>{
-        createParagraphNodes();
-        //createFallacyNodes();
-    },[errSentence, windowWidth]);
+        // Use requestAnimationFrame to ensure DOM is updated before calculating positions
+        const rafId = requestAnimationFrame(() => {
+            createParagraphNodes();
+        });
+        return () => cancelAnimationFrame(rafId);
+    },[errSentence, windowWidth, imageFlag, fallacyChatList, activeFallacyCase]);
 
     // Calculate responsive column spans
     const articleSpan = windowWidth < 1200 ? (windowWidth < 900 ? 24 : 16) : 12;
     const sidebarSpan = windowWidth < 1200 ? (windowWidth < 900 ? 0 : 8) : 12;
-    const showSidebar = windowWidth >= 900;
+    const showSidebar = windowWidth >= 900 && !hideAnnotations;
 
     return(
         <Typography>
@@ -285,13 +379,14 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                                 id={"news-content-"+i} 
                                 key={"news-content-"+i} 
                             >
-                                <Sentence 
+                                <Sentence
                                     errSentence={errSentence.filter(fe=>fe.paragraph === i)}
                                     setErrSentence={setErrSentence}
                                     fallacyChatList={fallacyChatList}
                                     setFallacyChatList={setFallacyChatList}
                                     paragraphID={i}
                                     setClickSentence={setClickSentence}
+                                    hideAnnotations={hideAnnotations}
                                 />
                             </Paragraph>
                         </Col>
@@ -306,8 +401,9 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                             />
                         </Col>*/}
                         
-                        {p.hasImage && 
-                        <div ref={setRef('fallacy-image')}>
+                        {p.hasImage &&
+                        <Col span={24}>
+                        <div ref={setRef('fallacy-image-'+i)} style={{width: '100%', marginBottom: 20}}>
                         <FallacyImage
                             errSentence={errSentence}
                             paragraphID={i}
@@ -318,8 +414,10 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                             imgSrc={process.env.PUBLIC_URL+p.ImageURL}
                             imgOcr={imgOcr}
                             imageFlag={imageFlag}
+                            hideAnnotations={hideAnnotations}
                         />
-                        </div>}
+                        </div>
+                        </Col>}
                         </Row>
                     )}
                     </Row>
@@ -328,52 +426,41 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                 {showSidebar && <Col span={sidebarSpan}>
                     <div
                         ref={setRef('linkageContainer')}
-                        className={cx(css`
-                            width: calc(100% - ${sidebarWidth}px);
-                            /*background-color: lightgrey;*/
-                            height: 100%;
-                        `)}
-                    >
-                        <Linkage
-                            paragraphNodes={paragraphNodes}
-                            fallacyNodes={fallacyNodes}
-                            offsetYfnode={offsetYfnode}
-                            linkage={linkage}
-                            fallacyChatList={fallacyChatList}
-                        />
-                    </div>
-                <div style={{
-                    //display: "flex",
-                    width: sidebarWidth,
-                    //height: 100,
-                    //boxShadow: "0px 0px 5px 2px #1677FF, 0px 0px 0px 2px rgba(255, 255, 255, 0.19) inset",
-                    alignItems: "left",
-                    //border: "1px solid",
-                    //justifyContent: "right",
-                    position: "fixed",
-                    top: 170, //170
-                    bottom: 50,
-                    right: 20,
-                    overflowY: "auto",
-                }}>
-                    <div
-                        ref={setRef("fallacyContainer")}
                         style={{
-                            paddingTop: 10,
-                            //backgroundColor: "green",
-                            width: "100%"
+                            position: 'relative',
+                            width: '100%',
+                            minHeight: 800,
                         }}
                     >
-                    <FallacyTag
-                        fallacyChatList={fallacyChatList}
-                        setFallacyChatList={setFallacyChatList}
-                        clickSentence={clickSentence}
-                        setClickSentence={setClickSentence}
-                        fallacyNodes={fallacyNodes}
-                        newscase={newscase}
-                    />
+                        {/* SVG for connector lines - positioned behind tags */}
+                        <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, pointerEvents: 'none' }}>
+                            <Linkage
+                                paragraphNodes={paragraphNodes}
+                                fallacyNodes={fallacyNodes}
+                                offsetYfnode={offsetYfnode}
+                                linkage={linkage}
+                                fallacyChatList={fallacyChatList}
+                            />
+                        </div>
+                        {/* Tags - positioned on top */}
+                        <div
+                            ref={setRef("fallacyContainer")}
+                            style={{
+                                position: 'relative',
+                                width: "100%",
+                                paddingLeft: 20,
+                            }}
+                        >
+                            <FallacyTag
+                                fallacyChatList={fallacyChatList}
+                                setFallacyChatList={setFallacyChatList}
+                                clickSentence={clickSentence}
+                                setClickSentence={setClickSentence}
+                                fallacyNodes={fallacyNodes}
+                                newscase={newscase}
+                            />
+                        </div>
                     </div>
-                </div>
                 </Col>}
             </Row>
                 

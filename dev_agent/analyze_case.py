@@ -116,9 +116,9 @@ def extract_numbered_sentences(case):
     return '\n'.join(numbered_lines), len(sentences)
 
 
-def analyze_article(client: OpenAI, article_text: str, title: str, source: str, model: str) -> dict:
+def analyze_article(client: OpenAI, article_text: str, title: str, source: str, model: str, has_charts: bool = False) -> dict:
     """Send article to GPT-4 for fallacy analysis."""
-    prompt = build_analysis_prompt(article_text, title, source)
+    prompt = build_analysis_prompt(article_text, title, source, has_charts=has_charts)
 
     for attempt in range(MAX_RETRIES + 1):
         try:
@@ -170,6 +170,12 @@ Examples:
 
     # List available cases
     python analyze_case.py --list
+
+    # For articles WITH charts (two-step process):
+    # Step 1: Generate prompt excluding DIS
+    python analyze_case.py --case 3 --prompt-only --charts
+    # Step 2: Use separate chart prompt for text_chart_linkage
+    # Step 3: Combine both outputs in cases.json
 """
     )
     parser.add_argument("--case", "-c", type=int, help="Case index to analyze (0-based)")
@@ -180,6 +186,8 @@ Examples:
     parser.add_argument("--model", "-m", default=MODEL, help=f"OpenAI model (default: {MODEL})")
     parser.add_argument("--prompt-only", "-p", action="store_true",
                         help="Output the prompt for manual use in ChatGPT (no API call)")
+    parser.add_argument("--charts", action="store_true",
+                        help="Article has charts/images - excludes DIS from analysis (handle separately)")
 
     args = parser.parse_args()
 
@@ -236,16 +244,22 @@ Examples:
 
         # Prompt-only mode: print prompt and continue
         if args.prompt_only:
-            prompt = build_analysis_prompt(numbered_text, title, args.source)
+            prompt = build_analysis_prompt(numbered_text, title, args.source, has_charts=args.charts)
             print(f"\n{'='*60}", file=sys.stderr)
-            print("COPY THE PROMPT BELOW INTO CHATGPT:", file=sys.stderr)
+            if args.charts:
+                print("COPY THE PROMPT BELOW INTO CHATGPT (DIS excluded - has charts):", file=sys.stderr)
+            else:
+                print("COPY THE PROMPT BELOW INTO CHATGPT:", file=sys.stderr)
             print(f"{'='*60}\n", file=sys.stderr)
             print(prompt)
             print(f"\n{'='*60}", file=sys.stderr)
-            print("After getting the response, save the JSON to cases.json", file=sys.stderr)
+            if args.charts:
+                print("After getting the response, run the CHART prompt separately for text_chart_linkage", file=sys.stderr)
+            else:
+                print("After getting the response, save the JSON to cases.json", file=sys.stderr)
             continue
 
-        result = analyze_article(client, numbered_text, title, args.source, args.model)
+        result = analyze_article(client, numbered_text, title, args.source, args.model, has_charts=args.charts)
 
         if result and 'cases' in result and len(result['cases']) > 0:
             case_result = result['cases'][0]

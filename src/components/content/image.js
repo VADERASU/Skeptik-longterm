@@ -11,13 +11,14 @@ import {
     FundViewOutlined
 } from '@ant-design/icons';
 
-export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFallacyChatList, 
-  clickSentence, setClickSentence, imgSrc, imgOcr, imageFlag}){
+export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFallacyChatList,
+  clickSentence, setClickSentence, imgSrc, imgOcr, imageFlag, hideAnnotations}){
   const canvasRef = useRef(null);
-  const [domWidth, setDomWidth] = useState(800); //900
-  const [domHeight, setDomHeight] = useState(332); //432
+  const containerRef = useRef(null);
+  const [domWidth, setDomWidth] = useState(600);
+  const [domHeight, setDomHeight] = useState(332);
   const [scaleFactor, setScaleFactor] = useState(0);
-  const [actualHeight, setActualHeight] = useState(332); // Actual rendered image height
+  const [actualHeight, setActualHeight] = useState(332);
   const [tagdom, setTagdom] = useState([]);
   const [chatList, setChatList] = useState([]);
   const [textAreaValue, setTextAreaValue] = useState("");
@@ -80,11 +81,15 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
     });
   };
 
-  const handleSentenceClick = (pid, fallacy) => {
-    //console.log(pid, fallacy);
+  const handleSentenceClick = (pid, instanceKey) => {
+    //console.log(pid, instanceKey);
+    // Extract fallacy code from instance key (e.g., "DIS_chart" -> "DIS")
+    const fallacyCode = instanceKey.replace('_chart', '');
     setClickSentence({
         p_index: pid,
-        fallacy: fallacy
+        fallacy: fallacyCode,
+        isChart: true,
+        instanceKey: instanceKey
     });
 };
 
@@ -108,14 +113,17 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
       setScaleFactor(scale_factor);
       setActualHeight(newHeight);
     };
-  },[imgSrc]);
+  },[imgSrc, domWidth]);
 
   const generateTags = useCallback(()=>{
     let flist = [];
     let openList = [];
+    // Get unique fallacy codes from chart sources
     errSentence.forEach(e=>{
         e.chartSource.forEach(ee=>{
-            !flist.includes(ee) && flist.push(ee);
+            // Use chart instance key (e.g., "DIS_chart")
+            const instanceKey = `${ee}_chart`;
+            !flist.includes(instanceKey) && flist.push(instanceKey);
         });
     });
     flist.forEach((e,i)=>openList.push(false));
@@ -143,20 +151,39 @@ export function FallacyImage({errSentence, paragraphID, fallacyChatList, setFall
   useEffect(()=>{
     generateTags();
   },[errSentence]);
-  
+
   useEffect(()=>{
     genChatList();
   },[fallacyChatList]);
 
+  // Measure container width and handle resize
+  useEffect(() => {
+    const updateWidth = () => {
+      if (containerRef.current) {
+        const containerWidth = containerRef.current.offsetWidth;
+        // Use full container width minus small padding
+        setDomWidth(containerWidth - 20);
+      }
+    };
+
+    // Small delay to ensure container is rendered
+    const timer = setTimeout(updateWidth, 100);
+    window.addEventListener('resize', updateWidth);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('resize', updateWidth);
+    };
+  }, []);
+
   useEffect(()=>{
     replaceOriginalImage();
-  },[imgSrc]);
-//console.log("imageFlag", imageFlag);
+  },[imgSrc, domWidth]);
+
     return(
-      <div style={{height: actualHeight, marginBottom: 10}}>
-      <div id="canvas_container">
-        <div id="canvas_overlay">
-          {(imageFlag && tagdom.length>0) && tagdom.map((e,i)=>{
+      <div ref={containerRef} style={{height: actualHeight, marginBottom: 10, maxWidth: '100%', overflow: 'hidden'}}>
+      <div id="canvas_container" style={{maxWidth: '100%', position: 'relative'}}>
+        <div id="canvas_overlay" style={{maxWidth: '100%'}}>
+          {(imageFlag && tagdom.length>0 && !hideAnnotations) && tagdom.map((e,i)=>{
             const fallacyData = fallacyChatList[e];
             // Skip if fallacy not in config
             if (!fallacyData) return null;
