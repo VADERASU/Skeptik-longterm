@@ -20,13 +20,15 @@ Before each session:
 1. Connect the Gazepoint eye tracker
 2. Open Gazepoint Control and calibrate
 
-To start:
-1. Double-click "Start-Skeptik.bat"
-2. Two windows will open - keep BOTH open
-3. Browser opens automatically with the study
+To start - choose based on participant assignment:
 
-For each participant:
-1. Splash screen appears - configure settings
+    Double-click "Start-Group0.bat"  (Group 0)
+    Double-click "Start-Group1.bat"  (Group 1)
+
+
+FOR EACH PARTICIPANT
+--------------------
+1. Splash screen appears - click OK twice
 2. Participant reads the article
 3. Click "Export Study Data" when done
 4. Enter participant ID and export
@@ -44,18 +46,18 @@ TROUBLESHOOTING
 ---------------
 
 "Python is not installed"
-  → Install Python and restart the batch file
+  -> Install Python and restart the batch file
 
 "Gazepoint not connecting"
-  → Make sure Gazepoint Control is running first
-  → Check the eye tracker is connected
+  -> Make sure Gazepoint Control is running first
+  -> Check the eye tracker is connected
 
 Browser doesn't open:
-  → Wait 30 seconds, then go to http://localhost:3000
+  -> Wait 30 seconds, then go to http://localhost:3000
 
 "Port already in use"
-  → Close all browser tabs and command windows
-  → Try again
+  -> Close all browser tabs and command windows
+  -> Try again
 
 
 CLOSING THE STUDY

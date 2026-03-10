@@ -30,6 +30,17 @@ function App() {
   const [showGazeOverlay, setShowGazeOverlay] = useState(false);
   const [hideAnnotations, setHideAnnotations] = useState(false);
 
+  // Read settings from URL parameters (set by batch file)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('control') === 'true') {
+      setHideAnnotations(true);
+    }
+    if (params.get('overlay') === 'true') {
+      setShowGazeOverlay(true);
+    }
+  }, []);
+
   const { Header, Content } = Layout;
   const activeArticle = caseArticle.cases[selectedCase];
   const activeFallacyCase = caseList[version][selectedCase];
@@ -224,11 +235,7 @@ function App() {
   if (!splashComplete) {
     return (
       <div className="App">
-        <SplashScreen onComplete={(settings) => {
-          setShowGazeOverlay(settings?.showGazeOverlay ?? false);
-          setHideAnnotations(settings?.hideAnnotations ?? false);
-          setSplashComplete(true);
-        }} />
+        <SplashScreen onComplete={() => setSplashComplete(true)} />
       </div>
     );
   }

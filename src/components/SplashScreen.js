@@ -1,21 +1,18 @@
 import { useState } from "react";
-import { Modal, Button, Typography, Switch, Space } from "antd";
-import { EyeOutlined, EyeInvisibleOutlined, TagsOutlined, StopOutlined } from "@ant-design/icons";
+import { Modal, Button, Typography } from "antd";
 
-const { Title, Paragraph, Text } = Typography;
+const { Paragraph, Text } = Typography;
 
 export function SplashScreen({ onComplete }) {
     const [currentStep, setCurrentStep] = useState(1);
     const [visible, setVisible] = useState(true);
-    const [showGazeOverlay, setShowGazeOverlay] = useState(false);
-    const [hideAnnotations, setHideAnnotations] = useState(false);
 
     const handleOk = () => {
         if (currentStep === 1) {
             setCurrentStep(2);
         } else {
             setVisible(false);
-            onComplete({ showGazeOverlay, hideAnnotations });
+            onComplete();
         }
     };
 
@@ -60,54 +57,6 @@ export function SplashScreen({ onComplete }) {
                 We recommend that you read the explanation, then read the text again to
                 see if you think it fits the explanation.
             </Paragraph>
-
-            <div style={{
-                marginTop: 30,
-                padding: 16,
-                backgroundColor: "#f5f5f5",
-                borderRadius: 8,
-                textAlign: "left"
-            }}>
-                <Space direction="vertical" size="middle" style={{ width: "100%" }}>
-                    {/* Control Group Option */}
-                    <Space align="center" size="middle" style={{ width: "100%" }}>
-                        {hideAnnotations ? <StopOutlined style={{ fontSize: 20, color: "#999" }} /> : <TagsOutlined style={{ fontSize: 20, color: "#3d5a6c" }} />}
-                        <div style={{ flex: 1 }}>
-                            <Text strong>Control Group Mode</Text>
-                            <br />
-                            <Text type="secondary" style={{ fontSize: 13 }}>
-                                {hideAnnotations
-                                    ? "Annotations are hidden - reading without AI assistance"
-                                    : "Annotations are visible - fallacy highlights and explanations shown"
-                                }
-                            </Text>
-                        </div>
-                        <Switch
-                            checked={hideAnnotations}
-                            onChange={setHideAnnotations}
-                        />
-                    </Space>
-
-                    {/* Eye Tracking Option */}
-                    <Space align="center" size="middle" style={{ width: "100%" }}>
-                        {showGazeOverlay ? <EyeOutlined style={{ fontSize: 20 }} /> : <EyeInvisibleOutlined style={{ fontSize: 20 }} />}
-                        <div style={{ flex: 1 }}>
-                            <Text strong>Show Eye Tracking Overlay</Text>
-                            <br />
-                            <Text type="secondary" style={{ fontSize: 13 }}>
-                                {showGazeOverlay
-                                    ? "A dot will show where you're looking (visible during reading)"
-                                    : "Eye tracking runs in background without visible indicator"
-                                }
-                            </Text>
-                        </div>
-                        <Switch
-                            checked={showGazeOverlay}
-                            onChange={setShowGazeOverlay}
-                        />
-                    </Space>
-                </Space>
-            </div>
         </div>
     );
 
