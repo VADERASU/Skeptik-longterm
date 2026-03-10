@@ -5,10 +5,6 @@ echo ==========================================
 echo         Skeptik Study App Launcher
 echo ==========================================
 echo.
-echo Usage: Start-Skeptik.bat [options]
-echo   --control    Hide annotations (control group)
-echo   --overlay    Show eye tracking overlay
-echo.
 
 cd /d %~dp0
 
@@ -40,11 +36,6 @@ if "%OVERLAY%"=="true" (
         set URL_PARAMS=%URL_PARAMS%^&overlay=true
     )
 )
-
-echo Settings:
-echo   Control Group (no annotations): %CONTROL%
-echo   Show Gaze Overlay: %OVERLAY%
-echo.
 
 :: Install Node dependencies (first time)
 if not exist node_modules (
