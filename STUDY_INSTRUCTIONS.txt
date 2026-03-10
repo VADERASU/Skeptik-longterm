@@ -1,0 +1,63 @@
+===============================================
+     SKEPTIK STUDY - SETUP & RUNNING GUIDE
+===============================================
+
+FIRST TIME SETUP (One-time only)
+--------------------------------
+
+1. Install Python
+   - Download from: https://python.org
+   - IMPORTANT: Check "Add Python to PATH" during installation
+
+2. Install Node.js
+   - Download from: https://nodejs.org (LTS version)
+
+
+RUNNING THE STUDY
+-----------------
+
+Before each session:
+1. Connect the Gazepoint eye tracker
+2. Open Gazepoint Control and calibrate
+
+To start:
+1. Double-click "Start-Skeptik.bat"
+2. Two windows will open - keep BOTH open
+3. Browser opens automatically with the study
+
+For each participant:
+1. Splash screen appears - configure settings
+2. Participant reads the article
+3. Click "Export Study Data" when done
+4. Enter participant ID and export
+5. App returns to splash screen for next participant
+
+
+EXPORTED DATA
+-------------
+Files are saved to your Downloads folder:
+- JSON file: Complete data for analysis
+- CSV files: Separate gaze, scroll, click data
+
+
+TROUBLESHOOTING
+---------------
+
+"Python is not installed"
+  → Install Python and restart the batch file
+
+"Gazepoint not connecting"
+  → Make sure Gazepoint Control is running first
+  → Check the eye tracker is connected
+
+Browser doesn't open:
+  → Wait 30 seconds, then go to http://localhost:3000
+
+"Port already in use"
+  → Close all browser tabs and command windows
+  → Try again
+
+
+CLOSING THE STUDY
+-----------------
+Close both command windows when finished.

@@ -18,7 +18,8 @@ export function StudyDataExporter({
     gazeMetrics,
     articleInfo,
     fallacyChatList,
-    enabled = true
+    enabled = true,
+    onExportComplete
 }) {
     const [participantId, setParticipantId] = useState("");
     const [sessionStartTime] = useState(Date.now());
@@ -190,6 +191,15 @@ export function StudyDataExporter({
         };
     }, [participantId, sessionStartTime, gazeMetrics, articleInfo]);
 
+    // Clear all data for new session
+    const clearAllData = useCallback(() => {
+        allGazePointsRef.current = [];
+        scrollEventsRef.current = [];
+        clickEventsRef.current = [];
+        fallacyInteractionsRef.current = [];
+        viewportChangesRef.current = [];
+    }, []);
+
     // Export as JSON
     const exportJSON = useCallback(() => {
         const data = generateExportData();
@@ -203,7 +213,10 @@ export function StudyDataExporter({
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
         message.success('Study data exported as JSON');
-    }, [generateExportData]);
+        clearAllData();
+        setShowExportModal(false);
+        onExportComplete?.();
+    }, [generateExportData, clearAllData, onExportComplete]);
 
     // Export as CSV (multiple files zipped or separate)
     const exportCSV = useCallback(() => {
@@ -264,17 +277,10 @@ export function StudyDataExporter({
         downloadCSV(dwellCSV, `${prefix}_dwell.csv`);
 
         message.success('Study data exported as CSV files');
-    }, [generateExportData]);
-
-    // Clear all data for new session
-    const clearAllData = useCallback(() => {
-        allGazePointsRef.current = [];
-        scrollEventsRef.current = [];
-        clickEventsRef.current = [];
-        fallacyInteractionsRef.current = [];
-        viewportChangesRef.current = [];
-        message.info('All study data cleared');
-    }, []);
+        clearAllData();
+        setShowExportModal(false);
+        onExportComplete?.();
+    }, [generateExportData, clearAllData, onExportComplete]);
 
     if (!enabled) return null;
 

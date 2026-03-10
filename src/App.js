@@ -285,6 +285,7 @@ function App() {
        }}
        fallacyChatList={fallacyChatList}
        enabled={splashComplete}
+       onExportComplete={() => setSplashComplete(false)}
      />
     </div>
   );
