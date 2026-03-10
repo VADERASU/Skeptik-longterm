@@ -1,7 +1,5 @@
 @echo off
 title Gazepoint Bridge
-cd /d %~dp0..
-call venv\Scripts\activate.bat
-cd gazepoint_server
+cd /d %~dp0
 python gazepoint_bridge.py
 pause

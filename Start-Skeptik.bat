@@ -24,16 +24,16 @@ goto parse_args
 :: Build URL parameters
 if "%CONTROL%"=="true" (
     if "%URL_PARAMS%"=="" (
-        set URL_PARAMS=?control=true
+        set URL_PARAMS=?g=0
     ) else (
-        set URL_PARAMS=%URL_PARAMS%^&control=true
+        set URL_PARAMS=%URL_PARAMS%^&g=0
     )
 )
 if "%OVERLAY%"=="true" (
     if "%URL_PARAMS%"=="" (
-        set URL_PARAMS=?overlay=true
+        set URL_PARAMS=?o=1
     ) else (
-        set URL_PARAMS=%URL_PARAMS%^&overlay=true
+        set URL_PARAMS=%URL_PARAMS%^&o=1
     )
 )
 
@@ -60,5 +60,5 @@ timeout /t 3 /nobreak >nul
 :: Start the web app with URL parameters
 echo Starting Skeptik Web App...
 set BROWSER=none
-start "" http://localhost:3000%URL_PARAMS%
+start chrome http://localhost:3000%URL_PARAMS%
 npm start

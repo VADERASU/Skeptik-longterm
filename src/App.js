@@ -33,10 +33,10 @@ function App() {
   // Read settings from URL parameters (set by batch file)
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    if (params.get('control') === 'true') {
+    if (params.get('g') === '0') {
       setHideAnnotations(true);
     }
-    if (params.get('overlay') === 'true') {
+    if (params.get('o') === '1') {
       setShowGazeOverlay(true);
     }
   }, []);
