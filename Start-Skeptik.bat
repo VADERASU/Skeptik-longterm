@@ -40,8 +40,12 @@ if "%OVERLAY%"=="true" (
 :: Install Node dependencies (first time)
 if not exist node_modules (
     echo Installing web app dependencies - first time only...
-    call npm install
+    call npm install --legacy-peer-deps
 )
+
+:: Install Python dependencies
+echo Checking Python dependencies...
+pip install websockets lxml -q
 
 echo ==========================================
 echo   Make sure Gazepoint Control is running
