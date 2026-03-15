@@ -32,6 +32,8 @@ export function StudyDataExporter({
     const clickEventsRef = useRef([]);
     const fallacyInteractionsRef = useRef([]);
     const viewportChangesRef = useRef([]);
+    const explanationDepthRef = useRef({});  // Track max depth per fallacy
+    const openFallaciesRef = useRef(new Set());  // Track currently open fallacies
 
     // Track scroll events
     useEffect(() => {
@@ -81,13 +83,19 @@ export function StudyDataExporter({
             const target = e.target;
             const sentenceEl = target.closest?.('[id*="news-sentence"]');
             const fallacyEl = target.closest?.('[data-fallacy]');
-            const tagEl = target.closest?.('.underline_minimap');
+            const tagEl = target.closest?.('.underline_minimap') || target.closest?.('[id*="fnode_"]');
+            const chartEl = target.closest?.('[id*="fallacy-image"]') || target.closest?.('canvas');
 
-            if (sentenceEl || fallacyEl || tagEl) {
+            if (sentenceEl || fallacyEl || tagEl || chartEl) {
+                let elementType = 'sentence';
+                if (chartEl) elementType = 'chart';
+                else if (tagEl) elementType = 'fallacy-tag';
+                else if (fallacyEl) elementType = 'fallacy-text';
+
                 clickEventsRef.current.push({
                     timestamp: Date.now(),
-                    elementId: sentenceEl?.id || fallacyEl?.id || tagEl?.id,
-                    elementType: tagEl ? 'fallacy-tag' : (fallacyEl ? 'fallacy-text' : 'sentence'),
+                    elementId: chartEl?.id || tagEl?.id || sentenceEl?.id || fallacyEl?.id,
+                    elementType: elementType,
                     fallacyType: fallacyEl?.dataset?.fallacy || tagEl?.textContent,
                     scrollY: window.scrollY,
                     clickX: e.clientX,
@@ -123,23 +131,59 @@ export function StudyDataExporter({
         }
     }, [gazeMetrics?.gazeSequence, isRecording]);
 
-    // Track fallacy interactions
+    // Track fallacy interactions and explanation depth
     useEffect(() => {
         if (!fallacyChatList || !isRecording) return;
 
+        const levelToNum = { 'L1': 1, 'L2': 2, 'L3': 3 };
+
         Object.entries(fallacyChatList).forEach(([key, value]) => {
             if (value?.open) {
-                // Check if we already recorded this opening
-                const lastInteraction = fallacyInteractionsRef.current
-                    .filter(i => i.fallacyKey === key && i.action === 'open')
-                    .pop();
-
-                if (!lastInteraction || Date.now() - lastInteraction.timestamp > 1000) {
+                // Track open event if not already open
+                if (!openFallaciesRef.current.has(key)) {
+                    openFallaciesRef.current.add(key);
                     fallacyInteractionsRef.current.push({
                         timestamp: Date.now(),
                         fallacyKey: key,
                         fallacyName: value.name,
                         action: 'open',
+                        level: value.level
+                    });
+                }
+
+                // Track explanation depth changes
+                const currentLevel = value.level;
+                const currentDepth = levelToNum[currentLevel] || 1;
+                const prevDepth = explanationDepthRef.current[key]?.maxDepth || 0;
+
+                if (currentDepth > prevDepth) {
+                    // Record level change
+                    fallacyInteractionsRef.current.push({
+                        timestamp: Date.now(),
+                        fallacyKey: key,
+                        fallacyName: value.name,
+                        action: 'level_change',
+                        level: currentLevel,
+                        previousLevel: prevDepth > 0 ? `L${prevDepth}` : null
+                    });
+
+                    // Update max depth
+                    explanationDepthRef.current[key] = {
+                        fallacyName: value.name,
+                        maxDepth: currentDepth,
+                        maxLevel: currentLevel,
+                        firstReachedAt: explanationDepthRef.current[key]?.firstReachedAt || Date.now()
+                    };
+                }
+            } else {
+                // Track close event if was previously open
+                if (openFallaciesRef.current.has(key)) {
+                    openFallaciesRef.current.delete(key);
+                    fallacyInteractionsRef.current.push({
+                        timestamp: Date.now(),
+                        fallacyKey: key,
+                        fallacyName: value.name,
+                        action: 'close',
                         level: value.level
                     });
                 }
@@ -160,6 +204,7 @@ export function StudyDataExporter({
                 exportTimestamp: new Date().toISOString(),
                 articleTitle: articleInfo?.title || 'Unknown',
                 articleSource: articleInfo?.source || 'Unknown',
+                group: new URLSearchParams(window.location.search).get('g') === '0' ? 'control' : 'treatment',
                 userAgent: navigator.userAgent,
                 screenWidth: window.screen.width,
                 screenHeight: window.screen.height
@@ -169,6 +214,8 @@ export function StudyDataExporter({
                 sentenceDwellTimes: gazeMetrics?.sentenceDwellTimes || {},
                 paragraphDwellTimes: gazeMetrics?.paragraphDwellTimes || {},
                 fallacyDwellTimes: gazeMetrics?.fallacyDwellTimes || {},
+                chartDwellTimes: gazeMetrics?.chartDwellTimes || {},
+                tagDwellTimes: gazeMetrics?.tagDwellTimes || {},
                 currentFocus: gazeMetrics?.currentFocus
             },
             gazeData: {
@@ -187,6 +234,17 @@ export function StudyDataExporter({
                 totalInteractions: fallacyInteractionsRef.current.length,
                 interactions: fallacyInteractionsRef.current
             },
+            explanationDepth: {
+                perFallacy: explanationDepthRef.current,
+                summary: {
+                    totalFallaciesViewed: Object.keys(explanationDepthRef.current).length,
+                    reachedL2: Object.values(explanationDepthRef.current).filter(d => d.maxDepth >= 2).length,
+                    reachedL3: Object.values(explanationDepthRef.current).filter(d => d.maxDepth >= 3).length,
+                    avgMaxDepth: Object.values(explanationDepthRef.current).length > 0
+                        ? Object.values(explanationDepthRef.current).reduce((sum, d) => sum + d.maxDepth, 0) / Object.values(explanationDepthRef.current).length
+                        : 0
+                }
+            },
             viewportChanges: viewportChangesRef.current
         };
     }, [participantId, sessionStartTime, gazeMetrics, articleInfo]);
@@ -198,6 +256,8 @@ export function StudyDataExporter({
         clickEventsRef.current = [];
         fallacyInteractionsRef.current = [];
         viewportChangesRef.current = [];
+        explanationDepthRef.current = {};
+        openFallaciesRef.current = new Set();
     }, []);
 
     // Export as JSON

@@ -20,12 +20,16 @@ export function ArticleGazeTracker({
         sentenceDwellTimes: {},
         paragraphDwellTimes: {},
         fallacyDwellTimes: {},
+        chartDwellTimes: {},
+        tagDwellTimes: {},
         gazeSequence: [],
         currentFocus: null
     });
 
     const metricsRef = useRef(gazeMetrics);
     const lastElementRef = useRef(null);
+    const lastFallacyRef = useRef(null);
+    const lastElementTypeRef = useRef(null);
     const enterTimeRef = useRef(null);
 
     // Update ref when metrics change
@@ -39,20 +43,26 @@ export function ArticleGazeTracker({
         const { element } = elementInfo;
         if (!element || typeof element.closest !== 'function') return;
 
-        // Find the sentence, paragraph, or fallacy element
+        // Find the sentence, paragraph, fallacy, chart, or tag element
         let sentenceEl = null;
         let paragraphEl = null;
         let fallacyEl = null;
+        let chartEl = null;
+        let tagEl = null;
 
         try {
             sentenceEl = element.closest('[id*="news-sentence"]');
             paragraphEl = element.closest('[id*="news-content"]');
             fallacyEl = element.closest('[data-fallacy]');
+            chartEl = element.closest('[id*="fallacy-image"]') || element.closest('canvas');
+            tagEl = element.closest('[id*="fnode_"]') || element.closest('.underline_minimap');
         } catch (e) {
             return; // Element doesn't support closest
         }
 
-        const currentId = sentenceEl?.id || paragraphEl?.id || element.id;
+        const currentId = sentenceEl?.id || chartEl?.id || tagEl?.id || paragraphEl?.id || element.id;
+        const currentFallacy = fallacyEl?.dataset?.fallacy || null;
+        const elementType = chartEl ? 'chart' : (tagEl ? 'tag' : (sentenceEl ? 'sentence' : 'other'));
         const now = Date.now();
 
         // Track transitions between elements
@@ -60,11 +70,13 @@ export function ArticleGazeTracker({
             // Calculate dwell time on previous element
             if (lastElementRef.current && enterTimeRef.current) {
                 const dwellTime = now - enterTimeRef.current;
-                updateDwellTime(lastElementRef.current, dwellTime);
+                updateDwellTime(lastElementRef.current, dwellTime, lastFallacyRef.current, lastElementTypeRef.current);
             }
 
             // Start tracking new element
             lastElementRef.current = currentId;
+            lastFallacyRef.current = currentFallacy;
+            lastElementTypeRef.current = elementType;
             enterTimeRef.current = now;
 
             // Add to gaze sequence (keep last 10000 points for user studies)
@@ -72,6 +84,8 @@ export function ArticleGazeTracker({
                 ...prev,
                 gazeSequence: [...prev.gazeSequence, {
                     elementId: currentId,
+                    elementType: elementType,
+                    fallacyType: currentFallacy,
                     timestamp: now,
                     position: screenPos,
                     scrollY: window.scrollY,
@@ -114,7 +128,7 @@ export function ArticleGazeTracker({
     }, [onSentenceGaze, onParagraphGaze, onFallacyGaze]);
 
     // Update dwell time for an element
-    const updateDwellTime = useCallback((elementId, dwellTime) => {
+    const updateDwellTime = useCallback((elementId, dwellTime, fallacyType, elementType) => {
         if (dwellTime < 50) return; // Ignore very short glances
 
         setGazeMetrics(prev => {
@@ -127,6 +141,24 @@ export function ArticleGazeTracker({
             } else if (elementId.includes('news-content')) {
                 newMetrics.paragraphDwellTimes[elementId] =
                     (newMetrics.paragraphDwellTimes[elementId] || 0) + dwellTime;
+            }
+
+            // Track chart dwell times
+            if (elementType === 'chart' || elementId.includes('fallacy-image')) {
+                newMetrics.chartDwellTimes[elementId] =
+                    (newMetrics.chartDwellTimes[elementId] || 0) + dwellTime;
+            }
+
+            // Track tag dwell times
+            if (elementType === 'tag' || elementId.includes('fnode_')) {
+                newMetrics.tagDwellTimes[elementId] =
+                    (newMetrics.tagDwellTimes[elementId] || 0) + dwellTime;
+            }
+
+            // Track fallacy dwell times
+            if (fallacyType) {
+                newMetrics.fallacyDwellTimes[fallacyType] =
+                    (newMetrics.fallacyDwellTimes[fallacyType] || 0) + dwellTime;
             }
 
             return newMetrics;

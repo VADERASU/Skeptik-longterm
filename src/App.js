@@ -292,7 +292,11 @@ function App() {
        }}
        fallacyChatList={fallacyChatList}
        enabled={splashComplete}
-       onExportComplete={() => setSplashComplete(false)}
+       onExportComplete={() => {
+         // Reset all metrics for next participant
+         setGazeMetrics(null);
+         setSplashComplete(false);
+       }}
      />
     </div>
   );
