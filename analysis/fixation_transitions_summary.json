@@ -1,0 +1,563 @@
+[
+  {
+    "participantId": "participant_1773700277754",
+    "group": "treatment",
+    "totalTransitions": 695,
+    "summary": {
+      "dwell_time_by_category": {
+        "article_text": 24739,
+        "paragraph": 2434,
+        "other": 126905,
+        "title": 1541
+      },
+      "fixation_count_by_category": {
+        "article_text": 418,
+        "paragraph": 62,
+        "other": 199,
+        "title": 16
+      },
+      "transition_pairs": {
+        "article_text -> paragraph": {
+          "count": 40,
+          "total_time": 2247
+        },
+        "paragraph -> article_text": {
+          "count": 37,
+          "total_time": 1515
+        },
+        "article_text -> article_text": {
+          "count": 271,
+          "total_time": 14719
+        },
+        "article_text -> other": {
+          "count": 104,
+          "total_time": 7403
+        },
+        "other -> article_text": {
+          "count": 107,
+          "total_time": 30997
+        },
+        "article_text -> title": {
+          "count": 3,
+          "total_time": 370
+        },
+        "title -> other": {
+          "count": 13,
+          "total_time": 1347
+        },
+        "other -> title": {
+          "count": 12,
+          "total_time": 4608
+        },
+        "title -> article_text": {
+          "count": 2,
+          "total_time": 130
+        },
+        "paragraph -> other": {
+          "count": 21,
+          "total_time": 794
+        },
+        "other -> paragraph": {
+          "count": 18,
+          "total_time": 3582
+        },
+        "other -> other": {
+          "count": 62,
+          "total_time": 87718
+        },
+        "paragraph -> paragraph": {
+          "count": 3,
+          "total_time": 95
+        },
+        "title -> paragraph": {
+          "count": 1,
+          "total_time": 64
+        },
+        "paragraph -> title": {
+          "count": 1,
+          "total_time": 30
+        }
+      },
+      "total_dwell_time": 155619,
+      "total_fixations": 695,
+      "fallacy_dwell_times": {
+        "WW": 4869,
+        "BBS": 9325,
+        "ATM": 125,
+        "SAM": 1233
+      },
+      "fallacy_fixation_counts": {
+        "WW": 79,
+        "BBS": 165,
+        "ATM": 4,
+        "SAM": 6
+      },
+      "fallacy_text_dwell_times": {
+        "WW": 4869,
+        "BBS": 9325,
+        "ATM": 125,
+        "SAM": 1233
+      },
+      "total_fallacy_dwell_time": 15552,
+      "total_fallacy_fixations": 254
+    }
+  },
+  {
+    "participantId": "participant_1773701115892",
+    "group": "control",
+    "totalTransitions": 3002,
+    "summary": {
+      "dwell_time_by_category": {
+        "paragraph": 27467,
+        "other": 61843,
+        "article_text": 103816,
+        "title": 4319
+      },
+      "fixation_count_by_category": {
+        "paragraph": 593,
+        "other": 600,
+        "article_text": 1754,
+        "title": 55
+      },
+      "transition_pairs": {
+        "paragraph -> other": {
+          "count": 152,
+          "total_time": 8372
+        },
+        "other -> article_text": {
+          "count": 446,
+          "total_time": 49293
+        },
+        "article_text -> other": {
+          "count": 421,
+          "total_time": 25568
+        },
+        "article_text -> article_text": {
+          "count": 866,
+          "total_time": 45641
+        },
+        "article_text -> title": {
+          "count": 27,
+          "total_time": 1417
+        },
+        "title -> other": {
+          "count": 27,
+          "total_time": 1755
+        },
+        "article_text -> paragraph": {
+          "count": 440,
+          "total_time": 31190
+        },
+        "other -> paragraph": {
+          "count": 127,
+          "total_time": 11225
+        },
+        "paragraph -> paragraph": {
+          "count": 23,
+          "total_time": 756
+        },
+        "paragraph -> article_text": {
+          "count": 417,
+          "total_time": 18306
+        },
+        "title -> article_text": {
+          "count": 26,
+          "total_time": 2472
+        },
+        "other -> title": {
+          "count": 27,
+          "total_time": 1325
+        },
+        "title -> paragraph": {
+          "count": 2,
+          "total_time": 92
+        },
+        "paragraph -> title": {
+          "count": 1,
+          "total_time": 33
+        }
+      },
+      "total_dwell_time": 197445,
+      "total_fixations": 3002,
+      "fallacy_dwell_times": {},
+      "fallacy_fixation_counts": {},
+      "fallacy_text_dwell_times": {},
+      "total_fallacy_dwell_time": 0,
+      "total_fallacy_fixations": 0
+    }
+  },
+  {
+    "participantId": "participant_1773700847791",
+    "group": "control",
+    "totalTransitions": 3057,
+    "summary": {
+      "dwell_time_by_category": {
+        "article_text": 123299,
+        "other": 88681,
+        "title": 7982,
+        "paragraph": 36387
+      },
+      "fixation_count_by_category": {
+        "article_text": 1766,
+        "other": 588,
+        "title": 63,
+        "paragraph": 640
+      },
+      "transition_pairs": {
+        "article_text -> other": {
+          "count": 388,
+          "total_time": 33544
+        },
+        "other -> title": {
+          "count": 41,
+          "total_time": 25908
+        },
+        "title -> other": {
+          "count": 49,
+          "total_time": 6667
+        },
+        "other -> paragraph": {
+          "count": 144,
+          "total_time": 17165
+        },
+        "paragraph -> article_text": {
+          "count": 466,
+          "total_time": 19728
+        },
+        "article_text -> paragraph": {
+          "count": 475,
+          "total_time": 38027
+        },
+        "paragraph -> paragraph": {
+          "count": 19,
+          "total_time": 1126
+        },
+        "paragraph -> title": {
+          "count": 3,
+          "total_time": 155
+        },
+        "other -> article_text": {
+          "count": 403,
+          "total_time": 45608
+        },
+        "article_text -> article_text": {
+          "count": 884,
+          "total_time": 50752
+        },
+        "article_text -> title": {
+          "count": 19,
+          "total_time": 976
+        },
+        "paragraph -> other": {
+          "count": 152,
+          "total_time": 15378
+        },
+        "title -> paragraph": {
+          "count": 2,
+          "total_time": 128
+        },
+        "title -> article_text": {
+          "count": 12,
+          "total_time": 1187
+        }
+      },
+      "total_dwell_time": 256349,
+      "total_fixations": 3057,
+      "fallacy_dwell_times": {},
+      "fallacy_fixation_counts": {},
+      "fallacy_text_dwell_times": {},
+      "total_fallacy_dwell_time": 0,
+      "total_fallacy_fixations": 0
+    }
+  },
+  {
+    "participantId": "participant_1773700583033",
+    "group": "control",
+    "totalTransitions": 2491,
+    "summary": {
+      "dwell_time_by_category": {
+        "other": 66570,
+        "title": 10093,
+        "article_text": 85393,
+        "paragraph": 21340
+      },
+      "fixation_count_by_category": {
+        "other": 470,
+        "title": 96,
+        "article_text": 1467,
+        "paragraph": 458
+      },
+      "transition_pairs": {
+        "other -> title": {
+          "count": 68,
+          "total_time": 23021
+        },
+        "title -> other": {
+          "count": 74,
+          "total_time": 8065
+        },
+        "other -> article_text": {
+          "count": 314,
+          "total_time": 37860
+        },
+        "article_text -> article_text": {
+          "count": 797,
+          "total_time": 41796
+        },
+        "article_text -> other": {
+          "count": 306,
+          "total_time": 20232
+        },
+        "article_text -> paragraph": {
+          "count": 340,
+          "total_time": 22330
+        },
+        "paragraph -> article_text": {
+          "count": 338,
+          "total_time": 14884
+        },
+        "paragraph -> other": {
+          "count": 90,
+          "total_time": 5040
+        },
+        "title -> article_text": {
+          "count": 18,
+          "total_time": 1876
+        },
+        "paragraph -> paragraph": {
+          "count": 26,
+          "total_time": 1102
+        },
+        "paragraph -> title": {
+          "count": 4,
+          "total_time": 314
+        },
+        "title -> paragraph": {
+          "count": 4,
+          "total_time": 152
+        },
+        "other -> paragraph": {
+          "count": 88,
+          "total_time": 5689
+        },
+        "article_text -> title": {
+          "count": 24,
+          "total_time": 1035
+        }
+      },
+      "total_dwell_time": 183396,
+      "total_fixations": 2491,
+      "fallacy_dwell_times": {},
+      "fallacy_fixation_counts": {},
+      "fallacy_text_dwell_times": {},
+      "total_fallacy_dwell_time": 0,
+      "total_fallacy_fixations": 0
+    }
+  },
+  {
+    "participantId": "participant_1773699508977",
+    "group": "treatment",
+    "totalTransitions": 3905,
+    "summary": {
+      "dwell_time_by_category": {
+        "other": 144586,
+        "paragraph": 20198,
+        "article_text": 135713,
+        "title": 2776
+      },
+      "fixation_count_by_category": {
+        "other": 703,
+        "paragraph": 532,
+        "article_text": 2634,
+        "title": 36
+      },
+      "transition_pairs": {
+        "other -> paragraph": {
+          "count": 125,
+          "total_time": 11627
+        },
+        "paragraph -> other": {
+          "count": 122,
+          "total_time": 4809
+        },
+        "other -> article_text": {
+          "count": 526,
+          "total_time": 68546
+        },
+        "article_text -> article_text": {
+          "count": 1730,
+          "total_time": 86246
+        },
+        "article_text -> paragraph": {
+          "count": 360,
+          "total_time": 20342
+        },
+        "article_text -> other": {
+          "count": 529,
+          "total_time": 28613
+        },
+        "paragraph -> article_text": {
+          "count": 361,
+          "total_time": 13222
+        },
+        "other -> title": {
+          "count": 16,
+          "total_time": 6013
+        },
+        "title -> article_text": {
+          "count": 17,
+          "total_time": 777
+        },
+        "article_text -> title": {
+          "count": 15,
+          "total_time": 512
+        },
+        "title -> other": {
+          "count": 16,
+          "total_time": 1917
+        },
+        "title -> paragraph": {
+          "count": 3,
+          "total_time": 82
+        },
+        "paragraph -> title": {
+          "count": 5,
+          "total_time": 221
+        },
+        "other -> other": {
+          "count": 36,
+          "total_time": 58400
+        },
+        "paragraph -> paragraph": {
+          "count": 44,
+          "total_time": 1946
+        }
+      },
+      "total_dwell_time": 303273,
+      "total_fixations": 3905,
+      "fallacy_dwell_times": {
+        "BBS": 29720,
+        "WW": 6263,
+        "ATM": 3976,
+        "SAM": 12594
+      },
+      "fallacy_fixation_counts": {
+        "BBS": 672,
+        "WW": 115,
+        "ATM": 91,
+        "SAM": 138
+      },
+      "fallacy_text_dwell_times": {
+        "BBS": 29720,
+        "WW": 6263,
+        "ATM": 3976,
+        "SAM": 12594
+      },
+      "total_fallacy_dwell_time": 52553,
+      "total_fallacy_fixations": 1016
+    }
+  },
+  {
+    "participantId": "participant_1773699982858",
+    "group": "treatment",
+    "totalTransitions": 2247,
+    "summary": {
+      "dwell_time_by_category": {
+        "other": 136812,
+        "title": 29070,
+        "article_text": 90636,
+        "paragraph": 14341
+      },
+      "fixation_count_by_category": {
+        "other": 479,
+        "title": 71,
+        "article_text": 1329,
+        "paragraph": 368
+      },
+      "transition_pairs": {
+        "other -> title": {
+          "count": 49,
+          "total_time": 13676
+        },
+        "title -> other": {
+          "count": 43,
+          "total_time": 4883
+        },
+        "other -> article_text": {
+          "count": 335,
+          "total_time": 80821
+        },
+        "article_text -> other": {
+          "count": 333,
+          "total_time": 34145
+        },
+        "article_text -> article_text": {
+          "count": 726,
+          "total_time": 38239
+        },
+        "article_text -> title": {
+          "count": 19,
+          "total_time": 1161
+        },
+        "title -> article_text": {
+          "count": 26,
+          "total_time": 24062
+        },
+        "other -> paragraph": {
+          "count": 89,
+          "total_time": 13975
+        },
+        "paragraph -> other": {
+          "count": 96,
+          "total_time": 3802
+        },
+        "article_text -> paragraph": {
+          "count": 251,
+          "total_time": 17091
+        },
+        "paragraph -> title": {
+          "count": 3,
+          "total_time": 85
+        },
+        "title -> paragraph": {
+          "count": 2,
+          "total_time": 125
+        },
+        "other -> other": {
+          "count": 6,
+          "total_time": 28340
+        },
+        "paragraph -> article_text": {
+          "count": 243,
+          "total_time": 9207
+        },
+        "paragraph -> paragraph": {
+          "count": 26,
+          "total_time": 1247
+        }
+      },
+      "total_dwell_time": 270859,
+      "total_fixations": 2247,
+      "fallacy_dwell_times": {
+        "WW": 1946,
+        "BBS": 11037,
+        "ATM": 1336,
+        "SAM": 20907
+      },
+      "fallacy_fixation_counts": {
+        "WW": 31,
+        "BBS": 240,
+        "ATM": 27,
+        "SAM": 130
+      },
+      "fallacy_text_dwell_times": {
+        "WW": 1946,
+        "BBS": 11037,
+        "ATM": 1336,
+        "SAM": 20907
+      },
+      "total_fallacy_dwell_time": 35226,
+      "total_fallacy_fixations": 428
+    }
+  }
+]

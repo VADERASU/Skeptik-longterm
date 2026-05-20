@@ -1371,6 +1371,281 @@
 }
 },
 "text_chart_linkage": null
+},
+{
+"name": "Lab meat debate marches on",
+"source": "Article",
+"fallacies": {
+"logical_fallacies": ["BBS", "WW", "SAM"],
+"sentences": {
+"BBS": [37, 38, 62, 63, 64, 65],
+"WW": [47],
+"SAM": [52, 53, 54, 55, 88]
+},
+"annotations": {
+"BBS": {
+"L1": [
+{
+"explanation": "This passage may use Emotional Appeal by invoking the term “Frankenfoods” and highlighting activist outrage, as well as Assertion by presenting claims about a growing bipartisan movement without substantiating evidence.",
+"sentence": [37, 38]
+},
+{
+"explanation": "This passage may use Emotional Appeal and loaded language, such as describing products as “fake” and framing the issue with dramatic metaphors, which may sidetrack the substantive policy discussion.",
+"sentence": [62, 63, 64, 65]
+}
+],
+"L2": [
+{
+"explanation": "By using emotionally charged terminology and unverified claims about public sentiment, the argument may shift attention away from empirical evidence and toward fear-based or value-laden reactions.",
+"sentence": [37, 38]
+},
+{
+"explanation": "By framing the issue with vivid, polarizing language and metaphorical escalation, the reasoning may distract readers from nuanced evaluation and instead encourage instinctive or partisan responses.",
+"sentence": [62, 63, 64, 65]
+}
+],
+"L3": [
+{
+"explanation": "Readers should look for concrete data on public opinion and avoid relying on emotionally loaded labels, focusing instead on verifiable evidence and balanced descriptions of the technology.",
+"sentence": [37, 38]
+},
+{
+"explanation": "Readers should separate rhetorical framing from factual claims and evaluate the issue based on evidence about safety, economics, and regulation rather than emotionally charged characterizations.",
+"sentence": [62, 63, 64, 65]
+}
+]
+},
+"WW": {
+"L1": [
+{
+"explanation": "This passage may use Overgeneralization (Hasty Generalization) by inferring broad consumer preferences from a limited example involving a single product’s performance.",
+"sentence": [47]
+}
+],
+"L2": [
+{
+"explanation": "By drawing a sweeping conclusion about national consumer behavior from one product’s outcome, the reasoning may oversimplify complex market dynamics and ignore alternative explanations.",
+"sentence": [47]
+}
+],
+"L3": [
+{
+"explanation": "Readers should consider whether the evidence is representative and look for broader market data before accepting claims about widespread consumer preferences.",
+"sentence": [47]
+}
+]
+},
+"SAM": {
+"L1": [
+{
+"explanation": "This passage may use Bandwagon (Everybody Thinks So) by emphasizing that multiple countries and officials oppose lab-grown meat, suggesting that widespread opposition implies correctness.",
+"sentence": [52, 53, 54, 55]
+},
+{
+"explanation": "This passage may use Bandwagon by asserting “widespread support” without providing specific evidence, implying that popularity alone validates the position.",
+"sentence": [88]
+}
+],
+"L2": [
+{
+"explanation": "By highlighting the number of actors holding a position, the argument may substitute popularity for substantive justification, potentially sidelining scientific or economic analysis.",
+"sentence": [52, 53, 54, 55]
+},
+{
+"explanation": "By invoking vague claims of broad support, the reasoning may create an impression of consensus without demonstrating its scope or basis, which can mislead readers about actual public or institutional backing.",
+"sentence": [88]
+}
+],
+"L3": [
+{
+"explanation": "Readers should evaluate the underlying reasons and evidence behind each position rather than assuming that widespread adoption or opposition determines validity.",
+"sentence": [52, 53, 54, 55]
+},
+{
+"explanation": "Readers should seek specific data or sources supporting claims of widespread support and assess whether such claims are backed by measurable evidence.",
+"sentence": [88]
+}
+]
+}
+}
+},
+"text_chart_linkage": null
+}, {
+"name": "The Shortsighted Effort to Ban Cell-Cultivated Meat in Some States",
+"source": "Article",
+"fallacies": {
+"logical_fallacies": ["BBS", "SAM", "WW", "ATM", "DIS"],
+"sentences": {
+"BBS": [11, 20, 21, 22, 24, 25, 26, 27, 28, 29],
+"SAM": [31, 43, 44],
+"WW": [32, 33, 37, 38, 39, 40, 41],
+"ATM": [34, 35, 36],
+"DIS": [46, 47]
+},
+"annotations": {
+"BBS": {
+"L1": [
+{
+"explanation": "This passage may use Assertion (Evading the Burden of Proof) by characterizing actions as “disingenuous” without providing supporting evidence.",
+"sentence": [11]
+},
+{
+"explanation": "This passage may use Assertion and Vagueness by presenting claims about intent and impact without substantiating evidence or precise definitions.",
+"sentence": [20, 21, 22]
+},
+{
+"explanation": "This passage may use Emotional Appeal and ridicule by offering sarcastic hypothetical labels to mock opposing viewpoints rather than addressing them directly.",
+"sentence": [24, 25]
+},
+{
+"explanation": "This passage may use Emotional Appeal and Assertion by framing policies as betrayals of values and infringements on rights without fully demonstrating those claims.",
+"sentence": [26, 27, 28, 29]
+}
+],
+"L2": [
+{
+"explanation": "By using charged language without substantiation, the argument may steer readers toward a negative judgment without requiring careful evaluation of evidence.",
+"sentence": [11]
+},
+{
+"explanation": "By asserting motivations and consequences without detailed support, the argument may lead readers to accept conclusions based on tone rather than verifiable facts.",
+"sentence": [20, 21, 22]
+},
+{
+"explanation": "By employing humor and exaggeration, the argument may distract from substantive debate and make opposing positions appear inherently unreasonable.",
+"sentence": [24, 25]
+},
+{
+"explanation": "By appealing to values and rights in a broad, emotive way, the argument may oversimplify complex policy trade-offs and discourage nuanced consideration.",
+"sentence": [26, 27, 28, 29]
+}
+],
+"L3": [
+{
+"explanation": "Readers should look for concrete evidence supporting claims about intent or behavior rather than relying on characterizations.",
+"sentence": [11]
+},
+{
+"explanation": "Readers should seek specific data or examples that demonstrate the claimed effects or intentions before accepting such conclusions.",
+"sentence": [20, 21, 22]
+},
+{
+"explanation": "Readers should separate rhetorical humor from substantive reasoning and evaluate whether the opposing view has been fairly represented.",
+"sentence": [24, 25]
+},
+{
+"explanation": "Readers should assess whether claims about rights and values are supported by legal or empirical evidence and consider alternative interpretations.",
+"sentence": [26, 27, 28, 29]
+}
+]
+},
+"SAM": {
+"L1": [
+{
+"explanation": "This passage may use It Must Be True (Appeal to Ignorance) by suggesting that the absence of evidence of harm implies safety.",
+"sentence": [31]
+},
+{
+"explanation": "This passage may use Can of Worms (Slippery Slope) by implying that current policy choices will lead to an innovation gap and national disadvantage.",
+"sentence": [43, 44]
+}
+],
+"L2": [
+{
+"explanation": "By treating a lack of negative evidence as proof of safety, the reasoning may overlook uncertainty or incomplete research.",
+"sentence": [31]
+},
+{
+"explanation": "By projecting future consequences without clearly established causal links, the argument may exaggerate the stakes of present decisions.",
+"sentence": [43, 44]
+}
+],
+"L3": [
+{
+"explanation": "Readers should consider whether sufficient long-term evidence exists and distinguish between absence of evidence and evidence of absence.",
+"sentence": [31]
+},
+{
+"explanation": "Readers should evaluate whether there is concrete evidence connecting current policies to the predicted outcomes rather than assuming inevitability.",
+"sentence": [43, 44]
+}
+]
+},
+"WW": {
+"L1": [
+{
+"explanation": "This passage may use Overgeneralization (Hasty Generalization) by claiming that consumers broadly understand labeling nuances based on a few examples.",
+"sentence": [32, 33]
+},
+{
+"explanation": "This passage may use Questionable Reasoning by assuming that market forces alone will resolve product viability and that intervention is therefore unnecessary.",
+"sentence": [37, 38, 39, 40, 41]
+}
+],
+"L2": [
+{
+"explanation": "By generalizing from limited or anecdotal examples, the argument may overstate public understanding and dismiss potential confusion.",
+"sentence": [32, 33]
+},
+{
+"explanation": "By relying on simplified economic assumptions, the argument may ignore complexities such as regulation, market distortions, or consumer behavior.",
+"sentence": [37, 38, 39, 40, 41]
+}
+],
+"L3": [
+{
+"explanation": "Readers should look for broader empirical evidence about consumer understanding rather than relying on illustrative examples.",
+"sentence": [32, 33]
+},
+{
+"explanation": "Readers should examine empirical economic data and consider multiple factors influencing markets before accepting such conclusions.",
+"sentence": [37, 38, 39, 40, 41]
+}
+]
+},
+"ATM": {
+"L1": [
+{
+"explanation": "This passage may use Kill the Messenger (Ad Hominem) by attributing motives such as financial self-interest to policymakers instead of addressing their arguments.",
+"sentence": [34, 35, 36]
+}
+],
+"L2": [
+{
+"explanation": "By focusing on alleged personal motives, the argument may shift attention away from evaluating the actual merits of the policies.",
+"sentence": [34, 35, 36]
+}
+],
+"L3": [
+{
+"explanation": "Readers should separate claims about individuals’ motives from the substance of their arguments and assess each independently.",
+"sentence": [34, 35, 36]
+}
+]
+},
+"DIS": {
+"L1": [
+{
+"explanation": "This passage may use Lying with Statistics (Failure to Account for Statistical Nuance) by presenting environmental and health impacts in a simplified manner and then claiming a complete solution.",
+"sentence": [46, 47]
+}
+],
+"L2": [
+{
+"explanation": "By presenting selective statistics and then asserting that an alternative fully resolves these issues, the argument may overstate certainty and omit limitations or trade-offs.",
+"sentence": [46, 47]
+}
+],
+"L3": [
+{
+"explanation": "Readers should examine the full context of the data, including sources, uncertainties, and whether the proposed solution addresses all cited problems comprehensively.",
+"sentence": [46, 47]
+}
+]
+}
+}
+},
+"text_chart_linkage": null
 }
 
   ]

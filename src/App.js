@@ -19,27 +19,21 @@ import caseList from "./resource/cases.json";
 
 function App() {
   const [version, setVersion] = useState("cases");
-  const [selectedCase, setSelectedCase] = useState(0);
+  const [selectedCase, setSelectedCase] = useState(2);
   const [errSentence, setErrSentence] = useState([]);
   const [fallacyChatList, setFallacyChatList] = useState([]);
   const [imageFlag, setImageFlag] = useState(false);
   const [taglist, setTagList] = useState([]);
   const [gazeEnabled, setGazeEnabled] = useState(true);
   const [gazeMetrics, setGazeMetrics] = useState(null);
-  const [splashComplete, setSplashComplete] = useState(false);
-  const [showGazeOverlay, setShowGazeOverlay] = useState(false);
-  const [hideAnnotations, setHideAnnotations] = useState(false);
 
-  // Read settings from URL parameters (set by batch file)
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('g') === '0') {
-      setHideAnnotations(true);
-    }
-    if (params.get('o') === '1') {
-      setShowGazeOverlay(true);
-    }
-  }, []);
+  // Read settings from URL parameters (set by batch file) - initialize directly to avoid flicker
+  const urlParams = new URLSearchParams(window.location.search);
+  const isControlCondition = urlParams.get('g') === '0';
+
+  const [splashComplete, setSplashComplete] = useState(isControlCondition); // Skip splash for control
+  const [showGazeOverlay, setShowGazeOverlay] = useState(urlParams.get('o') === '1');
+  const [hideAnnotations, setHideAnnotations] = useState(isControlCondition);
 
   const { Header, Content } = Layout;
   const activeArticle = caseArticle.cases[selectedCase];

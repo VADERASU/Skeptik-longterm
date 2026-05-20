@@ -45,17 +45,21 @@ export function SplashScreen({ onComplete }) {
                 alt="Skeptik Example"
                 style={{ width: "100%", maxWidth: 700, marginBottom: 30, border: "1px solid #ddd", borderRadius: 8 }}
             />
-            <Paragraph style={{ fontSize: 18, textAlign: "left" }}>
+            <Paragraph style={{ fontSize: 22, textAlign: "left" }}>
                 When you see highlighted text, Skeptik shows you the category of fallacy
                 it thinks is present.
             </Paragraph>
-            <Paragraph style={{ fontSize: 18, textAlign: "left" }}>
+            <Paragraph style={{ fontSize: 22, textAlign: "left" }}>
                 When you click the text, it shows a more detailed explanation of the
-                fallacy it thinks is present.
+                fallacy it thinks is present. Clicking the text again will hide the explanation.
             </Paragraph>
-            <Paragraph style={{ fontSize: 18, textAlign: "left" }}>
+            <Paragraph style={{ fontSize: 22, textAlign: "left" }}>
                 We recommend that you read the explanation, then read the text again to
                 see if you think it fits the explanation.
+            </Paragraph>
+            <Paragraph style={{ fontSize: 22, textAlign: "left" }}>
+                <Text strong>Important:</Text> Please keep your head still while reading
+                and use only your eyes to look around the screen.
             </Paragraph>
         </div>
     );

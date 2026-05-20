@@ -37,7 +37,6 @@ if "%OVERLAY%"=="true" (
     )
 )
 
-
 echo ==========================================
 echo   Make sure Gazepoint Control is running
 echo   Two windows will open - keep both open
@@ -50,10 +49,16 @@ echo Starting Gazepoint Bridge...
 start "" gazepoint_server\start_bridge.bat
 
 :: Wait for bridge to start
-timeout /t 3 /nobreak >nul
+timeout /t 2 /nobreak >nul
 
-:: Start the web app with URL parameters
+:: Start the web app in a new window
 echo Starting Skeptik Web App...
-set BROWSER=none
+start "Skeptik Web Server" cmd /k "npm start"
+
+:: Wait for server to start
+echo Waiting for server to start...
+timeout /t 8 /nobreak >nul
+
+:: Open Chrome with URL parameters
+echo Opening browser...
 start chrome http://localhost:3000%URL_PARAMS%
-npm start

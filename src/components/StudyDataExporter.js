@@ -34,6 +34,8 @@ export function StudyDataExporter({
     const viewportChangesRef = useRef([]);
     const explanationDepthRef = useRef({});  // Track max depth per fallacy
     const openFallaciesRef = useRef(new Set());  // Track currently open fallacies
+    const annotationOpenTimesRef = useRef({});  // Track when each annotation was opened
+    const annotationReadingTimeRef = useRef({});  // Track cumulative reading time per fallacy
 
     // Track scroll events
     useEffect(() => {
@@ -141,14 +143,27 @@ export function StudyDataExporter({
             if (value?.open) {
                 // Track open event if not already open
                 if (!openFallaciesRef.current.has(key)) {
+                    const now = Date.now();
                     openFallaciesRef.current.add(key);
+                    annotationOpenTimesRef.current[key] = now;  // Record when opened
+
                     fallacyInteractionsRef.current.push({
-                        timestamp: Date.now(),
+                        timestamp: now,
                         fallacyKey: key,
                         fallacyName: value.name,
                         action: 'open',
                         level: value.level
                     });
+
+                    // Initialize reading time tracking for this fallacy if not exists
+                    if (!annotationReadingTimeRef.current[key]) {
+                        annotationReadingTimeRef.current[key] = {
+                            fallacyName: value.name,
+                            totalReadingTimeMs: 0,
+                            readingSessions: 0,
+                            sessions: []  // Track each open/close session
+                        };
+                    }
                 }
 
                 // Track explanation depth changes
@@ -178,13 +193,31 @@ export function StudyDataExporter({
             } else {
                 // Track close event if was previously open
                 if (openFallaciesRef.current.has(key)) {
+                    const now = Date.now();
+                    const openTime = annotationOpenTimesRef.current[key];
+                    const readingDuration = openTime ? now - openTime : 0;
+
                     openFallaciesRef.current.delete(key);
+                    delete annotationOpenTimesRef.current[key];
+
+                    // Update reading time stats
+                    if (annotationReadingTimeRef.current[key]) {
+                        annotationReadingTimeRef.current[key].totalReadingTimeMs += readingDuration;
+                        annotationReadingTimeRef.current[key].readingSessions += 1;
+                        annotationReadingTimeRef.current[key].sessions.push({
+                            openedAt: openTime,
+                            closedAt: now,
+                            durationMs: readingDuration
+                        });
+                    }
+
                     fallacyInteractionsRef.current.push({
-                        timestamp: Date.now(),
+                        timestamp: now,
                         fallacyKey: key,
                         fallacyName: value.name,
                         action: 'close',
-                        level: value.level
+                        level: value.level,
+                        readingDurationMs: readingDuration  // Include duration in close event
                     });
                 }
             }
@@ -245,6 +278,20 @@ export function StudyDataExporter({
                         : 0
                 }
             },
+            annotationReadingTime: {
+                perFallacy: annotationReadingTimeRef.current,
+                summary: {
+                    totalAnnotationsRead: Object.keys(annotationReadingTimeRef.current).length,
+                    totalReadingTimeMs: Object.values(annotationReadingTimeRef.current).reduce((sum, d) => sum + d.totalReadingTimeMs, 0),
+                    totalReadingSessions: Object.values(annotationReadingTimeRef.current).reduce((sum, d) => sum + d.readingSessions, 0),
+                    avgReadingTimePerAnnotationMs: Object.keys(annotationReadingTimeRef.current).length > 0
+                        ? Object.values(annotationReadingTimeRef.current).reduce((sum, d) => sum + d.totalReadingTimeMs, 0) / Object.keys(annotationReadingTimeRef.current).length
+                        : 0,
+                    avgReadingTimePerSessionMs: Object.values(annotationReadingTimeRef.current).reduce((sum, d) => sum + d.readingSessions, 0) > 0
+                        ? Object.values(annotationReadingTimeRef.current).reduce((sum, d) => sum + d.totalReadingTimeMs, 0) / Object.values(annotationReadingTimeRef.current).reduce((sum, d) => sum + d.readingSessions, 0)
+                        : 0
+                }
+            },
             viewportChanges: viewportChangesRef.current
         };
     }, [participantId, sessionStartTime, gazeMetrics, articleInfo]);
@@ -258,12 +305,51 @@ export function StudyDataExporter({
         viewportChangesRef.current = [];
         explanationDepthRef.current = {};
         openFallaciesRef.current = new Set();
+        annotationOpenTimesRef.current = {};
+        annotationReadingTimeRef.current = {};
     }, []);
 
-    // Export as JSON
-    const exportJSON = useCallback(() => {
+    // Export as JSON with save dialog
+    const exportJSON = useCallback(async () => {
         const data = generateExportData();
-        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const jsonContent = JSON.stringify(data, null, 2);
+        const blob = new Blob([jsonContent], { type: 'application/json' });
+
+        // Try to use File System Access API for save dialog
+        if ('showSaveFilePicker' in window) {
+            try {
+                const suggestedName = participantId
+                    ? `${participantId}.json`
+                    : `participant_${Date.now()}.json`;
+
+                const handle = await window.showSaveFilePicker({
+                    suggestedName: suggestedName,
+                    startIn: 'downloads',
+                    types: [{
+                        description: 'JSON Files',
+                        accept: { 'application/json': ['.json'] }
+                    }]
+                });
+
+                const writable = await handle.createWritable();
+                await writable.write(blob);
+                await writable.close();
+
+                message.success('Study data saved successfully');
+                clearAllData();
+                setShowExportModal(false);
+                onExportComplete?.();
+                return;
+            } catch (err) {
+                // User cancelled or API failed - fall back to download
+                if (err.name === 'AbortError') {
+                    return; // User cancelled, don't proceed
+                }
+                console.warn('Save dialog failed, falling back to download:', err);
+            }
+        }
+
+        // Fallback: auto-download
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
@@ -276,7 +362,7 @@ export function StudyDataExporter({
         clearAllData();
         setShowExportModal(false);
         onExportComplete?.();
-    }, [generateExportData, clearAllData, onExportComplete]);
+    }, [generateExportData, clearAllData, onExportComplete, participantId]);
 
     // Export as CSV (multiple files zipped or separate)
     const exportCSV = useCallback(() => {
@@ -371,14 +457,18 @@ export function StudyDataExporter({
             >
                 <Space direction="vertical" style={{ width: '100%' }} size="large">
                     <div>
-                        <Text strong>Participant ID:</Text>
+                        <Text strong>Filename:</Text>
                         <Input
                             prefix={<UserOutlined />}
-                            placeholder="Enter participant ID"
+                            placeholder="Enter filename (e.g., participant_001)"
                             value={participantId}
                             onChange={(e) => setParticipantId(e.target.value)}
                             style={{ marginTop: 8 }}
+                            addonAfter=".json"
                         />
+                        <Text type="secondary" style={{ fontSize: 12, display: 'block', marginTop: 4 }}>
+                            A save dialog will open. Navigate to Dropbox/skeptik eye tracking data folder.
+                        </Text>
                     </div>
 
                     <Divider />
@@ -389,6 +479,8 @@ export function StudyDataExporter({
                         <Text>Scroll Events: {scrollEventsRef.current.length}</Text><br/>
                         <Text>Click Events: {clickEventsRef.current.length}</Text><br/>
                         <Text>Fallacy Interactions: {fallacyInteractionsRef.current.length}</Text><br/>
+                        <Text>Annotations Read: {Object.keys(annotationReadingTimeRef.current).length}</Text><br/>
+                        <Text>Total Annotation Reading Time: {Math.round(Object.values(annotationReadingTimeRef.current).reduce((sum, d) => sum + d.totalReadingTimeMs, 0) / 1000)}s</Text><br/>
                         <Text>Session Duration: {Math.round((Date.now() - sessionStartTime) / 1000)}s</Text>
                     </div>
 
