@@ -245,6 +245,7 @@ function App() {
               label: e.title
             };
           })}
+          selectedCase={selectedCase}
           setSelectedCase={setSelectedCase}
           activeArticle={caseArticle.cases[selectedCase]}
         />

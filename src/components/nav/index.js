@@ -1,8 +1,8 @@
 import {useEffect, useState} from "react";
 import { Select, Button } from "antd";
 
-export function NavBar ({caselist, setSelectedCase, activeArticle}) {
-    
+export function NavBar ({caselist, setSelectedCase, activeArticle, selectedCase}) {
+
     return(
         <>
             <span className="logo" href="#"
@@ -11,8 +11,8 @@ export function NavBar ({caselist, setSelectedCase, activeArticle}) {
                 Skeptik
             </span>
 
-            <Select 
-                defaultValue={0}
+            <Select
+                value={selectedCase}
                 size="small"
                 options={caselist}
                 onChange={e=>setSelectedCase(e)}

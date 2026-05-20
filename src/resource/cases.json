@@ -347,7 +347,11 @@
 }
 }
 },
-"text_chart_linkage": null
+"text_chart_linkage": null,
+"author_info": {
+"name": "Children's Health Defense",
+"explanation": "Children's Health Defense is an American nonprofit activist group mainly known for anti-vaccine advocacy and is widely identified as one of the main sources of misinformation on vaccines. It was founded in 2007 under the name World Mercury Project and was chaired by lawyer Robert F. Kennedy Jr. from 2015 to 2023.\n\nThe group has campaigned against various public health programs such as vaccination and fluoridation of drinking water, and has contributed to vaccine hesitancy in the United States, encouraging citizens and legislators to support anti-vaccine regulations and legislation, although arguments against vaccination are contradicted by general scientific consensus. In other words, opposition to vaccines is not incidental to CHD — it is their core purpose. The nonprofit's revenue more than doubled in 2020 and 2021, and hit $23.5 million in 2022, according to tax filings. Anti-vaccine content is therefore directly tied to the organization's fundraising success."
+}
 },{
 "name": "Measles Vaccine Narrative is Collapsing",
 "source": "Article",

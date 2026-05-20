@@ -59,6 +59,15 @@
             "wiki": "https://en.wikipedia.org/wiki/Misleading_graph",
             "explanation": "Using visual, graphical, and/or statistical tricks to mislead the reader.",
             "lowerLevel": ["Lying with Statistics (Failure to Account for Statistical Nuance)", "Bad Chart Reading (Incorrect Reading of Chart)"]
+        },
+        "AUTHOR": {
+            "name": "About the Author",
+            "group": "Source Context",
+            "color": "#1f78b4",
+            "rgbBG": "rgb(31 120 180 / 0.1)",
+            "rgbBD": "rgb(31 120 180 / 0.6)",
+            "wiki": "",
+            "explanation": "Information about the author or source of this article."
         }
     }
 }

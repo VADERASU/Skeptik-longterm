@@ -26,7 +26,8 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
     //const [fposFlag, setFposFlag] = useState(false);
     const [offsetYfnode, setOffsetYfnode] = useState(0);
     const [linkage, setLinkage] = useState([]);
-    
+    const [authorOpen, setAuthorOpen] = useState(false);
+
     const { Title, Paragraph, Text } = Typography;
 
     /** preprocessing fallacies by sentence */
@@ -316,10 +317,31 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
         setOffsetYfnode(position);
     };
 
+    // Handle author byline click
+    const handleAuthorClick = useCallback(() => {
+        setAuthorOpen(prev => !prev);
+        // Close all other fallacy tags
+        const updatedList = {};
+        Object.keys(fallacyChatList).forEach(key => {
+            updatedList[key] = { ...fallacyChatList[key], open: false };
+        });
+        setFallacyChatList(updatedList);
+    }, [fallacyChatList, setFallacyChatList]);
+
     useEffect(()=>{
         sentenceProcess();
         selectedCase!== 2 && getOcr();
+        // Close author info when switching cases
+        setAuthorOpen(false);
     }, [selectedCase]);
+
+    // Close author info when any fallacy tag is opened
+    useEffect(() => {
+        const anyFallacyOpen = Object.values(fallacyChatList).some(f => f.open);
+        if (anyFallacyOpen) {
+            setAuthorOpen(false);
+        }
+    }, [fallacyChatList]);
 
     useEffect(() => {
         // Get ref for specific ID
@@ -370,6 +392,89 @@ export function NewsContent ({selectedCase, newscase, activeFallacyCase, errSent
                         }}>
                     <Row>
                         <Col span={24}><Title id="title" key="title">{newscase.title}</Title></Col>
+                        {newscase.author && (
+                            <Col span={24} style={{ marginTop: -10, marginBottom: 20 }}>
+                                <Space size="small">
+                                    <Text
+                                        style={{
+                                            fontSize: '14px',
+                                            fontStyle: 'italic',
+                                            color: '#666',
+                                            cursor: hideAnnotations ? 'default' : 'pointer',
+                                            padding: hideAnnotations ? '0' : '2px 6px',
+                                            borderRadius: '3px',
+                                            backgroundColor: hideAnnotations ? 'transparent' : 'rgb(31 120 180 / 0.1)',
+                                            border: hideAnnotations ? 'none' : '1px solid rgb(31 120 180 / 0.6)',
+                                            transition: 'background-color 0.2s'
+                                        }}
+                                        onClick={hideAnnotations ? undefined : handleAuthorClick}
+                                        onMouseEnter={(e) => {
+                                            if (!hideAnnotations) {
+                                                e.target.style.backgroundColor = 'rgb(31 120 180 / 0.2)';
+                                            }
+                                        }}
+                                        onMouseLeave={(e) => {
+                                            if (!hideAnnotations) {
+                                                e.target.style.backgroundColor = 'rgb(31 120 180 / 0.1)';
+                                            }
+                                        }}
+                                    >
+                                        by {newscase.author}
+                                    </Text>
+                                    {!hideAnnotations && (
+                                        <Tag
+                                            icon={<Text style={{ marginRight: 4 }}>+</Text>}
+                                            color="blue"
+                                            style={{
+                                                cursor: 'pointer',
+                                                fontSize: '12px',
+                                                padding: '2px 8px',
+                                                borderRadius: '4px'
+                                            }}
+                                            onClick={handleAuthorClick}
+                                        >
+                                            About the author
+                                        </Tag>
+                                    )}
+                                </Space>
+                                {authorOpen && activeFallacyCase.author_info && (
+                                    <div style={{
+                                        marginTop: 16,
+                                        padding: '16px',
+                                        backgroundColor: 'white',
+                                        border: '2px solid rgb(31 120 180 / 0.6)',
+                                        borderRadius: '8px',
+                                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                                    }}>
+                                        <Row justify="space-between" align="middle" style={{ marginBottom: 12 }}>
+                                            <Text strong style={{ color: '#1f78b4', fontSize: '16px' }}>
+                                                About the Author
+                                            </Text>
+                                            <Text
+                                                style={{
+                                                    cursor: 'pointer',
+                                                    color: '#666',
+                                                    fontSize: '20px',
+                                                    fontWeight: 'bold',
+                                                    lineHeight: '1'
+                                                }}
+                                                onClick={() => setAuthorOpen(false)}
+                                            >
+                                                ×
+                                            </Text>
+                                        </Row>
+                                        <Paragraph style={{
+                                            marginBottom: 0,
+                                            fontSize: '14px',
+                                            lineHeight: '1.6',
+                                            whiteSpace: 'pre-line'
+                                        }}>
+                                            {activeFallacyCase.author_info.explanation}
+                                        </Paragraph>
+                                    </div>
+                                )}
+                            </Col>
+                        )}
                         {/*<Col span={24}><blockquote id="subtitle" key="subtitle">{newscase["sub-title"]}</blockquote></Col>*/}
                         {newscase.content.map((p,i)=> //paragraph DOM
                         <Row key={"sentenceRow"+i}>
